@@ -1,0 +1,724 @@
+Channel,CommandLine,Company,Computer,CreationUtcTime,CurrentDirectory,Description,Details,EventID,EventRecordID,EventType,FileVersion,Hashes,Image,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,RuleName,SystemTime,TargetFilename,TargetObject,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,C:\Users\User\AppData\Local\Temp\art.bat,13,19573,SetValue,,,C:\Windows\system32\reg.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-64ec-658c-be01-000000000f00},3588,8068,,-,2023-12-27T17:54:52.0180513Z,,"
+                HKU\S-1-5-21-2835251196-2691927458-378326815-1000\Environment\UserInitMprLogonScript",13,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:54:52.005,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>13</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>13</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:54:52.0180513Z""/>
+      
+            
+      <EventRecordID>19573</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""EventType"">SetValue</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:54:52.005</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-64ec-658c-be01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">8068</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\system32\reg.exe</Data>
+      
+            
+      <Data Name=""TargetObject"">
+                HKU\S-1-5-21-2835251196-2691927458-378326815-1000\Environment\UserInitMprLogonScript</Data>
+      
+            
+      <Data Name=""Details"">C:\Users\User\AppData\Local\Temp\art.bat</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,"REG.exe ADD HKCU\Environment /v UserInitMprLogonScript /t
+                REG_SZ /d ""C:\Users\User\AppData\Local\Temp\art.bat"" /f",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Registry Console Tool,,1,19572,,10.0.22621.1 (WinBuild.160101.0800),"
+                MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D",C:\Windows\System32\reg.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,reg.exe,"""cmd.exe"" /c echo ""echo Art ""Logon Script"" atomic test
+                was successful. >> %USERPROFILE%\desktop\T1037.001-log.txt"" >
+                %temp%\art.bat & REG.exe ADD HKCU\Environment /v UserInitMprLogonScript /t
+                REG_SZ /d ""%temp%\art.bat"" /f",C:\Windows\System32\cmd.exe,{f57bd86a-64eb-658c-bc01-000000000f00},5612,WINDEV2309EVAL\User,{f57bd86a-64ec-658c-be01-000000000f00},3588,8068,Microsoft® Windows® Operating System,-,2023-12-27T17:54:52.0120924Z,,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:54:52.009,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:54:52.0120924Z""/>
+      
+            
+      <EventRecordID>19572</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:54:52.009</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-64ec-658c-be01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">8068</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\reg.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      
+            
+      <Data Name=""Description"">Registry Console Tool</Data>
+      
+            
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">reg.exe</Data>
+      
+            
+      <Data Name=""CommandLine"">REG.exe ADD HKCU\Environment /v UserInitMprLogonScript /t
+                REG_SZ /d ""C:\Users\User\AppData\Local\Temp\art.bat"" /f</Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{f57bd86a-64eb-658c-bc01-000000000f00}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">5612</Data>
+      
+            
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c echo ""echo Art ""Logon Script"" atomic test
+                was successful. &gt;&gt; %USERPROFILE%\desktop\T1037.001-log.txt"" &gt;
+                %temp%\art.bat &amp; REG.exe ADD HKCU\Environment /v UserInitMprLogonScript /t
+                REG_SZ /d ""%temp%\art.bat"" /f</Data>
+      
+            
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-27 17:54:51.990,,,,11,19571,,,,C:\Windows\SYSTEM32\cmd.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-64eb-658c-bc01-000000000f00},3588,5612,,-,2023-12-27T17:54:52.0056725Z,C:\Users\User\AppData\Local\Temp\art.bat,,11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:54:51.990,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>11</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>11</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:54:52.0056725Z""/>
+      
+            
+      <EventRecordID>19571</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:54:51.990</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-64eb-658c-bc01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">5612</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\SYSTEM32\cmd.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">C:\Users\User\AppData\Local\Temp\art.bat</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:54:51.990</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""cmd.exe"" /c echo ""echo Art ""Logon Script"" atomic test was
+                successful. >> %%USERPROFILE%%\desktop\T1037.001-log.txt"" >
+                %%temp%%\art.bat & REG.exe ADD HKCU\Environment /v UserInitMprLogonScript /t
+                REG_SZ /d ""%%temp%%\art.bat"" /f",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,,1,19570,,10.0.22621.2506 (WinBuild.160101.0800),"
+                MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,Cmd.Exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-64eb-658c-bc01-000000000f00},3588,5612,Microsoft® Windows® Operating System,-,2023-12-27T17:54:51.9810366Z,,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:54:51.979,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:54:51.9810366Z""/>
+      
+            
+      <EventRecordID>19570</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:54:51.979</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-64eb-658c-bc01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">5612</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      
+            
+      <Data Name=""Description"">Windows Command Processor</Data>
+      
+            
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      
+            
+      <Data Name=""CommandLine"">""cmd.exe"" /c echo ""echo Art ""Logon Script"" atomic test was
+                successful. &gt;&gt; %%USERPROFILE%%\desktop\T1037.001-log.txt"" &gt;
+                %%temp%%\art.bat &amp; REG.exe ADD HKCU\Environment /v UserInitMprLogonScript /t
+                REG_SZ /d ""%%temp%%\art.bat"" /f</Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">1688</Data>
+      
+            
+      <Data Name=""ParentImage"">-</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">-</Data>
+      
+            
+      <Data Name=""ParentUser"">-</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\whoami.exe""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\,whoami - displays logged on user information,,1,19569,,10.0.22621.1 (WinBuild.160101.0800),"
+                MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292",C:\Windows\System32\whoami.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,whoami.exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-64ea-658c-bb01-000000000f00},3588,1824,Microsoft® Windows® Operating System,-,2023-12-27T17:54:50.9215384Z,,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:54:50.919,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:54:50.9215384Z""/>
+      
+            
+      <EventRecordID>19569</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:54:50.919</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-64ea-658c-bb01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">1824</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\whoami.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      
+            
+      <Data Name=""Description"">whoami - displays logged on user information</Data>
+      
+            
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">whoami.exe</Data>
+      
+            
+      <Data Name=""CommandLine"">""C:\Windows\system32\whoami.exe""</Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">1688</Data>
+      
+            
+      <Data Name=""ParentImage"">-</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">-</Data>
+      
+            
+      <Data Name=""ParentUser"">-</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\HOSTNAME.EXE""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\,Hostname APP,,1,19568,,10.0.22621.2506 (WinBuild.160101.0800),"
+                MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8",C:\Windows\System32\HOSTNAME.EXE,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,hostname.exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-64ea-658c-ba01-000000000f00},3588,10512,Microsoft® Windows® Operating System,-,2023-12-27T17:54:50.8914278Z,,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:54:50.890,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:54:50.8914278Z""/>
+      
+            
+      <EventRecordID>19568</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:54:50.890</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-64ea-658c-ba01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">10512</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\HOSTNAME.EXE</Data>
+      
+            
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      
+            
+      <Data Name=""Description"">Hostname APP</Data>
+      
+            
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">hostname.exe</Data>
+      
+            
+      <Data Name=""CommandLine"">""C:\Windows\system32\HOSTNAME.EXE""</Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">1688</Data>
+      
+            
+      <Data Name=""ParentImage"">-</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">-</Data>
+      
+            
+      <Data Name=""ParentUser"">-</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+
+
+"

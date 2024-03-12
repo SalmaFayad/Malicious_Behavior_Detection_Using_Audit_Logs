@@ -1,0 +1,661 @@
+Channel,CommandLine,Company,Computer,CreationUtcTime,CurrentDirectory,Description,DestinationHostname,DestinationIp,DestinationIsIpv6,DestinationPort,DestinationPortName,Details,EventID,EventRecordID,EventType,FileVersion,Hashes,Image,Initiated,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Message,NewThreadId,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,Protocol,QueryName,QueryResults,QueryStatus,RuleName,SourceHostname,SourceImage,SourceIp,SourceIsIpv6,SourcePort,SourcePortName,SourceProcessGuid,SourceProcessId,SourceUser,StartAddress,StartFunction,StartModule,SystemTime,TargetFilename,TargetImage,TargetObject,TargetProcessGuid,TargetProcessId,TargetUser,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,\SystemRoot\System32\drivers\AcpiDev.sys,13,4011,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:42:26.8356618Z,,,HKLM\System\CurrentControlSet\Services\AcpiDev\ImagePath,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:26.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:26.8356618Z""/>
+    <EventRecordID>4011</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:26.826</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\AcpiDev\ImagePath</Data>
+    <Data Name=""Details"">\SystemRoot\System32\drivers\AcpiDev.sys</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000000),13,4010,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:42:26.8061356Z,,,HKLM\System\CurrentControlSet\Services\ACPI\Start,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:26.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:26.8061356Z""/>
+    <EventRecordID>4010</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:26.795</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\ACPI\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000000)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,System32\drivers\ACPI.sys,13,4009,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:42:26.8060585Z,,,HKLM\System\CurrentControlSet\Services\ACPI\ImagePath,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:26.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:26.8060585Z""/>
+    <EventRecordID>4009</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:26.795</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\ACPI\ImagePath</Data>
+    <Data Name=""Details"">System32\drivers\ACPI.sys</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000000),13,4008,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:42:26.7776409Z,,,HKLM\System\CurrentControlSet\Services\IntelPMT\Start,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:26.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:26.7776409Z""/>
+    <EventRecordID>4008</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:26.764</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\IntelPMT\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000000)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,System32\drivers\IntelPMT.sys,13,4007,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:42:26.7775549Z,,,HKLM\System\CurrentControlSet\Services\IntelPMT\ImagePath,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:26.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:26.7775549Z""/>
+    <EventRecordID>4007</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:26.764</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\IntelPMT\ImagePath</Data>
+    <Data Name=""Details"">System32\drivers\IntelPMT.sys</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000000),13,4006,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:42:26.7452565Z,,,HKLM\System\CurrentControlSet\Services\intelpep\Start,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:26.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:26.7452565Z""/>
+    <EventRecordID>4006</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:26.733</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\intelpep\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000000)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,System32\drivers\intelpep.sys,13,4005,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:42:26.7451794Z,,,HKLM\System\CurrentControlSet\Services\intelpep\ImagePath,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:26.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:26.7451794Z""/>
+    <EventRecordID>4005</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:26.733</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\intelpep\ImagePath</Data>
+    <Data Name=""Details"">System32\drivers\intelpep.sys</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,%%SystemRoot%%\System32\drivers\UMDF\RdpIdd.dll,13,4004,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:42:26.7166849Z,,,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\WUDF\Services\RdpIdd\ImagePath,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:26.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:26.7166849Z""/>
+    <EventRecordID>4004</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:26.701</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\WUDF\Services\RdpIdd\ImagePath</Data>
+    <Data Name=""Details"">%%SystemRoot%%\System32\drivers\UMDF\RdpIdd.dll</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,\SystemRoot\System32\drivers\WUDFRd.sys,13,4003,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:42:26.7064979Z,,,HKLM\System\CurrentControlSet\Services\WUDFRd\ImagePath,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:26.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:26.7064979Z""/>
+    <EventRecordID>4003</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:26.701</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\WUDFRd\ImagePath</Data>
+    <Data Name=""Details"">\SystemRoot\System32\drivers\WUDFRd.sys</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000003),13,4002,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:42:26.6666664Z,,,HKLM\System\CurrentControlSet\Services\rhproxy\Start,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:26.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:26.6666664Z""/>
+    <EventRecordID>4002</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:26.652</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\rhproxy\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000003)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,\SystemRoot\System32\drivers\rhproxy.sys,13,4001,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:42:26.6665907Z,,,HKLM\System\CurrentControlSet\Services\rhproxy\ImagePath,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:26.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:26.6665907Z""/>
+    <EventRecordID>4001</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:26.652</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\rhproxy\ImagePath</Data>
+    <Data Name=""Details"">\SystemRoot\System32\drivers\rhproxy.sys</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000003),13,4000,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:42:26.6309375Z,,,HKLM\System\CurrentControlSet\Services\usbprint\Start,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:26.6,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:26.6309375Z""/>
+    <EventRecordID>4000</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:26.621</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\usbprint\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000003)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,\SystemRoot\System32\drivers\usbprint.sys,13,3999,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:42:26.6308585Z,,,HKLM\System\CurrentControlSet\Services\usbprint\ImagePath,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:26.6,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:26.6308585Z""/>
+    <EventRecordID>3999</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:26.621</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\usbprint\ImagePath</Data>
+    <Data Name=""Details"">\SystemRoot\System32\drivers\usbprint.sys</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,"@%%SystemRoot%%\system32\powrprof.dll,-522, Display dim brightness",13,3998,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"Context,DeviceConnectedOrUpdated",,,,,,,,,,,,,2023-12-19T22:42:26.3974770Z,,,HKLM\System\CurrentControlSet\Control\Power\PowerSettings\7516b95f-f776-4464-8c53-06167f40cc99\f1fbfde2-a960-4165-9f88-50667911ce96\FriendlyName,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:26.4,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:26.3974770Z""/>
+    <EventRecordID>3998</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:26.385</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Control\Power\PowerSettings\7516b95f-f776-4464-8c53-06167f40cc99\f1fbfde2-a960-4165-9f88-50667911ce96\FriendlyName</Data>
+    <Data Name=""Details"">@%%SystemRoot%%\system32\powrprof.dll,-522, Display dim brightness</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,"@%%SystemRoot%%\system32\powrprof.dll,-516, Display brightness",13,3997,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"Context,DeviceConnectedOrUpdated",,,,,,,,,,,,,2023-12-19T22:42:26.3916388Z,,,HKLM\System\CurrentControlSet\Control\Power\PowerSettings\7516b95f-f776-4464-8c53-06167f40cc99\aded5e82-b909-4619-9949-f5d71dac0bcb\FriendlyName,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:26.4,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:26.3916388Z""/>
+    <EventRecordID>3997</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:26.385</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Control\Power\PowerSettings\7516b95f-f776-4464-8c53-06167f40cc99\aded5e82-b909-4619-9949-f5d71dac0bcb\FriendlyName</Data>
+    <Data Name=""Details"">@%%SystemRoot%%\system32\powrprof.dll,-516, Display brightness</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000003),13,3996,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:42:26.3895740Z,,,HKLM\System\CurrentControlSet\Services\monitor\Start,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:26.4,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:26.3895740Z""/>
+    <EventRecordID>3996</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:26.385</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\monitor\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000003)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,\SystemRoot\System32\drivers\monitor.sys,13,3995,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:42:26.3894953Z,,,HKLM\System\CurrentControlSet\Services\monitor\ImagePath,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:26.4,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:26.3894953Z""/>
+    <EventRecordID>3995</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:26.385</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\monitor\ImagePath</Data>
+    <Data Name=""Details"">\SystemRoot\System32\drivers\monitor.sys</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000003),13,3994,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:42:25.8561545Z,,,HKLM\System\CurrentControlSet\Services\drmkaud\Start,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:25.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:25.8561545Z""/>
+    <EventRecordID>3994</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:25.850</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\drmkaud\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000003)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,\SystemRoot\System32\drivers\drmkaud.sys,13,3993,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:42:25.8558156Z,,,HKLM\System\CurrentControlSet\Services\drmkaud\ImagePath,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:25.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:25.8558156Z""/>
+    <EventRecordID>3993</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:25.850</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\drmkaud\ImagePath</Data>
+    <Data Name=""Details"">\SystemRoot\System32\drivers\drmkaud.sys</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,Microsoft Trusted Audio Drivers,13,3992,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"Context,DeviceConnectedOrUpdated",,,,,,,,,,,,,2023-12-19T22:42:25.7599787Z,,,HKLM\DRIVERS\DriverDatabase\DriverPackages\wdma_usb.inf_amd64_9d4d42e123aab4df\Configurations\USBAudio\Services\swenum\Devices\{EEC12DB6-AD9C-4168-8658-B03DAEF417FE}\{ABD61E00-9350-47e2-A632-4438B90C6641}\{FFBB6E3F-CCFE-4D84-90D9-421418B03A8E}\Parameters\FriendlyName,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:25.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:25.7599787Z""/>
+    <EventRecordID>3992</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:25.756</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\DRIVERS\DriverDatabase\DriverPackages\wdma_usb.inf_amd64_9d4d42e123aab4df\Configurations\USBAudio\Services\swenum\Devices\{EEC12DB6-AD9C-4168-8658-B03DAEF417FE}\{ABD61E00-9350-47e2-A632-4438B90C6641}\{FFBB6E3F-CCFE-4D84-90D9-421418B03A8E}\Parameters\FriendlyName</Data>
+    <Data Name=""Details"">Microsoft Trusted Audio Drivers</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,Tee/Sink-to-Sink Converter,13,3991,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"Context,DeviceConnectedOrUpdated",,,,,,,,,,,,,2023-12-19T22:42:25.7595672Z,,,HKLM\DRIVERS\DriverDatabase\DriverPackages\wdma_usb.inf_amd64_9d4d42e123aab4df\Configurations\USBAudio\Services\swenum\Devices\{cfd669f1-9bc2-11d0-8299-0000f822fe8a}\{0A4252A0-7E70-11D0-A5D6-28DB04C10000}\{0A4252A0-7E70-11D0-A5D6-28DB04C10000}\Parameters\FriendlyName,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:25.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:25.7595672Z""/>
+    <EventRecordID>3991</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:25.756</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\DRIVERS\DriverDatabase\DriverPackages\wdma_usb.inf_amd64_9d4d42e123aab4df\Configurations\USBAudio\Services\swenum\Devices\{cfd669f1-9bc2-11d0-8299-0000f822fe8a}\{0A4252A0-7E70-11D0-A5D6-28DB04C10000}\{0A4252A0-7E70-11D0-A5D6-28DB04C10000}\Parameters\FriendlyName</Data>
+    <Data Name=""Details"">Tee/Sink-to-Sink Converter</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,Tee/Sink-to-Sink Converter,13,3990,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,"Context,DeviceConnectedOrUpdated",,,,,,,,,,,,,2023-12-19T22:42:25.7590005Z,,,HKLM\DRIVERS\DriverDatabase\DriverPackages\wdma_usb.inf_amd64_9d4d42e123aab4df\Configurations\USBAudio\Services\swenum\Devices\{cfd669f1-9bc2-11d0-8299-0000f822fe8a}\{CF1DDA2C-9743-11D0-A3EE-00A0C9223196}\{CF1DDA2C-9743-11D0-A3EE-00A0C9223196}\Parameters\FriendlyName,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:25.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:25.7590005Z""/>
+    <EventRecordID>3990</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">Context,DeviceConnectedOrUpdated</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:25.756</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\DRIVERS\DriverDatabase\DriverPackages\wdma_usb.inf_amd64_9d4d42e123aab4df\Configurations\USBAudio\Services\swenum\Devices\{cfd669f1-9bc2-11d0-8299-0000f822fe8a}\{CF1DDA2C-9743-11D0-A3EE-00A0C9223196}\{CF1DDA2C-9743-11D0-A3EE-00A0C9223196}\Parameters\FriendlyName</Data>
+    <Data Name=""Details"">Tee/Sink-to-Sink Converter</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"

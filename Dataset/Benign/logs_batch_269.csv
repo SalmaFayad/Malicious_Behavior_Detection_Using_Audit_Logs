@@ -1,0 +1,688 @@
+Channel,CommandLine,Company,Computer,CreationUtcTime,CurrentDirectory,Description,DestinationHostname,DestinationIp,DestinationIsIpv6,DestinationPort,DestinationPortName,Details,EventID,EventRecordID,EventType,FileVersion,Hashes,Image,Initiated,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Message,NewThreadId,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,Protocol,QueryName,QueryResults,QueryStatus,RuleName,SourceHostname,SourceImage,SourceIp,SourceIsIpv6,SourcePort,SourcePortName,SourceProcessGuid,SourceProcessId,SourceUser,StartAddress,StartFunction,StartModule,SystemTime,TargetFilename,TargetImage,TargetObject,TargetProcessGuid,TargetProcessId,TargetUser,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,"""%%ProgramData%%\Microsoft\Windows Defender\Platform\4.18.23110.3-0\NisSrv.exe""",13,821,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-db68-6581-0b00-000000000b00},10484,796.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T21:09:26.6984885Z,,,HKLM\System\CurrentControlSet\Services\WdNisSvc\ImagePath,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:26.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:26.6984885Z""/>
+    <EventRecordID>821</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:26.687</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-db68-6581-0b00-000000000b00}</Data>
+    <Data Name=""ProcessId"">796</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\WdNisSvc\ImagePath</Data>
+    <Data Name=""Details"">""%%ProgramData%%\Microsoft\Windows Defender\Platform\4.18.23110.3-0\NisSrv.exe""</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe""",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Antimalware Service Executable,,,,,,,1,820,,4.18.23080.2006 (04d8e871ffe7ba6b2204046883e1ad9b7a5989ce),"MD5=7120C627B036F44F8633706AC5F251CA,SHA256=31F19046651E84CECB482DC7936CCDD57AA599A7FAE8D4239803AD994ED798EA,IMPHASH=F2F0F138D672330C2C2E13D31F23A439",C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,,System,0x8000000000000000,4,{f57bd86a-db68-6581-e703-000000000000},0x3e7,,,0,MsMpEng.exe,C:\Windows\system32\services.exe,C:\Windows\System32\services.exe,{f57bd86a-db68-6581-0b00-000000000b00},796.0,NT AUTHORITY\SYSTEM,{f57bd86a-0685-6582-3a03-000000000b00},10484,2560.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:25.6488988Z,,,,,,,1,0.0,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:25.6,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:25.6488988Z""/>
+    <EventRecordID>820</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:25.639</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0685-6582-3a03-000000000b00}</Data>
+    <Data Name=""ProcessId"">2560</Data>
+    <Data Name=""Image"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""FileVersion"">4.18.23080.2006 (04d8e871ffe7ba6b2204046883e1ad9b7a5989ce)</Data>
+    <Data Name=""Description"">Antimalware Service Executable</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">MsMpEng.exe</Data>
+    <Data Name=""CommandLine"">""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe""</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-db68-6581-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=7120C627B036F44F8633706AC5F251CA,SHA256=31F19046651E84CECB482DC7936CCDD57AA599A7FAE8D4239803AD994ED798EA,IMPHASH=F2F0F138D672330C2C2E13D31F23A439</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-db68-6581-0b00-000000000b00}</Data>
+    <Data Name=""ParentProcessId"">796</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\services.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,09:23.9,,,,,,,,,11,819,,,,C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorsvw.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-0664-6582-2603-000000000b00},10484,10740.0,,,,,,DLL,,,,,,,,,,,,,2023-12-19T21:09:23.8966430Z,C:\Windows\assembly\NativeImages_v4.0.30319_32\Temp\29f4-0\Microsoft.CodeAnalysis.CSharp.dll,,,,,,11,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:23.9,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:23.8966430Z""/>
+    <EventRecordID>819</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:23.884</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0664-6582-2603-000000000b00}</Data>
+    <Data Name=""ProcessId"">10740</Data>
+    <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorsvw.exe</Data>
+    <Data Name=""TargetFilename"">C:\Windows\assembly\NativeImages_v4.0.30319_32\Temp\29f4-0\Microsoft.CodeAnalysis.CSharp.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-19 21:09:23.884</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000003),13,818,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-db68-6581-0b00-000000000b00},10484,796.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T21:09:22.8166374Z,,,HKLM\System\CurrentControlSet\Services\WdNisDrv\Start,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:22.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:22.8166374Z""/>
+    <EventRecordID>818</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:22.802</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-db68-6581-0b00-000000000b00}</Data>
+    <Data Name=""ProcessId"">796</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\WdNisDrv\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000003)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000003),13,817,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-db68-6581-0b00-000000000b00},10484,796.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T21:09:22.5519336Z,,,HKLM\System\CurrentControlSet\Services\WdNisDrv\Start,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:22.6,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:22.5519336Z""/>
+    <EventRecordID>817</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:22.551</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-db68-6581-0b00-000000000b00}</Data>
+    <Data Name=""ProcessId"">796</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\WdNisDrv\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000003)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MpCmdRun.exe"" -RestartService",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Microsoft Malware Protection Command Line Utility,,,,,,,1,816,,4.18.23080.2006 (04d8e871ffe7ba6b2204046883e1ad9b7a5989ce),"MD5=4DBD7A0D3DF01128C9966DE2072EFAC5,SHA256=04AA184A37C0C30DB3EBE16626364414E836C240FA2AC059E04407037E9B080F,IMPHASH=8AA0C0E61F2EE1898A0D0A413C238D40",C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MpCmdRun.exe,,System,0x8000000000000000,4,{f57bd86a-db68-6581-e703-000000000000},0x3e7,,,0,MpCmdRun.exe,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe""",C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,{f57bd86a-db70-6581-5800-000000000b00},3784.0,NT AUTHORITY\SYSTEM,{f57bd86a-0682-6582-3603-000000000b00},10484,9420.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:22.3066764Z,,,,,,,1,0.0,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:22.3,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:22.3066764Z""/>
+    <EventRecordID>816</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:22.271</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0682-6582-3603-000000000b00}</Data>
+    <Data Name=""ProcessId"">9420</Data>
+    <Data Name=""Image"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MpCmdRun.exe</Data>
+    <Data Name=""FileVersion"">4.18.23080.2006 (04d8e871ffe7ba6b2204046883e1ad9b7a5989ce)</Data>
+    <Data Name=""Description"">Microsoft Malware Protection Command Line Utility</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">MpCmdRun.exe</Data>
+    <Data Name=""CommandLine"">""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MpCmdRun.exe"" -RestartService</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-db68-6581-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=4DBD7A0D3DF01128C9966DE2072EFAC5,SHA256=04AA184A37C0C30DB3EBE16626364414E836C240FA2AC059E04407037E9B080F,IMPHASH=8AA0C0E61F2EE1898A0D0A413C238D40</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-db70-6581-5800-000000000b00}</Data>
+    <Data Name=""ParentProcessId"">3784</Data>
+    <Data Name=""ParentImage"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe""</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,09:22.2,,,,,,,,,11,815,,,,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-db70-6581-5800-000000000b00},10484,3784.0,,,,,,EXE,,,,,,,,,,,,,2023-12-19T21:09:22.2525809Z,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\mpextms.exe,,,,,,11,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:22.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:22.2525809Z""/>
+    <EventRecordID>815</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">EXE</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:22.250</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-db70-6581-5800-000000000b00}</Data>
+    <Data Name=""ProcessId"">3784</Data>
+    <Data Name=""Image"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""TargetFilename"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\mpextms.exe</Data>
+    <Data Name=""CreationUtcTime"">2023-12-19 21:09:22.250</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,09:22.2,,,,,,,,,11,814,,,,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-db70-6581-5800-000000000b00},10484,3784.0,,,,,,DLL,,,,,,,,,,,,,2023-12-19T21:09:22.2508397Z,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\X86\MsMpLics.dll,,,,,,11,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:22.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:22.2508397Z""/>
+    <EventRecordID>814</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:22.250</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-db70-6581-5800-000000000b00}</Data>
+    <Data Name=""ProcessId"">3784</Data>
+    <Data Name=""Image"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""TargetFilename"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\X86\MsMpLics.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-19 21:09:22.250</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,09:22.2,,,,,,,,,11,813,,,,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-db70-6581-5800-000000000b00},10484,3784.0,,,,,,DLL,,,,,,,,,,,,,2023-12-19T21:09:22.2473301Z,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\X86\MpOAV.dll,,,,,,11,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:22.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:22.2473301Z""/>
+    <EventRecordID>813</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:22.234</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-db70-6581-5800-000000000b00}</Data>
+    <Data Name=""ProcessId"">3784</Data>
+    <Data Name=""Image"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""TargetFilename"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\X86\MpOAV.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-19 21:09:22.234</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,09:22.2,,,,,,,,,11,812,,,,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-db70-6581-5800-000000000b00},10484,3784.0,,,,,,DLL,,,,,,,,,,,,,2023-12-19T21:09:22.2410180Z,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\X86\endpointdlp.dll,,,,,,11,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:22.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:22.2410180Z""/>
+    <EventRecordID>812</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:22.234</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-db70-6581-5800-000000000b00}</Data>
+    <Data Name=""ProcessId"">3784</Data>
+    <Data Name=""Image"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""TargetFilename"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\X86\endpointdlp.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-19 21:09:22.234</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,09:22.2,,,,,,,,,11,811,,,,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-db70-6581-5800-000000000b00},10484,3784.0,,,,,,DLL,,,,,,,,,,,,,2023-12-19T21:09:22.2391507Z,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\X86\MpDetoursCopyAccelerator.dll,,,,,,11,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:22.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:22.2391507Z""/>
+    <EventRecordID>811</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:22.234</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-db70-6581-5800-000000000b00}</Data>
+    <Data Name=""ProcessId"">3784</Data>
+    <Data Name=""Image"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""TargetFilename"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\X86\MpDetoursCopyAccelerator.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-19 21:09:22.234</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,09:22.2,,,,,,,,,11,810,,,,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-db70-6581-5800-000000000b00},10484,3784.0,,,,,,DLL,,,,,,,,,,,,,2023-12-19T21:09:22.2365306Z,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\X86\MpDetours.dll,,,,,,11,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:22.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:22.2365306Z""/>
+    <EventRecordID>810</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:22.234</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-db70-6581-5800-000000000b00}</Data>
+    <Data Name=""ProcessId"">3784</Data>
+    <Data Name=""Image"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""TargetFilename"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\X86\MpDetours.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-19 21:09:22.234</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,09:22.2,,,,,,,,,11,809,,,,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-db70-6581-5800-000000000b00},10484,3784.0,,,,,,EXE,,,,,,,,,,,,,2023-12-19T21:09:22.2296718Z,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\X86\MpCmdRun.exe,,,,,,11,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:22.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:22.2296718Z""/>
+    <EventRecordID>809</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">EXE</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:22.218</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-db70-6581-5800-000000000b00}</Data>
+    <Data Name=""ProcessId"">3784</Data>
+    <Data Name=""Image"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""TargetFilename"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\X86\MpCmdRun.exe</Data>
+    <Data Name=""CreationUtcTime"">2023-12-19 21:09:22.218</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,09:22.2,,,,,,,,,11,808,,,,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-db70-6581-5800-000000000b00},10484,3784.0,,,,,,DLL,,,,,,,,,,,,,2023-12-19T21:09:22.2236410Z,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\X86\MpClient.dll,,,,,,11,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:22.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:22.2236410Z""/>
+    <EventRecordID>808</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:22.218</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-db70-6581-5800-000000000b00}</Data>
+    <Data Name=""ProcessId"">3784</Data>
+    <Data Name=""Image"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""TargetFilename"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\X86\MpClient.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-19 21:09:22.218</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,09:22.2,,,,,,,,,11,807,,,,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-db70-6581-5800-000000000b00},10484,3784.0,,,,,,DLL,,,,,,,,,,,,,2023-12-19T21:09:22.2195421Z,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\X86\MpAsDesc.dll,,,,,,11,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:22.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:22.2195421Z""/>
+    <EventRecordID>807</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:22.218</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-db70-6581-5800-000000000b00}</Data>
+    <Data Name=""ProcessId"">3784</Data>
+    <Data Name=""Image"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""TargetFilename"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\X86\MpAsDesc.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-19 21:09:22.218</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\NisSrv.exe""",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Microsoft Network Realtime Inspection Service,,,,,,,1,806,,4.18.23080.2006 (04d8e871ffe7ba6b2204046883e1ad9b7a5989ce),"MD5=D6AAA200A0FEFF2B12098C8F995EB003,SHA256=0B8FA55F8D5ABB5EBC1C6D146C2679470069EF02F4A0F82BD7788CF99EF3AC7C,IMPHASH=B2CF270DD30617D242703BF264932A90",C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\NisSrv.exe,,System,0x8000000000000000,4,{f57bd86a-db69-6581-e503-000000000000},0x3e5,,,0,NisSrv.exe,C:\Windows\system32\services.exe,C:\Windows\System32\services.exe,{f57bd86a-db68-6581-0b00-000000000b00},796.0,NT AUTHORITY\SYSTEM,{f57bd86a-0682-6582-3503-000000000b00},10484,6096.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:22.2139422Z,,,,,,,1,0.0,10592,NT AUTHORITY\LOCAL SERVICE,S-1-5-18,09:22.2,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:22.2139422Z""/>
+    <EventRecordID>806</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:22.180</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0682-6582-3503-000000000b00}</Data>
+    <Data Name=""ProcessId"">6096</Data>
+    <Data Name=""Image"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\NisSrv.exe</Data>
+    <Data Name=""FileVersion"">4.18.23080.2006 (04d8e871ffe7ba6b2204046883e1ad9b7a5989ce)</Data>
+    <Data Name=""Description"">Microsoft Network Realtime Inspection Service</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">NisSrv.exe</Data>
+    <Data Name=""CommandLine"">""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\NisSrv.exe""</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\LOCAL SERVICE</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-db69-6581-e503-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e5</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=D6AAA200A0FEFF2B12098C8F995EB003,SHA256=0B8FA55F8D5ABB5EBC1C6D146C2679470069EF02F4A0F82BD7788CF99EF3AC7C,IMPHASH=B2CF270DD30617D242703BF264932A90</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-db68-6581-0b00-000000000b00}</Data>
+    <Data Name=""ParentProcessId"">796</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\services.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,09:22.2,,,,,,,,,11,805,,,,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-db70-6581-5800-000000000b00},10484,3784.0,,,,,,DLL,,,,,,,,,,,,,2023-12-19T21:09:22.1899279Z,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\ProtectionManagement.dll,,,,,,11,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:22.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:22.1899279Z""/>
+    <EventRecordID>805</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:22.187</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-db70-6581-5800-000000000b00}</Data>
+    <Data Name=""ProcessId"">3784</Data>
+    <Data Name=""Image"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""TargetFilename"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\ProtectionManagement.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-19 21:09:22.187</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000003),13,804,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-db68-6581-0b00-000000000b00},10484,796.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T21:09:22.1685247Z,,,HKLM\System\CurrentControlSet\Services\WdNisDrv\Start,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:22.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:22.1685247Z""/>
+    <EventRecordID>804</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:22.156</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-db68-6581-0b00-000000000b00}</Data>
+    <Data Name=""ProcessId"">796</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\WdNisDrv\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000003)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,09:22.1,,,,,,,,,11,803,,,,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-db70-6581-5800-000000000b00},10484,3784.0,,,,,,DLL,,,,,,,,,,,,,2023-12-19T21:09:22.1421232Z,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpEvMsg.dll,,,,,,11,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:22.1,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:22.1421232Z""/>
+    <EventRecordID>803</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:22.140</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-db70-6581-5800-000000000b00}</Data>
+    <Data Name=""ProcessId"">3784</Data>
+    <Data Name=""Image"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""TargetFilename"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpEvMsg.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-19 21:09:22.140</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,09:22.0,,,,,,,,,11,802,,,,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-db70-6581-5800-000000000b00},10484,3784.0,,,,,,DLL,,,,,,,,,,,,,2023-12-19T21:09:22.0623007Z,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpAsDesc.dll,,,,,,11,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:22.0,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:22.0623007Z""/>
+    <EventRecordID>802</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:22.047</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-db70-6581-5800-000000000b00}</Data>
+    <Data Name=""ProcessId"">3784</Data>
+    <Data Name=""Image"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""TargetFilename"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpAsDesc.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-19 21:09:22.047</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,09:21.9,,,,,,,,,11,801,,,,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-db70-6581-5800-000000000b00},10484,3784.0,,,,,,DLL,,,,,,,,,,,,,2023-12-19T21:09:21.8857249Z,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpUxAgent.dll,,,,,,11,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:21.9,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:21.8857249Z""/>
+    <EventRecordID>801</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:21.875</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-db70-6581-5800-000000000b00}</Data>
+    <Data Name=""ProcessId"">3784</Data>
+    <Data Name=""Image"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""TargetFilename"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpUxAgent.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-19 21:09:21.875</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,09:21.9,,,,,,,,,11,800,,,,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-db70-6581-5800-000000000b00},10484,3784.0,,,,,,EXE,,,,,,,,,,,,,2023-12-19T21:09:21.8824264Z,C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpDlpCmd.exe,,,,,,11,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:21.9,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:21.8824264Z""/>
+    <EventRecordID>800</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">EXE</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:21.875</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-db70-6581-5800-000000000b00}</Data>
+    <Data Name=""ProcessId"">3784</Data>
+    <Data Name=""Image"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""TargetFilename"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpDlpCmd.exe</Data>
+    <Data Name=""CreationUtcTime"">2023-12-19 21:09:21.875</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"

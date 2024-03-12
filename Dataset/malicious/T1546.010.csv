@@ -1,0 +1,3249 @@
+Channel,CommandLine,Company,Computer,CreationUtcTime,CurrentDirectory,Description,EventID,EventRecordID,FileVersion,Hashes,Image,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Message,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,QueryName,QueryResults,QueryStatus,RenderingInfo,RuleName,SystemTime,TargetFilename,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,22,9472,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"Dns query:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:54:39.898
+
+ProcessGuid: {fda94052-34f2-658d-3f00-000000000b00}
+
+ProcessId: 2948
+
+QueryName: wpad
+
+QueryStatus: 1460
+
+QueryResults: -
+
+Image: C:\Windows\system32\svchost.exe
+
+User: NT AUTHORITY\LOCAL SERVICE",Info,,,,,,,{fda94052-34f2-658d-3f00-000000000b00},7044,2948,,wpad,-,1460,"
+      ",-,2023-12-28T01:03:49.5519460Z,,Dns query (rule: DnsQuery),,1124,NT AUTHORITY\LOCAL SERVICE,S-1-5-18,2023-12-27 23:54:39.898,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>22</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>22</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:49.5519460Z""/>
+      <EventRecordID>9472</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""1124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:54:39.898</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34f2-658d-3f00-000000000b00}</Data>
+      <Data Name=""ProcessId"">2948</Data>
+      <Data Name=""QueryName"">wpad</Data>
+      <Data Name=""QueryStatus"">1460</Data>
+      <Data Name=""QueryResults"">-</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""User"">NT AUTHORITY\LOCAL SERVICE</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Dns query:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:54:39.898
+
+ProcessGuid: {fda94052-34f2-658d-3f00-000000000b00}
+
+ProcessId: 2948
+
+QueryName: wpad
+
+QueryStatus: 1460
+
+QueryResults: -
+
+Image: C:\Windows\system32\svchost.exe
+
+User: NT AUTHORITY\LOCAL SERVICE</Message>
+      <Level>Information</Level>
+      <Task>Dns query (rule: DnsQuery)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\System32\SearchProtocolHost.exe"" Global\UsGthrFltPipeMssGthrPipe4_ Global\UsGthrCtrlFltPipeMssGthrPipe4 1 -2147483646 ""Software\Microsoft\Windows Search"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)"" ""C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc"" ""DownLevelDaemon"" ",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Microsoft Windows Search Protocol Host,1,9471,7.0.22621.2070 (WinBuild.160101.0800),"MD5=CB9F6BDA8D73F5098E0FD3FAA9061504,SHA256=C21828068B220A2BE1A663151A768BCD53BA7A7B9F75922E0456E0493222E729,IMPHASH=D19C10BF248BF708A424A2725CD3D721",C:\Windows\System32\SearchProtocolHost.exe,System,0x8000000000000000,Information,{fda94052-34eb-658d-e703-000000000000},0x3e7,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-28 01:03:47.361
+
+ProcessGuid: {fda94052-c973-658c-6102-000000000b00}
+
+ProcessId: 10928
+
+Image: C:\Windows\System32\SearchProtocolHost.exe
+
+FileVersion: 7.0.22621.2070 (WinBuild.160101.0800)
+
+Description: Microsoft Windows Search Protocol Host
+
+Product: Windows® Search
+
+Company: Microsoft Corporation
+
+OriginalFileName: SearchProtocolHost.exe
+
+CommandLine: ""C:\Windows\System32\SearchProtocolHost.exe"" Global\UsGthrFltPipeMssGthrPipe4_ Global\UsGthrCtrlFltPipeMssGthrPipe4 1 -2147483646 ""Software\Microsoft\Windows Search"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)"" ""C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc"" ""DownLevelDaemon"" 
+
+CurrentDirectory: C:\Windows\system32\
+
+User: NT AUTHORITY\SYSTEM
+
+LogonGuid: {fda94052-34eb-658d-e703-000000000000}
+
+LogonId: 0x3E7
+
+TerminalSessionId: 0
+
+IntegrityLevel: System
+
+Hashes: MD5=CB9F6BDA8D73F5098E0FD3FAA9061504,SHA256=C21828068B220A2BE1A663151A768BCD53BA7A7B9F75922E0456E0493222E729,IMPHASH=D19C10BF248BF708A424A2725CD3D721
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 4988
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,SearchProtocolHost.exe,-,-,{00000000-0000-0000-0000-000000000000},4988,-,{fda94052-c973-658c-6102-000000000b00},7044,10928,Windows® Search,,,,"
+      ",-,2023-12-28T01:03:47.3651170Z,,Process Create (rule: ProcessCreate),0,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:47.361,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:47.3651170Z""/>
+      <EventRecordID>9471</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:47.361</Data>
+      <Data Name=""ProcessGuid"">{fda94052-c973-658c-6102-000000000b00}</Data>
+      <Data Name=""ProcessId"">10928</Data>
+      <Data Name=""Image"">C:\Windows\System32\SearchProtocolHost.exe</Data>
+      <Data Name=""FileVersion"">7.0.22621.2070 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Microsoft Windows Search Protocol Host</Data>
+      <Data Name=""Product"">Windows&#174; Search</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">SearchProtocolHost.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\System32\SearchProtocolHost.exe"" Global\UsGthrFltPipeMssGthrPipe4_ Global\UsGthrCtrlFltPipeMssGthrPipe4 1 -2147483646 ""Software\Microsoft\Windows Search"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)"" ""C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc"" ""DownLevelDaemon"" </Data>
+      <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+      <Data Name=""LogonGuid"">{fda94052-34eb-658d-e703-000000000000}</Data>
+      <Data Name=""LogonId"">0x3e7</Data>
+      <Data Name=""TerminalSessionId"">0</Data>
+      <Data Name=""IntegrityLevel"">System</Data>
+      <Data Name=""Hashes"">MD5=CB9F6BDA8D73F5098E0FD3FAA9061504,SHA256=C21828068B220A2BE1A663151A768BCD53BA7A7B9F75922E0456E0493222E729,IMPHASH=D19C10BF248BF708A424A2725CD3D721</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">4988</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-28 01:03:47.361
+
+ProcessGuid: {fda94052-c973-658c-6102-000000000b00}
+
+ProcessId: 10928
+
+Image: C:\Windows\System32\SearchProtocolHost.exe
+
+FileVersion: 7.0.22621.2070 (WinBuild.160101.0800)
+
+Description: Microsoft Windows Search Protocol Host
+
+Product: Windows&#174; Search
+
+Company: Microsoft Corporation
+
+OriginalFileName: SearchProtocolHost.exe
+
+CommandLine: ""C:\Windows\System32\SearchProtocolHost.exe"" Global\UsGthrFltPipeMssGthrPipe4_ Global\UsGthrCtrlFltPipeMssGthrPipe4 1 -2147483646 ""Software\Microsoft\Windows Search"" ""Mozilla/4.0 (compatible; MSIE 6.0; Windows NT; MS Search 4.0 Robot)"" ""C:\ProgramData\Microsoft\Search\Data\Temp\usgthrsvc"" ""DownLevelDaemon"" 
+
+CurrentDirectory: C:\Windows\system32\
+
+User: NT AUTHORITY\SYSTEM
+
+LogonGuid: {fda94052-34eb-658d-e703-000000000000}
+
+LogonId: 0x3E7
+
+TerminalSessionId: 0
+
+IntegrityLevel: System
+
+Hashes: MD5=CB9F6BDA8D73F5098E0FD3FAA9061504,SHA256=C21828068B220A2BE1A663151A768BCD53BA7A7B9F75922E0456E0493222E729,IMPHASH=D19C10BF248BF708A424A2725CD3D721
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 4988
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 04:35:48.000,,,11,9470,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.227
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\AppxDeviceInventory.dll
+
+CreationUtcTime: 2023-12-02 04:35:48.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:42.2299125Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\AppxDeviceInventory.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:42.227,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:42.2299125Z""/>
+      <EventRecordID>9470</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:42.227</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\AppxDeviceInventory.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 04:35:48.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.227
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\AppxDeviceInventory.dll
+
+CreationUtcTime: 2023-12-02 04:35:48.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 04:13:16.000,,,11,9469,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.205
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UpdateDeploy.dll
+
+CreationUtcTime: 2023-12-02 04:13:16.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:42.2187757Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UpdateDeploy.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:42.205,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:42.2187757Z""/>
+      <EventRecordID>9469</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:42.205</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UpdateDeploy.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 04:13:16.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.205
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UpdateDeploy.dll
+
+CreationUtcTime: 2023-12-02 04:13:16.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 09:56:52.000,,,11,9468,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.205
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\WinREAgent.dll
+
+CreationUtcTime: 2023-12-02 09:56:52.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:42.2140996Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\WinREAgent.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:42.205,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:42.2140996Z""/>
+      <EventRecordID>9468</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:42.205</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\WinREAgent.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 09:56:52.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.205
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\WinREAgent.dll
+
+CreationUtcTime: 2023-12-02 09:56:52.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 04:14:20.000,,,11,9467,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.205
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\ReserveManager.dll
+
+CreationUtcTime: 2023-12-02 04:14:20.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:42.2111550Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\ReserveManager.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:42.205,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:42.2111550Z""/>
+      <EventRecordID>9467</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:42.205</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\ReserveManager.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 04:14:20.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.205
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\ReserveManager.dll
+
+CreationUtcTime: 2023-12-02 04:14:20.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 04:14:10.000,,,11,9466,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.189
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\TurboStack.dll
+
+CreationUtcTime: 2023-12-02 04:14:10.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:42.2002771Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\TurboStack.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:42.189,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:42.2002771Z""/>
+      <EventRecordID>9466</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:42.189</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\TurboStack.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 04:14:10.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.189
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\TurboStack.dll
+
+CreationUtcTime: 2023-12-02 04:14:10.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 04:14:28.000,,,11,9465,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.171
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\wcp.dll
+
+CreationUtcTime: 2023-12-02 04:14:28.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:42.1717657Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\wcp.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:42.171,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:42.1717657Z""/>
+      <EventRecordID>9465</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:42.171</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\wcp.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 04:14:28.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.171
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\wcp.dll
+
+CreationUtcTime: 2023-12-02 04:14:28.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 04:21:42.000,,,11,9464,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.156
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UAOneSettings.dll
+
+CreationUtcTime: 2023-12-02 04:21:42.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:42.1690517Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UAOneSettings.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:42.156,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:42.1690517Z""/>
+      <EventRecordID>9464</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:42.156</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UAOneSettings.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 04:21:42.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.156
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UAOneSettings.dll
+
+CreationUtcTime: 2023-12-02 04:21:42.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 10:04:50.000,,,11,9463,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.156
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\Mitigation.dll
+
+CreationUtcTime: 2023-12-02 10:04:50.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:42.1655566Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\Mitigation.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:42.156,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:42.1655566Z""/>
+      <EventRecordID>9463</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:42.156</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\Mitigation.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 10:04:50.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.156
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\Mitigation.dll
+
+CreationUtcTime: 2023-12-02 10:04:50.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 04:13:54.000,,,11,9462,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.156
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\dpx.dll
+
+CreationUtcTime: 2023-12-02 04:13:54.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:42.1590578Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\dpx.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:42.156,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:42.1590578Z""/>
+      <EventRecordID>9462</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:42.156</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\dpx.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 04:13:54.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.156
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\dpx.dll
+
+CreationUtcTime: 2023-12-02 04:13:54.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 04:13:52.000,,,11,9461,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.125
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UpdateAgent.dll
+
+CreationUtcTime: 2023-12-02 04:13:52.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:42.1356922Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UpdateAgent.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:42.125,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:42.1356922Z""/>
+      <EventRecordID>9461</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:42.125</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UpdateAgent.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 04:13:52.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:42.125
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UpdateAgent.dll
+
+CreationUtcTime: 2023-12-02 04:13:52.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-28 01:03:41.903,,,11,9460,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:41.919
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SystemTemp\{8E063C88-2704-4118-BA06-7A9D3034F366}\ssshim.dll
+
+CreationUtcTime: 2023-12-28 01:03:41.903
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:41.9200318Z,C:\Windows\SystemTemp\{8E063C88-2704-4118-BA06-7A9D3034F366}\ssshim.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:41.919,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:41.9200318Z""/>
+      <EventRecordID>9460</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:41.919</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SystemTemp\{8E063C88-2704-4118-BA06-7A9D3034F366}\ssshim.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-28 01:03:41.903</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:41.919
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SystemTemp\{8E063C88-2704-4118-BA06-7A9D3034F366}\ssshim.dll
+
+CreationUtcTime: 2023-12-28 01:03:41.903
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-28 01:03:41.825,,,11,9459,,,C:\Windows\uus\packages\preview\AMD64\MoUsoCoreWorker.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:41.825
+
+ProcessGuid: {fda94052-34fa-658d-8900-000000000b00}
+
+ProcessId: 5812
+
+Image: C:\Windows\uus\packages\preview\AMD64\MoUsoCoreWorker.exe
+
+TargetFilename: C:\Windows\SystemTemp\{EA28A72D-1DC1-49AA-88DE-9951299A19F0}\ssshim.dll
+
+CreationUtcTime: 2023-12-28 01:03:41.825
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8900-000000000b00},7044,5812,,,,,"
+      ",DLL,2023-12-28T01:03:41.8396651Z,C:\Windows\SystemTemp\{EA28A72D-1DC1-49AA-88DE-9951299A19F0}\ssshim.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:41.825,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:41.8396651Z""/>
+      <EventRecordID>9459</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:41.825</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8900-000000000b00}</Data>
+      <Data Name=""ProcessId"">5812</Data>
+      <Data Name=""Image"">C:\Windows\uus\packages\preview\AMD64\MoUsoCoreWorker.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SystemTemp\{EA28A72D-1DC1-49AA-88DE-9951299A19F0}\ssshim.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-28 01:03:41.825</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:41.825
+
+ProcessGuid: {fda94052-34fa-658d-8900-000000000b00}
+
+ProcessId: 5812
+
+Image: C:\Windows\uus\packages\preview\AMD64\MoUsoCoreWorker.exe
+
+TargetFilename: C:\Windows\SystemTemp\{EA28A72D-1DC1-49AA-88DE-9951299A19F0}\ssshim.dll
+
+CreationUtcTime: 2023-12-28 01:03:41.825
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-28 01:03:40.810,,,11,9458,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:40.810
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SystemTemp\{C766D120-930B-4950-A0FD-4B42BC51C928}\ssshim.dll
+
+CreationUtcTime: 2023-12-28 01:03:40.810
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:40.8212642Z,C:\Windows\SystemTemp\{C766D120-930B-4950-A0FD-4B42BC51C928}\ssshim.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:40.810,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:40.8212642Z""/>
+      <EventRecordID>9458</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:40.810</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SystemTemp\{C766D120-930B-4950-A0FD-4B42BC51C928}\ssshim.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-28 01:03:40.810</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:40.810
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SystemTemp\{C766D120-930B-4950-A0FD-4B42BC51C928}\ssshim.dll
+
+CreationUtcTime: 2023-12-28 01:03:40.810
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --noerrdialogs --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --embedded-browser-webview=1 --mojo-platform-channel-handle=5352 --field-trial-handle=1784,i,2295490780030403019,2821906385101450000,262144 --enable-features=MojoIpcz,UseBackgroundNativeThreadPool,UseNativeThreadPool,msWebView2TreatAppSuspendAsDeviceSuspend --variations-seed-version /prefetch:8 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\,Microsoft Edge WebView2,1,9457,120.0.2210.91,"MD5=8094151812FF45079C840986A0489C78,SHA256=6A4E8A5761C51840CE988C9241B514028A5E45FDB386B072DB0447E3961E3A06,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe,Low,0x8000000000000000,Information,{fda94052-3502-658d-b367-080000000000},0x867b3,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-28 01:03:40.394
+
+ProcessGuid: {fda94052-c96c-658c-5e02-000000000b00}
+
+ProcessId: 1992
+
+Image: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+FileVersion: 120.0.2210.91
+
+Description: Microsoft Edge WebView2
+
+Product: Microsoft Edge WebView2
+
+Company: Microsoft Corporation
+
+OriginalFileName: msedgewebview2.exe
+
+CommandLine: ""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --noerrdialogs --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --embedded-browser-webview=1 --mojo-platform-channel-handle=5352 --field-trial-handle=1784,i,2295490780030403019,2821906385101450000,262144 --enable-features=MojoIpcz,UseBackgroundNativeThreadPool,UseNativeThreadPool,msWebView2TreatAppSuspendAsDeviceSuspend --variations-seed-version /prefetch:8 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61
+
+CurrentDirectory: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {fda94052-3502-658d-b367-080000000000}
+
+LogonId: 0x867B3
+
+TerminalSessionId: 1
+
+IntegrityLevel: Low
+
+Hashes: MD5=8094151812FF45079C840986A0489C78,SHA256=6A4E8A5761C51840CE988C9241B514028A5E45FDB386B072DB0447E3961E3A06,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63
+
+ParentProcessGuid: {fda94052-b85d-658c-1702-000000000b00}
+
+ParentProcessId: 4184
+
+ParentImage: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+ParentCommandLine: ""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --noerrdialogs --disk-cache-size=52428800 --edge-webview-is-background --enable-features=MojoIpcz,msWebView2TreatAppSuspendAsDeviceSuspend,UseNativeThreadPool,UseBackgroundNativeThreadPool --lang=en-US --accept-lang=en-US --mojo-named-platform-channel-pipe=8112.2288.17893317180732402091 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61
+
+ParentUser: WINDEV2309EVAL\User",Info,msedgewebview2.exe,"""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --noerrdialogs --disk-cache-size=52428800 --edge-webview-is-background --enable-features=MojoIpcz,msWebView2TreatAppSuspendAsDeviceSuspend,UseNativeThreadPool,UseBackgroundNativeThreadPool --lang=en-US --accept-lang=en-US --mojo-named-platform-channel-pipe=8112.2288.17893317180732402091 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61",C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe,{fda94052-b85d-658c-1702-000000000b00},4184,WINDEV2309EVAL\User,{fda94052-c96c-658c-5e02-000000000b00},7044,1992,Microsoft Edge WebView2,,,,"
+      ",-,2023-12-28T01:03:40.3956940Z,,Process Create (rule: ProcessCreate),1,6672,WINDEV2309EVAL\User,S-1-5-18,2023-12-28 01:03:40.394,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:40.3956940Z""/>
+      <EventRecordID>9457</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:40.394</Data>
+      <Data Name=""ProcessGuid"">{fda94052-c96c-658c-5e02-000000000b00}</Data>
+      <Data Name=""ProcessId"">1992</Data>
+      <Data Name=""Image"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe</Data>
+      <Data Name=""FileVersion"">120.0.2210.91</Data>
+      <Data Name=""Description"">Microsoft Edge WebView2</Data>
+      <Data Name=""Product"">Microsoft Edge WebView2</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">msedgewebview2.exe</Data>
+      <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --noerrdialogs --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --embedded-browser-webview=1 --mojo-platform-channel-handle=5352 --field-trial-handle=1784,i,2295490780030403019,2821906385101450000,262144 --enable-features=MojoIpcz,UseBackgroundNativeThreadPool,UseNativeThreadPool,msWebView2TreatAppSuspendAsDeviceSuspend --variations-seed-version /prefetch:8 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61</Data>
+      <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{fda94052-3502-658d-b367-080000000000}</Data>
+      <Data Name=""LogonId"">0x867b3</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Low</Data>
+      <Data Name=""Hashes"">MD5=8094151812FF45079C840986A0489C78,SHA256=6A4E8A5761C51840CE988C9241B514028A5E45FDB386B072DB0447E3961E3A06,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+      <Data Name=""ParentProcessGuid"">{fda94052-b85d-658c-1702-000000000b00}</Data>
+      <Data Name=""ParentProcessId"">4184</Data>
+      <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe</Data>
+      <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --noerrdialogs --disk-cache-size=52428800 --edge-webview-is-background --enable-features=MojoIpcz,msWebView2TreatAppSuspendAsDeviceSuspend,UseNativeThreadPool,UseBackgroundNativeThreadPool --lang=en-US --accept-lang=en-US --mojo-named-platform-channel-pipe=8112.2288.17893317180732402091 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-28 01:03:40.394
+
+ProcessGuid: {fda94052-c96c-658c-5e02-000000000b00}
+
+ProcessId: 1992
+
+Image: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+FileVersion: 120.0.2210.91
+
+Description: Microsoft Edge WebView2
+
+Product: Microsoft Edge WebView2
+
+Company: Microsoft Corporation
+
+OriginalFileName: msedgewebview2.exe
+
+CommandLine: ""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --noerrdialogs --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --embedded-browser-webview=1 --mojo-platform-channel-handle=5352 --field-trial-handle=1784,i,2295490780030403019,2821906385101450000,262144 --enable-features=MojoIpcz,UseBackgroundNativeThreadPool,UseNativeThreadPool,msWebView2TreatAppSuspendAsDeviceSuspend --variations-seed-version /prefetch:8 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61
+
+CurrentDirectory: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {fda94052-3502-658d-b367-080000000000}
+
+LogonId: 0x867B3
+
+TerminalSessionId: 1
+
+IntegrityLevel: Low
+
+Hashes: MD5=8094151812FF45079C840986A0489C78,SHA256=6A4E8A5761C51840CE988C9241B514028A5E45FDB386B072DB0447E3961E3A06,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63
+
+ParentProcessGuid: {fda94052-b85d-658c-1702-000000000b00}
+
+ParentProcessId: 4184
+
+ParentImage: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+ParentCommandLine: ""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --noerrdialogs --disk-cache-size=52428800 --edge-webview-is-background --enable-features=MojoIpcz,msWebView2TreatAppSuspendAsDeviceSuspend,UseNativeThreadPool,UseBackgroundNativeThreadPool --lang=en-US --accept-lang=en-US --mojo-named-platform-channel-pipe=8112.2288.17893317180732402091 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 04:35:48.000,,,11,9456,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.564
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\AppxDeviceInventory.dll
+
+CreationUtcTime: 2023-12-02 04:35:48.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:34.5785044Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\AppxDeviceInventory.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:34.564,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:34.5785044Z""/>
+      <EventRecordID>9456</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:34.564</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\AppxDeviceInventory.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 04:35:48.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.564
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\AppxDeviceInventory.dll
+
+CreationUtcTime: 2023-12-02 04:35:48.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 04:13:16.000,,,11,9455,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.564
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UpdateDeploy.dll
+
+CreationUtcTime: 2023-12-02 04:13:16.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:34.5718523Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UpdateDeploy.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:34.564,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:34.5718523Z""/>
+      <EventRecordID>9455</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:34.564</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UpdateDeploy.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 04:13:16.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.564
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UpdateDeploy.dll
+
+CreationUtcTime: 2023-12-02 04:13:16.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 09:56:52.000,,,11,9454,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.564
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\WinREAgent.dll
+
+CreationUtcTime: 2023-12-02 09:56:52.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:34.5655887Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\WinREAgent.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:34.564,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:34.5655887Z""/>
+      <EventRecordID>9454</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:34.564</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\WinREAgent.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 09:56:52.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.564
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\WinREAgent.dll
+
+CreationUtcTime: 2023-12-02 09:56:52.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 04:14:20.000,,,11,9453,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.548
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\ReserveManager.dll
+
+CreationUtcTime: 2023-12-02 04:14:20.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:34.5620511Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\ReserveManager.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:34.548,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:34.5620511Z""/>
+      <EventRecordID>9453</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:34.548</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\ReserveManager.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 04:14:20.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.548
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\ReserveManager.dll
+
+CreationUtcTime: 2023-12-02 04:14:20.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 04:14:10.000,,,11,9452,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.532
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\TurboStack.dll
+
+CreationUtcTime: 2023-12-02 04:14:10.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:34.5469817Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\TurboStack.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:34.532,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:34.5469817Z""/>
+      <EventRecordID>9452</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:34.532</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\TurboStack.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 04:14:10.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.532
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\TurboStack.dll
+
+CreationUtcTime: 2023-12-02 04:14:10.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 04:14:28.000,,,11,9451,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.501
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\wcp.dll
+
+CreationUtcTime: 2023-12-02 04:14:28.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:34.5100201Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\wcp.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:34.501,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:34.5100201Z""/>
+      <EventRecordID>9451</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:34.501</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\wcp.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 04:14:28.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.501
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\wcp.dll
+
+CreationUtcTime: 2023-12-02 04:14:28.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 04:21:42.000,,,11,9450,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.501
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UAOneSettings.dll
+
+CreationUtcTime: 2023-12-02 04:21:42.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:34.5070008Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UAOneSettings.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:34.501,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:34.5070008Z""/>
+      <EventRecordID>9450</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:34.501</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UAOneSettings.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 04:21:42.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.501
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UAOneSettings.dll
+
+CreationUtcTime: 2023-12-02 04:21:42.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 10:04:50.000,,,11,9449,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.501
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\Mitigation.dll
+
+CreationUtcTime: 2023-12-02 10:04:50.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:34.5022775Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\Mitigation.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:34.501,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:34.5022775Z""/>
+      <EventRecordID>9449</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:34.501</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\Mitigation.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 10:04:50.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.501
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\Mitigation.dll
+
+CreationUtcTime: 2023-12-02 10:04:50.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 04:13:54.000,,,11,9448,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.485
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\dpx.dll
+
+CreationUtcTime: 2023-12-02 04:13:54.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:34.4932221Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\dpx.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:34.485,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:34.4932221Z""/>
+      <EventRecordID>9448</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:34.485</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\dpx.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 04:13:54.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.485
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\dpx.dll
+
+CreationUtcTime: 2023-12-02 04:13:54.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-02 04:13:52.000,,,11,9447,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.453
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UpdateAgent.dll
+
+CreationUtcTime: 2023-12-02 04:13:52.000
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:34.4591632Z,C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UpdateAgent.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:34.453,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:34.4591632Z""/>
+      <EventRecordID>9447</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:34.453</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UpdateAgent.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-02 04:13:52.000</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.453
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SoftwareDistribution\Download\7bd97cc524ebd8114e77ca1991fbf2f3\Metadata\UpdateAgent.dll
+
+CreationUtcTime: 2023-12-02 04:13:52.000
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-28 01:03:34.149,,,11,9446,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.149
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SystemTemp\{BA5E04EC-717B-4E87-B03E-948840C7E947}\ssshim.dll
+
+CreationUtcTime: 2023-12-28 01:03:34.149
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{fda94052-34fa-658d-8a00-000000000b00},7044,5868,,,,,"
+      ",DLL,2023-12-28T01:03:34.1541002Z,C:\Windows\SystemTemp\{BA5E04EC-717B-4E87-B03E-948840C7E947}\ssshim.dll,File created (rule: FileCreate),,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:34.149,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:34.1541002Z""/>
+      <EventRecordID>9446</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:34.149</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34fa-658d-8a00-000000000b00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""TargetFilename"">C:\Windows\SystemTemp\{BA5E04EC-717B-4E87-B03E-948840C7E947}\ssshim.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-28 01:03:34.149</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-28 01:03:34.149
+
+ProcessGuid: {fda94052-34fa-658d-8a00-000000000b00}
+
+ProcessId: 5868
+
+Image: C:\Windows\system32\svchost.exe
+
+TargetFilename: C:\Windows\SystemTemp\{BA5E04EC-717B-4E87-B03E-948840C7E947}\ssshim.dll
+
+CreationUtcTime: 2023-12-28 01:03:34.149
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"reg.exe  import ""C:\AtomicRedTeam\atomics\T1546.010\src\T1546.010.reg""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Registry Console Tool,1,9445,10.0.22621.1 (WinBuild.160101.0800),"MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D",C:\Windows\System32\reg.exe,Medium,0x8000000000000000,Information,{fda94052-3502-658d-b367-080000000000},0x867b3,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-28 01:03:34.075
+
+ProcessGuid: {fda94052-c966-658c-5d02-000000000b00}
+
+ProcessId: 1416
+
+Image: C:\Windows\System32\reg.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Registry Console Tool
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: reg.exe
+
+CommandLine: reg.exe  import ""C:\AtomicRedTeam\atomics\T1546.010\src\T1546.010.reg""
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {fda94052-3502-658d-b367-080000000000}
+
+LogonId: 0x867B3
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D
+
+ParentProcessGuid: {fda94052-c966-658c-5b02-000000000b00}
+
+ParentProcessId: 3480
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c reg.exe import ""C:\AtomicRedTeam\atomics\T1546.010\src\T1546.010.reg""
+
+ParentUser: WINDEV2309EVAL\User",Info,reg.exe,"""cmd.exe"" /c reg.exe import ""C:\AtomicRedTeam\atomics\T1546.010\src\T1546.010.reg""",C:\Windows\System32\cmd.exe,{fda94052-c966-658c-5b02-000000000b00},3480,WINDEV2309EVAL\User,{fda94052-c966-658c-5d02-000000000b00},7044,1416,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-28T01:03:34.0776843Z,,Process Create (rule: ProcessCreate),1,6672,WINDEV2309EVAL\User,S-1-5-18,2023-12-28 01:03:34.075,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:34.0776843Z""/>
+      <EventRecordID>9445</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:34.075</Data>
+      <Data Name=""ProcessGuid"">{fda94052-c966-658c-5d02-000000000b00}</Data>
+      <Data Name=""ProcessId"">1416</Data>
+      <Data Name=""Image"">C:\Windows\System32\reg.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Registry Console Tool</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">reg.exe</Data>
+      <Data Name=""CommandLine"">reg.exe  import ""C:\AtomicRedTeam\atomics\T1546.010\src\T1546.010.reg""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{fda94052-3502-658d-b367-080000000000}</Data>
+      <Data Name=""LogonId"">0x867b3</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D</Data>
+      <Data Name=""ParentProcessGuid"">{fda94052-c966-658c-5b02-000000000b00}</Data>
+      <Data Name=""ParentProcessId"">3480</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c reg.exe import ""C:\AtomicRedTeam\atomics\T1546.010\src\T1546.010.reg""</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-28 01:03:34.075
+
+ProcessGuid: {fda94052-c966-658c-5d02-000000000b00}
+
+ProcessId: 1416
+
+Image: C:\Windows\System32\reg.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Registry Console Tool
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: reg.exe
+
+CommandLine: reg.exe  import ""C:\AtomicRedTeam\atomics\T1546.010\src\T1546.010.reg""
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {fda94052-3502-658d-b367-080000000000}
+
+LogonId: 0x867B3
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D
+
+ParentProcessGuid: {fda94052-c966-658c-5b02-000000000b00}
+
+ParentProcessId: 3480
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c reg.exe import ""C:\AtomicRedTeam\atomics\T1546.010\src\T1546.010.reg""
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""cmd.exe"" /c reg.exe import ""C:\AtomicRedTeam\atomics\T1546.010\src\T1546.010.reg""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,1,9444,10.0.22621.1635 (WinBuild.160101.0800),"MD5=5A6BE4D2519515241D0C133A26CF62C0,SHA256=423E0E810A69AACEBA0E5670E58AFF898CF0EBFFAB99CCB46EBB3464C3D2FACB,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,Information,{fda94052-3502-658d-b367-080000000000},0x867b3,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-28 01:03:34.043
+
+ProcessGuid: {fda94052-c966-658c-5b02-000000000b00}
+
+ProcessId: 3480
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.1635 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c reg.exe import ""C:\AtomicRedTeam\atomics\T1546.010\src\T1546.010.reg""
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {fda94052-3502-658d-b367-080000000000}
+
+LogonId: 0x867B3
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=5A6BE4D2519515241D0C133A26CF62C0,SHA256=423E0E810A69AACEBA0E5670E58AFF898CF0EBFFAB99CCB46EBB3464C3D2FACB,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {fda94052-b87a-658c-2702-000000000b00}
+
+ParentProcessId: 5076
+
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -exec bypass
+
+ParentUser: WINDEV2309EVAL\User",Info,Cmd.Exe,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -exec bypass",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,{fda94052-b87a-658c-2702-000000000b00},5076,WINDEV2309EVAL\User,{fda94052-c966-658c-5b02-000000000b00},7044,3480,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-28T01:03:34.0450031Z,,Process Create (rule: ProcessCreate),1,6672,WINDEV2309EVAL\User,S-1-5-18,2023-12-28 01:03:34.043,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:34.0450031Z""/>
+      <EventRecordID>9444</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:34.043</Data>
+      <Data Name=""ProcessGuid"">{fda94052-c966-658c-5b02-000000000b00}</Data>
+      <Data Name=""ProcessId"">3480</Data>
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1635 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows Command Processor</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      <Data Name=""CommandLine"">""cmd.exe"" /c reg.exe import ""C:\AtomicRedTeam\atomics\T1546.010\src\T1546.010.reg""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{fda94052-3502-658d-b367-080000000000}</Data>
+      <Data Name=""LogonId"">0x867b3</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=5A6BE4D2519515241D0C133A26CF62C0,SHA256=423E0E810A69AACEBA0E5670E58AFF898CF0EBFFAB99CCB46EBB3464C3D2FACB,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      <Data Name=""ParentProcessGuid"">{fda94052-b87a-658c-2702-000000000b00}</Data>
+      <Data Name=""ParentProcessId"">5076</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""ParentCommandLine"">""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -exec bypass</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-28 01:03:34.043
+
+ProcessGuid: {fda94052-c966-658c-5b02-000000000b00}
+
+ProcessId: 3480
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.1635 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c reg.exe import ""C:\AtomicRedTeam\atomics\T1546.010\src\T1546.010.reg""
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {fda94052-3502-658d-b367-080000000000}
+
+LogonId: 0x867B3
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=5A6BE4D2519515241D0C133A26CF62C0,SHA256=423E0E810A69AACEBA0E5670E58AFF898CF0EBFFAB99CCB46EBB3464C3D2FACB,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {fda94052-b87a-658c-2702-000000000b00}
+
+ParentProcessId: 5076
+
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -exec bypass
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\whoami.exe""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\,whoami - displays logged on user information,1,9443,10.0.22621.1 (WinBuild.160101.0800),"MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292",C:\Windows\System32\whoami.exe,Medium,0x8000000000000000,Information,{fda94052-3502-658d-b367-080000000000},0x867b3,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-28 01:03:32.975
+
+ProcessGuid: {fda94052-c964-658c-5a02-000000000b00}
+
+ProcessId: 2784
+
+Image: C:\Windows\System32\whoami.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: whoami - displays logged on user information
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: whoami.exe
+
+CommandLine: ""C:\Windows\system32\whoami.exe""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {fda94052-3502-658d-b367-080000000000}
+
+LogonId: 0x867B3
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292
+
+ParentProcessGuid: {fda94052-b87a-658c-2702-000000000b00}
+
+ParentProcessId: 5076
+
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -exec bypass
+
+ParentUser: WINDEV2309EVAL\User",Info,whoami.exe,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -exec bypass",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,{fda94052-b87a-658c-2702-000000000b00},5076,WINDEV2309EVAL\User,{fda94052-c964-658c-5a02-000000000b00},7044,2784,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-28T01:03:32.9780620Z,,Process Create (rule: ProcessCreate),1,6672,WINDEV2309EVAL\User,S-1-5-18,2023-12-28 01:03:32.975,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:32.9780620Z""/>
+      <EventRecordID>9443</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:32.975</Data>
+      <Data Name=""ProcessGuid"">{fda94052-c964-658c-5a02-000000000b00}</Data>
+      <Data Name=""ProcessId"">2784</Data>
+      <Data Name=""Image"">C:\Windows\System32\whoami.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">whoami - displays logged on user information</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">whoami.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\whoami.exe""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{fda94052-3502-658d-b367-080000000000}</Data>
+      <Data Name=""LogonId"">0x867b3</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292</Data>
+      <Data Name=""ParentProcessGuid"">{fda94052-b87a-658c-2702-000000000b00}</Data>
+      <Data Name=""ParentProcessId"">5076</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""ParentCommandLine"">""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -exec bypass</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-28 01:03:32.975
+
+ProcessGuid: {fda94052-c964-658c-5a02-000000000b00}
+
+ProcessId: 2784
+
+Image: C:\Windows\System32\whoami.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: whoami - displays logged on user information
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: whoami.exe
+
+CommandLine: ""C:\Windows\system32\whoami.exe""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {fda94052-3502-658d-b367-080000000000}
+
+LogonId: 0x867B3
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292
+
+ParentProcessGuid: {fda94052-b87a-658c-2702-000000000b00}
+
+ParentProcessId: 5076
+
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -exec bypass
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\HOSTNAME.EXE""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\,Hostname APP,1,9442,10.0.22621.2215 (WinBuild.160101.0800),"MD5=26D86E5BDA0ECA6C6C86541A141A3598,SHA256=D35B9869DA6A1894CB3F3D3E4808EADFF9ADF9B27677194D3F896FCBCDDFFACC,IMPHASH=23013EDF627646AB5226D15AC880BAD8",C:\Windows\System32\HOSTNAME.EXE,Medium,0x8000000000000000,Information,{fda94052-3502-658d-b367-080000000000},0x867b3,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-28 01:03:32.943
+
+ProcessGuid: {fda94052-c964-658c-5902-000000000b00}
+
+ProcessId: 9484
+
+Image: C:\Windows\System32\HOSTNAME.EXE
+
+FileVersion: 10.0.22621.2215 (WinBuild.160101.0800)
+
+Description: Hostname APP
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: hostname.exe
+
+CommandLine: ""C:\Windows\system32\HOSTNAME.EXE""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {fda94052-3502-658d-b367-080000000000}
+
+LogonId: 0x867B3
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=26D86E5BDA0ECA6C6C86541A141A3598,SHA256=D35B9869DA6A1894CB3F3D3E4808EADFF9ADF9B27677194D3F896FCBCDDFFACC,IMPHASH=23013EDF627646AB5226D15AC880BAD8
+
+ParentProcessGuid: {fda94052-b87a-658c-2702-000000000b00}
+
+ParentProcessId: 5076
+
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -exec bypass
+
+ParentUser: WINDEV2309EVAL\User",Info,hostname.exe,"""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -exec bypass",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,{fda94052-b87a-658c-2702-000000000b00},5076,WINDEV2309EVAL\User,{fda94052-c964-658c-5902-000000000b00},7044,9484,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-28T01:03:32.9440829Z,,Process Create (rule: ProcessCreate),1,6672,WINDEV2309EVAL\User,S-1-5-18,2023-12-28 01:03:32.943,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:32.9440829Z""/>
+      <EventRecordID>9442</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:32.943</Data>
+      <Data Name=""ProcessGuid"">{fda94052-c964-658c-5902-000000000b00}</Data>
+      <Data Name=""ProcessId"">9484</Data>
+      <Data Name=""Image"">C:\Windows\System32\HOSTNAME.EXE</Data>
+      <Data Name=""FileVersion"">10.0.22621.2215 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Hostname APP</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">hostname.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\HOSTNAME.EXE""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{fda94052-3502-658d-b367-080000000000}</Data>
+      <Data Name=""LogonId"">0x867b3</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=26D86E5BDA0ECA6C6C86541A141A3598,SHA256=D35B9869DA6A1894CB3F3D3E4808EADFF9ADF9B27677194D3F896FCBCDDFFACC,IMPHASH=23013EDF627646AB5226D15AC880BAD8</Data>
+      <Data Name=""ParentProcessGuid"">{fda94052-b87a-658c-2702-000000000b00}</Data>
+      <Data Name=""ParentProcessId"">5076</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""ParentCommandLine"">""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -exec bypass</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-28 01:03:32.943
+
+ProcessGuid: {fda94052-c964-658c-5902-000000000b00}
+
+ProcessId: 9484
+
+Image: C:\Windows\System32\HOSTNAME.EXE
+
+FileVersion: 10.0.22621.2215 (WinBuild.160101.0800)
+
+Description: Hostname APP
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: hostname.exe
+
+CommandLine: ""C:\Windows\system32\HOSTNAME.EXE""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {fda94052-3502-658d-b367-080000000000}
+
+LogonId: 0x867B3
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=26D86E5BDA0ECA6C6C86541A141A3598,SHA256=D35B9869DA6A1894CB3F3D3E4808EADFF9ADF9B27677194D3F896FCBCDDFFACC,IMPHASH=23013EDF627646AB5226D15AC880BAD8
+
+ParentProcessGuid: {fda94052-b87a-658c-2702-000000000b00}
+
+ParentProcessId: 5076
+
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+ParentCommandLine: ""C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe"" -exec bypass
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,22,9441,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"Dns query:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:54:22.871
+
+ProcessGuid: {fda94052-34f2-658d-3f00-000000000b00}
+
+ProcessId: 2948
+
+QueryName: wpad
+
+QueryStatus: 1460
+
+QueryResults: -
+
+Image: C:\Windows\system32\svchost.exe
+
+User: NT AUTHORITY\LOCAL SERVICE",Info,,,,,,,{fda94052-34f2-658d-3f00-000000000b00},7044,2948,,wpad,-,1460,"
+      ",-,2023-12-28T01:03:32.7136079Z,,Dns query (rule: DnsQuery),,1124,NT AUTHORITY\LOCAL SERVICE,S-1-5-18,2023-12-27 23:54:22.871,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>22</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>22</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:32.7136079Z""/>
+      <EventRecordID>9441</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""1124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:54:22.871</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34f2-658d-3f00-000000000b00}</Data>
+      <Data Name=""ProcessId"">2948</Data>
+      <Data Name=""QueryName"">wpad</Data>
+      <Data Name=""QueryStatus"">1460</Data>
+      <Data Name=""QueryResults"">-</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""User"">NT AUTHORITY\LOCAL SERVICE</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Dns query:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:54:22.871
+
+ProcessGuid: {fda94052-34f2-658d-3f00-000000000b00}
+
+ProcessId: 2948
+
+QueryName: wpad
+
+QueryStatus: 1460
+
+QueryResults: -
+
+Image: C:\Windows\system32\svchost.exe
+
+User: NT AUTHORITY\LOCAL SERVICE</Message>
+      <Level>Information</Level>
+      <Task>Dns query (rule: DnsQuery)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,22,9440,,,C:\Windows\system32\svchost.exe,,0x8000000000000000,Information,,,"Dns query:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:54:21.082
+
+ProcessGuid: {fda94052-34f2-658d-3f00-000000000b00}
+
+ProcessId: 2948
+
+QueryName: wpad
+
+QueryStatus: 1460
+
+QueryResults: -
+
+Image: C:\Windows\system32\svchost.exe
+
+User: NT AUTHORITY\LOCAL SERVICE",Info,,,,,,,{fda94052-34f2-658d-3f00-000000000b00},7044,2948,,wpad,-,1460,"
+      ",-,2023-12-28T01:03:31.7059626Z,,Dns query (rule: DnsQuery),,1124,NT AUTHORITY\LOCAL SERVICE,S-1-5-18,2023-12-27 23:54:21.082,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>22</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>22</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:31.7059626Z""/>
+      <EventRecordID>9440</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""1124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:54:21.082</Data>
+      <Data Name=""ProcessGuid"">{fda94052-34f2-658d-3f00-000000000b00}</Data>
+      <Data Name=""ProcessId"">2948</Data>
+      <Data Name=""QueryName"">wpad</Data>
+      <Data Name=""QueryStatus"">1460</Data>
+      <Data Name=""QueryResults"">-</Data>
+      <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+      <Data Name=""User"">NT AUTHORITY\LOCAL SERVICE</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Dns query:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:54:21.082
+
+ProcessGuid: {fda94052-34f2-658d-3f00-000000000b00}
+
+ProcessId: 2948
+
+QueryName: wpad
+
+QueryStatus: 1460
+
+QueryResults: -
+
+Image: C:\Windows\system32\svchost.exe
+
+User: NT AUTHORITY\LOCAL SERVICE</Message>
+      <Level>Information</Level>
+      <Task>Dns query (rule: DnsQuery)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --noerrdialogs --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --embedded-browser-webview=1 --mojo-platform-channel-handle=5172 --field-trial-handle=1784,i,2295490780030403019,2821906385101450000,262144 --enable-features=MojoIpcz,UseBackgroundNativeThreadPool,UseNativeThreadPool,msWebView2TreatAppSuspendAsDeviceSuspend --variations-seed-version /prefetch:8 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\,Microsoft Edge WebView2,1,9439,120.0.2210.91,"MD5=8094151812FF45079C840986A0489C78,SHA256=6A4E8A5761C51840CE988C9241B514028A5E45FDB386B072DB0447E3961E3A06,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe,Low,0x8000000000000000,Information,{fda94052-3502-658d-b367-080000000000},0x867b3,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-28 01:03:27.632
+
+ProcessGuid: {fda94052-c95f-658c-5802-000000000b00}
+
+ProcessId: 5496
+
+Image: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+FileVersion: 120.0.2210.91
+
+Description: Microsoft Edge WebView2
+
+Product: Microsoft Edge WebView2
+
+Company: Microsoft Corporation
+
+OriginalFileName: msedgewebview2.exe
+
+CommandLine: ""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --noerrdialogs --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --embedded-browser-webview=1 --mojo-platform-channel-handle=5172 --field-trial-handle=1784,i,2295490780030403019,2821906385101450000,262144 --enable-features=MojoIpcz,UseBackgroundNativeThreadPool,UseNativeThreadPool,msWebView2TreatAppSuspendAsDeviceSuspend --variations-seed-version /prefetch:8 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61
+
+CurrentDirectory: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {fda94052-3502-658d-b367-080000000000}
+
+LogonId: 0x867B3
+
+TerminalSessionId: 1
+
+IntegrityLevel: Low
+
+Hashes: MD5=8094151812FF45079C840986A0489C78,SHA256=6A4E8A5761C51840CE988C9241B514028A5E45FDB386B072DB0447E3961E3A06,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63
+
+ParentProcessGuid: {fda94052-b85d-658c-1702-000000000b00}
+
+ParentProcessId: 4184
+
+ParentImage: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+ParentCommandLine: ""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --noerrdialogs --disk-cache-size=52428800 --edge-webview-is-background --enable-features=MojoIpcz,msWebView2TreatAppSuspendAsDeviceSuspend,UseNativeThreadPool,UseBackgroundNativeThreadPool --lang=en-US --accept-lang=en-US --mojo-named-platform-channel-pipe=8112.2288.17893317180732402091 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61
+
+ParentUser: WINDEV2309EVAL\User",Info,msedgewebview2.exe,"""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --noerrdialogs --disk-cache-size=52428800 --edge-webview-is-background --enable-features=MojoIpcz,msWebView2TreatAppSuspendAsDeviceSuspend,UseNativeThreadPool,UseBackgroundNativeThreadPool --lang=en-US --accept-lang=en-US --mojo-named-platform-channel-pipe=8112.2288.17893317180732402091 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61",C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe,{fda94052-b85d-658c-1702-000000000b00},4184,WINDEV2309EVAL\User,{fda94052-c95f-658c-5802-000000000b00},7044,5496,Microsoft Edge WebView2,,,,"
+      ",-,2023-12-28T01:03:27.6345203Z,,Process Create (rule: ProcessCreate),1,6672,WINDEV2309EVAL\User,S-1-5-18,2023-12-28 01:03:27.632,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:27.6345203Z""/>
+      <EventRecordID>9439</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:27.632</Data>
+      <Data Name=""ProcessGuid"">{fda94052-c95f-658c-5802-000000000b00}</Data>
+      <Data Name=""ProcessId"">5496</Data>
+      <Data Name=""Image"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe</Data>
+      <Data Name=""FileVersion"">120.0.2210.91</Data>
+      <Data Name=""Description"">Microsoft Edge WebView2</Data>
+      <Data Name=""Product"">Microsoft Edge WebView2</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">msedgewebview2.exe</Data>
+      <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --noerrdialogs --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --embedded-browser-webview=1 --mojo-platform-channel-handle=5172 --field-trial-handle=1784,i,2295490780030403019,2821906385101450000,262144 --enable-features=MojoIpcz,UseBackgroundNativeThreadPool,UseNativeThreadPool,msWebView2TreatAppSuspendAsDeviceSuspend --variations-seed-version /prefetch:8 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61</Data>
+      <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{fda94052-3502-658d-b367-080000000000}</Data>
+      <Data Name=""LogonId"">0x867b3</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Low</Data>
+      <Data Name=""Hashes"">MD5=8094151812FF45079C840986A0489C78,SHA256=6A4E8A5761C51840CE988C9241B514028A5E45FDB386B072DB0447E3961E3A06,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+      <Data Name=""ParentProcessGuid"">{fda94052-b85d-658c-1702-000000000b00}</Data>
+      <Data Name=""ParentProcessId"">4184</Data>
+      <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe</Data>
+      <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --noerrdialogs --disk-cache-size=52428800 --edge-webview-is-background --enable-features=MojoIpcz,msWebView2TreatAppSuspendAsDeviceSuspend,UseNativeThreadPool,UseBackgroundNativeThreadPool --lang=en-US --accept-lang=en-US --mojo-named-platform-channel-pipe=8112.2288.17893317180732402091 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-28 01:03:27.632
+
+ProcessGuid: {fda94052-c95f-658c-5802-000000000b00}
+
+ProcessId: 5496
+
+Image: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+FileVersion: 120.0.2210.91
+
+Description: Microsoft Edge WebView2
+
+Product: Microsoft Edge WebView2
+
+Company: Microsoft Corporation
+
+OriginalFileName: msedgewebview2.exe
+
+CommandLine: ""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --noerrdialogs --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --embedded-browser-webview=1 --mojo-platform-channel-handle=5172 --field-trial-handle=1784,i,2295490780030403019,2821906385101450000,262144 --enable-features=MojoIpcz,UseBackgroundNativeThreadPool,UseNativeThreadPool,msWebView2TreatAppSuspendAsDeviceSuspend --variations-seed-version /prefetch:8 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61
+
+CurrentDirectory: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {fda94052-3502-658d-b367-080000000000}
+
+LogonId: 0x867B3
+
+TerminalSessionId: 1
+
+IntegrityLevel: Low
+
+Hashes: MD5=8094151812FF45079C840986A0489C78,SHA256=6A4E8A5761C51840CE988C9241B514028A5E45FDB386B072DB0447E3961E3A06,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63
+
+ParentProcessGuid: {fda94052-b85d-658c-1702-000000000b00}
+
+ParentProcessId: 4184
+
+ParentImage: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+ParentCommandLine: ""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --noerrdialogs --disk-cache-size=52428800 --edge-webview-is-background --enable-features=MojoIpcz,msWebView2TreatAppSuspendAsDeviceSuspend,UseNativeThreadPool,UseBackgroundNativeThreadPool --lang=en-US --accept-lang=en-US --mojo-named-platform-channel-pipe=8112.2288.17893317180732402091 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,C:\Windows\system32\vssvc.exe,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Microsoft® Volume Shadow Copy Service,1,9438,10.0.22621.1 (WinBuild.160101.0800),"MD5=E41824427731D3933591BCD216674818,SHA256=321120DE419B488B6EB0D9F32E733756FE9E97689FC0FE7FD2C9BF50AFB1BCC4,IMPHASH=BC0F5315EEA41E76B544E9F6ACFE1FEE",C:\Windows\System32\VSSVC.exe,System,0x8000000000000000,Information,{fda94052-34eb-658d-e703-000000000000},0x3e7,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-28 01:03:26.999
+
+ProcessGuid: {fda94052-c95e-658c-5602-000000000b00}
+
+ProcessId: 8928
+
+Image: C:\Windows\System32\VSSVC.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Microsoft® Volume Shadow Copy Service
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: VSSVC.EXE
+
+CommandLine: C:\Windows\system32\vssvc.exe
+
+CurrentDirectory: C:\Windows\system32\
+
+User: NT AUTHORITY\SYSTEM
+
+LogonGuid: {fda94052-34eb-658d-e703-000000000000}
+
+LogonId: 0x3E7
+
+TerminalSessionId: 0
+
+IntegrityLevel: System
+
+Hashes: MD5=E41824427731D3933591BCD216674818,SHA256=321120DE419B488B6EB0D9F32E733756FE9E97689FC0FE7FD2C9BF50AFB1BCC4,IMPHASH=BC0F5315EEA41E76B544E9F6ACFE1FEE
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 788
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,VSSVC.EXE,-,-,{00000000-0000-0000-0000-000000000000},788,-,{fda94052-c95e-658c-5602-000000000b00},7044,8928,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-28T01:03:27.0194272Z,,Process Create (rule: ProcessCreate),0,6672,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-28 01:03:26.999,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:27.0194272Z""/>
+      <EventRecordID>9438</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:26.999</Data>
+      <Data Name=""ProcessGuid"">{fda94052-c95e-658c-5602-000000000b00}</Data>
+      <Data Name=""ProcessId"">8928</Data>
+      <Data Name=""Image"">C:\Windows\System32\VSSVC.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Microsoft&#174; Volume Shadow Copy Service</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">VSSVC.EXE</Data>
+      <Data Name=""CommandLine"">C:\Windows\system32\vssvc.exe</Data>
+      <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+      <Data Name=""LogonGuid"">{fda94052-34eb-658d-e703-000000000000}</Data>
+      <Data Name=""LogonId"">0x3e7</Data>
+      <Data Name=""TerminalSessionId"">0</Data>
+      <Data Name=""IntegrityLevel"">System</Data>
+      <Data Name=""Hashes"">MD5=E41824427731D3933591BCD216674818,SHA256=321120DE419B488B6EB0D9F32E733756FE9E97689FC0FE7FD2C9BF50AFB1BCC4,IMPHASH=BC0F5315EEA41E76B544E9F6ACFE1FEE</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">788</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-28 01:03:26.999
+
+ProcessGuid: {fda94052-c95e-658c-5602-000000000b00}
+
+ProcessId: 8928
+
+Image: C:\Windows\System32\VSSVC.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Microsoft&#174; Volume Shadow Copy Service
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: VSSVC.EXE
+
+CommandLine: C:\Windows\system32\vssvc.exe
+
+CurrentDirectory: C:\Windows\system32\
+
+User: NT AUTHORITY\SYSTEM
+
+LogonGuid: {fda94052-34eb-658d-e703-000000000000}
+
+LogonId: 0x3E7
+
+TerminalSessionId: 0
+
+IntegrityLevel: System
+
+Hashes: MD5=E41824427731D3933591BCD216674818,SHA256=321120DE419B488B6EB0D9F32E733756FE9E97689FC0FE7FD2C9BF50AFB1BCC4,IMPHASH=BC0F5315EEA41E76B544E9F6ACFE1FEE
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 788
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --noerrdialogs --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --embedded-browser-webview=1 --mojo-platform-channel-handle=5124 --field-trial-handle=1784,i,2295490780030403019,2821906385101450000,262144 --enable-features=MojoIpcz,UseBackgroundNativeThreadPool,UseNativeThreadPool,msWebView2TreatAppSuspendAsDeviceSuspend --variations-seed-version /prefetch:8 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\,Microsoft Edge WebView2,1,9437,120.0.2210.91,"MD5=8094151812FF45079C840986A0489C78,SHA256=6A4E8A5761C51840CE988C9241B514028A5E45FDB386B072DB0447E3961E3A06,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe,Low,0x8000000000000000,Information,{fda94052-3502-658d-b367-080000000000},0x867b3,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-28 01:03:19.074
+
+ProcessGuid: {fda94052-c957-658c-5502-000000000b00}
+
+ProcessId: 6684
+
+Image: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+FileVersion: 120.0.2210.91
+
+Description: Microsoft Edge WebView2
+
+Product: Microsoft Edge WebView2
+
+Company: Microsoft Corporation
+
+OriginalFileName: msedgewebview2.exe
+
+CommandLine: ""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --noerrdialogs --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --embedded-browser-webview=1 --mojo-platform-channel-handle=5124 --field-trial-handle=1784,i,2295490780030403019,2821906385101450000,262144 --enable-features=MojoIpcz,UseBackgroundNativeThreadPool,UseNativeThreadPool,msWebView2TreatAppSuspendAsDeviceSuspend --variations-seed-version /prefetch:8 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61
+
+CurrentDirectory: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {fda94052-3502-658d-b367-080000000000}
+
+LogonId: 0x867B3
+
+TerminalSessionId: 1
+
+IntegrityLevel: Low
+
+Hashes: MD5=8094151812FF45079C840986A0489C78,SHA256=6A4E8A5761C51840CE988C9241B514028A5E45FDB386B072DB0447E3961E3A06,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63
+
+ParentProcessGuid: {fda94052-b85d-658c-1702-000000000b00}
+
+ParentProcessId: 4184
+
+ParentImage: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+ParentCommandLine: ""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --noerrdialogs --disk-cache-size=52428800 --edge-webview-is-background --enable-features=MojoIpcz,msWebView2TreatAppSuspendAsDeviceSuspend,UseNativeThreadPool,UseBackgroundNativeThreadPool --lang=en-US --accept-lang=en-US --mojo-named-platform-channel-pipe=8112.2288.17893317180732402091 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61
+
+ParentUser: WINDEV2309EVAL\User",Info,msedgewebview2.exe,"""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --noerrdialogs --disk-cache-size=52428800 --edge-webview-is-background --enable-features=MojoIpcz,msWebView2TreatAppSuspendAsDeviceSuspend,UseNativeThreadPool,UseBackgroundNativeThreadPool --lang=en-US --accept-lang=en-US --mojo-named-platform-channel-pipe=8112.2288.17893317180732402091 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61",C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe,{fda94052-b85d-658c-1702-000000000b00},4184,WINDEV2309EVAL\User,{fda94052-c957-658c-5502-000000000b00},7044,6684,Microsoft Edge WebView2,,,,"
+      ",-,2023-12-28T01:03:19.0763550Z,,Process Create (rule: ProcessCreate),1,6672,WINDEV2309EVAL\User,S-1-5-18,2023-12-28 01:03:19.074,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:19.0763550Z""/>
+      <EventRecordID>9437</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""6672""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-28 01:03:19.074</Data>
+      <Data Name=""ProcessGuid"">{fda94052-c957-658c-5502-000000000b00}</Data>
+      <Data Name=""ProcessId"">6684</Data>
+      <Data Name=""Image"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe</Data>
+      <Data Name=""FileVersion"">120.0.2210.91</Data>
+      <Data Name=""Description"">Microsoft Edge WebView2</Data>
+      <Data Name=""Product"">Microsoft Edge WebView2</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">msedgewebview2.exe</Data>
+      <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --noerrdialogs --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --embedded-browser-webview=1 --mojo-platform-channel-handle=5124 --field-trial-handle=1784,i,2295490780030403019,2821906385101450000,262144 --enable-features=MojoIpcz,UseBackgroundNativeThreadPool,UseNativeThreadPool,msWebView2TreatAppSuspendAsDeviceSuspend --variations-seed-version /prefetch:8 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61</Data>
+      <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{fda94052-3502-658d-b367-080000000000}</Data>
+      <Data Name=""LogonId"">0x867b3</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Low</Data>
+      <Data Name=""Hashes"">MD5=8094151812FF45079C840986A0489C78,SHA256=6A4E8A5761C51840CE988C9241B514028A5E45FDB386B072DB0447E3961E3A06,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+      <Data Name=""ParentProcessGuid"">{fda94052-b85d-658c-1702-000000000b00}</Data>
+      <Data Name=""ParentProcessId"">4184</Data>
+      <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe</Data>
+      <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --noerrdialogs --disk-cache-size=52428800 --edge-webview-is-background --enable-features=MojoIpcz,msWebView2TreatAppSuspendAsDeviceSuspend,UseNativeThreadPool,UseBackgroundNativeThreadPool --lang=en-US --accept-lang=en-US --mojo-named-platform-channel-pipe=8112.2288.17893317180732402091 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-28 01:03:19.074
+
+ProcessGuid: {fda94052-c957-658c-5502-000000000b00}
+
+ProcessId: 6684
+
+Image: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+FileVersion: 120.0.2210.91
+
+Description: Microsoft Edge WebView2
+
+Product: Microsoft Edge WebView2
+
+Company: Microsoft Corporation
+
+OriginalFileName: msedgewebview2.exe
+
+CommandLine: ""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --type=utility --utility-sub-type=unzip.mojom.Unzipper --lang=en-US --service-sandbox-type=service --noerrdialogs --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --embedded-browser-webview=1 --mojo-platform-channel-handle=5124 --field-trial-handle=1784,i,2295490780030403019,2821906385101450000,262144 --enable-features=MojoIpcz,UseBackgroundNativeThreadPool,UseNativeThreadPool,msWebView2TreatAppSuspendAsDeviceSuspend --variations-seed-version /prefetch:8 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61
+
+CurrentDirectory: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {fda94052-3502-658d-b367-080000000000}
+
+LogonId: 0x867B3
+
+TerminalSessionId: 1
+
+IntegrityLevel: Low
+
+Hashes: MD5=8094151812FF45079C840986A0489C78,SHA256=6A4E8A5761C51840CE988C9241B514028A5E45FDB386B072DB0447E3961E3A06,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63
+
+ParentProcessGuid: {fda94052-b85d-658c-1702-000000000b00}
+
+ParentProcessId: 4184
+
+ParentImage: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+ParentCommandLine: ""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=Widgets.exe --webview-exe-version=421.20070.1820.0 --user-data-dir=""C:\Users\User\AppData\Local\Packages\MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy\LocalState\EBWebView"" --noerrdialogs --disk-cache-size=52428800 --edge-webview-is-background --enable-features=MojoIpcz,msWebView2TreatAppSuspendAsDeviceSuspend,UseNativeThreadPool,UseBackgroundNativeThreadPool --lang=en-US --accept-lang=en-US --mojo-named-platform-channel-pipe=8112.2288.17893317180732402091 /pfhostedapp:017373b2a5c4ead1a08d36a47bf86195c1909a61
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,22,9436,,,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe,,0x8000000000000000,Information,,,"Dns query:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:54:06.761
+
+ProcessGuid: {fda94052-b85d-658c-1a02-000000000b00}
+
+ProcessId: 9268
+
+QueryName: img-s-msn-com.akamaized.net
+
+QueryStatus: 0
+
+QueryResults: type: 5 a1834.dscg2.akamai.net;::ffff:104.77.160.140;::ffff:104.77.160.143;
+
+Image: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+User: WINDEV2309EVAL\User",Info,,,,,,,{fda94052-b85d-658c-1a02-000000000b00},7044,9268,,img-s-msn-com.akamaized.net,type: 5 a1834.dscg2.akamai.net;::ffff:104.77.160.140;::ffff:104.77.160.143;,0,"
+      ",-,2023-12-28T01:03:16.9112341Z,,Dns query (rule: DnsQuery),,1124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:54:06.761,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>22</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>22</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-28T01:03:16.9112341Z""/>
+      <EventRecordID>9436</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""7044"" ThreadID=""1124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:54:06.761</Data>
+      <Data Name=""ProcessGuid"">{fda94052-b85d-658c-1a02-000000000b00}</Data>
+      <Data Name=""ProcessId"">9268</Data>
+      <Data Name=""QueryName"">img-s-msn-com.akamaized.net</Data>
+      <Data Name=""QueryStatus"">0</Data>
+      <Data Name=""QueryResults"">type: 5 a1834.dscg2.akamai.net;::ffff:104.77.160.140;::ffff:104.77.160.143;</Data>
+      <Data Name=""Image"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Dns query:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:54:06.761
+
+ProcessGuid: {fda94052-b85d-658c-1a02-000000000b00}
+
+ProcessId: 9268
+
+QueryName: img-s-msn-com.akamaized.net
+
+QueryStatus: 0
+
+QueryResults: type: 5 a1834.dscg2.akamai.net;::ffff:104.77.160.140;::ffff:104.77.160.143;
+
+Image: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+User: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Dns query (rule: DnsQuery)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+
+"

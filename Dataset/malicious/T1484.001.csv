@@ -1,0 +1,1674 @@
+Channel,CommandLine,Company,Computer,CreationUtcTime,CurrentDirectory,Description,EventID,EventRecordID,FileVersion,Hashes,Image,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Message,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,RenderingInfo,RuleName,SystemTime,TargetFilename,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\rundll32.exe"" C:\Windows\system32\PcaSvc.dll,PcaPatchSdbTask",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Windows host process (Rundll32),1,19582,10.0.22621.1 (WinBuild.160101.0800),"MD5=57A6B4BDF247C1A6CA08AC09A8F9B742,SHA256=98D37EFF504A7ADB864131EA4A042AAF4D79C4356960A8AB2FA656CC59AEC014,IMPHASH=5C68DE198B5D2DD5C1129782AD19676C",C:\Windows\System32\rundll32.exe,System,0x8000000000000000,Information,{f57bd86a-36f5-658c-e703-000000000000},0x3e7,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:33.852
+
+ProcessGuid: {f57bd86a-b0c9-658c-d101-000000000f00}
+
+ProcessId: 4396
+
+Image: C:\Windows\System32\rundll32.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Windows host process (Rundll32)
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: RUNDLL32.EXE
+
+CommandLine: ""C:\Windows\system32\rundll32.exe"" C:\Windows\system32\PcaSvc.dll,PcaPatchSdbTask
+
+CurrentDirectory: C:\Windows\system32\
+
+User: NT AUTHORITY\SYSTEM
+
+LogonGuid: {f57bd86a-36f5-658c-e703-000000000000}
+
+LogonId: 0x3E7
+
+TerminalSessionId: 0
+
+IntegrityLevel: System
+
+Hashes: MD5=57A6B4BDF247C1A6CA08AC09A8F9B742,SHA256=98D37EFF504A7ADB864131EA4A042AAF4D79C4356960A8AB2FA656CC59AEC014,IMPHASH=5C68DE198B5D2DD5C1129782AD19676C
+
+ParentProcessGuid: {f57bd86a-36f6-658c-1d00-000000000f00}
+
+ParentProcessId: 1496
+
+ParentImage: C:\Windows\System32\svchost.exe
+
+ParentCommandLine: C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule
+
+ParentUser: NT AUTHORITY\SYSTEM",Info,RUNDLL32.EXE,C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule,C:\Windows\System32\svchost.exe,{f57bd86a-36f6-658c-1d00-000000000f00},1496,NT AUTHORITY\SYSTEM,{f57bd86a-b0c9-658c-d101-000000000f00},3588,4396,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:18:33.8530782Z,,Process Create (rule: ProcessCreate),0,5124,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-27 23:18:33.852,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:18:33.8530782Z""/>
+      <EventRecordID>19582</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:18:33.852</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-b0c9-658c-d101-000000000f00}</Data>
+      <Data Name=""ProcessId"">4396</Data>
+      <Data Name=""Image"">C:\Windows\System32\rundll32.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows host process (Rundll32)</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">RUNDLL32.EXE</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\rundll32.exe"" C:\Windows\system32\PcaSvc.dll,PcaPatchSdbTask</Data>
+      <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f5-658c-e703-000000000000}</Data>
+      <Data Name=""LogonId"">0x3e7</Data>
+      <Data Name=""TerminalSessionId"">0</Data>
+      <Data Name=""IntegrityLevel"">System</Data>
+      <Data Name=""Hashes"">MD5=57A6B4BDF247C1A6CA08AC09A8F9B742,SHA256=98D37EFF504A7ADB864131EA4A042AAF4D79C4356960A8AB2FA656CC59AEC014,IMPHASH=5C68DE198B5D2DD5C1129782AD19676C</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-36f6-658c-1d00-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">1496</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\svchost.exe</Data>
+      <Data Name=""ParentCommandLine"">C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule</Data>
+      <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:33.852
+
+ProcessGuid: {f57bd86a-b0c9-658c-d101-000000000f00}
+
+ProcessId: 4396
+
+Image: C:\Windows\System32\rundll32.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Windows host process (Rundll32)
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: RUNDLL32.EXE
+
+CommandLine: ""C:\Windows\system32\rundll32.exe"" C:\Windows\system32\PcaSvc.dll,PcaPatchSdbTask
+
+CurrentDirectory: C:\Windows\system32\
+
+User: NT AUTHORITY\SYSTEM
+
+LogonGuid: {f57bd86a-36f5-658c-e703-000000000000}
+
+LogonId: 0x3E7
+
+TerminalSessionId: 0
+
+IntegrityLevel: System
+
+Hashes: MD5=57A6B4BDF247C1A6CA08AC09A8F9B742,SHA256=98D37EFF504A7ADB864131EA4A042AAF4D79C4356960A8AB2FA656CC59AEC014,IMPHASH=5C68DE198B5D2DD5C1129782AD19676C
+
+ParentProcessGuid: {f57bd86a-36f6-658c-1d00-000000000f00}
+
+ParentProcessId: 1496
+
+ParentImage: C:\Windows\System32\svchost.exe
+
+ParentCommandLine: C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule
+
+ParentUser: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-27 23:18:15.786,,,11,19581,,,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:15.786
+
+ProcessGuid: {f57bd86a-b0b7-658c-cf01-000000000f00}
+
+ProcessId: 6056
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_v0fsai4q.dwx.ps1
+
+CreationUtcTime: 2023-12-27 23:18:15.786
+
+User: WINDEV2309EVAL\User",Info,,,,,,,{f57bd86a-b0b7-658c-cf01-000000000f00},3588,6056,,"
+      ",-,2023-12-27T23:18:15.8003252Z,C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_v0fsai4q.dwx.ps1,File created (rule: FileCreate),,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:18:15.786,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:18:15.8003252Z""/>
+      <EventRecordID>19581</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:18:15.786</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-b0b7-658c-cf01-000000000f00}</Data>
+      <Data Name=""ProcessId"">6056</Data>
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""TargetFilename"">C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_v0fsai4q.dwx.ps1</Data>
+      <Data Name=""CreationUtcTime"">2023-12-27 23:18:15.786</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:15.786
+
+ProcessGuid: {f57bd86a-b0b7-658c-cf01-000000000f00}
+
+ProcessId: 6056
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_v0fsai4q.dwx.ps1
+
+CreationUtcTime: 2023-12-27 23:18:15.786
+
+User: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""powershell.exe"" & {New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name GroupPolicyRefreshTimeDC -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name GroupPolicyRefreshTimeOffsetDC -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name GroupPolicyRefreshTime -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name GroupPolicyRefreshTimeOffset -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name EnableSmartScreen -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name ShellSmartScreenLevel -Force}",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Windows PowerShell,1,19580,10.0.22621.2506 (WinBuild.160101.0800),"MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:15.666
+
+ProcessGuid: {f57bd86a-b0b7-658c-cf01-000000000f00}
+
+ProcessId: 6056
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows PowerShell
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: PowerShell.EXE
+
+CommandLine: ""powershell.exe"" & {New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name GroupPolicyRefreshTimeDC -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name GroupPolicyRefreshTimeOffsetDC -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name GroupPolicyRefreshTime -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name GroupPolicyRefreshTimeOffset -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name EnableSmartScreen -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name ShellSmartScreenLevel -Force}
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,PowerShell.EXE,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-b0b7-658c-cf01-000000000f00},3588,6056,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:18:15.6676019Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:18:15.666,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:18:15.6676019Z""/>
+      <EventRecordID>19580</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:18:15.666</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-b0b7-658c-cf01-000000000f00}</Data>
+      <Data Name=""ProcessId"">6056</Data>
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows PowerShell</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">PowerShell.EXE</Data>
+      <Data Name=""CommandLine"">""powershell.exe"" &amp; {New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name GroupPolicyRefreshTimeDC -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name GroupPolicyRefreshTimeOffsetDC -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name GroupPolicyRefreshTime -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name GroupPolicyRefreshTimeOffset -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name EnableSmartScreen -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name ShellSmartScreenLevel -Force}</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:15.666
+
+ProcessGuid: {f57bd86a-b0b7-658c-cf01-000000000f00}
+
+ProcessId: 6056
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows PowerShell
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: PowerShell.EXE
+
+CommandLine: ""powershell.exe"" &amp; {New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name GroupPolicyRefreshTimeDC -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name GroupPolicyRefreshTimeOffsetDC -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name GroupPolicyRefreshTime -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name GroupPolicyRefreshTimeOffset -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name EnableSmartScreen -PropertyType DWord -Value 0 -Force
+New-ItemProperty \""""HKLM:\SOFTWARE\Policies\Microsoft\Windows\System\"""" -Name ShellSmartScreenLevel -Force}
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Registry Console Tool,1,19579,10.0.22621.1 (WinBuild.160101.0800),"MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D",C:\Windows\System32\reg.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:14.637
+
+ProcessGuid: {f57bd86a-b0b6-658c-ce01-000000000f00}
+
+ProcessId: 1768
+
+Image: C:\Windows\System32\reg.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Registry Console Tool
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: reg.exe
+
+CommandLine: reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D
+
+ParentProcessGuid: {f57bd86a-b0b6-658c-c701-000000000f00}
+
+ParentProcessId: 2864
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f
+
+ParentUser: WINDEV2309EVAL\User",Info,reg.exe,"""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f",C:\Windows\System32\cmd.exe,{f57bd86a-b0b6-658c-c701-000000000f00},2864,WINDEV2309EVAL\User,{f57bd86a-b0b6-658c-ce01-000000000f00},3588,1768,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:18:14.6381326Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:18:14.637,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:18:14.6381326Z""/>
+      <EventRecordID>19579</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:18:14.637</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-b0b6-658c-ce01-000000000f00}</Data>
+      <Data Name=""ProcessId"">1768</Data>
+      <Data Name=""Image"">C:\Windows\System32\reg.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Registry Console Tool</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">reg.exe</Data>
+      <Data Name=""CommandLine"">reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-b0b6-658c-c701-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">2864</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:14.637
+
+ProcessGuid: {f57bd86a-b0b6-658c-ce01-000000000f00}
+
+ProcessId: 1768
+
+Image: C:\Windows\System32\reg.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Registry Console Tool
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: reg.exe
+
+CommandLine: reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D
+
+ParentProcessGuid: {f57bd86a-b0b6-658c-c701-000000000f00}
+
+ParentProcessId: 2864
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f ",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Registry Console Tool,1,19578,10.0.22621.1 (WinBuild.160101.0800),"MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D",C:\Windows\System32\reg.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:14.627
+
+ProcessGuid: {f57bd86a-b0b6-658c-cd01-000000000f00}
+
+ProcessId: 3320
+
+Image: C:\Windows\System32\reg.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Registry Console Tool
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: reg.exe
+
+CommandLine: reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f 
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D
+
+ParentProcessGuid: {f57bd86a-b0b6-658c-c701-000000000f00}
+
+ParentProcessId: 2864
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f
+
+ParentUser: WINDEV2309EVAL\User",Info,reg.exe,"""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f",C:\Windows\System32\cmd.exe,{f57bd86a-b0b6-658c-c701-000000000f00},2864,WINDEV2309EVAL\User,{f57bd86a-b0b6-658c-cd01-000000000f00},3588,3320,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:18:14.6281645Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:18:14.627,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:18:14.6281645Z""/>
+      <EventRecordID>19578</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:18:14.627</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-b0b6-658c-cd01-000000000f00}</Data>
+      <Data Name=""ProcessId"">3320</Data>
+      <Data Name=""Image"">C:\Windows\System32\reg.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Registry Console Tool</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">reg.exe</Data>
+      <Data Name=""CommandLine"">reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f </Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-b0b6-658c-c701-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">2864</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:14.627
+
+ProcessGuid: {f57bd86a-b0b6-658c-cd01-000000000f00}
+
+ProcessId: 3320
+
+Image: C:\Windows\System32\reg.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Registry Console Tool
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: reg.exe
+
+CommandLine: reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f 
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D
+
+ParentProcessGuid: {f57bd86a-b0b6-658c-c701-000000000f00}
+
+ParentProcessId: 2864
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f ",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Registry Console Tool,1,19577,10.0.22621.1 (WinBuild.160101.0800),"MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D",C:\Windows\System32\reg.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:14.617
+
+ProcessGuid: {f57bd86a-b0b6-658c-cc01-000000000f00}
+
+ProcessId: 8096
+
+Image: C:\Windows\System32\reg.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Registry Console Tool
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: reg.exe
+
+CommandLine: reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f 
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D
+
+ParentProcessGuid: {f57bd86a-b0b6-658c-c701-000000000f00}
+
+ParentProcessId: 2864
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f
+
+ParentUser: WINDEV2309EVAL\User",Info,reg.exe,"""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f",C:\Windows\System32\cmd.exe,{f57bd86a-b0b6-658c-c701-000000000f00},2864,WINDEV2309EVAL\User,{f57bd86a-b0b6-658c-cc01-000000000f00},3588,8096,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:18:14.6186709Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:18:14.617,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:18:14.6186709Z""/>
+      <EventRecordID>19577</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:18:14.617</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-b0b6-658c-cc01-000000000f00}</Data>
+      <Data Name=""ProcessId"">8096</Data>
+      <Data Name=""Image"">C:\Windows\System32\reg.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Registry Console Tool</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">reg.exe</Data>
+      <Data Name=""CommandLine"">reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f </Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-b0b6-658c-c701-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">2864</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:14.617
+
+ProcessGuid: {f57bd86a-b0b6-658c-cc01-000000000f00}
+
+ProcessId: 8096
+
+Image: C:\Windows\System32\reg.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Registry Console Tool
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: reg.exe
+
+CommandLine: reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f 
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D
+
+ParentProcessGuid: {f57bd86a-b0b6-658c-c701-000000000f00}
+
+ParentProcessId: 2864
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f ",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Registry Console Tool,1,19576,10.0.22621.1 (WinBuild.160101.0800),"MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D",C:\Windows\System32\reg.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:14.608
+
+ProcessGuid: {f57bd86a-b0b6-658c-cb01-000000000f00}
+
+ProcessId: 10152
+
+Image: C:\Windows\System32\reg.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Registry Console Tool
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: reg.exe
+
+CommandLine: reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f 
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D
+
+ParentProcessGuid: {f57bd86a-b0b6-658c-c701-000000000f00}
+
+ParentProcessId: 2864
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f
+
+ParentUser: WINDEV2309EVAL\User",Info,reg.exe,"""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f",C:\Windows\System32\cmd.exe,{f57bd86a-b0b6-658c-c701-000000000f00},2864,WINDEV2309EVAL\User,{f57bd86a-b0b6-658c-cb01-000000000f00},3588,10152,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:18:14.6092148Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:18:14.608,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:18:14.6092148Z""/>
+      <EventRecordID>19576</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:18:14.608</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-b0b6-658c-cb01-000000000f00}</Data>
+      <Data Name=""ProcessId"">10152</Data>
+      <Data Name=""Image"">C:\Windows\System32\reg.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Registry Console Tool</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">reg.exe</Data>
+      <Data Name=""CommandLine"">reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f </Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-b0b6-658c-c701-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">2864</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:14.608
+
+ProcessGuid: {f57bd86a-b0b6-658c-cb01-000000000f00}
+
+ProcessId: 10152
+
+Image: C:\Windows\System32\reg.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Registry Console Tool
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: reg.exe
+
+CommandLine: reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f 
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D
+
+ParentProcessGuid: {f57bd86a-b0b6-658c-c701-000000000f00}
+
+ParentProcessId: 2864
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f ",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Registry Console Tool,1,19575,10.0.22621.1 (WinBuild.160101.0800),"MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D",C:\Windows\System32\reg.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:14.597
+
+ProcessGuid: {f57bd86a-b0b6-658c-ca01-000000000f00}
+
+ProcessId: 3144
+
+Image: C:\Windows\System32\reg.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Registry Console Tool
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: reg.exe
+
+CommandLine: reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f 
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D
+
+ParentProcessGuid: {f57bd86a-b0b6-658c-c701-000000000f00}
+
+ParentProcessId: 2864
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f
+
+ParentUser: WINDEV2309EVAL\User",Info,reg.exe,"""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f",C:\Windows\System32\cmd.exe,{f57bd86a-b0b6-658c-c701-000000000f00},2864,WINDEV2309EVAL\User,{f57bd86a-b0b6-658c-ca01-000000000f00},3588,3144,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:18:14.5982513Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:18:14.597,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:18:14.5982513Z""/>
+      <EventRecordID>19575</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:18:14.597</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-b0b6-658c-ca01-000000000f00}</Data>
+      <Data Name=""ProcessId"">3144</Data>
+      <Data Name=""Image"">C:\Windows\System32\reg.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Registry Console Tool</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">reg.exe</Data>
+      <Data Name=""CommandLine"">reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f </Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-b0b6-658c-c701-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">2864</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:14.597
+
+ProcessGuid: {f57bd86a-b0b6-658c-ca01-000000000f00}
+
+ProcessId: 3144
+
+Image: C:\Windows\System32\reg.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Registry Console Tool
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: reg.exe
+
+CommandLine: reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f 
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D
+
+ParentProcessGuid: {f57bd86a-b0b6-658c-c701-000000000f00}
+
+ParentProcessId: 2864
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f ",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Registry Console Tool,1,19574,10.0.22621.1 (WinBuild.160101.0800),"MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D",C:\Windows\System32\reg.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:14.584
+
+ProcessGuid: {f57bd86a-b0b6-658c-c901-000000000f00}
+
+ProcessId: 2516
+
+Image: C:\Windows\System32\reg.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Registry Console Tool
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: reg.exe
+
+CommandLine: reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f 
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D
+
+ParentProcessGuid: {f57bd86a-b0b6-658c-c701-000000000f00}
+
+ParentProcessId: 2864
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f
+
+ParentUser: WINDEV2309EVAL\User",Info,reg.exe,"""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f",C:\Windows\System32\cmd.exe,{f57bd86a-b0b6-658c-c701-000000000f00},2864,WINDEV2309EVAL\User,{f57bd86a-b0b6-658c-c901-000000000f00},3588,2516,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:18:14.5869890Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:18:14.584,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:18:14.5869890Z""/>
+      <EventRecordID>19574</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:18:14.584</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-b0b6-658c-c901-000000000f00}</Data>
+      <Data Name=""ProcessId"">2516</Data>
+      <Data Name=""Image"">C:\Windows\System32\reg.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Registry Console Tool</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">reg.exe</Data>
+      <Data Name=""CommandLine"">reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f </Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-b0b6-658c-c701-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">2864</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:14.584
+
+ProcessGuid: {f57bd86a-b0b6-658c-c901-000000000f00}
+
+ProcessId: 2516
+
+Image: C:\Windows\System32\reg.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Registry Console Tool
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: reg.exe
+
+CommandLine: reg  add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f 
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDB58D0BCABE76AFC60428F364834463,SHA256=411AE446FE37B30C0727888C7FA5E88994A46DAFD41AA5B3B06C9E884549AFDE,IMPHASH=1085BD82B37A225F6D356012D2E69C3D
+
+ParentProcessGuid: {f57bd86a-b0b6-658c-c701-000000000f00}
+
+ParentProcessId: 2864
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,1,19573,10.0.22621.2506 (WinBuild.160101.0800),"MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:14.556
+
+ProcessGuid: {f57bd86a-b0b6-658c-c701-000000000f00}
+
+ProcessId: 2864
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f & reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,Cmd.Exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-b0b6-658c-c701-000000000f00},3588,2864,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:18:14.5572669Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:18:14.556,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:18:14.5572669Z""/>
+      <EventRecordID>19573</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:18:14.556</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-b0b6-658c-c701-000000000f00}</Data>
+      <Data Name=""ProcessId"">2864</Data>
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows Command Processor</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      <Data Name=""CommandLine"">""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:14.556
+
+ProcessGuid: {f57bd86a-b0b6-658c-c701-000000000f00}
+
+ProcessId: 2864
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffsetDC /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTime /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v GroupPolicyRefreshTimeOffset /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v EnableSmartScreen /t REG_DWORD /d 0 /f &amp; reg add ""HKLM\SOFTWARE\Policies\Microsoft\Windows\System"" /v ShellSmartScreenLevel /t REG_SZ /d Block /f
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\whoami.exe""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\,whoami - displays logged on user information,1,19572,10.0.22621.1 (WinBuild.160101.0800),"MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292",C:\Windows\System32\whoami.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:13.557
+
+ProcessGuid: {f57bd86a-b0b5-658c-c601-000000000f00}
+
+ProcessId: 476
+
+Image: C:\Windows\System32\whoami.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: whoami - displays logged on user information
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: whoami.exe
+
+CommandLine: ""C:\Windows\system32\whoami.exe""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,whoami.exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-b0b5-658c-c601-000000000f00},3588,476,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:18:13.5595260Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:18:13.557,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:18:13.5595260Z""/>
+      <EventRecordID>19572</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:18:13.557</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-b0b5-658c-c601-000000000f00}</Data>
+      <Data Name=""ProcessId"">476</Data>
+      <Data Name=""Image"">C:\Windows\System32\whoami.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">whoami - displays logged on user information</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">whoami.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\whoami.exe""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:13.557
+
+ProcessGuid: {f57bd86a-b0b5-658c-c601-000000000f00}
+
+ProcessId: 476
+
+Image: C:\Windows\System32\whoami.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: whoami - displays logged on user information
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: whoami.exe
+
+CommandLine: ""C:\Windows\system32\whoami.exe""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\HOSTNAME.EXE""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\,Hostname APP,1,19571,10.0.22621.2506 (WinBuild.160101.0800),"MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8",C:\Windows\System32\HOSTNAME.EXE,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:13.529
+
+ProcessGuid: {f57bd86a-b0b5-658c-c501-000000000f00}
+
+ProcessId: 5316
+
+Image: C:\Windows\System32\HOSTNAME.EXE
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Hostname APP
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: hostname.exe
+
+CommandLine: ""C:\Windows\system32\HOSTNAME.EXE""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,hostname.exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-b0b5-658c-c501-000000000f00},3588,5316,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:18:13.5304027Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:18:13.529,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:18:13.5304027Z""/>
+      <EventRecordID>19571</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:18:13.529</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-b0b5-658c-c501-000000000f00}</Data>
+      <Data Name=""ProcessId"">5316</Data>
+      <Data Name=""Image"">C:\Windows\System32\HOSTNAME.EXE</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Hostname APP</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">hostname.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\HOSTNAME.EXE""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:18:13.529
+
+ProcessGuid: {f57bd86a-b0b5-658c-c501-000000000f00}
+
+ProcessId: 5316
+
+Image: C:\Windows\System32\HOSTNAME.EXE
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Hostname APP
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: hostname.exe
+
+CommandLine: ""C:\Windows\system32\HOSTNAME.EXE""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+
+"

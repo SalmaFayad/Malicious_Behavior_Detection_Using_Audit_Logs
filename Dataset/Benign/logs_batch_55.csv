@@ -1,0 +1,721 @@
+Channel,CommandLine,Company,Computer,CreationUtcTime,CurrentDirectory,Description,DestinationHostname,DestinationIp,DestinationIsIpv6,DestinationPort,DestinationPortName,Details,EventID,EventRecordID,EventType,FileVersion,Hashes,Image,Initiated,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Message,NewThreadId,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,Protocol,QueryName,QueryResults,QueryStatus,RuleName,SourceHostname,SourceImage,SourceIp,SourceIsIpv6,SourcePort,SourcePortName,SourceProcessGuid,SourceProcessId,SourceUser,StartAddress,StartFunction,StartModule,SystemTime,TargetFilename,TargetImage,TargetObject,TargetProcessGuid,TargetProcessId,TargetUser,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files\WindowsApps\Microsoft.WindowsStore_22311.1401.2.0_x64__8wekyb3d8bbwe\WinStore.DesktopExtension\StoreDesktopExtension.exe"" /InvokerPRAID: App ",StoreDesktopExtension,WinDev2309Eval,,C:\Windows\system32\,StoreDesktopExtension,,,,,,,1,5529,,22311.1401.2.0,"MD5=F5BA4DAD604ECE95C922A99CF597558B,SHA256=955510C16E24380395B1DB339458CD3AAF0278C8BFCBCCBE0BBB8253537ECF08,IMPHASH=00000000000000000000000000000000",C:\Program Files\WindowsApps\Microsoft.WindowsStore_22311.1401.2.0_x64__8wekyb3d8bbwe\WinStore.DesktopExtension\StoreDesktopExtension.exe,,Medium,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,StoreDesktopExtension.exe,sihost.exe,C:\Windows\System32\sihost.exe,{f57bd86a-1d4d-6582-a200-000000000d00},1132.0,WINDEV2309EVAL\User,{f57bd86a-bba2-6582-5703-000000000d00},3400,2696.0,StoreDesktopExtension,,,,,-,,,,,,,,,,,,,2023-12-20T10:02:10.8385275Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,02:10.8,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:02:10.8385275Z""/>
+    <EventRecordID>5529</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:02:10.832</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-bba2-6582-5703-000000000d00}</Data>
+    <Data Name=""ProcessId"">2696</Data>
+    <Data Name=""Image"">C:\Program Files\WindowsApps\Microsoft.WindowsStore_22311.1401.2.0_x64__8wekyb3d8bbwe\WinStore.DesktopExtension\StoreDesktopExtension.exe</Data>
+    <Data Name=""FileVersion"">22311.1401.2.0</Data>
+    <Data Name=""Description"">StoreDesktopExtension</Data>
+    <Data Name=""Product"">StoreDesktopExtension</Data>
+    <Data Name=""Company"">StoreDesktopExtension</Data>
+    <Data Name=""OriginalFileName"">StoreDesktopExtension.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files\WindowsApps\Microsoft.WindowsStore_22311.1401.2.0_x64__8wekyb3d8bbwe\WinStore.DesktopExtension\StoreDesktopExtension.exe"" /InvokerPRAID: App </Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Medium</Data>
+    <Data Name=""Hashes"">MD5=F5BA4DAD604ECE95C922A99CF597558B,SHA256=955510C16E24380395B1DB339458CD3AAF0278C8BFCBCCBE0BBB8253537ECF08,IMPHASH=00000000000000000000000000000000</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d4d-6582-a200-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">1132</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\sihost.exe</Data>
+    <Data Name=""ParentCommandLine"">sihost.exe</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,5528,,,,C:\Program Files\WindowsApps\Microsoft.WindowsStore_22311.1401.2.0_x64__8wekyb3d8bbwe\WinStore.App.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-bb60-6582-5103-000000000d00},3400,1452.0,,,universalstore.streaming.mediaservices.windows.net,type: 5 c9371f6604c74c62b5cc96335743d2ff.azureedge.net;type: 5 c9371f6604c74c62b5cc96335743d2ff.ec.azureedge.net;type: 5 cs9.wpc.v0cdn.net;::ffff:152.199.19.161;,0.0,-,,,,,,,,,,,,,2023-12-20T10:01:43.8384334Z,,,,,,,22,,4220,WINDEV2309EVAL\User,S-1-5-18,01:42.3,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:01:43.8384334Z""/>
+    <EventRecordID>5528</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4220""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:01:42.325</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-bb60-6582-5103-000000000d00}</Data>
+    <Data Name=""ProcessId"">1452</Data>
+    <Data Name=""QueryName"">universalstore.streaming.mediaservices.windows.net</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">type: 5 c9371f6604c74c62b5cc96335743d2ff.azureedge.net;type: 5 c9371f6604c74c62b5cc96335743d2ff.ec.azureedge.net;type: 5 cs9.wpc.v0cdn.net;::ffff:152.199.19.161;</Data>
+    <Data Name=""Image"">C:\Program Files\WindowsApps\Microsoft.WindowsStore_22311.1401.2.0_x64__8wekyb3d8bbwe\WinStore.App.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,5527,,,,C:\Program Files\WindowsApps\Microsoft.WindowsStore_22311.1401.2.0_x64__8wekyb3d8bbwe\WinStore.App.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-bb60-6582-5103-000000000d00},3400,1452.0,,,da.xboxservices.com,type: 5 xbet-afd-prod-hkc2bwaka7a8gfeq.z01.azurefd.net;type: 5 star-azurefd-prod.trafficmanager.net;type: 5 shed.dual-low.part-0034.t-0009.t-msedge.net;type: 5 part-0034.t-0009.t-msedge.net;::ffff:13.107.246.62;::ffff:13.107.213.62;,0.0,-,,,,,,,,,,,,,2023-12-20T10:01:17.8880798Z,,,,,,,22,,4220,WINDEV2309EVAL\User,S-1-5-18,01:17.1,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:01:17.8880798Z""/>
+    <EventRecordID>5527</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4220""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:01:17.098</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-bb60-6582-5103-000000000d00}</Data>
+    <Data Name=""ProcessId"">1452</Data>
+    <Data Name=""QueryName"">da.xboxservices.com</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">type: 5 xbet-afd-prod-hkc2bwaka7a8gfeq.z01.azurefd.net;type: 5 star-azurefd-prod.trafficmanager.net;type: 5 shed.dual-low.part-0034.t-0009.t-msedge.net;type: 5 part-0034.t-0009.t-msedge.net;::ffff:13.107.246.62;::ffff:13.107.213.62;</Data>
+    <Data Name=""Image"">C:\Program Files\WindowsApps\Microsoft.WindowsStore_22311.1401.2.0_x64__8wekyb3d8bbwe\WinStore.App.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Users\User\AppData\Local\Microsoft\OneDrive\23.246.1127.0002\FileCoAuth.exe"" -Embedding",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Microsoft OneDriveFile Co-Authoring Executable,,,,,,,1,5526,,23.246.1127.0002,"MD5=75E87DCC420308E680BB0D8C63F2964E,SHA256=8A0278181AEB70D47C58142E75457CFF887C0904BC63E5AA22931A597ED741E5,IMPHASH=251A765CF01D323038D69D1C2A0889CC",C:\Users\User\AppData\Local\Microsoft\OneDrive\23.246.1127.0002\FileCoAuth.exe,,Medium,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,FileCoAuth.exe,C:\Windows\system32\svchost.exe -k DcomLaunch -p,C:\Windows\System32\svchost.exe,{f57bd86a-1cf1-6582-0d00-000000000d00},928.0,NT AUTHORITY\SYSTEM,{f57bd86a-bb55-6582-4f03-000000000d00},3400,1428.0,Microsoft OneDrive,,,,,-,,,,,,,,,,,,,2023-12-20T10:00:53.9574398Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,00:53.9,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:00:53.9574398Z""/>
+    <EventRecordID>5526</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:00:53.947</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-bb55-6582-4f03-000000000d00}</Data>
+    <Data Name=""ProcessId"">1428</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\23.246.1127.0002\FileCoAuth.exe</Data>
+    <Data Name=""FileVersion"">23.246.1127.0002</Data>
+    <Data Name=""Description"">Microsoft OneDriveFile Co-Authoring Executable</Data>
+    <Data Name=""Product"">Microsoft OneDrive</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">FileCoAuth.exe</Data>
+    <Data Name=""CommandLine"">""C:\Users\User\AppData\Local\Microsoft\OneDrive\23.246.1127.0002\FileCoAuth.exe"" -Embedding</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Medium</Data>
+    <Data Name=""Hashes"">MD5=75E87DCC420308E680BB0D8C63F2964E,SHA256=8A0278181AEB70D47C58142E75457CFF887C0904BC63E5AA22931A597ED741E5,IMPHASH=251A765CF01D323038D69D1C2A0889CC</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf1-6582-0d00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">928</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\svchost.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\svchost.exe -k DcomLaunch -p</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"C:\Windows\System32\rundll32.exe C:\Windows\System32\shell32.dll,SHCreateLocalServerRunDll {9aa46009-3ce0-458a-a354-715610a075e6} -Embedding",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Windows host process (Rundll32),,,,,,,1,5525,,10.0.22621.1 (WinBuild.160101.0800),"MD5=57A6B4BDF247C1A6CA08AC09A8F9B742,SHA256=98D37EFF504A7ADB864131EA4A042AAF4D79C4356960A8AB2FA656CC59AEC014,IMPHASH=5C68DE198B5D2DD5C1129782AD19676C",C:\Windows\System32\rundll32.exe,,Medium,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,RUNDLL32.EXE,C:\Windows\system32\svchost.exe -k DcomLaunch -p,C:\Windows\System32\svchost.exe,{f57bd86a-1cf1-6582-0d00-000000000d00},928.0,NT AUTHORITY\SYSTEM,{f57bd86a-bb55-6582-4e03-000000000d00},3400,1488.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-20T10:00:53.6752998Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,00:53.7,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:00:53.6752998Z""/>
+    <EventRecordID>5525</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:00:53.670</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-bb55-6582-4e03-000000000d00}</Data>
+    <Data Name=""ProcessId"">1488</Data>
+    <Data Name=""Image"">C:\Windows\System32\rundll32.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Windows host process (Rundll32)</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">RUNDLL32.EXE</Data>
+    <Data Name=""CommandLine"">C:\Windows\System32\rundll32.exe C:\Windows\System32\shell32.dll,SHCreateLocalServerRunDll {9aa46009-3ce0-458a-a354-715610a075e6} -Embedding</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Medium</Data>
+    <Data Name=""Hashes"">MD5=57A6B4BDF247C1A6CA08AC09A8F9B742,SHA256=98D37EFF504A7ADB864131EA4A042AAF4D79C4356960A8AB2FA656CC59AEC014,IMPHASH=5C68DE198B5D2DD5C1129782AD19676C</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf1-6582-0d00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">928</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\svchost.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\svchost.exe -k DcomLaunch -p</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,Binary Data,13,5524,SetValue,,,C:\Windows\Explorer.EXE,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d4e-6582-ad00-000000000d00},3400,5008.0,,,,,,-,,,,,,,,,,,,,2023-12-20T10:00:50.7832028Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached\{63E9CAC2-8262-4AB0-9BA1-151CEDF59C77} {A08CE4D0-FA25-44AB-B57C-C7B1C323E0B9} 0xFFFF,,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,00:50.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:00:50.7832028Z""/>
+    <EventRecordID>5524</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:00:50.769</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d4e-6582-ad00-000000000d00}</Data>
+    <Data Name=""ProcessId"">5008</Data>
+    <Data Name=""Image"">C:\Windows\Explorer.EXE</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached\{63E9CAC2-8262-4AB0-9BA1-151CEDF59C77} {A08CE4D0-FA25-44AB-B57C-C7B1C323E0B9} 0xFFFF</Data>
+    <Data Name=""Details"">Binary Data</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,Binary Data,13,5523,SetValue,,,C:\Windows\Explorer.EXE,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d4e-6582-ad00-000000000d00},3400,5008.0,,,,,,-,,,,,,,,,,,,,2023-12-20T10:00:50.7817861Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached\{B60305F2-BF53-44F0-B3F0-D61904CDF232} {A08CE4D0-FA25-44AB-B57C-C7B1C323E0B9} 0xFFFF,,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,00:50.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:00:50.7817861Z""/>
+    <EventRecordID>5523</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:00:50.769</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d4e-6582-ad00-000000000d00}</Data>
+    <Data Name=""ProcessId"">5008</Data>
+    <Data Name=""Image"">C:\Windows\Explorer.EXE</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached\{B60305F2-BF53-44F0-B3F0-D61904CDF232} {A08CE4D0-FA25-44AB-B57C-C7B1C323E0B9} 0xFFFF</Data>
+    <Data Name=""Details"">Binary Data</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,Binary Data,13,5522,SetValue,,,C:\Windows\Explorer.EXE,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d4e-6582-ad00-000000000d00},3400,5008.0,,,,,,-,,,,,,,,,,,,,2023-12-20T10:00:50.7798776Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached\{335D27D5-334F-44B1-927A-81C5D37BD84F} {A08CE4D0-FA25-44AB-B57C-C7B1C323E0B9} 0xFFFF,,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,00:50.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:00:50.7798776Z""/>
+    <EventRecordID>5522</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:00:50.769</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d4e-6582-ad00-000000000d00}</Data>
+    <Data Name=""ProcessId"">5008</Data>
+    <Data Name=""Image"">C:\Windows\Explorer.EXE</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached\{335D27D5-334F-44B1-927A-81C5D37BD84F} {A08CE4D0-FA25-44AB-B57C-C7B1C323E0B9} 0xFFFF</Data>
+    <Data Name=""Details"">Binary Data</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,Binary Data,13,5521,SetValue,,,C:\Windows\Explorer.EXE,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d4e-6582-ad00-000000000d00},3400,5008.0,,,,,,-,,,,,,,,,,,,,2023-12-20T10:00:50.7783222Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached\{39BC9E3C-912F-4E25-8CED-8539D5022B9F} {A08CE4D0-FA25-44AB-B57C-C7B1C323E0B9} 0xFFFF,,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,00:50.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:00:50.7783222Z""/>
+    <EventRecordID>5521</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:00:50.769</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d4e-6582-ad00-000000000d00}</Data>
+    <Data Name=""ProcessId"">5008</Data>
+    <Data Name=""Image"">C:\Windows\Explorer.EXE</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached\{39BC9E3C-912F-4E25-8CED-8539D5022B9F} {A08CE4D0-FA25-44AB-B57C-C7B1C323E0B9} 0xFFFF</Data>
+    <Data Name=""Details"">Binary Data</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,Binary Data,13,5520,SetValue,,,C:\Windows\Explorer.EXE,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d4e-6582-ad00-000000000d00},3400,5008.0,,,,,,-,,,,,,,,,,,,,2023-12-20T10:00:50.7782558Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached\{1833DA92-DE9F-4EDF-9A5F-61A9DCB84A52} {A08CE4D0-FA25-44AB-B57C-C7B1C323E0B9} 0xFFFF,,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,00:50.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:00:50.7782558Z""/>
+    <EventRecordID>5520</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:00:50.769</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d4e-6582-ad00-000000000d00}</Data>
+    <Data Name=""ProcessId"">5008</Data>
+    <Data Name=""Image"">C:\Windows\Explorer.EXE</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached\{1833DA92-DE9F-4EDF-9A5F-61A9DCB84A52} {A08CE4D0-FA25-44AB-B57C-C7B1C323E0B9} 0xFFFF</Data>
+    <Data Name=""Details"">Binary Data</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,Binary Data,13,5519,SetValue,,,C:\Windows\Explorer.EXE,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d4e-6582-ad00-000000000d00},3400,5008.0,,,,,,-,,,,,,,,,,,,,2023-12-20T10:00:50.7406533Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached\{AC1F7691-5CCF-49B1-8922-8DF09D61733B} {A08CE4D0-FA25-44AB-B57C-C7B1C323E0B9} 0xFFFF,,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,00:50.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:00:50.7406533Z""/>
+    <EventRecordID>5519</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:00:50.737</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d4e-6582-ad00-000000000d00}</Data>
+    <Data Name=""ProcessId"">5008</Data>
+    <Data Name=""Image"">C:\Windows\Explorer.EXE</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached\{AC1F7691-5CCF-49B1-8922-8DF09D61733B} {A08CE4D0-FA25-44AB-B57C-C7B1C323E0B9} 0xFFFF</Data>
+    <Data Name=""Details"">Binary Data</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,Binary Data,13,5518,SetValue,,,C:\Windows\Explorer.EXE,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d4e-6582-ad00-000000000d00},3400,5008.0,,,,,,-,,,,,,,,,,,,,2023-12-20T10:00:50.7284994Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached\{6F05884F-9C7B-4A1F-8DCA-5A803669F243} {A08CE4D0-FA25-44AB-B57C-C7B1C323E0B9} 0xFFFF,,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,00:50.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:00:50.7284994Z""/>
+    <EventRecordID>5518</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:00:50.722</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d4e-6582-ad00-000000000d00}</Data>
+    <Data Name=""ProcessId"">5008</Data>
+    <Data Name=""Image"">C:\Windows\Explorer.EXE</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000\Software\Microsoft\Windows\CurrentVersion\Shell Extensions\Cached\{6F05884F-9C7B-4A1F-8DCA-5A803669F243} {A08CE4D0-FA25-44AB-B57C-C7B1C323E0B9} 0xFFFF</Data>
+    <Data Name=""Details"">Binary Data</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,5517,,,,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d66-6582-df00-000000000d00},3400,8844.0,,,market.isagha.com,type: 5 universal-alb-2112738489.us-east-1.elb.amazonaws.com;::ffff:54.236.192.73;::ffff:18.215.28.37;::ffff:3.215.26.59;::ffff:18.211.93.255;::ffff:44.196.216.246;::ffff:44.206.128.147;,0.0,-,,,,,,,,,,,,,2023-12-20T10:00:37.5285118Z,,,,,,,22,,4220,WINDEV2309EVAL\User,S-1-5-18,00:36.9,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:00:37.5285118Z""/>
+    <EventRecordID>5517</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4220""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:00:36.939</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-df00-000000000d00}</Data>
+    <Data Name=""ProcessId"">8844</Data>
+    <Data Name=""QueryName"">market.isagha.com</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">type: 5 universal-alb-2112738489.us-east-1.elb.amazonaws.com;::ffff:54.236.192.73;::ffff:18.215.28.37;::ffff:3.215.26.59;::ffff:18.211.93.255;::ffff:44.196.216.246;::ffff:44.206.128.147;</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,5516,,,,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d66-6582-df00-000000000d00},3400,8844.0,,,ads.adfox.ru,::ffff:77.88.21.179;,0.0,-,,,,,,,,,,,,,2023-12-20T10:00:19.2455875Z,,,,,,,22,,4220,WINDEV2309EVAL\User,S-1-5-18,00:18.6,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:00:19.2455875Z""/>
+    <EventRecordID>5516</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4220""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:00:18.603</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-df00-000000000d00}</Data>
+    <Data Name=""ProcessId"">8844</Data>
+    <Data Name=""QueryName"">ads.adfox.ru</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">::ffff:77.88.21.179;</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,5515,,,,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d66-6582-df00-000000000d00},3400,8844.0,,,mc.yandex.ru,::ffff:93.158.134.119;::ffff:77.88.21.119;::ffff:87.250.250.119;::ffff:87.250.251.119;,0.0,-,,,,,,,,,,,,,2023-12-20T10:00:19.2455176Z,,,,,,,22,,4220,WINDEV2309EVAL\User,S-1-5-18,00:18.6,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:00:19.2455176Z""/>
+    <EventRecordID>5515</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4220""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:00:18.583</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-df00-000000000d00}</Data>
+    <Data Name=""ProcessId"">8844</Data>
+    <Data Name=""QueryName"">mc.yandex.ru</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">::ffff:93.158.134.119;::ffff:77.88.21.119;::ffff:87.250.250.119;::ffff:87.250.251.119;</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,5514,,,,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d66-6582-df00-000000000d00},3400,8844.0,,,avatars.mds.yandex.net,::ffff:87.250.247.183;::ffff:87.250.247.184;::ffff:87.250.247.181;::ffff:87.250.247.182;,0.0,-,,,,,,,,,,,,,2023-12-20T10:00:19.2454268Z,,,,,,,22,,4220,WINDEV2309EVAL\User,S-1-5-18,00:18.6,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:00:19.2454268Z""/>
+    <EventRecordID>5514</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4220""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:00:18.583</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-df00-000000000d00}</Data>
+    <Data Name=""ProcessId"">8844</Data>
+    <Data Name=""QueryName"">avatars.mds.yandex.net</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">::ffff:87.250.247.183;::ffff:87.250.247.184;::ffff:87.250.247.181;::ffff:87.250.247.182;</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,5513,,,,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d66-6582-df00-000000000d00},3400,8844.0,,,yastatic.net,::ffff:178.154.131.217;::ffff:178.154.131.215;::ffff:178.154.131.216;,0.0,-,,,,,,,,,,,,,2023-12-20T10:00:19.2453123Z,,,,,,,22,,4220,WINDEV2309EVAL\User,S-1-5-18,00:18.6,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:00:19.2453123Z""/>
+    <EventRecordID>5513</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4220""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:00:18.563</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-df00-000000000d00}</Data>
+    <Data Name=""ProcessId"">8844</Data>
+    <Data Name=""QueryName"">yastatic.net</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">::ffff:178.154.131.217;::ffff:178.154.131.215;::ffff:178.154.131.216;</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,5512,,,,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d66-6582-df00-000000000d00},3400,8844.0,,,yandex.ru,::ffff:5.255.255.70;::ffff:5.255.255.77;::ffff:77.88.55.60;::ffff:77.88.55.88;,0.0,-,,,,,,,,,,,,,2023-12-20T10:00:18.2475094Z,,,,,,,22,,4220,WINDEV2309EVAL\User,S-1-5-18,00:17.6,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:00:18.2475094Z""/>
+    <EventRecordID>5512</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4220""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:00:17.554</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-df00-000000000d00}</Data>
+    <Data Name=""ProcessId"">8844</Data>
+    <Data Name=""QueryName"">yandex.ru</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">::ffff:5.255.255.70;::ffff:5.255.255.77;::ffff:77.88.55.60;::ffff:77.88.55.88;</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,5511,,,,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d66-6582-df00-000000000d00},3400,8844.0,,,content.gold-price-today.com,type: 5 goldcontent.cdnedge.bluemix.net;type: 5 goldcontent.akamai.cdnedge.bluemix.net;type: 5 cert-00004-cdnedge-bluemix.akamaized.net.edgekey.net;type: 5 e24421.dsce16.akamaiedge.net;::ffff:80.67.82.176;::ffff:104.109.250.123;,0.0,-,,,,,,,,,,,,,2023-12-20T10:00:16.2305444Z,,,,,,,22,,4220,WINDEV2309EVAL\User,S-1-5-18,00:15.6,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:00:16.2305444Z""/>
+    <EventRecordID>5511</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4220""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:00:15.593</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-df00-000000000d00}</Data>
+    <Data Name=""ProcessId"">8844</Data>
+    <Data Name=""QueryName"">content.gold-price-today.com</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">type: 5 goldcontent.cdnedge.bluemix.net;type: 5 goldcontent.akamai.cdnedge.bluemix.net;type: 5 cert-00004-cdnedge-bluemix.akamaized.net.edgekey.net;type: 5 e24421.dsce16.akamaiedge.net;::ffff:80.67.82.176;::ffff:104.109.250.123;</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,5510,,,,C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d66-6582-df00-000000000d00},3400,8844.0,,,egypt.gold-price-today.com,::ffff:5.10.97.57;,0.0,-,,,,,,,,,,,,,2023-12-20T10:00:15.2299022Z,,,,,,,22,,4220,WINDEV2309EVAL\User,S-1-5-18,00:15.0,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:00:15.2299022Z""/>
+    <EventRecordID>5510</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4220""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:00:14.998</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-df00-000000000d00}</Data>
+    <Data Name=""ProcessId"">8844</Data>
+    <Data Name=""QueryName"">egypt.gold-price-today.com</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">::ffff:5.10.97.57;</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,-,192.229.221.95,False,80.0,http,,3,5509,,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,True,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,tcp,,,,Usermode,WinDev2309Eval.localdomain,,192.168.126.163,False,51475.0,-,,,,,,,2023-12-20T09:59:20.5726972Z,,,,,,,3,,4200,WINDEV2309EVAL\User,S-1-5-18,59:19.9,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>3</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>3</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T09:59:20.5726972Z""/>
+    <EventRecordID>5509</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4200""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">Usermode</Data>
+    <Data Name=""UtcTime"">2023-12-20 09:59:19.861</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""Protocol"">tcp</Data>
+    <Data Name=""Initiated"">true</Data>
+    <Data Name=""SourceIsIpv6"">false</Data>
+    <Data Name=""SourceIp"">192.168.126.163</Data>
+    <Data Name=""SourceHostname"">WinDev2309Eval.localdomain</Data>
+    <Data Name=""SourcePort"">51475</Data>
+    <Data Name=""SourcePortName"">-</Data>
+    <Data Name=""DestinationIsIpv6"">false</Data>
+    <Data Name=""DestinationIp"">192.229.221.95</Data>
+    <Data Name=""DestinationHostname"">-</Data>
+    <Data Name=""DestinationPort"">80</Data>
+    <Data Name=""DestinationPortName"">http</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,-,20.189.173.4,False,443.0,https,,3,5508,,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,True,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,tcp,,,,Usermode,WinDev2309Eval.localdomain,,192.168.126.163,False,51474.0,-,,,,,,,2023-12-20T09:59:20.3220892Z,,,,,,,3,,4200,WINDEV2309EVAL\User,S-1-5-18,59:19.4,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>3</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>3</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T09:59:20.3220892Z""/>
+    <EventRecordID>5508</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4200""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">Usermode</Data>
+    <Data Name=""UtcTime"">2023-12-20 09:59:19.432</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""Protocol"">tcp</Data>
+    <Data Name=""Initiated"">true</Data>
+    <Data Name=""SourceIsIpv6"">false</Data>
+    <Data Name=""SourceIp"">192.168.126.163</Data>
+    <Data Name=""SourceHostname"">WinDev2309Eval.localdomain</Data>
+    <Data Name=""SourcePort"">51474</Data>
+    <Data Name=""SourcePortName"">-</Data>
+    <Data Name=""DestinationIsIpv6"">false</Data>
+    <Data Name=""DestinationIp"">20.189.173.4</Data>
+    <Data Name=""DestinationHostname"">-</Data>
+    <Data Name=""DestinationPort"">443</Data>
+    <Data Name=""DestinationPortName"">https</Data>
+  </EventData>
+</Event>
+"

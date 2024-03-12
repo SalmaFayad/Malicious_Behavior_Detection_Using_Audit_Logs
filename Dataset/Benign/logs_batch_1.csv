@@ -1,0 +1,792 @@
+Channel,CommandLine,Company,Computer,CreationUtcTime,CurrentDirectory,Description,DestinationHostname,DestinationIp,DestinationIsIpv6,DestinationPort,DestinationPortName,Details,EventID,EventRecordID,EventType,FileVersion,Hashes,Image,Initiated,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Message,NewThreadId,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,Protocol,QueryName,QueryResults,QueryStatus,RuleName,SourceHostname,SourceImage,SourceIp,SourceIsIpv6,SourcePort,SourcePortName,SourceProcessGuid,SourceProcessId,SourceUser,StartAddress,StartFunction,StartModule,SystemTime,TargetFilename,TargetImage,TargetObject,TargetProcessGuid,TargetProcessId,TargetUser,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,taskhostw.exe KEYROAMING,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Host Process for Windows Tasks,,,,,,,1,6717,,10.0.22621.2792 (WinBuild.160101.0800),"MD5=AAA6BA42398B2D70F12F00A110701041,SHA256=58CC5757BB129557652797EA92AEE701DE5C574B22FDCD5DCDDF141CAEEA3C02,IMPHASH=1C4E2D9936E4D9F2490B08AAB4D24260",C:\Windows\System32\taskhostw.exe,,Medium,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,taskhostw.exe,C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule,C:\Windows\System32\svchost.exe,{f57bd86a-1cf3-6582-2a00-000000000d00},1940.0,NT AUTHORITY\SYSTEM,{f57bd86a-2604-6584-d809-000000000d00},3400,5364.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-21T11:48:20.8891269Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,48:20.9,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:48:20.8891269Z""/>
+    <EventRecordID>6717</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:48:20.856</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-2604-6584-d809-000000000d00}</Data>
+    <Data Name=""ProcessId"">5364</Data>
+    <Data Name=""Image"">C:\Windows\System32\taskhostw.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.2792 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Host Process for Windows Tasks</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">taskhostw.exe</Data>
+    <Data Name=""CommandLine"">taskhostw.exe KEYROAMING</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Medium</Data>
+    <Data Name=""Hashes"">MD5=AAA6BA42398B2D70F12F00A110701041,SHA256=58CC5757BB129557652797EA92AEE701DE5C574B22FDCD5DCDDF141CAEEA3C02,IMPHASH=1C4E2D9936E4D9F2490B08AAB4D24260</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf3-6582-2a00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">1940</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\svchost.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,.\User,13,6716,SetValue,,,C:\Windows\system32\LogonUI.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-25bf-6584-c809-000000000d00},3400,9016.0,,,,,,-,,,,,,,,,,,,,2023-12-21T11:48:20.7572275Z,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\LastLoggedOnUser,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,48:20.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:48:20.7572275Z""/>
+    <EventRecordID>6716</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:48:20.756</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-25bf-6584-c809-000000000d00}</Data>
+    <Data Name=""ProcessId"">9016</Data>
+    <Data Name=""Image"">C:\Windows\system32\LogonUI.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\LogonUI\LastLoggedOnUser</Data>
+    <Data Name=""Details"">.\User</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""ctfmon.exe""",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,CTF Loader,,,,,,,1,6715,,10.0.22621.1 (WinBuild.160101.0800),"MD5=4D6ADD8B85F8E33937B8483BF5D040C1,SHA256=7E067B7DA5DA60458B5F7D5A99BC7C7C1F41999CD2559985F09267B1EC2E56EC,IMPHASH=6FD43544FB51C12382CAD7C88F550240",C:\Windows\System32\ctfmon.exe,,System,0x8000000000000000,4,{f57bd86a-1cf1-6582-e703-000000000000},0x3e7,,,0,CTFMON.EXE,C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s TextInputManagementService,C:\Windows\System32\svchost.exe,{f57bd86a-1cf3-6582-2e00-000000000d00},2140.0,NT AUTHORITY\SYSTEM,{f57bd86a-2602-6584-d709-000000000d00},3400,9872.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-21T11:48:18.8451796Z,,,,,,,1,1.0,4208,NT AUTHORITY\SYSTEM,S-1-5-18,48:18.8,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:48:18.8451796Z""/>
+    <EventRecordID>6715</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:48:18.840</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-2602-6584-d709-000000000d00}</Data>
+    <Data Name=""ProcessId"">9872</Data>
+    <Data Name=""Image"">C:\Windows\System32\ctfmon.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">CTF Loader</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">CTFMON.EXE</Data>
+    <Data Name=""CommandLine"">""ctfmon.exe""</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1cf1-6582-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=4D6ADD8B85F8E33937B8483BF5D040C1,SHA256=7E067B7DA5DA60458B5F7D5A99BC7C7C1F41999CD2559985F09267B1EC2E56EC,IMPHASH=6FD43544FB51C12382CAD7C88F550240</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf3-6582-2e00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">2140</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\svchost.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted -p -s TextInputManagementService</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,409,13,6714,SetValue,,,C:\Windows\system32\LogonUI.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-25bf-6584-c809-000000000d00},3400,9016.0,,,,,,-,,,,,,,,,,,,,2023-12-21T11:48:18.8071483Z,,,HKU\.DEFAULT\Keyboard Layout\Preload\1,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,48:18.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:48:18.8071483Z""/>
+    <EventRecordID>6714</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:48:18.791</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-25bf-6584-c809-000000000d00}</Data>
+    <Data Name=""ProcessId"">9016</Data>
+    <Data Name=""Image"">C:\Windows\system32\LogonUI.exe</Data>
+    <Data Name=""TargetObject"">HKU\.DEFAULT\Keyboard Layout\Preload\1</Data>
+    <Data Name=""Details"">00000409</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,12,6713,DeleteValue,,,C:\Windows\system32\LogonUI.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-25bf-6584-c809-000000000d00},3400,9016.0,,,,,,-,,,,,,,,,,,,,2023-12-21T11:48:18.8071161Z,,,HKU\.DEFAULT\Keyboard Layout\Preload\1,,,,12,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,48:18.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>12</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>12</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:48:18.8071161Z""/>
+    <EventRecordID>6713</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">DeleteValue</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:48:18.791</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-25bf-6584-c809-000000000d00}</Data>
+    <Data Name=""ProcessId"">9016</Data>
+    <Data Name=""Image"">C:\Windows\system32\LogonUI.exe</Data>
+    <Data Name=""TargetObject"">HKU\.DEFAULT\Keyboard Layout\Preload\1</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,C:\Windows\System32\smartscreen.exe -Embedding,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Windows Defender SmartScreen,,,,,,,1,6712,,10.0.22621.2506 (WinBuild.160101.0800),"MD5=428B629A92397F8AE122C96F1AA64307,SHA256=A239C6A0C9754025160F4E52FD1D8C155F82F2E8DC159C643FDA75AAEAE7468E,IMPHASH=2CD979428F6A7D556A8BFFD60C64AD9B",C:\Windows\System32\smartscreen.exe,,Medium,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,smartscreen.exe,C:\Windows\system32\svchost.exe -k DcomLaunch -p,C:\Windows\System32\svchost.exe,{f57bd86a-1cf1-6582-0d00-000000000d00},928.0,NT AUTHORITY\SYSTEM,{f57bd86a-2601-6584-d609-000000000d00},3400,5044.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-21T11:48:17.9938997Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,48:18.0,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:48:17.9938997Z""/>
+    <EventRecordID>6712</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:48:17.992</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-2601-6584-d609-000000000d00}</Data>
+    <Data Name=""ProcessId"">5044</Data>
+    <Data Name=""Image"">C:\Windows\System32\smartscreen.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Windows Defender SmartScreen</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">smartscreen.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\System32\smartscreen.exe -Embedding</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Medium</Data>
+    <Data Name=""Hashes"">MD5=428B629A92397F8AE122C96F1AA64307,SHA256=A239C6A0C9754025160F4E52FD1D8C155F82F2E8DC159C643FDA75AAEAE7468E,IMPHASH=2CD979428F6A7D556A8BFFD60C64AD9B</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf1-6582-0d00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">928</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\svchost.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\svchost.exe -k DcomLaunch -p</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,C:\Windows\system32\ipconfig  /renew,Microsoft Corporation,WinDev2309Eval,,C:\Windows\System32\,IP Configuration Utility,,,,,,,1,6711,,10.0.22621.2506 (WinBuild.160101.0800),"MD5=A36BF72288EB26A359F4DFD01BEA9E6C,SHA256=83450F06AC0316E7ADA56927923B560E053BFA6F9110FAA6574C191C0E286D01,IMPHASH=BA5EDB59433034A4D1690CA812976586",C:\Windows\System32\ipconfig.exe,,System,0x8000000000000000,4,{f57bd86a-1cf1-6582-e703-000000000000},0x3e7,,,0,ipconfig.exe,"C:\Windows\system32\cmd.exe /c """"C:\Program Files\VMware\VMware Tools\resume-vm-default.bat""""",C:\Windows\System32\cmd.exe,{f57bd86a-25fb-6584-cd09-000000000d00},12708.0,NT AUTHORITY\SYSTEM,{f57bd86a-25fe-6584-d309-000000000d00},3400,5184.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-21T11:48:14.1555410Z,,,,,,,1,0.0,4208,NT AUTHORITY\SYSTEM,S-1-5-18,48:14.1,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:48:14.1555410Z""/>
+    <EventRecordID>6711</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:48:14.143</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-25fe-6584-d309-000000000d00}</Data>
+    <Data Name=""ProcessId"">5184</Data>
+    <Data Name=""Image"">C:\Windows\System32\ipconfig.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">IP Configuration Utility</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">ipconfig.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\system32\ipconfig  /renew</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\System32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1cf1-6582-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=A36BF72288EB26A359F4DFD01BEA9E6C,SHA256=83450F06AC0316E7ADA56927923B560E053BFA6F9110FAA6574C191C0E286D01,IMPHASH=BA5EDB59433034A4D1690CA812976586</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-25fb-6584-cd09-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">12708</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\cmd.exe /c """"C:\Program Files\VMware\VMware Tools\resume-vm-default.bat""""</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p -s lmhosts,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Host Process for Windows Services,,,,,,,1,6710,,10.0.22621.1 (WinBuild.160101.0800),"MD5=8EC922C7A58A8701AB481B7BE9644536,SHA256=949BFB5B4C7D58D92F3F9C5F8EC7CA4CEAFFD10EC5F0020F0A987C472D61C54B,IMPHASH=76B4BAE80D2C3B08BB062D97BF9CA791",C:\Windows\System32\svchost.exe,,System,0x8000000000000000,4,{f57bd86a-1cf2-6582-e503-000000000000},0x3e5,,,0,svchost.exe,C:\Windows\system32\services.exe,C:\Windows\System32\services.exe,{f57bd86a-1cf1-6582-0b00-000000000d00},760.0,NT AUTHORITY\SYSTEM,{f57bd86a-25fb-6584-ce09-000000000d00},3400,1464.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-21T11:48:12.9022117Z,,,,,,,1,0.0,4208,NT AUTHORITY\LOCAL SERVICE,S-1-5-18,48:12.0,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:48:12.9022117Z""/>
+    <EventRecordID>6710</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:48:11.977</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-25fb-6584-ce09-000000000d00}</Data>
+    <Data Name=""ProcessId"">1464</Data>
+    <Data Name=""Image"">C:\Windows\System32\svchost.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Host Process for Windows Services</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">svchost.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted -p -s lmhosts</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\LOCAL SERVICE</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1cf2-6582-e503-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e5</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=8EC922C7A58A8701AB481B7BE9644536,SHA256=949BFB5B4C7D58D92F3F9C5F8EC7CA4CEAFFD10EC5F0020F0A987C472D61C54B,IMPHASH=76B4BAE80D2C3B08BB062D97BF9CA791</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">760</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\services.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,Binary Data,13,6709,SetValue,,,C:\Windows\System32\svchost.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf2-6582-1b00-000000000d00},3400,1392.0,,,,,,-,,,,,,,,,,,,,2023-12-21T11:48:12.7092123Z,,,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Profiles\{63AD045B-5D34-4DF6-AD34-C4628478C1AC}\DateLastConnected,,,,13,,4208,NT AUTHORITY\NETWORK SERVICE,S-1-5-18,48:12.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:48:12.7092123Z""/>
+    <EventRecordID>6709</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:48:12.702</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf2-6582-1b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">1392</Data>
+    <Data Name=""Image"">C:\Windows\System32\svchost.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\NetworkList\Profiles\{63AD045B-5D34-4DF6-AD34-C4628478C1AC}\DateLastConnected</Data>
+    <Data Name=""Details"">Binary Data</Data>
+    <Data Name=""User"">NT AUTHORITY\NETWORK SERVICE</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"C:\Windows\system32\cmd.exe /c """"C:\Program Files\VMware\VMware Tools\resume-vm-default.bat""""",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Windows Command Processor,,,,,,,1,6708,,10.0.22621.2506 (WinBuild.160101.0800),"MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,,System,0x8000000000000000,4,{f57bd86a-1cf1-6582-e703-000000000000},0x3e7,,,0,Cmd.Exe,"""C:\Program Files\VMware\VMware Tools\vmtoolsd.exe""",C:\Program Files\VMware\VMware Tools\vmtoolsd.exe,{f57bd86a-1cf4-6582-4400-000000000d00},2824.0,NT AUTHORITY\SYSTEM,{f57bd86a-25fb-6584-cd09-000000000d00},3400,12708.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-21T11:48:11.1748999Z,,,,,,,1,0.0,4208,NT AUTHORITY\SYSTEM,S-1-5-18,48:11.2,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:48:11.1748999Z""/>
+    <EventRecordID>6708</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:48:11.170</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-25fb-6584-cd09-000000000d00}</Data>
+    <Data Name=""ProcessId"">12708</Data>
+    <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Windows Command Processor</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\system32\cmd.exe /c """"C:\Program Files\VMware\VMware Tools\resume-vm-default.bat""""</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1cf1-6582-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf4-6582-4400-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">2824</Data>
+    <Data Name=""ParentImage"">C:\Program Files\VMware\VMware Tools\vmtoolsd.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files\VMware\VMware Tools\vmtoolsd.exe""</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\wermgr.exe"" -upload",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Windows Problem Reporting,,,,,,,1,6707,,10.0.22621.2506 (WinBuild.160101.0800),"MD5=A1C7BEA33F4F2BC239C3C87D50278A10,SHA256=E76398B7C480D370E31659CA58276BB471590A7E78286D4AE7BDC18B410A1C73,IMPHASH=B3E2F8838B99D9BA62ED159B31C03AA3",C:\Windows\System32\wermgr.exe,,System,0x8000000000000000,4,{f57bd86a-1cf1-6582-e703-000000000000},0x3e7,,,0,WerMgr,C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule,C:\Windows\System32\svchost.exe,{f57bd86a-1cf3-6582-2a00-000000000d00},1940.0,NT AUTHORITY\SYSTEM,{f57bd86a-25fb-6584-cc09-000000000d00},3400,8996.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-21T11:48:11.1487100Z,,,,,,,1,0.0,4208,NT AUTHORITY\SYSTEM,S-1-5-18,48:11.1,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:48:11.1487100Z""/>
+    <EventRecordID>6707</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:48:11.119</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-25fb-6584-cc09-000000000d00}</Data>
+    <Data Name=""ProcessId"">8996</Data>
+    <Data Name=""Image"">C:\Windows\System32\wermgr.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Windows Problem Reporting</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">WerMgr</Data>
+    <Data Name=""CommandLine"">""C:\Windows\system32\wermgr.exe"" -upload</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1cf1-6582-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=A1C7BEA33F4F2BC239C3C87D50278A10,SHA256=E76398B7C480D370E31659CA58276BB471590A7E78286D4AE7BDC18B410A1C73,IMPHASH=B3E2F8838B99D9BA62ED159B31C03AA3</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf3-6582-2a00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">1940</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\svchost.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,C:\Windows\System32\svchost.exe -k CameraMonitor,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Host Process for Windows Services,,,,,,,1,6706,,10.0.22621.1 (WinBuild.160101.0800),"MD5=8EC922C7A58A8701AB481B7BE9644536,SHA256=949BFB5B4C7D58D92F3F9C5F8EC7CA4CEAFFD10EC5F0020F0A987C472D61C54B,IMPHASH=76B4BAE80D2C3B08BB062D97BF9CA791",C:\Windows\System32\svchost.exe,,System,0x8000000000000000,4,{f57bd86a-1cf1-6582-e703-000000000000},0x3e7,,,0,svchost.exe,C:\Windows\system32\services.exe,C:\Windows\System32\services.exe,{f57bd86a-1cf1-6582-0b00-000000000d00},760.0,NT AUTHORITY\SYSTEM,{f57bd86a-25bf-6584-ca09-000000000d00},3400,3488.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-21T11:47:11.8635905Z,,,,,,,1,0.0,4208,NT AUTHORITY\SYSTEM,S-1-5-18,47:11.9,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:47:11.8635905Z""/>
+    <EventRecordID>6706</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:47:11.860</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-25bf-6584-ca09-000000000d00}</Data>
+    <Data Name=""ProcessId"">3488</Data>
+    <Data Name=""Image"">C:\Windows\System32\svchost.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Host Process for Windows Services</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">svchost.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\System32\svchost.exe -k CameraMonitor</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1cf1-6582-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=8EC922C7A58A8701AB481B7BE9644536,SHA256=949BFB5B4C7D58D92F3F9C5F8EC7CA4CEAFFD10EC5F0020F0A987C472D61C54B,IMPHASH=76B4BAE80D2C3B08BB062D97BF9CA791</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">760</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\services.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,taskhostw.exe KEYROAMING,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Host Process for Windows Tasks,,,,,,,1,6705,,10.0.22621.2792 (WinBuild.160101.0800),"MD5=AAA6BA42398B2D70F12F00A110701041,SHA256=58CC5757BB129557652797EA92AEE701DE5C574B22FDCD5DCDDF141CAEEA3C02,IMPHASH=1C4E2D9936E4D9F2490B08AAB4D24260",C:\Windows\System32\taskhostw.exe,,Medium,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,taskhostw.exe,C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule,C:\Windows\System32\svchost.exe,{f57bd86a-1cf3-6582-2a00-000000000d00},1940.0,NT AUTHORITY\SYSTEM,{f57bd86a-25bf-6584-c909-000000000d00},3400,3996.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-21T11:47:11.8565164Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:11.8,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:47:11.8565164Z""/>
+    <EventRecordID>6705</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:47:11.850</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-25bf-6584-c909-000000000d00}</Data>
+    <Data Name=""ProcessId"">3996</Data>
+    <Data Name=""Image"">C:\Windows\System32\taskhostw.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.2792 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Host Process for Windows Tasks</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">taskhostw.exe</Data>
+    <Data Name=""CommandLine"">taskhostw.exe KEYROAMING</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Medium</Data>
+    <Data Name=""Hashes"">MD5=AAA6BA42398B2D70F12F00A110701041,SHA256=58CC5757BB129557652797EA92AEE701DE5C574B22FDCD5DCDDF141CAEEA3C02,IMPHASH=1C4E2D9936E4D9F2490B08AAB4D24260</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf3-6582-2a00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">1940</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\svchost.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""LogonUI.exe"" /flags:0x0 /state0:0xa2961055 /state1:0x41c64e6d",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Windows Logon User Interface Host,,,,,,,1,6704,,10.0.22621.1 (WinBuild.160101.0800),"MD5=B3CC2464BECE9A99D8C755A7CCBFEF52,SHA256=B62E62C7374CE1398B985AF3122FF10A092750F65191FDC3AA6151DE130183A3,IMPHASH=0EF1A1FBF5FA5B3737A8D19C60F416A9",C:\Windows\System32\LogonUI.exe,,System,0x8000000000000000,4,{f57bd86a-1cf1-6582-e703-000000000000},0x3e7,,,0,logonui.exe,winlogon.exe,C:\Windows\System32\winlogon.exe,{f57bd86a-1cf1-6582-0a00-000000000d00},736.0,NT AUTHORITY\SYSTEM,{f57bd86a-25bf-6584-c809-000000000d00},3400,9016.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-21T11:47:11.7043122Z,,,,,,,1,1.0,4208,NT AUTHORITY\SYSTEM,S-1-5-18,47:11.7,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:47:11.7043122Z""/>
+    <EventRecordID>6704</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:47:11.701</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-25bf-6584-c809-000000000d00}</Data>
+    <Data Name=""ProcessId"">9016</Data>
+    <Data Name=""Image"">C:\Windows\System32\LogonUI.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Windows Logon User Interface Host</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">logonui.exe</Data>
+    <Data Name=""CommandLine"">""LogonUI.exe"" /flags:0x0 /state0:0xa2961055 /state1:0x41c64e6d</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1cf1-6582-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=B3CC2464BECE9A99D8C755A7CCBFEF52,SHA256=B62E62C7374CE1398B985AF3122FF10A092750F65191FDC3AA6151DE130183A3,IMPHASH=0EF1A1FBF5FA5B3737A8D19C60F416A9</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf1-6582-0a00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">736</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\winlogon.exe</Data>
+    <Data Name=""ParentCommandLine"">winlogon.exe</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,47:01.0,,,,,,,,,11,6703,,,,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-25b3-6584-c509-000000000d00},3400,4744.0,,,,,,DLL,,,,,,,,,,,,,2023-12-21T11:47:01.0021076Z,C:\Windows\assembly\NativeImages_v4.0.30319_64\Temp\1288-0\Microsoft.VisualStudio.ProjectSystem.VS.dll,,,,,,11,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,47:01.0,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:47:01.0021076Z""/>
+    <EventRecordID>6703</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:47:00.987</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-25b3-6584-c509-000000000d00}</Data>
+    <Data Name=""ProcessId"">4744</Data>
+    <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe</Data>
+    <Data Name=""TargetFilename"">C:\Windows\assembly\NativeImages_v4.0.30319_64\Temp\1288-0\Microsoft.VisualStudio.ProjectSystem.VS.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-21 11:47:00.987</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,46:58.8,,,,,,,,,11,6702,,,,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-25b2-6584-c109-000000000d00},3400,12744.0,,,,,,DLL,,,,,,,,,,,,,2023-12-21T11:46:58.8062399Z,C:\Windows\assembly\NativeImages_v4.0.30319_64\Temp\31c8-0\Microsoft.VisualStudio.PerformanceTools.EditorIntegration.dll,,,,,,11,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:58.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:46:58.8062399Z""/>
+    <EventRecordID>6702</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:46:58.797</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-25b2-6584-c109-000000000d00}</Data>
+    <Data Name=""ProcessId"">12744</Data>
+    <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe</Data>
+    <Data Name=""TargetFilename"">C:\Windows\assembly\NativeImages_v4.0.30319_64\Temp\31c8-0\Microsoft.VisualStudio.PerformanceTools.EditorIntegration.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-21 11:46:58.797</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,46:58.1,,,,,,,,,11,6701,,,,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-25ac-6584-bf09-000000000d00},3400,11324.0,,,,,,DLL,,,,,,,,,,,,,2023-12-21T11:46:58.0779648Z,C:\Windows\assembly\NativeImages_v4.0.30319_64\Temp\2c3c-0\Microsoft.VisualStudio.Workspace.VSIntegration.dll,,,,,,11,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:58.1,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:46:58.0779648Z""/>
+    <EventRecordID>6701</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:46:58.063</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-25ac-6584-bf09-000000000d00}</Data>
+    <Data Name=""ProcessId"">11324</Data>
+    <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe</Data>
+    <Data Name=""TargetFilename"">C:\Windows\assembly\NativeImages_v4.0.30319_64\Temp\2c3c-0\Microsoft.VisualStudio.Workspace.VSIntegration.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-21 11:46:58.063</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,46:51.5,,,,,,,,,11,6700,,,,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-25ab-6584-bd09-000000000d00},3400,6016.0,,,,,,DLL,,,,,,,,,,,,,2023-12-21T11:46:51.4705139Z,C:\Windows\assembly\NativeImages_v4.0.30319_64\Temp\1780-0\Microsoft.VisualStudio.Workspace.VSIntegration.Contracts.dll,,,,,,11,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:51.5,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:46:51.4705139Z""/>
+    <EventRecordID>6700</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:46:51.456</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-25ab-6584-bd09-000000000d00}</Data>
+    <Data Name=""ProcessId"">6016</Data>
+    <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe</Data>
+    <Data Name=""TargetFilename"">C:\Windows\assembly\NativeImages_v4.0.30319_64\Temp\1780-0\Microsoft.VisualStudio.Workspace.VSIntegration.Contracts.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-21 11:46:51.456</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,46:51.0,,,,,,,,,11,6699,,,,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-25a7-6584-bb09-000000000d00},3400,11084.0,,,,,,DLL,,,,,,,,,,,,,2023-12-21T11:46:50.9855772Z,C:\Windows\assembly\NativeImages_v4.0.30319_64\Temp\2b4c-0\Microsoft.VisualStudio.Workspace.Implementation.dll,,,,,,11,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:51.0,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:46:50.9855772Z""/>
+    <EventRecordID>6699</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:46:50.982</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-25a7-6584-bb09-000000000d00}</Data>
+    <Data Name=""ProcessId"">11084</Data>
+    <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe</Data>
+    <Data Name=""TargetFilename"">C:\Windows\assembly\NativeImages_v4.0.30319_64\Temp\2b4c-0\Microsoft.VisualStudio.Workspace.Implementation.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-21 11:46:50.982</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,46:47.6,,,,,,,,,11,6698,,,,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-25a7-6584-b909-000000000d00},3400,13276.0,,,,,,DLL,,,,,,,,,,,,,2023-12-21T11:46:47.6315298Z,C:\Windows\assembly\NativeImages_v4.0.30319_64\Temp\33dc-0\Microsoft.VisualStudio.Workspace.Extensions.VS.dll,,,,,,11,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:47.6,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:46:47.6315298Z""/>
+    <EventRecordID>6698</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:46:47.617</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-25a7-6584-b909-000000000d00}</Data>
+    <Data Name=""ProcessId"">13276</Data>
+    <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe</Data>
+    <Data Name=""TargetFilename"">C:\Windows\assembly\NativeImages_v4.0.30319_64\Temp\33dc-0\Microsoft.VisualStudio.Workspace.Extensions.VS.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-21 11:46:47.617</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,46:47.3,,,,,,,,,11,6697,,,,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-25a5-6584-b709-000000000d00},3400,12032.0,,,,,,DLL,,,,,,,,,,,,,2023-12-21T11:46:47.3201324Z,C:\Windows\assembly\NativeImages_v4.0.30319_64\Temp\2f00-0\Microsoft.VisualStudio.Workspace.Extensions.Implementation.VS.dll,,,,,,11,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:47.3,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:46:47.3201324Z""/>
+    <EventRecordID>6697</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:46:47.304</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-25a5-6584-b709-000000000d00}</Data>
+    <Data Name=""ProcessId"">12032</Data>
+    <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe</Data>
+    <Data Name=""TargetFilename"">C:\Windows\assembly\NativeImages_v4.0.30319_64\Temp\2f00-0\Microsoft.VisualStudio.Workspace.Extensions.Implementation.VS.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-21 11:46:47.304</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,46:44.6,,,,,,,,,11,6696,,,,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-25a2-6584-b509-000000000d00},3400,10504.0,,,,,,DLL,,,,,,,,,,,,,2023-12-21T11:46:44.5649675Z,C:\Windows\assembly\NativeImages_v4.0.30319_64\Temp\2908-0\Microsoft.VisualStudio.Workspace.Extensions.Implementation.dll,,,,,,11,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:44.6,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-21T11:46:44.5649675Z""/>
+    <EventRecordID>6696</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-21 11:46:44.564</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-25a2-6584-b509-000000000d00}</Data>
+    <Data Name=""ProcessId"">10504</Data>
+    <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe</Data>
+    <Data Name=""TargetFilename"">C:\Windows\assembly\NativeImages_v4.0.30319_64\Temp\2908-0\Microsoft.VisualStudio.Workspace.Extensions.Implementation.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-21 11:46:44.564</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"

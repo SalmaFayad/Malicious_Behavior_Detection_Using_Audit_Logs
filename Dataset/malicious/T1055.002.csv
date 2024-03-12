@@ -1,0 +1,371 @@
+Channel,CommandLine,Company,Computer,CreationUtcTime,CurrentDirectory,Description,Details,EventID,EventRecordID,EventType,FileVersion,Hashes,Image,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,RuleName,SystemTime,TargetFilename,TargetObject,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,09/10/2023 09:18:51,13,19576,SetValue,,,C:\Windows\System32\svchost.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-36f8-658c-3e00-000000000f00},3588,3212,,InvDB-CompileTimeClaim,2023-12-27T18:56:51.4235947Z,,\REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\redinjection.exe|e1e16ee725db86b0\LinkDate,13,,5124,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-27 18:56:51.414,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:56:51.4235947Z""/>
+      <EventRecordID>19576</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">InvDB-CompileTimeClaim</Data>
+      <Data Name=""EventType"">SetValue</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:56:51.414</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-36f8-658c-3e00-000000000f00}</Data>
+      <Data Name=""ProcessId"">3212</Data>
+      <Data Name=""Image"">C:\Windows\System32\svchost.exe</Data>
+      <Data Name=""TargetObject"">\REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\redinjection.exe|e1e16ee725db86b0\LinkDate</Data>
+      <Data Name=""Details"">09/10/2023 09:18:51</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,c:\atomicredteam\atomics\t1055.002\bin\redinjection.exe,13,19575,SetValue,,,C:\Windows\System32\svchost.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-36f8-658c-3e00-000000000f00},3588,3212,,InvDB-Path,2023-12-27T18:56:51.4232819Z,,\REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\redinjection.exe|e1e16ee725db86b0\LowerCaseLongPath,13,,5124,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-27 18:56:51.414,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:56:51.4232819Z""/>
+      <EventRecordID>19575</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">InvDB-Path</Data>
+      <Data Name=""EventType"">SetValue</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:56:51.414</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-36f8-658c-3e00-000000000f00}</Data>
+      <Data Name=""ProcessId"">3212</Data>
+      <Data Name=""Image"">C:\Windows\System32\svchost.exe</Data>
+      <Data Name=""TargetObject"">\REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\redinjection.exe|e1e16ee725db86b0\LowerCaseLongPath</Data>
+      <Data Name=""Details"">c:\atomicredteam\atomics\t1055.002\bin\redinjection.exe</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.18.3181.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe"" -Embedding",-,WinDev2309Eval,,C:\Windows\system32\,-,,1,19574,,-,"MD5=69D536A57E2CA570BD305FC17A72FBA4,SHA256=DF554DF7C1611574C9B7D1B783FE851D19A6868FBE035D460EF8D0E0E27151DA,IMPHASH=89539BECC118C763F2798F0B697FEEC1",C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.18.3181.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,-,C:\Windows\system32\svchost.exe -k DcomLaunch -p,C:\Windows\System32\svchost.exe,{f57bd86a-36f5-658c-0d00-000000000f00},932,NT AUTHORITY\SYSTEM,{f57bd86a-7372-658c-c401-000000000f00},3588,8852,-,-,2023-12-27T18:56:50.8799553Z,,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 18:56:50.878,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:56:50.8799553Z""/>
+      <EventRecordID>19574</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:56:50.878</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-7372-658c-c401-000000000f00}</Data>
+      <Data Name=""ProcessId"">8852</Data>
+      <Data Name=""Image"">C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.18.3181.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe</Data>
+      <Data Name=""FileVersion"">-</Data>
+      <Data Name=""Description"">-</Data>
+      <Data Name=""Product"">-</Data>
+      <Data Name=""Company"">-</Data>
+      <Data Name=""OriginalFileName"">-</Data>
+      <Data Name=""CommandLine"">""C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.18.3181.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe"" -Embedding</Data>
+      <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=69D536A57E2CA570BD305FC17A72FBA4,SHA256=DF554DF7C1611574C9B7D1B783FE851D19A6868FBE035D460EF8D0E0E27151DA,IMPHASH=89539BECC118C763F2798F0B697FEEC1</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-36f5-658c-0d00-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">932</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\svchost.exe</Data>
+      <Data Name=""ParentCommandLine"">C:\Windows\system32\svchost.exe -k DcomLaunch -p</Data>
+      <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.18.3181.0_x64__8wekyb3d8bbwe\OpenConsole.exe"" -Embedding",-,WinDev2309Eval,,C:\Windows\system32\,-,,1,19573,,-,"MD5=3E8BF6C2578C0E26CBD699A9E1A48A32,SHA256=34E13A88400216D70CC4BF03DC91AB7911F8A9354A735E4DCB090E73AEB0CE56,IMPHASH=8AEDC24AD9CD564AA66BAB6D1F8D2FDB",C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.18.3181.0_x64__8wekyb3d8bbwe\OpenConsole.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,-,C:\Windows\system32\svchost.exe -k DcomLaunch -p,C:\Windows\System32\svchost.exe,{f57bd86a-36f5-658c-0d00-000000000f00},932,NT AUTHORITY\SYSTEM,{f57bd86a-7372-658c-c301-000000000f00},3588,9504,-,-,2023-12-27T18:56:50.8181050Z,,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 18:56:50.816,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:56:50.8181050Z""/>
+      <EventRecordID>19573</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:56:50.816</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-7372-658c-c301-000000000f00}</Data>
+      <Data Name=""ProcessId"">9504</Data>
+      <Data Name=""Image"">C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.18.3181.0_x64__8wekyb3d8bbwe\OpenConsole.exe</Data>
+      <Data Name=""FileVersion"">-</Data>
+      <Data Name=""Description"">-</Data>
+      <Data Name=""Product"">-</Data>
+      <Data Name=""Company"">-</Data>
+      <Data Name=""OriginalFileName"">-</Data>
+      <Data Name=""CommandLine"">""C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.18.3181.0_x64__8wekyb3d8bbwe\OpenConsole.exe"" -Embedding</Data>
+      <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=3E8BF6C2578C0E26CBD699A9E1A48A32,SHA256=34E13A88400216D70CC4BF03DC91AB7911F8A9354A735E4DCB090E73AEB0CE56,IMPHASH=8AEDC24AD9CD564AA66BAB6D1F8D2FDB</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-36f5-658c-0d00-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">932</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\svchost.exe</Data>
+      <Data Name=""ParentCommandLine"">C:\Windows\system32\svchost.exe -k DcomLaunch -p</Data>
+      <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\AtomicRedTeam\atomics\T1055.002\bin\RedInjection.exe"" ",-,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,-,,1,19572,,-,"MD5=971B85182E9242399927A5AA32F197C1,SHA256=633330A52CBFFE1953C357123FCC928A97B106A6A67155C9AF09837631EF3954,IMPHASH=68CD40572E8ECD3F379373D45AF1E1AB",C:\AtomicRedTeam\atomics\T1055.002\bin\RedInjection.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,-,"""powershell.exe"" & {Start-Process \""""C:\AtomicRedTeam\atomics\T1055.002\bin\RedInjection.exe\""""
+Start-Sleep -Seconds 7
+Get-Process -Name Notepad -ErrorAction SilentlyContinue | Stop-Process -Force}",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,{f57bd86a-736f-658c-bf01-000000000f00},5868,WINDEV2309EVAL\User,{f57bd86a-7372-658c-c101-000000000f00},3588,10528,-,-,2023-12-27T18:56:50.7849168Z,,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 18:56:50.782,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:56:50.7849168Z""/>
+      <EventRecordID>19572</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:56:50.782</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-7372-658c-c101-000000000f00}</Data>
+      <Data Name=""ProcessId"">10528</Data>
+      <Data Name=""Image"">C:\AtomicRedTeam\atomics\T1055.002\bin\RedInjection.exe</Data>
+      <Data Name=""FileVersion"">-</Data>
+      <Data Name=""Description"">-</Data>
+      <Data Name=""Product"">-</Data>
+      <Data Name=""Company"">-</Data>
+      <Data Name=""OriginalFileName"">-</Data>
+      <Data Name=""CommandLine"">""C:\AtomicRedTeam\atomics\T1055.002\bin\RedInjection.exe"" </Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=971B85182E9242399927A5AA32F197C1,SHA256=633330A52CBFFE1953C357123FCC928A97B106A6A67155C9AF09837631EF3954,IMPHASH=68CD40572E8ECD3F379373D45AF1E1AB</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-736f-658c-bf01-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">5868</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""ParentCommandLine"">""powershell.exe"" &amp; {Start-Process \""""C:\AtomicRedTeam\atomics\T1055.002\bin\RedInjection.exe\""""
+Start-Sleep -Seconds 7
+Get-Process -Name Notepad -ErrorAction SilentlyContinue | Stop-Process -Force}</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-27 18:56:47.331,,,,11,19571,,,,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-736f-658c-bf01-000000000f00},3588,5868,,-,2023-12-27T18:56:47.3401717Z,C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_dk2rkt5j.bkk.ps1,,11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 18:56:47.331,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:56:47.3401717Z""/>
+      <EventRecordID>19571</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:56:47.331</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-736f-658c-bf01-000000000f00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""TargetFilename"">C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_dk2rkt5j.bkk.ps1</Data>
+      <Data Name=""CreationUtcTime"">2023-12-27 18:56:47.331</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""powershell.exe"" & {Start-Process \""""C:\AtomicRedTeam\atomics\T1055.002\bin\RedInjection.exe\""""
+Start-Sleep -Seconds 7
+Get-Process -Name Notepad -ErrorAction SilentlyContinue | Stop-Process -Force}",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Windows PowerShell,,1,19570,,10.0.22621.2506 (WinBuild.160101.0800),"MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,PowerShell.EXE,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-736f-658c-bf01-000000000f00},3588,5868,Microsoft® Windows® Operating System,-,2023-12-27T18:56:47.2049377Z,,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 18:56:47.203,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:56:47.2049377Z""/>
+      <EventRecordID>19570</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:56:47.203</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-736f-658c-bf01-000000000f00}</Data>
+      <Data Name=""ProcessId"">5868</Data>
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows PowerShell</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">PowerShell.EXE</Data>
+      <Data Name=""CommandLine"">""powershell.exe"" &amp; {Start-Process \""""C:\AtomicRedTeam\atomics\T1055.002\bin\RedInjection.exe\""""
+Start-Sleep -Seconds 7
+Get-Process -Name Notepad -ErrorAction SilentlyContinue | Stop-Process -Force}</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\whoami.exe""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\,whoami - displays logged on user information,,1,19569,,10.0.22621.1 (WinBuild.160101.0800),"MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292",C:\Windows\System32\whoami.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,whoami.exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-736e-658c-be01-000000000f00},3588,6816,Microsoft® Windows® Operating System,-,2023-12-27T18:56:46.1547517Z,,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 18:56:46.152,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:56:46.1547517Z""/>
+      <EventRecordID>19569</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:56:46.152</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-736e-658c-be01-000000000f00}</Data>
+      <Data Name=""ProcessId"">6816</Data>
+      <Data Name=""Image"">C:\Windows\System32\whoami.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">whoami - displays logged on user information</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">whoami.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\whoami.exe""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\HOSTNAME.EXE""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\,Hostname APP,,1,19568,,10.0.22621.2506 (WinBuild.160101.0800),"MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8",C:\Windows\System32\HOSTNAME.EXE,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,hostname.exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-736e-658c-bd01-000000000f00},3588,8864,Microsoft® Windows® Operating System,-,2023-12-27T18:56:46.1275750Z,,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 18:56:46.126,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:56:46.1275750Z""/>
+      <EventRecordID>19568</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:56:46.126</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-736e-658c-bd01-000000000f00}</Data>
+      <Data Name=""ProcessId"">8864</Data>
+      <Data Name=""Image"">C:\Windows\System32\HOSTNAME.EXE</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Hostname APP</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">hostname.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\HOSTNAME.EXE""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+  </Event>
+
+"

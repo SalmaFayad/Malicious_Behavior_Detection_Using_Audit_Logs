@@ -1,0 +1,2140 @@
+Channel,CommandLine,Company,Computer,CreationUtcTime,CurrentDirectory,Description,Details,EventID,EventRecordID,EventType,FileVersion,Hashes,Image,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Message,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,QueryName,QueryResults,QueryStatus,RenderingInfo,RuleName,SystemTime,TargetFilename,TargetObject,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,22,19587,,,,C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe,,0x8000000000000000,Information,,,"Dns query:
+
+RuleName: -
+
+UtcTime: 2023-12-27 14:52:06.495
+
+ProcessGuid: {f57bd86a-a8e5-658c-ce01-000000000f00}
+
+ProcessId: 10512
+
+QueryName: WINDEV2309EVAL
+
+QueryStatus: 0
+
+QueryResults: 192.168.36.130;192.168.126.163;
+
+Image: C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe
+
+User: WINDEV2309EVAL\User",Info,,,,,,,{f57bd86a-a8e5-658c-ce01-000000000f00},3588,10512,,WINDEV2309EVAL,192.168.36.130;192.168.126.163;,0,"
+      ",-,2023-12-27T22:44:55.6729230Z,,,Dns query (rule: DnsQuery),,5164,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 14:52:06.495,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>22</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>22</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:44:55.6729230Z""/>
+      <EventRecordID>19587</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5164""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 14:52:06.495</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a8e5-658c-ce01-000000000f00}</Data>
+      <Data Name=""ProcessId"">10512</Data>
+      <Data Name=""QueryName"">WINDEV2309EVAL</Data>
+      <Data Name=""QueryStatus"">0</Data>
+      <Data Name=""QueryResults"">192.168.36.130;192.168.126.163;</Data>
+      <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Dns query:
+
+RuleName: -
+
+UtcTime: 2023-12-27 14:52:06.495
+
+ProcessGuid: {f57bd86a-a8e5-658c-ce01-000000000f00}
+
+ProcessId: 10512
+
+QueryName: WINDEV2309EVAL
+
+QueryStatus: 0
+
+QueryResults: 192.168.36.130;192.168.126.163;
+
+Image: C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe
+
+User: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Dns query (rule: DnsQuery)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe"" C:\Users\User\AppData\Local\Temp\T1218.009.dll",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Microsoft .NET Services Installation Utility,,1,19586,,4.8.9032.0 built by: NET481REL1,"MD5=D85F3F7A1D6107853816BE0E4B020B7E,SHA256=083BC9319EB8066131B8005DD7013F85F2A27C7908767F94183D3E153B8DB12B,IMPHASH=F34D5F2D4577ED6D9CEEC516C1F5A744",C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegSvcs.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:53.668
+
+ProcessGuid: {f57bd86a-a8e5-658c-ce01-000000000f00}
+
+ProcessId: 10512
+
+Image: C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegSvcs.exe
+
+FileVersion: 4.8.9032.0 built by: NET481REL1
+
+Description: Microsoft .NET Services Installation Utility
+
+Product: Microsoft® .NET Framework
+
+Company: Microsoft Corporation
+
+OriginalFileName: RegSvcs.exe
+
+CommandLine: ""C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe"" C:\Users\User\AppData\Local\Temp\T1218.009.dll
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=D85F3F7A1D6107853816BE0E4B020B7E,SHA256=083BC9319EB8066131B8005DD7013F85F2A27C7908767F94183D3E153B8DB12B,IMPHASH=F34D5F2D4577ED6D9CEEC516C1F5A744
+
+ParentProcessGuid: {f57bd86a-a8e3-658c-ca01-000000000f00}
+
+ParentProcessId: 1296
+
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+ParentCommandLine: ""powershell.exe"" & {$key = 'BwIAAAAkAABSU0EyAAQAAAEAAQBhXtvkSeH85E31z64cAX+X2PWGc6DHP9VaoD13CljtYau9SesUzKVLJdHphY5ppg5clHIGaL7nZbp6qukLH0lLEq/vW979GWzVAgSZaGVCFpuk6p1y69cSr3STlzljJrY76JIjeS4+RhbdWHp99y8QhwRllOC0qu/WxZaffHS2te/PKzIiTuFfcP46qxQoLR8s3QZhAJBnn9TGJkbix8MTgEt7hD1DC2hXv7dKaC531ZWqGXB54OnuvFbD5P2t+vyvZuHNmAy3pX0BDXqwEfoZZ+hiIk1YUDSNOE79zwnpVP1+BN0PK5QCPCS+6zujfRlQpJ+nfHLLicweJ9uT7OG3g/P+JpXGN0/+Hitolufo7Ucjh+WvZAU//dzrGny5stQtTmLxdhZbOsNDJpsqnzwEUfL5+o8OhujBHDm/ZQ0361mVsSVWrmgDPKHGGRx+7FbdgpBEq3m15/4zzg343V9NBwt1+qZU+TSVPU0wRvkWiZRerjmDdehJIboWsx4V8aiWx8FPPngEmNz89tBAQ8zbIrJFfmtYnj1fFmkNu3lglOefcacyYEHPX/tqcBuBIg/cpcDHps/6SGCCciX3tufnEeDMAQjmLku8X4zHcgJx6FpVK7qeEuvyV0OGKvNor9b/WKQHIHjkzG+z6nWHMoMYV5VMTZ0jLM5aZQ6ypwmFZaNmtL6KDzKv8L1YN2TkKjXEoWulXNliBpelsSJyuICplrCTPGGSxPGihT3rpZ9tbLZUefrFnLNiHfVjNi53Yg4='
+$Content = [System.Convert]::FromBase64String($key)
+Set-Content $env:Temp\key.snk -Value $Content -Encoding Byte
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:\""""$Env:TEMP\T1218.009.dll\"""" /target:library /keyfile:$env:Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe $Env:TEMP\T1218.009.dll}
+
+ParentUser: WINDEV2309EVAL\User",Info,RegSvcs.exe,"""powershell.exe"" & {$key = 'BwIAAAAkAABSU0EyAAQAAAEAAQBhXtvkSeH85E31z64cAX+X2PWGc6DHP9VaoD13CljtYau9SesUzKVLJdHphY5ppg5clHIGaL7nZbp6qukLH0lLEq/vW979GWzVAgSZaGVCFpuk6p1y69cSr3STlzljJrY76JIjeS4+RhbdWHp99y8QhwRllOC0qu/WxZaffHS2te/PKzIiTuFfcP46qxQoLR8s3QZhAJBnn9TGJkbix8MTgEt7hD1DC2hXv7dKaC531ZWqGXB54OnuvFbD5P2t+vyvZuHNmAy3pX0BDXqwEfoZZ+hiIk1YUDSNOE79zwnpVP1+BN0PK5QCPCS+6zujfRlQpJ+nfHLLicweJ9uT7OG3g/P+JpXGN0/+Hitolufo7Ucjh+WvZAU//dzrGny5stQtTmLxdhZbOsNDJpsqnzwEUfL5+o8OhujBHDm/ZQ0361mVsSVWrmgDPKHGGRx+7FbdgpBEq3m15/4zzg343V9NBwt1+qZU+TSVPU0wRvkWiZRerjmDdehJIboWsx4V8aiWx8FPPngEmNz89tBAQ8zbIrJFfmtYnj1fFmkNu3lglOefcacyYEHPX/tqcBuBIg/cpcDHps/6SGCCciX3tufnEeDMAQjmLku8X4zHcgJx6FpVK7qeEuvyV0OGKvNor9b/WKQHIHjkzG+z6nWHMoMYV5VMTZ0jLM5aZQ6ypwmFZaNmtL6KDzKv8L1YN2TkKjXEoWulXNliBpelsSJyuICplrCTPGGSxPGihT3rpZ9tbLZUefrFnLNiHfVjNi53Yg4='
+$Content = [System.Convert]::FromBase64String($key)
+Set-Content $env:Temp\key.snk -Value $Content -Encoding Byte
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:\""""$Env:TEMP\T1218.009.dll\"""" /target:library /keyfile:$env:Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe $Env:TEMP\T1218.009.dll}",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,{f57bd86a-a8e3-658c-ca01-000000000f00},1296,WINDEV2309EVAL\User,{f57bd86a-a8e5-658c-ce01-000000000f00},3588,10512,Microsoft® .NET Framework,,,,"
+      ",-,2023-12-27T22:44:53.6702731Z,,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:44:53.668,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:44:53.6702731Z""/>
+      <EventRecordID>19586</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:44:53.668</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a8e5-658c-ce01-000000000f00}</Data>
+      <Data Name=""ProcessId"">10512</Data>
+      <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegSvcs.exe</Data>
+      <Data Name=""FileVersion"">4.8.9032.0 built by: NET481REL1</Data>
+      <Data Name=""Description"">Microsoft .NET Services Installation Utility</Data>
+      <Data Name=""Product"">Microsoft&#174; .NET Framework</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">RegSvcs.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe"" C:\Users\User\AppData\Local\Temp\T1218.009.dll</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=D85F3F7A1D6107853816BE0E4B020B7E,SHA256=083BC9319EB8066131B8005DD7013F85F2A27C7908767F94183D3E153B8DB12B,IMPHASH=F34D5F2D4577ED6D9CEEC516C1F5A744</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-a8e3-658c-ca01-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">1296</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""ParentCommandLine"">""powershell.exe"" &amp; {$key = 'BwIAAAAkAABSU0EyAAQAAAEAAQBhXtvkSeH85E31z64cAX+X2PWGc6DHP9VaoD13CljtYau9SesUzKVLJdHphY5ppg5clHIGaL7nZbp6qukLH0lLEq/vW979GWzVAgSZaGVCFpuk6p1y69cSr3STlzljJrY76JIjeS4+RhbdWHp99y8QhwRllOC0qu/WxZaffHS2te/PKzIiTuFfcP46qxQoLR8s3QZhAJBnn9TGJkbix8MTgEt7hD1DC2hXv7dKaC531ZWqGXB54OnuvFbD5P2t+vyvZuHNmAy3pX0BDXqwEfoZZ+hiIk1YUDSNOE79zwnpVP1+BN0PK5QCPCS+6zujfRlQpJ+nfHLLicweJ9uT7OG3g/P+JpXGN0/+Hitolufo7Ucjh+WvZAU//dzrGny5stQtTmLxdhZbOsNDJpsqnzwEUfL5+o8OhujBHDm/ZQ0361mVsSVWrmgDPKHGGRx+7FbdgpBEq3m15/4zzg343V9NBwt1+qZU+TSVPU0wRvkWiZRerjmDdehJIboWsx4V8aiWx8FPPngEmNz89tBAQ8zbIrJFfmtYnj1fFmkNu3lglOefcacyYEHPX/tqcBuBIg/cpcDHps/6SGCCciX3tufnEeDMAQjmLku8X4zHcgJx6FpVK7qeEuvyV0OGKvNor9b/WKQHIHjkzG+z6nWHMoMYV5VMTZ0jLM5aZQ6ypwmFZaNmtL6KDzKv8L1YN2TkKjXEoWulXNliBpelsSJyuICplrCTPGGSxPGihT3rpZ9tbLZUefrFnLNiHfVjNi53Yg4='
+$Content = [System.Convert]::FromBase64String($key)
+Set-Content $env:Temp\key.snk -Value $Content -Encoding Byte
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:\""""$Env:TEMP\T1218.009.dll\"""" /target:library /keyfile:$env:Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe $Env:TEMP\T1218.009.dll}</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:53.668
+
+ProcessGuid: {f57bd86a-a8e5-658c-ce01-000000000f00}
+
+ProcessId: 10512
+
+Image: C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegSvcs.exe
+
+FileVersion: 4.8.9032.0 built by: NET481REL1
+
+Description: Microsoft .NET Services Installation Utility
+
+Product: Microsoft&#174; .NET Framework
+
+Company: Microsoft Corporation
+
+OriginalFileName: RegSvcs.exe
+
+CommandLine: ""C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe"" C:\Users\User\AppData\Local\Temp\T1218.009.dll
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=D85F3F7A1D6107853816BE0E4B020B7E,SHA256=083BC9319EB8066131B8005DD7013F85F2A27C7908767F94183D3E153B8DB12B,IMPHASH=F34D5F2D4577ED6D9CEEC516C1F5A744
+
+ParentProcessGuid: {f57bd86a-a8e3-658c-ca01-000000000f00}
+
+ParentProcessId: 1296
+
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+ParentCommandLine: ""powershell.exe"" &amp; {$key = 'BwIAAAAkAABSU0EyAAQAAAEAAQBhXtvkSeH85E31z64cAX+X2PWGc6DHP9VaoD13CljtYau9SesUzKVLJdHphY5ppg5clHIGaL7nZbp6qukLH0lLEq/vW979GWzVAgSZaGVCFpuk6p1y69cSr3STlzljJrY76JIjeS4+RhbdWHp99y8QhwRllOC0qu/WxZaffHS2te/PKzIiTuFfcP46qxQoLR8s3QZhAJBnn9TGJkbix8MTgEt7hD1DC2hXv7dKaC531ZWqGXB54OnuvFbD5P2t+vyvZuHNmAy3pX0BDXqwEfoZZ+hiIk1YUDSNOE79zwnpVP1+BN0PK5QCPCS+6zujfRlQpJ+nfHLLicweJ9uT7OG3g/P+JpXGN0/+Hitolufo7Ucjh+WvZAU//dzrGny5stQtTmLxdhZbOsNDJpsqnzwEUfL5+o8OhujBHDm/ZQ0361mVsSVWrmgDPKHGGRx+7FbdgpBEq3m15/4zzg343V9NBwt1+qZU+TSVPU0wRvkWiZRerjmDdehJIboWsx4V8aiWx8FPPngEmNz89tBAQ8zbIrJFfmtYnj1fFmkNu3lglOefcacyYEHPX/tqcBuBIg/cpcDHps/6SGCCciX3tufnEeDMAQjmLku8X4zHcgJx6FpVK7qeEuvyV0OGKvNor9b/WKQHIHjkzG+z6nWHMoMYV5VMTZ0jLM5aZQ6ypwmFZaNmtL6KDzKv8L1YN2TkKjXEoWulXNliBpelsSJyuICplrCTPGGSxPGihT3rpZ9tbLZUefrFnLNiHfVjNi53Yg4='
+$Content = [System.Convert]::FromBase64String($key)
+Set-Content $env:Temp\key.snk -Value $Content -Encoding Byte
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:\""""$Env:TEMP\T1218.009.dll\"""" /target:library /keyfile:$env:Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe $Env:TEMP\T1218.009.dll}
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-27 22:44:49.677,,,,11,19585,,,,C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-27 22:44:53.577
+
+ProcessGuid: {f57bd86a-a8e5-658c-cc01-000000000f00}
+
+ProcessId: 3836
+
+Image: C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\T1218.009.dll
+
+CreationUtcTime: 2023-12-27 22:44:49.677
+
+User: WINDEV2309EVAL\User",Info,,,,,,,{f57bd86a-a8e5-658c-cc01-000000000f00},3588,3836,,,,,"
+      ",DLL,2023-12-27T22:44:53.5804512Z,C:\Users\User\AppData\Local\Temp\T1218.009.dll,,File created (rule: FileCreate),,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:44:53.577,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:44:53.5804512Z""/>
+      <EventRecordID>19585</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:44:53.577</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a8e5-658c-cc01-000000000f00}</Data>
+      <Data Name=""ProcessId"">3836</Data>
+      <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe</Data>
+      <Data Name=""TargetFilename"">C:\Users\User\AppData\Local\Temp\T1218.009.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-27 22:44:49.677</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-27 22:44:53.577
+
+ProcessGuid: {f57bd86a-a8e5-658c-cc01-000000000f00}
+
+ProcessId: 3836
+
+Image: C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\T1218.009.dll
+
+CreationUtcTime: 2023-12-27 22:44:49.677
+
+User: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"C:\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe /NOLOGO /READONLY /MACHINE:IX86 ""/OUT:C:\Users\User\AppData\Local\Temp\RES5C2F.tmp"" ""c:\Users\User\AppData\Local\Temp\CSC4ECF1AAC18ED452A971239F383775798.TMP""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Microsoft® Resource File To COFF Object Conversion Utility,,1,19584,,14.32.31326.0,"MD5=44B91F024D116BDAD06F236C8EEDCB42,SHA256=D87971E7479DEEE3F54CDBE3522EE606C346991155B9A63B10C6789BB6D19192,IMPHASH=044A5794DF3749EEC2D2F845066C10CC",C:\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:53.565
+
+ProcessGuid: {f57bd86a-a8e5-658c-cd01-000000000f00}
+
+ProcessId: 8360
+
+Image: C:\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe
+
+FileVersion: 14.32.31326.0
+
+Description: Microsoft® Resource File To COFF Object Conversion Utility
+
+Product: Microsoft® .NET Framework
+
+Company: Microsoft Corporation
+
+OriginalFileName: CVTRES.EXE
+
+CommandLine: C:\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe /NOLOGO /READONLY /MACHINE:IX86 ""/OUT:C:\Users\User\AppData\Local\Temp\RES5C2F.tmp"" ""c:\Users\User\AppData\Local\Temp\CSC4ECF1AAC18ED452A971239F383775798.TMP""
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=44B91F024D116BDAD06F236C8EEDCB42,SHA256=D87971E7479DEEE3F54CDBE3522EE606C346991155B9A63B10C6789BB6D19192,IMPHASH=044A5794DF3749EEC2D2F845066C10CC
+
+ParentProcessGuid: {f57bd86a-a8e5-658c-cc01-000000000f00}
+
+ParentProcessId: 3836
+
+ParentImage: C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe
+
+ParentCommandLine: ""C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe"" /r:System.EnterpriseServices.dll /out:C:\Users\User\AppData\Local\Temp\T1218.009.dll /target:library /keyfile:C:\Users\User\AppData\Local\Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs
+
+ParentUser: WINDEV2309EVAL\User",Info,CVTRES.EXE,"""C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe"" /r:System.EnterpriseServices.dll /out:C:\Users\User\AppData\Local\Temp\T1218.009.dll /target:library /keyfile:C:\Users\User\AppData\Local\Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs",C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe,{f57bd86a-a8e5-658c-cc01-000000000f00},3836,WINDEV2309EVAL\User,{f57bd86a-a8e5-658c-cd01-000000000f00},3588,8360,Microsoft® .NET Framework,,,,"
+      ",-,2023-12-27T22:44:53.5660758Z,,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:44:53.565,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:44:53.5660758Z""/>
+      <EventRecordID>19584</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:44:53.565</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a8e5-658c-cd01-000000000f00}</Data>
+      <Data Name=""ProcessId"">8360</Data>
+      <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe</Data>
+      <Data Name=""FileVersion"">14.32.31326.0</Data>
+      <Data Name=""Description"">Microsoft&#174; Resource File To COFF Object Conversion Utility</Data>
+      <Data Name=""Product"">Microsoft&#174; .NET Framework</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">CVTRES.EXE</Data>
+      <Data Name=""CommandLine"">C:\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe /NOLOGO /READONLY /MACHINE:IX86 ""/OUT:C:\Users\User\AppData\Local\Temp\RES5C2F.tmp"" ""c:\Users\User\AppData\Local\Temp\CSC4ECF1AAC18ED452A971239F383775798.TMP""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=44B91F024D116BDAD06F236C8EEDCB42,SHA256=D87971E7479DEEE3F54CDBE3522EE606C346991155B9A63B10C6789BB6D19192,IMPHASH=044A5794DF3749EEC2D2F845066C10CC</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-a8e5-658c-cc01-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">3836</Data>
+      <Data Name=""ParentImage"">C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe</Data>
+      <Data Name=""ParentCommandLine"">""C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe"" /r:System.EnterpriseServices.dll /out:C:\Users\User\AppData\Local\Temp\T1218.009.dll /target:library /keyfile:C:\Users\User\AppData\Local\Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:53.565
+
+ProcessGuid: {f57bd86a-a8e5-658c-cd01-000000000f00}
+
+ProcessId: 8360
+
+Image: C:\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe
+
+FileVersion: 14.32.31326.0
+
+Description: Microsoft&#174; Resource File To COFF Object Conversion Utility
+
+Product: Microsoft&#174; .NET Framework
+
+Company: Microsoft Corporation
+
+OriginalFileName: CVTRES.EXE
+
+CommandLine: C:\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe /NOLOGO /READONLY /MACHINE:IX86 ""/OUT:C:\Users\User\AppData\Local\Temp\RES5C2F.tmp"" ""c:\Users\User\AppData\Local\Temp\CSC4ECF1AAC18ED452A971239F383775798.TMP""
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=44B91F024D116BDAD06F236C8EEDCB42,SHA256=D87971E7479DEEE3F54CDBE3522EE606C346991155B9A63B10C6789BB6D19192,IMPHASH=044A5794DF3749EEC2D2F845066C10CC
+
+ParentProcessGuid: {f57bd86a-a8e5-658c-cc01-000000000f00}
+
+ParentProcessId: 3836
+
+ParentImage: C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe
+
+ParentCommandLine: ""C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe"" /r:System.EnterpriseServices.dll /out:C:\Users\User\AppData\Local\Temp\T1218.009.dll /target:library /keyfile:C:\Users\User\AppData\Local\Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe"" /r:System.EnterpriseServices.dll /out:C:\Users\User\AppData\Local\Temp\T1218.009.dll /target:library /keyfile:C:\Users\User\AppData\Local\Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Visual C# Command Line Compiler,,1,19583,,4.8.9032.0 built by: NET481REL1,"MD5=62192216CE5BA62C44297544C18A48C0,SHA256=34E102F9AD249B343099913CF4EEA2334DECFAF0529314DE256EEFE77D04212B,IMPHASH=E71FED45B53EFEB0043B037EB03A1D12",C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:53.409
+
+ProcessGuid: {f57bd86a-a8e5-658c-cc01-000000000f00}
+
+ProcessId: 3836
+
+Image: C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe
+
+FileVersion: 4.8.9032.0 built by: NET481REL1
+
+Description: Visual C# Command Line Compiler
+
+Product: Microsoft® .NET Framework
+
+Company: Microsoft Corporation
+
+OriginalFileName: csc.exe
+
+CommandLine: ""C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe"" /r:System.EnterpriseServices.dll /out:C:\Users\User\AppData\Local\Temp\T1218.009.dll /target:library /keyfile:C:\Users\User\AppData\Local\Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=62192216CE5BA62C44297544C18A48C0,SHA256=34E102F9AD249B343099913CF4EEA2334DECFAF0529314DE256EEFE77D04212B,IMPHASH=E71FED45B53EFEB0043B037EB03A1D12
+
+ParentProcessGuid: {f57bd86a-a8e3-658c-ca01-000000000f00}
+
+ParentProcessId: 1296
+
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+ParentCommandLine: ""powershell.exe"" & {$key = 'BwIAAAAkAABSU0EyAAQAAAEAAQBhXtvkSeH85E31z64cAX+X2PWGc6DHP9VaoD13CljtYau9SesUzKVLJdHphY5ppg5clHIGaL7nZbp6qukLH0lLEq/vW979GWzVAgSZaGVCFpuk6p1y69cSr3STlzljJrY76JIjeS4+RhbdWHp99y8QhwRllOC0qu/WxZaffHS2te/PKzIiTuFfcP46qxQoLR8s3QZhAJBnn9TGJkbix8MTgEt7hD1DC2hXv7dKaC531ZWqGXB54OnuvFbD5P2t+vyvZuHNmAy3pX0BDXqwEfoZZ+hiIk1YUDSNOE79zwnpVP1+BN0PK5QCPCS+6zujfRlQpJ+nfHLLicweJ9uT7OG3g/P+JpXGN0/+Hitolufo7Ucjh+WvZAU//dzrGny5stQtTmLxdhZbOsNDJpsqnzwEUfL5+o8OhujBHDm/ZQ0361mVsSVWrmgDPKHGGRx+7FbdgpBEq3m15/4zzg343V9NBwt1+qZU+TSVPU0wRvkWiZRerjmDdehJIboWsx4V8aiWx8FPPngEmNz89tBAQ8zbIrJFfmtYnj1fFmkNu3lglOefcacyYEHPX/tqcBuBIg/cpcDHps/6SGCCciX3tufnEeDMAQjmLku8X4zHcgJx6FpVK7qeEuvyV0OGKvNor9b/WKQHIHjkzG+z6nWHMoMYV5VMTZ0jLM5aZQ6ypwmFZaNmtL6KDzKv8L1YN2TkKjXEoWulXNliBpelsSJyuICplrCTPGGSxPGihT3rpZ9tbLZUefrFnLNiHfVjNi53Yg4='
+$Content = [System.Convert]::FromBase64String($key)
+Set-Content $env:Temp\key.snk -Value $Content -Encoding Byte
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:\""""$Env:TEMP\T1218.009.dll\"""" /target:library /keyfile:$env:Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe $Env:TEMP\T1218.009.dll}
+
+ParentUser: WINDEV2309EVAL\User",Info,csc.exe,"""powershell.exe"" & {$key = 'BwIAAAAkAABSU0EyAAQAAAEAAQBhXtvkSeH85E31z64cAX+X2PWGc6DHP9VaoD13CljtYau9SesUzKVLJdHphY5ppg5clHIGaL7nZbp6qukLH0lLEq/vW979GWzVAgSZaGVCFpuk6p1y69cSr3STlzljJrY76JIjeS4+RhbdWHp99y8QhwRllOC0qu/WxZaffHS2te/PKzIiTuFfcP46qxQoLR8s3QZhAJBnn9TGJkbix8MTgEt7hD1DC2hXv7dKaC531ZWqGXB54OnuvFbD5P2t+vyvZuHNmAy3pX0BDXqwEfoZZ+hiIk1YUDSNOE79zwnpVP1+BN0PK5QCPCS+6zujfRlQpJ+nfHLLicweJ9uT7OG3g/P+JpXGN0/+Hitolufo7Ucjh+WvZAU//dzrGny5stQtTmLxdhZbOsNDJpsqnzwEUfL5+o8OhujBHDm/ZQ0361mVsSVWrmgDPKHGGRx+7FbdgpBEq3m15/4zzg343V9NBwt1+qZU+TSVPU0wRvkWiZRerjmDdehJIboWsx4V8aiWx8FPPngEmNz89tBAQ8zbIrJFfmtYnj1fFmkNu3lglOefcacyYEHPX/tqcBuBIg/cpcDHps/6SGCCciX3tufnEeDMAQjmLku8X4zHcgJx6FpVK7qeEuvyV0OGKvNor9b/WKQHIHjkzG+z6nWHMoMYV5VMTZ0jLM5aZQ6ypwmFZaNmtL6KDzKv8L1YN2TkKjXEoWulXNliBpelsSJyuICplrCTPGGSxPGihT3rpZ9tbLZUefrFnLNiHfVjNi53Yg4='
+$Content = [System.Convert]::FromBase64String($key)
+Set-Content $env:Temp\key.snk -Value $Content -Encoding Byte
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:\""""$Env:TEMP\T1218.009.dll\"""" /target:library /keyfile:$env:Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe $Env:TEMP\T1218.009.dll}",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,{f57bd86a-a8e3-658c-ca01-000000000f00},1296,WINDEV2309EVAL\User,{f57bd86a-a8e5-658c-cc01-000000000f00},3588,3836,Microsoft® .NET Framework,,,,"
+      ",-,2023-12-27T22:44:53.4103604Z,,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:44:53.409,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:44:53.4103604Z""/>
+      <EventRecordID>19583</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:44:53.409</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a8e5-658c-cc01-000000000f00}</Data>
+      <Data Name=""ProcessId"">3836</Data>
+      <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe</Data>
+      <Data Name=""FileVersion"">4.8.9032.0 built by: NET481REL1</Data>
+      <Data Name=""Description"">Visual C# Command Line Compiler</Data>
+      <Data Name=""Product"">Microsoft&#174; .NET Framework</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">csc.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe"" /r:System.EnterpriseServices.dll /out:C:\Users\User\AppData\Local\Temp\T1218.009.dll /target:library /keyfile:C:\Users\User\AppData\Local\Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=62192216CE5BA62C44297544C18A48C0,SHA256=34E102F9AD249B343099913CF4EEA2334DECFAF0529314DE256EEFE77D04212B,IMPHASH=E71FED45B53EFEB0043B037EB03A1D12</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-a8e3-658c-ca01-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">1296</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""ParentCommandLine"">""powershell.exe"" &amp; {$key = 'BwIAAAAkAABSU0EyAAQAAAEAAQBhXtvkSeH85E31z64cAX+X2PWGc6DHP9VaoD13CljtYau9SesUzKVLJdHphY5ppg5clHIGaL7nZbp6qukLH0lLEq/vW979GWzVAgSZaGVCFpuk6p1y69cSr3STlzljJrY76JIjeS4+RhbdWHp99y8QhwRllOC0qu/WxZaffHS2te/PKzIiTuFfcP46qxQoLR8s3QZhAJBnn9TGJkbix8MTgEt7hD1DC2hXv7dKaC531ZWqGXB54OnuvFbD5P2t+vyvZuHNmAy3pX0BDXqwEfoZZ+hiIk1YUDSNOE79zwnpVP1+BN0PK5QCPCS+6zujfRlQpJ+nfHLLicweJ9uT7OG3g/P+JpXGN0/+Hitolufo7Ucjh+WvZAU//dzrGny5stQtTmLxdhZbOsNDJpsqnzwEUfL5+o8OhujBHDm/ZQ0361mVsSVWrmgDPKHGGRx+7FbdgpBEq3m15/4zzg343V9NBwt1+qZU+TSVPU0wRvkWiZRerjmDdehJIboWsx4V8aiWx8FPPngEmNz89tBAQ8zbIrJFfmtYnj1fFmkNu3lglOefcacyYEHPX/tqcBuBIg/cpcDHps/6SGCCciX3tufnEeDMAQjmLku8X4zHcgJx6FpVK7qeEuvyV0OGKvNor9b/WKQHIHjkzG+z6nWHMoMYV5VMTZ0jLM5aZQ6ypwmFZaNmtL6KDzKv8L1YN2TkKjXEoWulXNliBpelsSJyuICplrCTPGGSxPGihT3rpZ9tbLZUefrFnLNiHfVjNi53Yg4='
+$Content = [System.Convert]::FromBase64String($key)
+Set-Content $env:Temp\key.snk -Value $Content -Encoding Byte
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:\""""$Env:TEMP\T1218.009.dll\"""" /target:library /keyfile:$env:Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe $Env:TEMP\T1218.009.dll}</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:53.409
+
+ProcessGuid: {f57bd86a-a8e5-658c-cc01-000000000f00}
+
+ProcessId: 3836
+
+Image: C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe
+
+FileVersion: 4.8.9032.0 built by: NET481REL1
+
+Description: Visual C# Command Line Compiler
+
+Product: Microsoft&#174; .NET Framework
+
+Company: Microsoft Corporation
+
+OriginalFileName: csc.exe
+
+CommandLine: ""C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe"" /r:System.EnterpriseServices.dll /out:C:\Users\User\AppData\Local\Temp\T1218.009.dll /target:library /keyfile:C:\Users\User\AppData\Local\Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=62192216CE5BA62C44297544C18A48C0,SHA256=34E102F9AD249B343099913CF4EEA2334DECFAF0529314DE256EEFE77D04212B,IMPHASH=E71FED45B53EFEB0043B037EB03A1D12
+
+ParentProcessGuid: {f57bd86a-a8e3-658c-ca01-000000000f00}
+
+ParentProcessId: 1296
+
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+ParentCommandLine: ""powershell.exe"" &amp; {$key = 'BwIAAAAkAABSU0EyAAQAAAEAAQBhXtvkSeH85E31z64cAX+X2PWGc6DHP9VaoD13CljtYau9SesUzKVLJdHphY5ppg5clHIGaL7nZbp6qukLH0lLEq/vW979GWzVAgSZaGVCFpuk6p1y69cSr3STlzljJrY76JIjeS4+RhbdWHp99y8QhwRllOC0qu/WxZaffHS2te/PKzIiTuFfcP46qxQoLR8s3QZhAJBnn9TGJkbix8MTgEt7hD1DC2hXv7dKaC531ZWqGXB54OnuvFbD5P2t+vyvZuHNmAy3pX0BDXqwEfoZZ+hiIk1YUDSNOE79zwnpVP1+BN0PK5QCPCS+6zujfRlQpJ+nfHLLicweJ9uT7OG3g/P+JpXGN0/+Hitolufo7Ucjh+WvZAU//dzrGny5stQtTmLxdhZbOsNDJpsqnzwEUfL5+o8OhujBHDm/ZQ0361mVsSVWrmgDPKHGGRx+7FbdgpBEq3m15/4zzg343V9NBwt1+qZU+TSVPU0wRvkWiZRerjmDdehJIboWsx4V8aiWx8FPPngEmNz89tBAQ8zbIrJFfmtYnj1fFmkNu3lglOefcacyYEHPX/tqcBuBIg/cpcDHps/6SGCCciX3tufnEeDMAQjmLku8X4zHcgJx6FpVK7qeEuvyV0OGKvNor9b/WKQHIHjkzG+z6nWHMoMYV5VMTZ0jLM5aZQ6ypwmFZaNmtL6KDzKv8L1YN2TkKjXEoWulXNliBpelsSJyuICplrCTPGGSxPGihT3rpZ9tbLZUefrFnLNiHfVjNi53Yg4='
+$Content = [System.Convert]::FromBase64String($key)
+Set-Content $env:Temp\key.snk -Value $Content -Encoding Byte
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:\""""$Env:TEMP\T1218.009.dll\"""" /target:library /keyfile:$env:Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe $Env:TEMP\T1218.009.dll}
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-27 22:44:51.860,,,,11,19582,,,,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:51.860
+
+ProcessGuid: {f57bd86a-a8e3-658c-ca01-000000000f00}
+
+ProcessId: 1296
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_f2hw4jup.2dl.ps1
+
+CreationUtcTime: 2023-12-27 22:44:51.860
+
+User: WINDEV2309EVAL\User",Info,,,,,,,{f57bd86a-a8e3-658c-ca01-000000000f00},3588,1296,,,,,"
+      ",-,2023-12-27T22:44:51.8658099Z,C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_f2hw4jup.2dl.ps1,,File created (rule: FileCreate),,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:44:51.860,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:44:51.8658099Z""/>
+      <EventRecordID>19582</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:44:51.860</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a8e3-658c-ca01-000000000f00}</Data>
+      <Data Name=""ProcessId"">1296</Data>
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""TargetFilename"">C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_f2hw4jup.2dl.ps1</Data>
+      <Data Name=""CreationUtcTime"">2023-12-27 22:44:51.860</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:51.860
+
+ProcessGuid: {f57bd86a-a8e3-658c-ca01-000000000f00}
+
+ProcessId: 1296
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_f2hw4jup.2dl.ps1
+
+CreationUtcTime: 2023-12-27 22:44:51.860
+
+User: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""powershell.exe"" & {$key = 'BwIAAAAkAABSU0EyAAQAAAEAAQBhXtvkSeH85E31z64cAX+X2PWGc6DHP9VaoD13CljtYau9SesUzKVLJdHphY5ppg5clHIGaL7nZbp6qukLH0lLEq/vW979GWzVAgSZaGVCFpuk6p1y69cSr3STlzljJrY76JIjeS4+RhbdWHp99y8QhwRllOC0qu/WxZaffHS2te/PKzIiTuFfcP46qxQoLR8s3QZhAJBnn9TGJkbix8MTgEt7hD1DC2hXv7dKaC531ZWqGXB54OnuvFbD5P2t+vyvZuHNmAy3pX0BDXqwEfoZZ+hiIk1YUDSNOE79zwnpVP1+BN0PK5QCPCS+6zujfRlQpJ+nfHLLicweJ9uT7OG3g/P+JpXGN0/+Hitolufo7Ucjh+WvZAU//dzrGny5stQtTmLxdhZbOsNDJpsqnzwEUfL5+o8OhujBHDm/ZQ0361mVsSVWrmgDPKHGGRx+7FbdgpBEq3m15/4zzg343V9NBwt1+qZU+TSVPU0wRvkWiZRerjmDdehJIboWsx4V8aiWx8FPPngEmNz89tBAQ8zbIrJFfmtYnj1fFmkNu3lglOefcacyYEHPX/tqcBuBIg/cpcDHps/6SGCCciX3tufnEeDMAQjmLku8X4zHcgJx6FpVK7qeEuvyV0OGKvNor9b/WKQHIHjkzG+z6nWHMoMYV5VMTZ0jLM5aZQ6ypwmFZaNmtL6KDzKv8L1YN2TkKjXEoWulXNliBpelsSJyuICplrCTPGGSxPGihT3rpZ9tbLZUefrFnLNiHfVjNi53Yg4='
+$Content = [System.Convert]::FromBase64String($key)
+Set-Content $env:Temp\key.snk -Value $Content -Encoding Byte
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:\""""$Env:TEMP\T1218.009.dll\"""" /target:library /keyfile:$env:Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe $Env:TEMP\T1218.009.dll}",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Windows PowerShell,,1,19581,,10.0.22621.2506 (WinBuild.160101.0800),"MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:51.709
+
+ProcessGuid: {f57bd86a-a8e3-658c-ca01-000000000f00}
+
+ProcessId: 1296
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows PowerShell
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: PowerShell.EXE
+
+CommandLine: ""powershell.exe"" & {$key = 'BwIAAAAkAABSU0EyAAQAAAEAAQBhXtvkSeH85E31z64cAX+X2PWGc6DHP9VaoD13CljtYau9SesUzKVLJdHphY5ppg5clHIGaL7nZbp6qukLH0lLEq/vW979GWzVAgSZaGVCFpuk6p1y69cSr3STlzljJrY76JIjeS4+RhbdWHp99y8QhwRllOC0qu/WxZaffHS2te/PKzIiTuFfcP46qxQoLR8s3QZhAJBnn9TGJkbix8MTgEt7hD1DC2hXv7dKaC531ZWqGXB54OnuvFbD5P2t+vyvZuHNmAy3pX0BDXqwEfoZZ+hiIk1YUDSNOE79zwnpVP1+BN0PK5QCPCS+6zujfRlQpJ+nfHLLicweJ9uT7OG3g/P+JpXGN0/+Hitolufo7Ucjh+WvZAU//dzrGny5stQtTmLxdhZbOsNDJpsqnzwEUfL5+o8OhujBHDm/ZQ0361mVsSVWrmgDPKHGGRx+7FbdgpBEq3m15/4zzg343V9NBwt1+qZU+TSVPU0wRvkWiZRerjmDdehJIboWsx4V8aiWx8FPPngEmNz89tBAQ8zbIrJFfmtYnj1fFmkNu3lglOefcacyYEHPX/tqcBuBIg/cpcDHps/6SGCCciX3tufnEeDMAQjmLku8X4zHcgJx6FpVK7qeEuvyV0OGKvNor9b/WKQHIHjkzG+z6nWHMoMYV5VMTZ0jLM5aZQ6ypwmFZaNmtL6KDzKv8L1YN2TkKjXEoWulXNliBpelsSJyuICplrCTPGGSxPGihT3rpZ9tbLZUefrFnLNiHfVjNi53Yg4='
+$Content = [System.Convert]::FromBase64String($key)
+Set-Content $env:Temp\key.snk -Value $Content -Encoding Byte
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:\""""$Env:TEMP\T1218.009.dll\"""" /target:library /keyfile:$env:Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe $Env:TEMP\T1218.009.dll}
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,PowerShell.EXE,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-a8e3-658c-ca01-000000000f00},3588,1296,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T22:44:51.7107180Z,,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:44:51.709,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:44:51.7107180Z""/>
+      <EventRecordID>19581</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:44:51.709</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a8e3-658c-ca01-000000000f00}</Data>
+      <Data Name=""ProcessId"">1296</Data>
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows PowerShell</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">PowerShell.EXE</Data>
+      <Data Name=""CommandLine"">""powershell.exe"" &amp; {$key = 'BwIAAAAkAABSU0EyAAQAAAEAAQBhXtvkSeH85E31z64cAX+X2PWGc6DHP9VaoD13CljtYau9SesUzKVLJdHphY5ppg5clHIGaL7nZbp6qukLH0lLEq/vW979GWzVAgSZaGVCFpuk6p1y69cSr3STlzljJrY76JIjeS4+RhbdWHp99y8QhwRllOC0qu/WxZaffHS2te/PKzIiTuFfcP46qxQoLR8s3QZhAJBnn9TGJkbix8MTgEt7hD1DC2hXv7dKaC531ZWqGXB54OnuvFbD5P2t+vyvZuHNmAy3pX0BDXqwEfoZZ+hiIk1YUDSNOE79zwnpVP1+BN0PK5QCPCS+6zujfRlQpJ+nfHLLicweJ9uT7OG3g/P+JpXGN0/+Hitolufo7Ucjh+WvZAU//dzrGny5stQtTmLxdhZbOsNDJpsqnzwEUfL5+o8OhujBHDm/ZQ0361mVsSVWrmgDPKHGGRx+7FbdgpBEq3m15/4zzg343V9NBwt1+qZU+TSVPU0wRvkWiZRerjmDdehJIboWsx4V8aiWx8FPPngEmNz89tBAQ8zbIrJFfmtYnj1fFmkNu3lglOefcacyYEHPX/tqcBuBIg/cpcDHps/6SGCCciX3tufnEeDMAQjmLku8X4zHcgJx6FpVK7qeEuvyV0OGKvNor9b/WKQHIHjkzG+z6nWHMoMYV5VMTZ0jLM5aZQ6ypwmFZaNmtL6KDzKv8L1YN2TkKjXEoWulXNliBpelsSJyuICplrCTPGGSxPGihT3rpZ9tbLZUefrFnLNiHfVjNi53Yg4='
+$Content = [System.Convert]::FromBase64String($key)
+Set-Content $env:Temp\key.snk -Value $Content -Encoding Byte
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:\""""$Env:TEMP\T1218.009.dll\"""" /target:library /keyfile:$env:Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe $Env:TEMP\T1218.009.dll}</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:51.709
+
+ProcessGuid: {f57bd86a-a8e3-658c-ca01-000000000f00}
+
+ProcessId: 1296
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows PowerShell
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: PowerShell.EXE
+
+CommandLine: ""powershell.exe"" &amp; {$key = 'BwIAAAAkAABSU0EyAAQAAAEAAQBhXtvkSeH85E31z64cAX+X2PWGc6DHP9VaoD13CljtYau9SesUzKVLJdHphY5ppg5clHIGaL7nZbp6qukLH0lLEq/vW979GWzVAgSZaGVCFpuk6p1y69cSr3STlzljJrY76JIjeS4+RhbdWHp99y8QhwRllOC0qu/WxZaffHS2te/PKzIiTuFfcP46qxQoLR8s3QZhAJBnn9TGJkbix8MTgEt7hD1DC2hXv7dKaC531ZWqGXB54OnuvFbD5P2t+vyvZuHNmAy3pX0BDXqwEfoZZ+hiIk1YUDSNOE79zwnpVP1+BN0PK5QCPCS+6zujfRlQpJ+nfHLLicweJ9uT7OG3g/P+JpXGN0/+Hitolufo7Ucjh+WvZAU//dzrGny5stQtTmLxdhZbOsNDJpsqnzwEUfL5+o8OhujBHDm/ZQ0361mVsSVWrmgDPKHGGRx+7FbdgpBEq3m15/4zzg343V9NBwt1+qZU+TSVPU0wRvkWiZRerjmDdehJIboWsx4V8aiWx8FPPngEmNz89tBAQ8zbIrJFfmtYnj1fFmkNu3lglOefcacyYEHPX/tqcBuBIg/cpcDHps/6SGCCciX3tufnEeDMAQjmLku8X4zHcgJx6FpVK7qeEuvyV0OGKvNor9b/WKQHIHjkzG+z6nWHMoMYV5VMTZ0jLM5aZQ6ypwmFZaNmtL6KDzKv8L1YN2TkKjXEoWulXNliBpelsSJyuICplrCTPGGSxPGihT3rpZ9tbLZUefrFnLNiHfVjNi53Yg4='
+$Content = [System.Convert]::FromBase64String($key)
+Set-Content $env:Temp\key.snk -Value $Content -Encoding Byte
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:\""""$Env:TEMP\T1218.009.dll\"""" /target:library /keyfile:$env:Temp\key.snk C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\regsvcs.exe $Env:TEMP\T1218.009.dll}
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,4.0.30319.0,13,19580,SetValue,,,C:\Windows\System32\svchost.exe,,0x8000000000000000,Information,,,"Registry value set:
+
+RuleName: InvDB-Ver
+
+EventType: SetValue
+
+UtcTime: 2023-12-27 22:44:50.295
+
+ProcessGuid: {f57bd86a-36f8-658c-3e00-000000000f00}
+
+ProcessId: 3212
+
+Image: C:\Windows\System32\svchost.exe
+
+TargetObject: \REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\csc.exe|151e2b3228d75f8e\BinProductVersion
+
+Details: 4.0.30319.0
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{f57bd86a-36f8-658c-3e00-000000000f00},3588,3212,,,,,"
+      ",InvDB-Ver,2023-12-27T22:44:50.2977391Z,,\REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\csc.exe|151e2b3228d75f8e\BinProductVersion,Registry value set (rule: RegistryEvent),,5124,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-27 22:44:50.295,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:44:50.2977391Z""/>
+      <EventRecordID>19580</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">InvDB-Ver</Data>
+      <Data Name=""EventType"">SetValue</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:44:50.295</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-36f8-658c-3e00-000000000f00}</Data>
+      <Data Name=""ProcessId"">3212</Data>
+      <Data Name=""Image"">C:\Windows\System32\svchost.exe</Data>
+      <Data Name=""TargetObject"">\REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\csc.exe|151e2b3228d75f8e\BinProductVersion</Data>
+      <Data Name=""Details"">4.0.30319.0</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Registry value set:
+
+RuleName: InvDB-Ver
+
+EventType: SetValue
+
+UtcTime: 2023-12-27 22:44:50.295
+
+ProcessGuid: {f57bd86a-36f8-658c-3e00-000000000f00}
+
+ProcessId: 3212
+
+Image: C:\Windows\System32\svchost.exe
+
+TargetObject: \REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\csc.exe|151e2b3228d75f8e\BinProductVersion
+
+Details: 4.0.30319.0
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>Registry value set (rule: RegistryEvent)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,04/08/2022 22:16:45,13,19579,SetValue,,,C:\Windows\System32\svchost.exe,,0x8000000000000000,Information,,,"Registry value set:
+
+RuleName: InvDB-CompileTimeClaim
+
+EventType: SetValue
+
+UtcTime: 2023-12-27 22:44:50.295
+
+ProcessGuid: {f57bd86a-36f8-658c-3e00-000000000f00}
+
+ProcessId: 3212
+
+Image: C:\Windows\System32\svchost.exe
+
+TargetObject: \REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\csc.exe|151e2b3228d75f8e\LinkDate
+
+Details: 04/08/2022 22:16:45
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{f57bd86a-36f8-658c-3e00-000000000f00},3588,3212,,,,,"
+      ",InvDB-CompileTimeClaim,2023-12-27T22:44:50.2976831Z,,\REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\csc.exe|151e2b3228d75f8e\LinkDate,Registry value set (rule: RegistryEvent),,5124,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-27 22:44:50.295,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:44:50.2976831Z""/>
+      <EventRecordID>19579</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">InvDB-CompileTimeClaim</Data>
+      <Data Name=""EventType"">SetValue</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:44:50.295</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-36f8-658c-3e00-000000000f00}</Data>
+      <Data Name=""ProcessId"">3212</Data>
+      <Data Name=""Image"">C:\Windows\System32\svchost.exe</Data>
+      <Data Name=""TargetObject"">\REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\csc.exe|151e2b3228d75f8e\LinkDate</Data>
+      <Data Name=""Details"">04/08/2022 22:16:45</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Registry value set:
+
+RuleName: InvDB-CompileTimeClaim
+
+EventType: SetValue
+
+UtcTime: 2023-12-27 22:44:50.295
+
+ProcessGuid: {f57bd86a-36f8-658c-3e00-000000000f00}
+
+ProcessId: 3212
+
+Image: C:\Windows\System32\svchost.exe
+
+TargetObject: \REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\csc.exe|151e2b3228d75f8e\LinkDate
+
+Details: 04/08/2022 22:16:45
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>Registry value set (rule: RegistryEvent)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,microsoft corporation,13,19578,SetValue,,,C:\Windows\System32\svchost.exe,,0x8000000000000000,Information,,,"Registry value set:
+
+RuleName: InvDB-Pub
+
+EventType: SetValue
+
+UtcTime: 2023-12-27 22:44:50.295
+
+ProcessGuid: {f57bd86a-36f8-658c-3e00-000000000f00}
+
+ProcessId: 3212
+
+Image: C:\Windows\System32\svchost.exe
+
+TargetObject: \REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\csc.exe|151e2b3228d75f8e\Publisher
+
+Details: microsoft corporation
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{f57bd86a-36f8-658c-3e00-000000000f00},3588,3212,,,,,"
+      ",InvDB-Pub,2023-12-27T22:44:50.2973035Z,,\REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\csc.exe|151e2b3228d75f8e\Publisher,Registry value set (rule: RegistryEvent),,5124,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-27 22:44:50.295,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:44:50.2973035Z""/>
+      <EventRecordID>19578</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">InvDB-Pub</Data>
+      <Data Name=""EventType"">SetValue</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:44:50.295</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-36f8-658c-3e00-000000000f00}</Data>
+      <Data Name=""ProcessId"">3212</Data>
+      <Data Name=""Image"">C:\Windows\System32\svchost.exe</Data>
+      <Data Name=""TargetObject"">\REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\csc.exe|151e2b3228d75f8e\Publisher</Data>
+      <Data Name=""Details"">microsoft corporation</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Registry value set:
+
+RuleName: InvDB-Pub
+
+EventType: SetValue
+
+UtcTime: 2023-12-27 22:44:50.295
+
+ProcessGuid: {f57bd86a-36f8-658c-3e00-000000000f00}
+
+ProcessId: 3212
+
+Image: C:\Windows\System32\svchost.exe
+
+TargetObject: \REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\csc.exe|151e2b3228d75f8e\Publisher
+
+Details: microsoft corporation
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>Registry value set (rule: RegistryEvent)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,c:\windows\microsoft.net\framework\v4.0.30319\csc.exe,13,19577,SetValue,,,C:\Windows\System32\svchost.exe,,0x8000000000000000,Information,,,"Registry value set:
+
+RuleName: InvDB-Path
+
+EventType: SetValue
+
+UtcTime: 2023-12-27 22:44:50.295
+
+ProcessGuid: {f57bd86a-36f8-658c-3e00-000000000f00}
+
+ProcessId: 3212
+
+Image: C:\Windows\System32\svchost.exe
+
+TargetObject: \REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\csc.exe|151e2b3228d75f8e\LowerCaseLongPath
+
+Details: c:\windows\microsoft.net\framework\v4.0.30319\csc.exe
+
+User: NT AUTHORITY\SYSTEM",Info,,,,,,,{f57bd86a-36f8-658c-3e00-000000000f00},3588,3212,,,,,"
+      ",InvDB-Path,2023-12-27T22:44:50.2970150Z,,\REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\csc.exe|151e2b3228d75f8e\LowerCaseLongPath,Registry value set (rule: RegistryEvent),,5124,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-27 22:44:50.295,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>13</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>13</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:44:50.2970150Z""/>
+      <EventRecordID>19577</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">InvDB-Path</Data>
+      <Data Name=""EventType"">SetValue</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:44:50.295</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-36f8-658c-3e00-000000000f00}</Data>
+      <Data Name=""ProcessId"">3212</Data>
+      <Data Name=""Image"">C:\Windows\System32\svchost.exe</Data>
+      <Data Name=""TargetObject"">\REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\csc.exe|151e2b3228d75f8e\LowerCaseLongPath</Data>
+      <Data Name=""Details"">c:\windows\microsoft.net\framework\v4.0.30319\csc.exe</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Registry value set:
+
+RuleName: InvDB-Path
+
+EventType: SetValue
+
+UtcTime: 2023-12-27 22:44:50.295
+
+ProcessGuid: {f57bd86a-36f8-658c-3e00-000000000f00}
+
+ProcessId: 3212
+
+Image: C:\Windows\System32\svchost.exe
+
+TargetObject: \REGISTRY\A\{b3b14332-edc6-625a-c682-62677f6d06d4}\Root\InventoryApplicationFile\csc.exe|151e2b3228d75f8e\LowerCaseLongPath
+
+Details: c:\windows\microsoft.net\framework\v4.0.30319\csc.exe
+
+User: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>Registry value set (rule: RegistryEvent)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe  /U C:\Users\User\AppData\Local\Temp\T1218.009.dll,Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Microsoft .NET Assembly Registration Utility,,1,19576,,4.8.9032.0 built by: NET481REL1,"MD5=6E964AEBBF00FE8E25BF28CE22734E44,SHA256=613B37387DAF3698DF4A8BAF6E4350473EBC3F23682D368221CD8DEA9DE2FB63,IMPHASH=F34D5F2D4577ED6D9CEEC516C1F5A744",C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:49.841
+
+ProcessGuid: {f57bd86a-a8e1-658c-c801-000000000f00}
+
+ProcessId: 1052
+
+Image: C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe
+
+FileVersion: 4.8.9032.0 built by: NET481REL1
+
+Description: Microsoft .NET Assembly Registration Utility
+
+Product: Microsoft® .NET Framework
+
+Company: Microsoft Corporation
+
+OriginalFileName: RegAsm.exe
+
+CommandLine: C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe  /U C:\Users\User\AppData\Local\Temp\T1218.009.dll
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=6E964AEBBF00FE8E25BF28CE22734E44,SHA256=613B37387DAF3698DF4A8BAF6E4350473EBC3F23682D368221CD8DEA9DE2FB63,IMPHASH=F34D5F2D4577ED6D9CEEC516C1F5A744
+
+ParentProcessGuid: {f57bd86a-a8e0-658c-c401-000000000f00}
+
+ParentProcessId: 4740
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:""%tmp%\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" & C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe /U %tmp%\T1218.009.dll
+
+ParentUser: WINDEV2309EVAL\User",Info,RegAsm.exe,"""cmd.exe"" /c C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:""%tmp%\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" & C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe /U %tmp%\T1218.009.dll",C:\Windows\System32\cmd.exe,{f57bd86a-a8e0-658c-c401-000000000f00},4740,WINDEV2309EVAL\User,{f57bd86a-a8e1-658c-c801-000000000f00},3588,1052,Microsoft® .NET Framework,,,,"
+      ",-,2023-12-27T22:44:49.8423558Z,,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:44:49.841,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:44:49.8423558Z""/>
+      <EventRecordID>19576</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:44:49.841</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a8e1-658c-c801-000000000f00}</Data>
+      <Data Name=""ProcessId"">1052</Data>
+      <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe</Data>
+      <Data Name=""FileVersion"">4.8.9032.0 built by: NET481REL1</Data>
+      <Data Name=""Description"">Microsoft .NET Assembly Registration Utility</Data>
+      <Data Name=""Product"">Microsoft&#174; .NET Framework</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">RegAsm.exe</Data>
+      <Data Name=""CommandLine"">C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe  /U C:\Users\User\AppData\Local\Temp\T1218.009.dll</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=6E964AEBBF00FE8E25BF28CE22734E44,SHA256=613B37387DAF3698DF4A8BAF6E4350473EBC3F23682D368221CD8DEA9DE2FB63,IMPHASH=F34D5F2D4577ED6D9CEEC516C1F5A744</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-a8e0-658c-c401-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">4740</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:""%tmp%\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" &amp; C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe /U %tmp%\T1218.009.dll</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:49.841
+
+ProcessGuid: {f57bd86a-a8e1-658c-c801-000000000f00}
+
+ProcessId: 1052
+
+Image: C:\Windows\Microsoft.NET\Framework\v4.0.30319\RegAsm.exe
+
+FileVersion: 4.8.9032.0 built by: NET481REL1
+
+Description: Microsoft .NET Assembly Registration Utility
+
+Product: Microsoft&#174; .NET Framework
+
+Company: Microsoft Corporation
+
+OriginalFileName: RegAsm.exe
+
+CommandLine: C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe  /U C:\Users\User\AppData\Local\Temp\T1218.009.dll
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=6E964AEBBF00FE8E25BF28CE22734E44,SHA256=613B37387DAF3698DF4A8BAF6E4350473EBC3F23682D368221CD8DEA9DE2FB63,IMPHASH=F34D5F2D4577ED6D9CEEC516C1F5A744
+
+ParentProcessGuid: {f57bd86a-a8e0-658c-c401-000000000f00}
+
+ParentProcessId: 4740
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:""%tmp%\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" &amp; C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe /U %tmp%\T1218.009.dll
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-27 22:44:49.677,,,,11,19575,,,,C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-27 22:44:49.677
+
+ProcessGuid: {f57bd86a-a8e0-658c-c601-000000000f00}
+
+ProcessId: 4368
+
+Image: C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\T1218.009.dll
+
+CreationUtcTime: 2023-12-27 22:44:49.677
+
+User: WINDEV2309EVAL\User",Info,,,,,,,{f57bd86a-a8e0-658c-c601-000000000f00},3588,4368,,,,,"
+      ",DLL,2023-12-27T22:44:49.6901929Z,C:\Users\User\AppData\Local\Temp\T1218.009.dll,,File created (rule: FileCreate),,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:44:49.677,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:44:49.6901929Z""/>
+      <EventRecordID>19575</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:44:49.677</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a8e0-658c-c601-000000000f00}</Data>
+      <Data Name=""ProcessId"">4368</Data>
+      <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe</Data>
+      <Data Name=""TargetFilename"">C:\Users\User\AppData\Local\Temp\T1218.009.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-27 22:44:49.677</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-27 22:44:49.677
+
+ProcessGuid: {f57bd86a-a8e0-658c-c601-000000000f00}
+
+ProcessId: 4368
+
+Image: C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\T1218.009.dll
+
+CreationUtcTime: 2023-12-27 22:44:49.677
+
+User: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"C:\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe /NOLOGO /READONLY /MACHINE:IX86 ""/OUT:C:\Users\User\AppData\Local\Temp\RES4CCD.tmp"" ""c:\Users\User\AppData\Local\Temp\CSC9E0585BAD9C544CB9A99BEFBEDDE4A23.TMP""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Microsoft® Resource File To COFF Object Conversion Utility,,1,19574,,14.32.31326.0,"MD5=44B91F024D116BDAD06F236C8EEDCB42,SHA256=D87971E7479DEEE3F54CDBE3522EE606C346991155B9A63B10C6789BB6D19192,IMPHASH=044A5794DF3749EEC2D2F845066C10CC",C:\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:49.672
+
+ProcessGuid: {f57bd86a-a8e1-658c-c701-000000000f00}
+
+ProcessId: 4424
+
+Image: C:\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe
+
+FileVersion: 14.32.31326.0
+
+Description: Microsoft® Resource File To COFF Object Conversion Utility
+
+Product: Microsoft® .NET Framework
+
+Company: Microsoft Corporation
+
+OriginalFileName: CVTRES.EXE
+
+CommandLine: C:\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe /NOLOGO /READONLY /MACHINE:IX86 ""/OUT:C:\Users\User\AppData\Local\Temp\RES4CCD.tmp"" ""c:\Users\User\AppData\Local\Temp\CSC9E0585BAD9C544CB9A99BEFBEDDE4A23.TMP""
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=44B91F024D116BDAD06F236C8EEDCB42,SHA256=D87971E7479DEEE3F54CDBE3522EE606C346991155B9A63B10C6789BB6D19192,IMPHASH=044A5794DF3749EEC2D2F845066C10CC
+
+ParentProcessGuid: {f57bd86a-a8e0-658c-c601-000000000f00}
+
+ParentProcessId: 4368
+
+ParentImage: C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe
+
+ParentCommandLine: C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe  /r:System.EnterpriseServices.dll /out:""C:\Users\User\AppData\Local\Temp\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" 
+
+ParentUser: WINDEV2309EVAL\User",Info,CVTRES.EXE,"C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe  /r:System.EnterpriseServices.dll /out:""C:\Users\User\AppData\Local\Temp\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" ",C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe,{f57bd86a-a8e0-658c-c601-000000000f00},4368,WINDEV2309EVAL\User,{f57bd86a-a8e1-658c-c701-000000000f00},3588,4424,Microsoft® .NET Framework,,,,"
+      ",-,2023-12-27T22:44:49.6738045Z,,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:44:49.672,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:44:49.6738045Z""/>
+      <EventRecordID>19574</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:44:49.672</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a8e1-658c-c701-000000000f00}</Data>
+      <Data Name=""ProcessId"">4424</Data>
+      <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe</Data>
+      <Data Name=""FileVersion"">14.32.31326.0</Data>
+      <Data Name=""Description"">Microsoft&#174; Resource File To COFF Object Conversion Utility</Data>
+      <Data Name=""Product"">Microsoft&#174; .NET Framework</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">CVTRES.EXE</Data>
+      <Data Name=""CommandLine"">C:\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe /NOLOGO /READONLY /MACHINE:IX86 ""/OUT:C:\Users\User\AppData\Local\Temp\RES4CCD.tmp"" ""c:\Users\User\AppData\Local\Temp\CSC9E0585BAD9C544CB9A99BEFBEDDE4A23.TMP""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=44B91F024D116BDAD06F236C8EEDCB42,SHA256=D87971E7479DEEE3F54CDBE3522EE606C346991155B9A63B10C6789BB6D19192,IMPHASH=044A5794DF3749EEC2D2F845066C10CC</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-a8e0-658c-c601-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">4368</Data>
+      <Data Name=""ParentImage"">C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe</Data>
+      <Data Name=""ParentCommandLine"">C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe  /r:System.EnterpriseServices.dll /out:""C:\Users\User\AppData\Local\Temp\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" </Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:49.672
+
+ProcessGuid: {f57bd86a-a8e1-658c-c701-000000000f00}
+
+ProcessId: 4424
+
+Image: C:\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe
+
+FileVersion: 14.32.31326.0
+
+Description: Microsoft&#174; Resource File To COFF Object Conversion Utility
+
+Product: Microsoft&#174; .NET Framework
+
+Company: Microsoft Corporation
+
+OriginalFileName: CVTRES.EXE
+
+CommandLine: C:\Windows\Microsoft.NET\Framework\v4.0.30319\cvtres.exe /NOLOGO /READONLY /MACHINE:IX86 ""/OUT:C:\Users\User\AppData\Local\Temp\RES4CCD.tmp"" ""c:\Users\User\AppData\Local\Temp\CSC9E0585BAD9C544CB9A99BEFBEDDE4A23.TMP""
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=44B91F024D116BDAD06F236C8EEDCB42,SHA256=D87971E7479DEEE3F54CDBE3522EE606C346991155B9A63B10C6789BB6D19192,IMPHASH=044A5794DF3749EEC2D2F845066C10CC
+
+ParentProcessGuid: {f57bd86a-a8e0-658c-c601-000000000f00}
+
+ParentProcessId: 4368
+
+ParentImage: C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe
+
+ParentCommandLine: C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe  /r:System.EnterpriseServices.dll /out:""C:\Users\User\AppData\Local\Temp\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" 
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe  /r:System.EnterpriseServices.dll /out:""C:\Users\User\AppData\Local\Temp\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" ",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Visual C# Command Line Compiler,,1,19573,,4.8.9032.0 built by: NET481REL1,"MD5=62192216CE5BA62C44297544C18A48C0,SHA256=34E102F9AD249B343099913CF4EEA2334DECFAF0529314DE256EEFE77D04212B,IMPHASH=E71FED45B53EFEB0043B037EB03A1D12",C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:48.862
+
+ProcessGuid: {f57bd86a-a8e0-658c-c601-000000000f00}
+
+ProcessId: 4368
+
+Image: C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe
+
+FileVersion: 4.8.9032.0 built by: NET481REL1
+
+Description: Visual C# Command Line Compiler
+
+Product: Microsoft® .NET Framework
+
+Company: Microsoft Corporation
+
+OriginalFileName: csc.exe
+
+CommandLine: C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe  /r:System.EnterpriseServices.dll /out:""C:\Users\User\AppData\Local\Temp\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" 
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=62192216CE5BA62C44297544C18A48C0,SHA256=34E102F9AD249B343099913CF4EEA2334DECFAF0529314DE256EEFE77D04212B,IMPHASH=E71FED45B53EFEB0043B037EB03A1D12
+
+ParentProcessGuid: {f57bd86a-a8e0-658c-c401-000000000f00}
+
+ParentProcessId: 4740
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:""%tmp%\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" & C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe /U %tmp%\T1218.009.dll
+
+ParentUser: WINDEV2309EVAL\User",Info,csc.exe,"""cmd.exe"" /c C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:""%tmp%\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" & C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe /U %tmp%\T1218.009.dll",C:\Windows\System32\cmd.exe,{f57bd86a-a8e0-658c-c401-000000000f00},4740,WINDEV2309EVAL\User,{f57bd86a-a8e0-658c-c601-000000000f00},3588,4368,Microsoft® .NET Framework,,,,"
+      ",-,2023-12-27T22:44:48.8763675Z,,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:44:48.862,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:44:48.8763675Z""/>
+      <EventRecordID>19573</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:44:48.862</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a8e0-658c-c601-000000000f00}</Data>
+      <Data Name=""ProcessId"">4368</Data>
+      <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe</Data>
+      <Data Name=""FileVersion"">4.8.9032.0 built by: NET481REL1</Data>
+      <Data Name=""Description"">Visual C# Command Line Compiler</Data>
+      <Data Name=""Product"">Microsoft&#174; .NET Framework</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">csc.exe</Data>
+      <Data Name=""CommandLine"">C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe  /r:System.EnterpriseServices.dll /out:""C:\Users\User\AppData\Local\Temp\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" </Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=62192216CE5BA62C44297544C18A48C0,SHA256=34E102F9AD249B343099913CF4EEA2334DECFAF0529314DE256EEFE77D04212B,IMPHASH=E71FED45B53EFEB0043B037EB03A1D12</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-a8e0-658c-c401-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">4740</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:""%tmp%\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" &amp; C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe /U %tmp%\T1218.009.dll</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:48.862
+
+ProcessGuid: {f57bd86a-a8e0-658c-c601-000000000f00}
+
+ProcessId: 4368
+
+Image: C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe
+
+FileVersion: 4.8.9032.0 built by: NET481REL1
+
+Description: Visual C# Command Line Compiler
+
+Product: Microsoft&#174; .NET Framework
+
+Company: Microsoft Corporation
+
+OriginalFileName: csc.exe
+
+CommandLine: C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe  /r:System.EnterpriseServices.dll /out:""C:\Users\User\AppData\Local\Temp\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" 
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=62192216CE5BA62C44297544C18A48C0,SHA256=34E102F9AD249B343099913CF4EEA2334DECFAF0529314DE256EEFE77D04212B,IMPHASH=E71FED45B53EFEB0043B037EB03A1D12
+
+ParentProcessGuid: {f57bd86a-a8e0-658c-c401-000000000f00}
+
+ParentProcessId: 4740
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:""%tmp%\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" &amp; C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe /U %tmp%\T1218.009.dll
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""cmd.exe"" /c C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:""%%tmp%%\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" & C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe /U %%tmp%%\T1218.009.dll",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,,1,19572,,10.0.22621.2506 (WinBuild.160101.0800),"MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:48.523
+
+ProcessGuid: {f57bd86a-a8e0-658c-c401-000000000f00}
+
+ProcessId: 4740
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:""%%tmp%%\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" & C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe /U %%tmp%%\T1218.009.dll
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,Cmd.Exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-a8e0-658c-c401-000000000f00},3588,4740,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T22:44:48.5243843Z,,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:44:48.523,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:44:48.5243843Z""/>
+      <EventRecordID>19572</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:44:48.523</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a8e0-658c-c401-000000000f00}</Data>
+      <Data Name=""ProcessId"">4740</Data>
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows Command Processor</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      <Data Name=""CommandLine"">""cmd.exe"" /c C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:""%%tmp%%\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" &amp; C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe /U %%tmp%%\T1218.009.dll</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:48.523
+
+ProcessGuid: {f57bd86a-a8e0-658c-c401-000000000f00}
+
+ProcessId: 4740
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /r:System.EnterpriseServices.dll /out:""%%tmp%%\T1218.009.dll"" /target:library ""C:\AtomicRedTeam\atomics\T1218.009\src\T1218.009.cs"" &amp; C:\Windows\Microsoft.NET\Framework\v4.0.30319\regasm.exe /U %%tmp%%\T1218.009.dll
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\whoami.exe""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\,whoami - displays logged on user information,,1,19571,,10.0.22621.1 (WinBuild.160101.0800),"MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292",C:\Windows\System32\whoami.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:47.384
+
+ProcessGuid: {f57bd86a-a8df-658c-c301-000000000f00}
+
+ProcessId: 10640
+
+Image: C:\Windows\System32\whoami.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: whoami - displays logged on user information
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: whoami.exe
+
+CommandLine: ""C:\Windows\system32\whoami.exe""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,whoami.exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-a8df-658c-c301-000000000f00},3588,10640,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T22:44:47.3868180Z,,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:44:47.384,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:44:47.3868180Z""/>
+      <EventRecordID>19571</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:44:47.384</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a8df-658c-c301-000000000f00}</Data>
+      <Data Name=""ProcessId"">10640</Data>
+      <Data Name=""Image"">C:\Windows\System32\whoami.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">whoami - displays logged on user information</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">whoami.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\whoami.exe""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:47.384
+
+ProcessGuid: {f57bd86a-a8df-658c-c301-000000000f00}
+
+ProcessId: 10640
+
+Image: C:\Windows\System32\whoami.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: whoami - displays logged on user information
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: whoami.exe
+
+CommandLine: ""C:\Windows\system32\whoami.exe""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\HOSTNAME.EXE""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\,Hostname APP,,1,19570,,10.0.22621.2506 (WinBuild.160101.0800),"MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8",C:\Windows\System32\HOSTNAME.EXE,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:47.355
+
+ProcessGuid: {f57bd86a-a8df-658c-c201-000000000f00}
+
+ProcessId: 4956
+
+Image: C:\Windows\System32\HOSTNAME.EXE
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Hostname APP
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: hostname.exe
+
+CommandLine: ""C:\Windows\system32\HOSTNAME.EXE""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,hostname.exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-a8df-658c-c201-000000000f00},3588,4956,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T22:44:47.3564466Z,,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:44:47.355,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:44:47.3564466Z""/>
+      <EventRecordID>19570</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:44:47.355</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a8df-658c-c201-000000000f00}</Data>
+      <Data Name=""ProcessId"">4956</Data>
+      <Data Name=""Image"">C:\Windows\System32\HOSTNAME.EXE</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Hostname APP</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">hostname.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\HOSTNAME.EXE""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:44:47.355
+
+ProcessGuid: {f57bd86a-a8df-658c-c201-000000000f00}
+
+ProcessId: 4956
+
+Image: C:\Windows\System32\HOSTNAME.EXE
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Hostname APP
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: hostname.exe
+
+CommandLine: ""C:\Windows\system32\HOSTNAME.EXE""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,22,19569,,,,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe,,0x8000000000000000,Information,,,"Dns query:
+
+RuleName: -
+
+UtcTime: 2023-12-27 14:51:55.126
+
+ProcessGuid: {f57bd86a-382d-658c-4e01-000000000f00}
+
+ProcessId: 4456
+
+QueryName: img-s-msn-com.akamaized.net
+
+QueryStatus: 0
+
+QueryResults: type: 5 a1834.dscg2.akamai.net;::ffff:104.77.160.143;::ffff:104.77.160.140;
+
+Image: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+User: WINDEV2309EVAL\User",Info,,,,,,,{f57bd86a-382d-658c-4e01-000000000f00},3588,4456,,img-s-msn-com.akamaized.net,type: 5 a1834.dscg2.akamai.net;::ffff:104.77.160.143;::ffff:104.77.160.140;,0,"
+      ",-,2023-12-27T22:44:43.5788998Z,,,Dns query (rule: DnsQuery),,5164,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 14:51:55.126,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>22</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>22</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:44:43.5788998Z""/>
+      <EventRecordID>19569</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5164""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 14:51:55.126</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-382d-658c-4e01-000000000f00}</Data>
+      <Data Name=""ProcessId"">4456</Data>
+      <Data Name=""QueryName"">img-s-msn-com.akamaized.net</Data>
+      <Data Name=""QueryStatus"">0</Data>
+      <Data Name=""QueryResults"">type: 5 a1834.dscg2.akamai.net;::ffff:104.77.160.143;::ffff:104.77.160.140;</Data>
+      <Data Name=""Image"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Dns query:
+
+RuleName: -
+
+UtcTime: 2023-12-27 14:51:55.126
+
+ProcessGuid: {f57bd86a-382d-658c-4e01-000000000f00}
+
+ProcessId: 4456
+
+QueryName: img-s-msn-com.akamaized.net
+
+QueryStatus: 0
+
+QueryResults: type: 5 a1834.dscg2.akamai.net;::ffff:104.77.160.143;::ffff:104.77.160.140;
+
+Image: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+User: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Dns query (rule: DnsQuery)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+
+"

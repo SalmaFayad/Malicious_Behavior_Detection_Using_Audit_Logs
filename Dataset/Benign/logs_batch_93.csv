@@ -1,0 +1,945 @@
+Channel,CommandLine,Company,Computer,CreationUtcTime,CurrentDirectory,Description,DestinationHostname,DestinationIp,DestinationIsIpv6,DestinationPort,DestinationPortName,Details,EventID,EventRecordID,EventType,FileVersion,Hashes,Image,Initiated,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Message,NewThreadId,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,Protocol,QueryName,QueryResults,QueryStatus,RuleName,SourceHostname,SourceImage,SourceIp,SourceIsIpv6,SourcePort,SourcePortName,SourceProcessGuid,SourceProcessId,SourceUser,StartAddress,StartFunction,StartModule,SystemTime,TargetFilename,TargetImage,TargetObject,TargetProcessGuid,TargetProcessId,TargetUser,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=asset_store.mojom.AssetStoreService --lang=en-US --service-sandbox-type=asset_store_service --mojo-platform-channel-handle=5132 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\,Microsoft Edge,,,,,,,1,4693,,120.0.2210.77,"MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,Low,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,{f57bd86a-1d66-6582-dc00-000000000d00},8616.0,WINDEV2309EVAL\User,{f57bd86a-1d67-6582-ee00-000000000d00},3400,9584.0,Microsoft Edge,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:03.4475539Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:03.4,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:03.4475539Z""/>
+    <EventRecordID>4693</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:03.444</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d67-6582-ee00-000000000d00}</Data>
+    <Data Name=""ProcessId"">9584</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">Microsoft Edge</Data>
+    <Data Name=""Product"">Microsoft Edge</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">msedge.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=asset_store.mojom.AssetStoreService --lang=en-US --service-sandbox-type=asset_store_service --mojo-platform-channel-handle=5132 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8</Data>
+    <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Low</Data>
+    <Data Name=""Hashes"">MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d66-6582-dc00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">8616</Data>
+    <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=entity_extraction_service.mojom.Extractor --lang=en-US --service-sandbox-type=entity_extraction --onnx-enabled-for-ee --mojo-platform-channel-handle=5112 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\,Microsoft Edge,,,,,,,1,4692,,120.0.2210.77,"MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,Low,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,{f57bd86a-1d66-6582-dc00-000000000d00},8616.0,WINDEV2309EVAL\User,{f57bd86a-1d67-6582-ed00-000000000d00},3400,9572.0,Microsoft Edge,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:03.4374602Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:03.4,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:03.4374602Z""/>
+    <EventRecordID>4692</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:03.433</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d67-6582-ed00-000000000d00}</Data>
+    <Data Name=""ProcessId"">9572</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">Microsoft Edge</Data>
+    <Data Name=""Product"">Microsoft Edge</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">msedge.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=entity_extraction_service.mojom.Extractor --lang=en-US --service-sandbox-type=entity_extraction --onnx-enabled-for-ee --mojo-platform-channel-handle=5112 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8</Data>
+    <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Low</Data>
+    <Data Name=""Hashes"">MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d66-6582-dc00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">8616</Data>
+    <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --mojo-platform-channel-handle=5448 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\,Microsoft Edge,,,,,,,1,4691,,120.0.2210.77,"MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,Low,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,{f57bd86a-1d66-6582-dc00-000000000d00},8616.0,WINDEV2309EVAL\User,{f57bd86a-1d66-6582-eb00-000000000d00},3400,9356.0,Microsoft Edge,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:02.8332632Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:02.8,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:02.8332632Z""/>
+    <EventRecordID>4691</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:02.826</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-eb00-000000000d00}</Data>
+    <Data Name=""ProcessId"">9356</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">Microsoft Edge</Data>
+    <Data Name=""Product"">Microsoft Edge</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">msedge.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --mojo-platform-channel-handle=5448 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8</Data>
+    <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Low</Data>
+    <Data Name=""Hashes"">MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d66-6582-dc00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">8616</Data>
+    <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --mojo-platform-channel-handle=4068 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\,Microsoft Edge,,,,,,,1,4690,,120.0.2210.77,"MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,Low,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,{f57bd86a-1d66-6582-dc00-000000000d00},8616.0,WINDEV2309EVAL\User,{f57bd86a-1d66-6582-ea00-000000000d00},3400,9348.0,Microsoft Edge,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:02.8326891Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:02.8,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:02.8326891Z""/>
+    <EventRecordID>4690</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:02.819</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-ea00-000000000d00}</Data>
+    <Data Name=""ProcessId"">9348</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">Microsoft Edge</Data>
+    <Data Name=""Product"">Microsoft Edge</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">msedge.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --mojo-platform-channel-handle=4068 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8</Data>
+    <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Low</Data>
+    <Data Name=""Hashes"">MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d66-6582-dc00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">8616</Data>
+    <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --mojo-platform-channel-handle=5240 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\,Microsoft Edge,,,,,,,1,4689,,120.0.2210.77,"MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,Low,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,{f57bd86a-1d66-6582-dc00-000000000d00},8616.0,WINDEV2309EVAL\User,{f57bd86a-1d66-6582-e900-000000000d00},3400,9340.0,Microsoft Edge,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:02.8154903Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:02.8,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:02.8154903Z""/>
+    <EventRecordID>4689</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:02.813</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-e900-000000000d00}</Data>
+    <Data Name=""ProcessId"">9340</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">Microsoft Edge</Data>
+    <Data Name=""Product"">Microsoft Edge</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">msedge.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --mojo-platform-channel-handle=5240 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8</Data>
+    <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Low</Data>
+    <Data Name=""Hashes"">MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d66-6582-dc00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">8616</Data>
+    <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --mojo-platform-channel-handle=5208 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\,Microsoft Edge,,,,,,,1,4688,,120.0.2210.77,"MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,Low,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,{f57bd86a-1d66-6582-dc00-000000000d00},8616.0,WINDEV2309EVAL\User,{f57bd86a-1d66-6582-e800-000000000d00},3400,9332.0,Microsoft Edge,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:02.8083095Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:02.8,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:02.8083095Z""/>
+    <EventRecordID>4688</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:02.805</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-e800-000000000d00}</Data>
+    <Data Name=""ProcessId"">9332</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">Microsoft Edge</Data>
+    <Data Name=""Product"">Microsoft Edge</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">msedge.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --mojo-platform-channel-handle=5208 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8</Data>
+    <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Low</Data>
+    <Data Name=""Hashes"">MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d66-6582-dc00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">8616</Data>
+    <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --mojo-platform-channel-handle=4980 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\,Microsoft Edge,,,,,,,1,4687,,120.0.2210.77,"MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,Low,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,{f57bd86a-1d66-6582-dc00-000000000d00},8616.0,WINDEV2309EVAL\User,{f57bd86a-1d66-6582-e700-000000000d00},3400,9264.0,Microsoft Edge,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:02.7529105Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:02.7,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:02.7529105Z""/>
+    <EventRecordID>4687</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:02.750</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-e700-000000000d00}</Data>
+    <Data Name=""ProcessId"">9264</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">Microsoft Edge</Data>
+    <Data Name=""Product"">Microsoft Edge</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">msedge.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --mojo-platform-channel-handle=4980 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8</Data>
+    <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Low</Data>
+    <Data Name=""Hashes"">MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d66-6582-dc00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">8616</Data>
+    <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --mojo-platform-channel-handle=4012 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\,Microsoft Edge,,,,,,,1,4686,,120.0.2210.77,"MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,Low,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,{f57bd86a-1d66-6582-dc00-000000000d00},8616.0,WINDEV2309EVAL\User,{f57bd86a-1d66-6582-e600-000000000d00},3400,9252.0,Microsoft Edge,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:02.7203881Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:02.7,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:02.7203881Z""/>
+    <EventRecordID>4686</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:02.717</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-e600-000000000d00}</Data>
+    <Data Name=""ProcessId"">9252</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">Microsoft Edge</Data>
+    <Data Name=""Product"">Microsoft Edge</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">msedge.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --mojo-platform-channel-handle=4012 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8</Data>
+    <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Low</Data>
+    <Data Name=""Hashes"">MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d66-6582-dc00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">8616</Data>
+    <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\identity_helper.exe"" --type=utility --utility-sub-type=winrt_app_id.mojom.WinrtAppIdService --lang=en-US --service-sandbox-type=none --mojo-platform-channel-handle=4128 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\,PWA Identity Proxy Host,,,,,,,1,4685,,120.0.2210.77,"MD5=0896AADAEF39A0B7922DDD81153D73E6,SHA256=17F434C4AEADE22D088575C910940DBE6507042B441BBB9E152843A0D77D30A5,IMPHASH=B7E244BA46AAC2A40EA643244BCEDC5B",C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\identity_helper.exe,,Medium,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,identity_helper.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,{f57bd86a-1d66-6582-dc00-000000000d00},8616.0,WINDEV2309EVAL\User,{f57bd86a-1d66-6582-e400-000000000d00},3400,6584.0,Microsoft Edge,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:02.6397121Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:02.6,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:02.6397121Z""/>
+    <EventRecordID>4685</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:02.638</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-e400-000000000d00}</Data>
+    <Data Name=""ProcessId"">6584</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\identity_helper.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">PWA Identity Proxy Host</Data>
+    <Data Name=""Product"">Microsoft Edge</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">identity_helper.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\identity_helper.exe"" --type=utility --utility-sub-type=winrt_app_id.mojom.WinrtAppIdService --lang=en-US --service-sandbox-type=none --mojo-platform-channel-handle=4128 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8</Data>
+    <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Medium</Data>
+    <Data Name=""Hashes"">MD5=0896AADAEF39A0B7922DDD81153D73E6,SHA256=17F434C4AEADE22D088575C910940DBE6507042B441BBB9E152843A0D77D30A5,IMPHASH=B7E244BA46AAC2A40EA643244BCEDC5B</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d66-6582-dc00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">8616</Data>
+    <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\identity_helper.exe"" --type=utility --utility-sub-type=winrt_app_id.mojom.WinrtAppIdService --lang=en-US --service-sandbox-type=none --mojo-platform-channel-handle=4128 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\,PWA Identity Proxy Host,,,,,,,1,4684,,120.0.2210.77,"MD5=0896AADAEF39A0B7922DDD81153D73E6,SHA256=17F434C4AEADE22D088575C910940DBE6507042B441BBB9E152843A0D77D30A5,IMPHASH=B7E244BA46AAC2A40EA643244BCEDC5B",C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\identity_helper.exe,,Medium,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,identity_helper.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,{f57bd86a-1d66-6582-dc00-000000000d00},8616.0,WINDEV2309EVAL\User,{f57bd86a-1d66-6582-e300-000000000d00},3400,9180.0,Microsoft Edge,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:02.6132143Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:02.6,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:02.6132143Z""/>
+    <EventRecordID>4684</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:02.596</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-e300-000000000d00}</Data>
+    <Data Name=""ProcessId"">9180</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\identity_helper.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">PWA Identity Proxy Host</Data>
+    <Data Name=""Product"">Microsoft Edge</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">identity_helper.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\identity_helper.exe"" --type=utility --utility-sub-type=winrt_app_id.mojom.WinrtAppIdService --lang=en-US --service-sandbox-type=none --mojo-platform-channel-handle=4128 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8</Data>
+    <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Medium</Data>
+    <Data Name=""Hashes"">MD5=0896AADAEF39A0B7922DDD81153D73E6,SHA256=17F434C4AEADE22D088575C910940DBE6507042B441BBB9E152843A0D77D30A5,IMPHASH=B7E244BA46AAC2A40EA643244BCEDC5B</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d66-6582-dc00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">8616</Data>
+    <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --mojo-platform-channel-handle=3828 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\,Microsoft Edge,,,,,,,1,4683,,120.0.2210.77,"MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,Low,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,{f57bd86a-1d66-6582-dc00-000000000d00},8616.0,WINDEV2309EVAL\User,{f57bd86a-1d66-6582-e100-000000000d00},3400,8972.0,Microsoft Edge,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:02.4016499Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:02.4,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:02.4016499Z""/>
+    <EventRecordID>4683</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:02.399</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-e100-000000000d00}</Data>
+    <Data Name=""ProcessId"">8972</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">Microsoft Edge</Data>
+    <Data Name=""Product"">Microsoft Edge</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">msedge.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --mojo-platform-channel-handle=3828 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8</Data>
+    <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Low</Data>
+    <Data Name=""Hashes"">MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d66-6582-dc00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">8616</Data>
+    <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --mojo-platform-channel-handle=2860 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\,Microsoft Edge,,,,,,,1,4682,,120.0.2210.77,"MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,Low,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,{f57bd86a-1d66-6582-dc00-000000000d00},8616.0,WINDEV2309EVAL\User,{f57bd86a-1d66-6582-e000-000000000d00},3400,8904.0,Microsoft Edge,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:02.4004046Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:02.4,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:02.4004046Z""/>
+    <EventRecordID>4682</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:02.374</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-e000-000000000d00}</Data>
+    <Data Name=""ProcessId"">8904</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">Microsoft Edge</Data>
+    <Data Name=""Product"">Microsoft Edge</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">msedge.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --mojo-platform-channel-handle=2860 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:8</Data>
+    <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Low</Data>
+    <Data Name=""Hashes"">MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d66-6582-dc00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">8616</Data>
+    <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --mojo-platform-channel-handle=2584 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:3",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\,Microsoft Edge,,,,,,,1,4681,,120.0.2210.77,"MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,Medium,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,{f57bd86a-1d66-6582-dc00-000000000d00},8616.0,WINDEV2309EVAL\User,{f57bd86a-1d66-6582-df00-000000000d00},3400,8844.0,Microsoft Edge,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:02.2899834Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:02.3,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:02.2899834Z""/>
+    <EventRecordID>4681</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:02.287</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-df00-000000000d00}</Data>
+    <Data Name=""ProcessId"">8844</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">Microsoft Edge</Data>
+    <Data Name=""Product"">Microsoft Edge</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">msedge.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --mojo-platform-channel-handle=2584 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:3</Data>
+    <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Medium</Data>
+    <Data Name=""Hashes"">MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d66-6582-dc00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">8616</Data>
+    <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=gpu-process --gpu-preferences=WAAAAAAAAADgAAAMAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --mojo-platform-channel-handle=2128 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:2",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\,Microsoft Edge,,,,,,,1,4680,,120.0.2210.77,"MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,Low,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,{f57bd86a-1d66-6582-dc00-000000000d00},8616.0,WINDEV2309EVAL\User,{f57bd86a-1d66-6582-de00-000000000d00},3400,8832.0,Microsoft Edge,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:02.2864962Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:02.3,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:02.2864962Z""/>
+    <EventRecordID>4680</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:02.274</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-de00-000000000d00}</Data>
+    <Data Name=""ProcessId"">8832</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">Microsoft Edge</Data>
+    <Data Name=""Product"">Microsoft Edge</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">msedge.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=gpu-process --gpu-preferences=WAAAAAAAAADgAAAMAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --mojo-platform-channel-handle=2128 --field-trial-handle=2156,i,16945776307217893774,16308656450962906077,262144 --variations-seed-version /prefetch:2</Data>
+    <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Low</Data>
+    <Data Name=""Hashes"">MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d66-6582-dc00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">8616</Data>
+    <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=crashpad-handler ""--user-data-dir=C:\Users\User\AppData\Local\Microsoft\Edge\User Data"" /prefetch:4 --monitor-self-annotation=ptype=crashpad-handler ""--database=C:\Users\User\AppData\Local\Microsoft\Edge\User Data\Crashpad"" --annotation=IsOfficialBuild=1 --annotation=channel= --annotation=chromium-version=120.0.6099.110 ""--annotation=exe=C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --annotation=plat=Win64 ""--annotation=prod=Microsoft Edge"" --annotation=ver=120.0.2210.77 --initial-client-data=0x258,0x25c,0x260,0x254,0x268,0x7ff8dfc82b38,0x7ff8dfc82b44,0x7ff8dfc82b50",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\,Microsoft Edge,,,,,,,1,4679,,120.0.2210.77,"MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,Medium,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,msedge.exe,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,{f57bd86a-1d66-6582-dc00-000000000d00},8616.0,WINDEV2309EVAL\User,{f57bd86a-1d66-6582-dd00-000000000d00},3400,8648.0,Microsoft Edge,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:02.1644264Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:02.2,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:02.1644264Z""/>
+    <EventRecordID>4679</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:02.161</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-dd00-000000000d00}</Data>
+    <Data Name=""ProcessId"">8648</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">Microsoft Edge</Data>
+    <Data Name=""Product"">Microsoft Edge</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">msedge.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --type=crashpad-handler ""--user-data-dir=C:\Users\User\AppData\Local\Microsoft\Edge\User Data"" /prefetch:4 --monitor-self-annotation=ptype=crashpad-handler ""--database=C:\Users\User\AppData\Local\Microsoft\Edge\User Data\Crashpad"" --annotation=IsOfficialBuild=1 --annotation=channel= --annotation=chromium-version=120.0.6099.110 ""--annotation=exe=C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --annotation=plat=Win64 ""--annotation=prod=Microsoft Edge"" --annotation=ver=120.0.2210.77 --initial-client-data=0x258,0x25c,0x260,0x254,0x268,0x7ff8dfc82b38,0x7ff8dfc82b44,0x7ff8dfc82b50</Data>
+    <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\Edge\Application\120.0.2210.77\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Medium</Data>
+    <Data Name=""Hashes"">MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d66-6582-dc00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">8616</Data>
+    <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Microsoft Edge,,,,,,,1,4678,,120.0.2210.77,"MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe,,Medium,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,msedge.exe,C:\Windows\Explorer.EXE,C:\Windows\explorer.exe,{f57bd86a-1d4e-6582-ad00-000000000d00},5008.0,WINDEV2309EVAL\User,{f57bd86a-1d66-6582-dc00-000000000d00},3400,8616.0,Microsoft Edge,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:02.1041886Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:02.1,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:02.1041886Z""/>
+    <EventRecordID>4678</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:02.075</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d66-6582-dc00-000000000d00}</Data>
+    <Data Name=""ProcessId"">8616</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">Microsoft Edge</Data>
+    <Data Name=""Product"">Microsoft Edge</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">msedge.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"" --no-startup-window --win-session-start</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Medium</Data>
+    <Data Name=""Hashes"">MD5=D15351223DB85EF35A5B12B7CF8B0167,SHA256=58AF814EA8E7D7BFE20C2E55F3DAA6DDBE8DB2E8C34C264677A05A79F93BBDE7,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d4e-6582-ad00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">5008</Data>
+    <Data Name=""ParentImage"">C:\Windows\explorer.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\Explorer.EXE</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --noerrdialogs --user-data-dir=""C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView"" --webview-exe-name=OneDrive.exe --webview-exe-version=23.246.1127.0002 --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=1 --mojo-platform-channel-handle=2488 --field-trial-handle=2036,i,4308135988783990872,9640358352766396869,262144 --enable-features=MojoIpcz --disable-features=msEnhancedTrackingPreventionEnabled --variations-seed-version /prefetch:8 /pfhostedapp:b30934a6309ea7f8311c9c5ea2d20fb0cc786975",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\,Microsoft Edge WebView2,,,,,,,1,4677,,120.0.2210.77,"MD5=9F17A2699DE710CFBD7E6E42ACAF4848,SHA256=106CA5CDAD11D592906BCA9F9A9976206EF4D4537AA98A66C3EC9669CA630C1D,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe,,Low,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,msedgewebview2.exe,"""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=OneDrive.exe --webview-exe-version=23.246.1127.0002 --user-data-dir=""C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView"" --noerrdialogs --embedded-browser-webview-dpi-awareness=1 --disable-features=msEnhancedTrackingPreventionEnabled --enable-features=MojoIpcz --mojo-named-platform-channel-pipe=7048.1100.2407032881806143147 /pfhostedapp:b30934a6309ea7f8311c9c5ea2d20fb0cc786975",C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe,{f57bd86a-1d64-6582-d600-000000000d00},1668.0,WINDEV2309EVAL\User,{f57bd86a-1d65-6582-da00-000000000d00},3400,8316.0,Microsoft Edge WebView2,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:01.1031493Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:01.0,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:01.1031493Z""/>
+    <EventRecordID>4677</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:01.050</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d65-6582-da00-000000000d00}</Data>
+    <Data Name=""ProcessId"">8316</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">Microsoft Edge WebView2</Data>
+    <Data Name=""Product"">Microsoft Edge WebView2</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">msedgewebview2.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=service --noerrdialogs --user-data-dir=""C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView"" --webview-exe-name=OneDrive.exe --webview-exe-version=23.246.1127.0002 --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=1 --mojo-platform-channel-handle=2488 --field-trial-handle=2036,i,4308135988783990872,9640358352766396869,262144 --enable-features=MojoIpcz --disable-features=msEnhancedTrackingPreventionEnabled --variations-seed-version /prefetch:8 /pfhostedapp:b30934a6309ea7f8311c9c5ea2d20fb0cc786975</Data>
+    <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Low</Data>
+    <Data Name=""Hashes"">MD5=9F17A2699DE710CFBD7E6E42ACAF4848,SHA256=106CA5CDAD11D592906BCA9F9A9976206EF4D4537AA98A66C3EC9669CA630C1D,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d64-6582-d600-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">1668</Data>
+    <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=OneDrive.exe --webview-exe-version=23.246.1127.0002 --user-data-dir=""C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView"" --noerrdialogs --embedded-browser-webview-dpi-awareness=1 --disable-features=msEnhancedTrackingPreventionEnabled --enable-features=MojoIpcz --mojo-named-platform-channel-pipe=7048.1100.2407032881806143147 /pfhostedapp:b30934a6309ea7f8311c9c5ea2d20fb0cc786975</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,4676,,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,oneclient.sfx.ms,type: 5 oneclient.sfx.ms.edgekey.net;type: 5 e9659.dspg.akamaiedge.net;::ffff:96.16.109.127;,0.0,-,,,,,,,,,,,,,2023-12-19T22:47:01.0781035Z,,,,,,,22,,4220,WINDEV2309EVAL\User,S-1-5-18,47:00.0,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:01.0781035Z""/>
+    <EventRecordID>4676</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4220""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:00.013</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""QueryName"">oneclient.sfx.ms</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">type: 5 oneclient.sfx.ms.edgekey.net;type: 5 e9659.dspg.akamaiedge.net;::ffff:96.16.109.127;</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --noerrdialogs --user-data-dir=""C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView"" --webview-exe-name=OneDrive.exe --webview-exe-version=23.246.1127.0002 --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=1 --mojo-platform-channel-handle=2328 --field-trial-handle=2036,i,4308135988783990872,9640358352766396869,262144 --enable-features=MojoIpcz --disable-features=msEnhancedTrackingPreventionEnabled --variations-seed-version /prefetch:3 /pfhostedapp:b30934a6309ea7f8311c9c5ea2d20fb0cc786975",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\,Microsoft Edge WebView2,,,,,,,1,4675,,120.0.2210.77,"MD5=9F17A2699DE710CFBD7E6E42ACAF4848,SHA256=106CA5CDAD11D592906BCA9F9A9976206EF4D4537AA98A66C3EC9669CA630C1D,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe,,Medium,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,msedgewebview2.exe,"""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=OneDrive.exe --webview-exe-version=23.246.1127.0002 --user-data-dir=""C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView"" --noerrdialogs --embedded-browser-webview-dpi-awareness=1 --disable-features=msEnhancedTrackingPreventionEnabled --enable-features=MojoIpcz --mojo-named-platform-channel-pipe=7048.1100.2407032881806143147 /pfhostedapp:b30934a6309ea7f8311c9c5ea2d20fb0cc786975",C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe,{f57bd86a-1d64-6582-d600-000000000d00},1668.0,WINDEV2309EVAL\User,{f57bd86a-1d65-6582-d900-000000000d00},3400,8292.0,Microsoft Edge WebView2,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:01.0253996Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:01.0,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:01.0253996Z""/>
+    <EventRecordID>4675</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:01.015</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d65-6582-d900-000000000d00}</Data>
+    <Data Name=""ProcessId"">8292</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">Microsoft Edge WebView2</Data>
+    <Data Name=""Product"">Microsoft Edge WebView2</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">msedgewebview2.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --noerrdialogs --user-data-dir=""C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView"" --webview-exe-name=OneDrive.exe --webview-exe-version=23.246.1127.0002 --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=1 --mojo-platform-channel-handle=2328 --field-trial-handle=2036,i,4308135988783990872,9640358352766396869,262144 --enable-features=MojoIpcz --disable-features=msEnhancedTrackingPreventionEnabled --variations-seed-version /prefetch:3 /pfhostedapp:b30934a6309ea7f8311c9c5ea2d20fb0cc786975</Data>
+    <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Medium</Data>
+    <Data Name=""Hashes"">MD5=9F17A2699DE710CFBD7E6E42ACAF4848,SHA256=106CA5CDAD11D592906BCA9F9A9976206EF4D4537AA98A66C3EC9669CA630C1D,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d64-6582-d600-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">1668</Data>
+    <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=OneDrive.exe --webview-exe-version=23.246.1127.0002 --user-data-dir=""C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView"" --noerrdialogs --embedded-browser-webview-dpi-awareness=1 --disable-features=msEnhancedTrackingPreventionEnabled --enable-features=MojoIpcz --mojo-named-platform-channel-pipe=7048.1100.2407032881806143147 /pfhostedapp:b30934a6309ea7f8311c9c5ea2d20fb0cc786975</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --type=gpu-process --noerrdialogs --user-data-dir=""C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView"" --webview-exe-name=OneDrive.exe --webview-exe-version=23.246.1127.0002 --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=1 --gpu-preferences=WAAAAAAAAADgAAAMAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --mojo-platform-channel-handle=2032 --field-trial-handle=2036,i,4308135988783990872,9640358352766396869,262144 --enable-features=MojoIpcz --disable-features=msEnhancedTrackingPreventionEnabled --variations-seed-version /prefetch:2 /pfhostedapp:b30934a6309ea7f8311c9c5ea2d20fb0cc786975",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\,Microsoft Edge WebView2,,,,,,,1,4674,,120.0.2210.77,"MD5=9F17A2699DE710CFBD7E6E42ACAF4848,SHA256=106CA5CDAD11D592906BCA9F9A9976206EF4D4537AA98A66C3EC9669CA630C1D,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe,,Low,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,msedgewebview2.exe,"""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=OneDrive.exe --webview-exe-version=23.246.1127.0002 --user-data-dir=""C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView"" --noerrdialogs --embedded-browser-webview-dpi-awareness=1 --disable-features=msEnhancedTrackingPreventionEnabled --enable-features=MojoIpcz --mojo-named-platform-channel-pipe=7048.1100.2407032881806143147 /pfhostedapp:b30934a6309ea7f8311c9c5ea2d20fb0cc786975",C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe,{f57bd86a-1d64-6582-d600-000000000d00},1668.0,WINDEV2309EVAL\User,{f57bd86a-1d65-6582-d800-000000000d00},3400,8280.0,Microsoft Edge WebView2,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:01.0115839Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:01.0,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:01.0115839Z""/>
+    <EventRecordID>4674</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:01.000</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d65-6582-d800-000000000d00}</Data>
+    <Data Name=""ProcessId"">8280</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">Microsoft Edge WebView2</Data>
+    <Data Name=""Product"">Microsoft Edge WebView2</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">msedgewebview2.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --type=gpu-process --noerrdialogs --user-data-dir=""C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView"" --webview-exe-name=OneDrive.exe --webview-exe-version=23.246.1127.0002 --embedded-browser-webview=1 --embedded-browser-webview-dpi-awareness=1 --gpu-preferences=WAAAAAAAAADgAAAMAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --mojo-platform-channel-handle=2032 --field-trial-handle=2036,i,4308135988783990872,9640358352766396869,262144 --enable-features=MojoIpcz --disable-features=msEnhancedTrackingPreventionEnabled --variations-seed-version /prefetch:2 /pfhostedapp:b30934a6309ea7f8311c9c5ea2d20fb0cc786975</Data>
+    <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Low</Data>
+    <Data Name=""Hashes"">MD5=9F17A2699DE710CFBD7E6E42ACAF4848,SHA256=106CA5CDAD11D592906BCA9F9A9976206EF4D4537AA98A66C3EC9669CA630C1D,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d64-6582-d600-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">1668</Data>
+    <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=OneDrive.exe --webview-exe-version=23.246.1127.0002 --user-data-dir=""C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView"" --noerrdialogs --embedded-browser-webview-dpi-awareness=1 --disable-features=msEnhancedTrackingPreventionEnabled --enable-features=MojoIpcz --mojo-named-platform-channel-pipe=7048.1100.2407032881806143147 /pfhostedapp:b30934a6309ea7f8311c9c5ea2d20fb0cc786975</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,a96-16-109-127.deploy.static.akamaitechnologies.com,96.16.109.127,False,443.0,https,,3,4673,,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,True,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,tcp,,,,Usermode,WinDev2309Eval.localdomain,,192.168.126.163,False,49692.0,-,,,,,,,2023-12-19T22:47:00.8609678Z,,,,,,,3,,4200,WINDEV2309EVAL\User,S-1-5-18,47:00.0,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>3</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>3</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:00.8609678Z""/>
+    <EventRecordID>4673</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4200""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">Usermode</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:00.006</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""Protocol"">tcp</Data>
+    <Data Name=""Initiated"">true</Data>
+    <Data Name=""SourceIsIpv6"">false</Data>
+    <Data Name=""SourceIp"">192.168.126.163</Data>
+    <Data Name=""SourceHostname"">WinDev2309Eval.localdomain</Data>
+    <Data Name=""SourcePort"">49692</Data>
+    <Data Name=""SourcePortName"">-</Data>
+    <Data Name=""DestinationIsIpv6"">false</Data>
+    <Data Name=""DestinationIp"">96.16.109.127</Data>
+    <Data Name=""DestinationHostname"">a96-16-109-127.deploy.static.akamaitechnologies.com</Data>
+    <Data Name=""DestinationPort"">443</Data>
+    <Data Name=""DestinationPortName"">https</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,-,68.219.88.225,False,443.0,https,,3,4672,,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,True,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,tcp,,,,Usermode,WinDev2309Eval.localdomain,,192.168.126.163,False,49691.0,-,,,,,,,2023-12-19T22:47:00.5443033Z,,,,,,,3,,4200,WINDEV2309EVAL\User,S-1-5-18,46:59.7,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>3</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>3</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:00.5443033Z""/>
+    <EventRecordID>4672</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4200""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">Usermode</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:59.666</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""Protocol"">tcp</Data>
+    <Data Name=""Initiated"">true</Data>
+    <Data Name=""SourceIsIpv6"">false</Data>
+    <Data Name=""SourceIp"">192.168.126.163</Data>
+    <Data Name=""SourceHostname"">WinDev2309Eval.localdomain</Data>
+    <Data Name=""SourcePort"">49691</Data>
+    <Data Name=""SourcePortName"">-</Data>
+    <Data Name=""DestinationIsIpv6"">false</Data>
+    <Data Name=""DestinationIp"">68.219.88.225</Data>
+    <Data Name=""DestinationHostname"">-</Data>
+    <Data Name=""DestinationPort"">443</Data>
+    <Data Name=""DestinationPortName"">https</Data>
+  </EventData>
+</Event>
+"

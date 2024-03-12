@@ -1,0 +1,661 @@
+Channel,CommandLine,Company,Computer,CreationUtcTime,CurrentDirectory,Description,DestinationHostname,DestinationIp,DestinationIsIpv6,DestinationPort,DestinationPortName,Details,EventID,EventRecordID,EventType,FileVersion,Hashes,Image,Initiated,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Message,NewThreadId,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,Protocol,QueryName,QueryResults,QueryStatus,RuleName,SourceHostname,SourceImage,SourceIp,SourceIsIpv6,SourcePort,SourcePortName,SourceProcessGuid,SourceProcessId,SourceUser,StartAddress,StartFunction,StartModule,SystemTime,TargetFilename,TargetImage,TargetObject,TargetProcessGuid,TargetProcessId,TargetUser,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,13,4583,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7404405Z,,,HKLM\System\CurrentControlSet\Services\UserDataSvc_163d8f\ImagePath,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7404405Z""/>
+    <EventRecordID>4583</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.737</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\UserDataSvc_163d8f\ImagePath</Data>
+    <Data Name=""Details"">C:\Windows\system32\svchost.exe -k UnistackSvcGroup</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000003),13,4582,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7403015Z,,,HKLM\System\CurrentControlSet\Services\UserDataSvc_163d8f\Start,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7403015Z""/>
+    <EventRecordID>4582</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.737</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\UserDataSvc_163d8f\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000003)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,C:\Windows\System32\svchost.exe -k UnistackSvcGroup,13,4581,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7393563Z,,,HKLM\System\CurrentControlSet\Services\UnistoreSvc_163d8f\ImagePath,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7393563Z""/>
+    <EventRecordID>4581</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.737</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\UnistoreSvc_163d8f\ImagePath</Data>
+    <Data Name=""Details"">C:\Windows\System32\svchost.exe -k UnistackSvcGroup</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000003),13,4580,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7392435Z,,,HKLM\System\CurrentControlSet\Services\UnistoreSvc_163d8f\Start,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7392435Z""/>
+    <EventRecordID>4580</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.737</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\UnistoreSvc_163d8f\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000003)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,C:\Windows\system32\svchost.exe -k UdkSvcGroup,13,4579,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7380171Z,,,HKLM\System\CurrentControlSet\Services\UdkUserSvc_163d8f\ImagePath,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7380171Z""/>
+    <EventRecordID>4579</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.722</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\UdkUserSvc_163d8f\ImagePath</Data>
+    <Data Name=""Details"">C:\Windows\system32\svchost.exe -k UdkSvcGroup</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000003),13,4578,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7377685Z,,,HKLM\System\CurrentControlSet\Services\UdkUserSvc_163d8f\Start,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7377685Z""/>
+    <EventRecordID>4578</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.722</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\UdkUserSvc_163d8f\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000003)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,C:\Windows\system32\svchost.exe -k PrintWorkflow,13,4577,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7346135Z,,,HKLM\System\CurrentControlSet\Services\PrintWorkflowUserSvc_163d8f\ImagePath,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7346135Z""/>
+    <EventRecordID>4577</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.722</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\PrintWorkflowUserSvc_163d8f\ImagePath</Data>
+    <Data Name=""Details"">C:\Windows\system32\svchost.exe -k PrintWorkflow</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000003),13,4576,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7344348Z,,,HKLM\System\CurrentControlSet\Services\PrintWorkflowUserSvc_163d8f\Start,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7344348Z""/>
+    <EventRecordID>4576</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.722</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\PrintWorkflowUserSvc_163d8f\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000003)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,13,4575,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7309305Z,,,HKLM\System\CurrentControlSet\Services\PimIndexMaintenanceSvc_163d8f\ImagePath,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7309305Z""/>
+    <EventRecordID>4575</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.722</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\PimIndexMaintenanceSvc_163d8f\ImagePath</Data>
+    <Data Name=""Details"">C:\Windows\system32\svchost.exe -k UnistackSvcGroup</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000003),13,4574,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7308475Z,,,HKLM\System\CurrentControlSet\Services\PimIndexMaintenanceSvc_163d8f\Start,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7308475Z""/>
+    <EventRecordID>4574</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.722</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\PimIndexMaintenanceSvc_163d8f\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000003)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,C:\Windows\system32\svchost.exe -k PenService,13,4573,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7278839Z,,,HKLM\System\CurrentControlSet\Services\PenService_163d8f\ImagePath,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7278839Z""/>
+    <EventRecordID>4573</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.722</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\PenService_163d8f\ImagePath</Data>
+    <Data Name=""Details"">C:\Windows\system32\svchost.exe -k PenService</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000003),13,4572,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7278041Z,,,HKLM\System\CurrentControlSet\Services\PenService_163d8f\Start,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7278041Z""/>
+    <EventRecordID>4572</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.722</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\PenService_163d8f\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000003)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,C:\Windows\system32\svchost.exe -k P9RdrService -p,13,4571,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7252657Z,,,HKLM\System\CurrentControlSet\Services\P9RdrService_163d8f\ImagePath,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7252657Z""/>
+    <EventRecordID>4571</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.705</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\P9RdrService_163d8f\ImagePath</Data>
+    <Data Name=""Details"">C:\Windows\system32\svchost.exe -k P9RdrService -p</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000003),13,4570,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7251862Z,,,HKLM\System\CurrentControlSet\Services\P9RdrService_163d8f\Start,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7251862Z""/>
+    <EventRecordID>4570</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.705</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\P9RdrService_163d8f\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000003)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,13,4569,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7192565Z,,,HKLM\System\CurrentControlSet\Services\OneSyncSvc_163d8f\ImagePath,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7192565Z""/>
+    <EventRecordID>4569</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.705</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\OneSyncSvc_163d8f\ImagePath</Data>
+    <Data Name=""Details"">C:\Windows\system32\svchost.exe -k UnistackSvcGroup</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000002),13,4568,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7191824Z,,,HKLM\System\CurrentControlSet\Services\OneSyncSvc_163d8f\Start,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7191824Z""/>
+    <EventRecordID>4568</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.705</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\OneSyncSvc_163d8f\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000002)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,C:\Windows\system32\svchost.exe -k LocalService -p,13,4567,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7160842Z,,,HKLM\System\CurrentControlSet\Services\NPSMSvc_163d8f\ImagePath,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7160842Z""/>
+    <EventRecordID>4567</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.705</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\NPSMSvc_163d8f\ImagePath</Data>
+    <Data Name=""Details"">C:\Windows\system32\svchost.exe -k LocalService -p</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000003),13,4566,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7159937Z,,,HKLM\System\CurrentControlSet\Services\NPSMSvc_163d8f\Start,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7159937Z""/>
+    <EventRecordID>4566</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.705</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\NPSMSvc_163d8f\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000003)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,C:\Windows\system32\svchost.exe -k UnistackSvcGroup,13,4565,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7132451Z,,,HKLM\System\CurrentControlSet\Services\MessagingService_163d8f\ImagePath,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7132451Z""/>
+    <EventRecordID>4565</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.705</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\MessagingService_163d8f\ImagePath</Data>
+    <Data Name=""Details"">C:\Windows\system32\svchost.exe -k UnistackSvcGroup</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000003),13,4564,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7131210Z,,,HKLM\System\CurrentControlSet\Services\MessagingService_163d8f\Start,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7131210Z""/>
+    <EventRecordID>4564</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.705</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\MessagingService_163d8f\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000003)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,C:\Windows\system32\svchost.exe -k DevicesFlow,13,4563,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7099692Z,,,HKLM\System\CurrentControlSet\Services\DevicesFlowUserSvc_163d8f\ImagePath,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7099692Z""/>
+    <EventRecordID>4563</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.705</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\DevicesFlowUserSvc_163d8f\ImagePath</Data>
+    <Data Name=""Details"">C:\Windows\system32\svchost.exe -k DevicesFlow</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000003),13,4562,SetValue,,,C:\Windows\system32\services.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,,,,,,"T1031,T1050",,,,,,,,,,,,,2023-12-19T22:46:37.7098580Z,,,HKLM\System\CurrentControlSet\Services\DevicesFlowUserSvc_163d8f\Start,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,46:37.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:37.7098580Z""/>
+    <EventRecordID>4562</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1031,T1050</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:37.705</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Services\DevicesFlowUserSvc_163d8f\Start</Data>
+    <Data Name=""Details"">DWORD (0x00000003)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"

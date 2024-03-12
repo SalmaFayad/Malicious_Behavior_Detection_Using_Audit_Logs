@@ -1,0 +1,743 @@
+Channel,CommandLine,Company,Computer,CreationUtcTime,CurrentDirectory,Description,DestinationHostname,DestinationIp,DestinationIsIpv6,DestinationPort,DestinationPortName,Details,EventID,EventRecordID,EventType,FileVersion,Hashes,Image,Initiated,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Message,NewThreadId,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,Protocol,QueryName,QueryResults,QueryStatus,RuleName,SourceHostname,SourceImage,SourceIp,SourceIsIpv6,SourcePort,SourcePortName,SourceProcessGuid,SourceProcessId,SourceUser,StartAddress,StartFunction,StartModule,SystemTime,TargetFilename,TargetImage,TargetObject,TargetProcessGuid,TargetProcessId,TargetUser,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,"C:\Windows\system32\wevtutil.exe install-manifest ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\Microsoft-Antimalware-Service.man"" ""/resourceFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpSvc.dll"" ""/messageFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpSvc.dll"" ""/parameterFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpSvc.dll""",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Windows Event Log Utility,,,,,,,1,843,,10.0.22621.1778 (WinBuild.160101.0800),"MD5=DFE4A9613993ECAFE6B38DEFE8D495F2,SHA256=3635324AA002EBB7FD99D50E63ACDAC0C34E831A7F35E7B33F37854557538588,IMPHASH=92CA71320A49850E970004A94EA5D695",C:\Windows\System32\wevtutil.exe,,System,0x8000000000000000,4,{f57bd86a-db68-6581-e703-000000000000},0x3e7,,,0,wevtutil.exe,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe""",C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,{f57bd86a-0685-6582-3a03-000000000b00},2560.0,NT AUTHORITY\SYSTEM,{f57bd86a-0687-6582-4503-000000000b00},10484,9904.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.7873829Z,,,,,,,1,0.0,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.8,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.7873829Z""/>
+    <EventRecordID>843</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.786</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-4503-000000000b00}</Data>
+    <Data Name=""ProcessId"">9904</Data>
+    <Data Name=""Image"">C:\Windows\System32\wevtutil.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1778 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Windows Event Log Utility</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">wevtutil.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\system32\wevtutil.exe install-manifest ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\Microsoft-Antimalware-Service.man"" ""/resourceFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpSvc.dll"" ""/messageFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpSvc.dll"" ""/parameterFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpSvc.dll""</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-db68-6581-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=DFE4A9613993ECAFE6B38DEFE8D495F2,SHA256=3635324AA002EBB7FD99D50E63ACDAC0C34E831A7F35E7B33F37854557538588,IMPHASH=92CA71320A49850E970004A94EA5D695</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-0685-6582-3a03-000000000b00}</Data>
+    <Data Name=""ParentProcessId"">2560</Data>
+    <Data Name=""ParentImage"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe""</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"C:\Windows\system32\wevtutil.exe uninstall-manifest ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\Microsoft-Antimalware-Service.man""",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Windows Event Log Utility,,,,,,,1,842,,10.0.22621.1778 (WinBuild.160101.0800),"MD5=DFE4A9613993ECAFE6B38DEFE8D495F2,SHA256=3635324AA002EBB7FD99D50E63ACDAC0C34E831A7F35E7B33F37854557538588,IMPHASH=92CA71320A49850E970004A94EA5D695",C:\Windows\System32\wevtutil.exe,,System,0x8000000000000000,4,{f57bd86a-db68-6581-e703-000000000000},0x3e7,,,0,wevtutil.exe,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe""",C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,{f57bd86a-0685-6582-3a03-000000000b00},2560.0,NT AUTHORITY\SYSTEM,{f57bd86a-0687-6582-4303-000000000b00},10484,3812.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.6951259Z,,,,,,,1,0.0,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.7,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.6951259Z""/>
+    <EventRecordID>842</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.694</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-4303-000000000b00}</Data>
+    <Data Name=""ProcessId"">3812</Data>
+    <Data Name=""Image"">C:\Windows\System32\wevtutil.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1778 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Windows Event Log Utility</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">wevtutil.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\system32\wevtutil.exe uninstall-manifest ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\Microsoft-Antimalware-Service.man""</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-db68-6581-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=DFE4A9613993ECAFE6B38DEFE8D495F2,SHA256=3635324AA002EBB7FD99D50E63ACDAC0C34E831A7F35E7B33F37854557538588,IMPHASH=92CA71320A49850E970004A94EA5D695</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-0685-6582-3a03-000000000b00}</Data>
+    <Data Name=""ParentProcessId"">2560</Data>
+    <Data Name=""ParentImage"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe""</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000001),13,841,SetValue,,,C:\Windows\system32\wevtutil.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-0687-6582-4103-000000000b00},10484,6888.0,,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.2654726Z,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/WHC\Type,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.2654726Z""/>
+    <EventRecordID>841</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.249</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-4103-000000000b00}</Data>
+    <Data Name=""ProcessId"">6888</Data>
+    <Data Name=""Image"">C:\Windows\system32\wevtutil.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/WHC\Type</Data>
+    <Data Name=""Details"">DWORD (0x00000001)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000000),13,840,SetValue,,,C:\Windows\system32\wevtutil.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-0687-6582-4103-000000000b00},10484,6888.0,,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.2653254Z,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/WHC\MaxSizeUpper,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.2653254Z""/>
+    <EventRecordID>840</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.249</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-4103-000000000b00}</Data>
+    <Data Name=""ProcessId"">6888</Data>
+    <Data Name=""Image"">C:\Windows\system32\wevtutil.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/WHC\MaxSizeUpper</Data>
+    <Data Name=""Details"">DWORD (0x00000000)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00040000),13,839,SetValue,,,C:\Windows\system32\wevtutil.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-0687-6582-4103-000000000b00},10484,6888.0,,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.2652226Z,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/WHC\MaxSize,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.2652226Z""/>
+    <EventRecordID>839</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.249</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-4103-000000000b00}</Data>
+    <Data Name=""ProcessId"">6888</Data>
+    <Data Name=""Image"">C:\Windows\system32\wevtutil.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/WHC\MaxSize</Data>
+    <Data Name=""Details"">DWORD (0x00040000)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,O:BAG:SYD:(A;;0xf0007;;;SY)(A;;0x7;;;BA)(A;;0x3;;;BO)(A;;0x5;;;SO)(A;;0x1;;;IU)(A;;0x3;;;SU)(A;;0x1;;;S-1-5-3)(A;;0x2;;;S-1-5-33)(A;;0x1;;;S-1-5-32-573),13,838,SetValue,,,C:\Windows\system32\wevtutil.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-0687-6582-4103-000000000b00},10484,6888.0,,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.2651684Z,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/WHC\ChannelAccess,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.2651684Z""/>
+    <EventRecordID>838</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.249</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-4103-000000000b00}</Data>
+    <Data Name=""ProcessId"">6888</Data>
+    <Data Name=""Image"">C:\Windows\system32\wevtutil.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/WHC\ChannelAccess</Data>
+    <Data Name=""Details"">O:BAG:SYD:(A;;0xf0007;;;SY)(A;;0x7;;;BA)(A;;0x3;;;BO)(A;;0x5;;;SO)(A;;0x1;;;IU)(A;;0x3;;;SU)(A;;0x1;;;S-1-5-3)(A;;0x2;;;S-1-5-33)(A;;0x1;;;S-1-5-32-573)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000001),13,837,SetValue,,,C:\Windows\system32\wevtutil.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-0687-6582-4103-000000000b00},10484,6888.0,,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.2650638Z,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/WHC\Isolation,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.2650638Z""/>
+    <EventRecordID>837</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.249</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-4103-000000000b00}</Data>
+    <Data Name=""ProcessId"">6888</Data>
+    <Data Name=""Image"">C:\Windows\system32\wevtutil.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/WHC\Isolation</Data>
+    <Data Name=""Details"">DWORD (0x00000001)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000001),13,836,SetValue,,,C:\Windows\system32\wevtutil.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-0687-6582-4103-000000000b00},10484,6888.0,,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.2649410Z,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/WHC\Enabled,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.2649410Z""/>
+    <EventRecordID>836</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.249</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-4103-000000000b00}</Data>
+    <Data Name=""ProcessId"">6888</Data>
+    <Data Name=""Image"">C:\Windows\system32\wevtutil.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/WHC\Enabled</Data>
+    <Data Name=""Details"">DWORD (0x00000001)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78},13,835,SetValue,,,C:\Windows\system32\wevtutil.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-0687-6582-4103-000000000b00},10484,6888.0,,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.2648872Z,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/WHC\OwningPublisher,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.2648872Z""/>
+    <EventRecordID>835</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.249</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-4103-000000000b00}</Data>
+    <Data Name=""ProcessId"">6888</Data>
+    <Data Name=""Image"">C:\Windows\system32\wevtutil.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/WHC\OwningPublisher</Data>
+    <Data Name=""Details"">{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000001),13,834,SetValue,,,C:\Windows\system32\wevtutil.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-0687-6582-4103-000000000b00},10484,6888.0,,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.2648171Z,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/Operational\Type,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.2648171Z""/>
+    <EventRecordID>834</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.249</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-4103-000000000b00}</Data>
+    <Data Name=""ProcessId"">6888</Data>
+    <Data Name=""Image"">C:\Windows\system32\wevtutil.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/Operational\Type</Data>
+    <Data Name=""Details"">DWORD (0x00000001)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000000),13,833,SetValue,,,C:\Windows\system32\wevtutil.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-0687-6582-4103-000000000b00},10484,6888.0,,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.2647619Z,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/Operational\MaxSizeUpper,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.2647619Z""/>
+    <EventRecordID>833</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.249</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-4103-000000000b00}</Data>
+    <Data Name=""ProcessId"">6888</Data>
+    <Data Name=""Image"">C:\Windows\system32\wevtutil.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/Operational\MaxSizeUpper</Data>
+    <Data Name=""Details"">DWORD (0x00000000)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x01000000),13,832,SetValue,,,C:\Windows\system32\wevtutil.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-0687-6582-4103-000000000b00},10484,6888.0,,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.2647045Z,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/Operational\MaxSize,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.2647045Z""/>
+    <EventRecordID>832</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.249</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-4103-000000000b00}</Data>
+    <Data Name=""ProcessId"">6888</Data>
+    <Data Name=""Image"">C:\Windows\system32\wevtutil.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/Operational\MaxSize</Data>
+    <Data Name=""Details"">DWORD (0x01000000)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,O:BAG:SYD:(A;;0xf0007;;;SY)(A;;0x7;;;BA)(A;;0x3;;;BO)(A;;0x5;;;SO)(A;;0x1;;;IU)(A;;0x3;;;SU)(A;;0x1;;;S-1-5-3)(A;;0x2;;;S-1-5-33)(A;;0x1;;;S-1-5-32-573),13,831,SetValue,,,C:\Windows\system32\wevtutil.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-0687-6582-4103-000000000b00},10484,6888.0,,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.2646480Z,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/Operational\ChannelAccess,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.2646480Z""/>
+    <EventRecordID>831</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.249</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-4103-000000000b00}</Data>
+    <Data Name=""ProcessId"">6888</Data>
+    <Data Name=""Image"">C:\Windows\system32\wevtutil.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/Operational\ChannelAccess</Data>
+    <Data Name=""Details"">O:BAG:SYD:(A;;0xf0007;;;SY)(A;;0x7;;;BA)(A;;0x3;;;BO)(A;;0x5;;;SO)(A;;0x1;;;IU)(A;;0x3;;;SU)(A;;0x1;;;S-1-5-3)(A;;0x2;;;S-1-5-33)(A;;0x1;;;S-1-5-32-573)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000001),13,830,SetValue,,,C:\Windows\system32\wevtutil.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-0687-6582-4103-000000000b00},10484,6888.0,,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.2645886Z,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/Operational\Isolation,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.2645886Z""/>
+    <EventRecordID>830</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.249</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-4103-000000000b00}</Data>
+    <Data Name=""ProcessId"">6888</Data>
+    <Data Name=""Image"">C:\Windows\system32\wevtutil.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/Operational\Isolation</Data>
+    <Data Name=""Details"">DWORD (0x00000001)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000001),13,829,SetValue,,,C:\Windows\system32\wevtutil.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-0687-6582-4103-000000000b00},10484,6888.0,,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.2645315Z,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/Operational\Enabled,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.2645315Z""/>
+    <EventRecordID>829</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.249</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-4103-000000000b00}</Data>
+    <Data Name=""ProcessId"">6888</Data>
+    <Data Name=""Image"">C:\Windows\system32\wevtutil.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/Operational\Enabled</Data>
+    <Data Name=""Details"">DWORD (0x00000001)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78},13,828,SetValue,,,C:\Windows\system32\wevtutil.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-0687-6582-4103-000000000b00},10484,6888.0,,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.2644674Z,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/Operational\OwningPublisher,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.2644674Z""/>
+    <EventRecordID>828</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.249</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-4103-000000000b00}</Data>
+    <Data Name=""ProcessId"">6888</Data>
+    <Data Name=""Image"">C:\Windows\system32\wevtutil.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/Operational\OwningPublisher</Data>
+    <Data Name=""Details"">{11cd958a-c507-4ef3-b3f2-5fd9dfbd2c78}</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"C:\Windows\system32\wevtutil.exe install-manifest ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\Microsoft-Windows-Windows Defender.man"" ""/resourceFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpEvMsg.dll"" ""/messageFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpEvMsg.dll"" ""/parameterFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpEvMsg.dll""",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Windows Event Log Utility,,,,,,,1,827,,10.0.22621.1778 (WinBuild.160101.0800),"MD5=DFE4A9613993ECAFE6B38DEFE8D495F2,SHA256=3635324AA002EBB7FD99D50E63ACDAC0C34E831A7F35E7B33F37854557538588,IMPHASH=92CA71320A49850E970004A94EA5D695",C:\Windows\System32\wevtutil.exe,,System,0x8000000000000000,4,{f57bd86a-db68-6581-e703-000000000000},0x3e7,,,0,wevtutil.exe,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe""",C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,{f57bd86a-0685-6582-3a03-000000000b00},2560.0,NT AUTHORITY\SYSTEM,{f57bd86a-0687-6582-4103-000000000b00},10484,6888.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.1732820Z,,,,,,,1,0.0,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.2,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.1732820Z""/>
+    <EventRecordID>827</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.172</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-4103-000000000b00}</Data>
+    <Data Name=""ProcessId"">6888</Data>
+    <Data Name=""Image"">C:\Windows\System32\wevtutil.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1778 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Windows Event Log Utility</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">wevtutil.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\system32\wevtutil.exe install-manifest ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\Microsoft-Windows-Windows Defender.man"" ""/resourceFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpEvMsg.dll"" ""/messageFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpEvMsg.dll"" ""/parameterFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\MpEvMsg.dll""</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-db68-6581-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=DFE4A9613993ECAFE6B38DEFE8D495F2,SHA256=3635324AA002EBB7FD99D50E63ACDAC0C34E831A7F35E7B33F37854557538588,IMPHASH=92CA71320A49850E970004A94EA5D695</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-0685-6582-3a03-000000000b00}</Data>
+    <Data Name=""ParentProcessId"">2560</Data>
+    <Data Name=""ParentImage"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe""</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,12,826,DeleteKey,,,C:\Windows\system32\wevtutil.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-0687-6582-3f03-000000000b00},10484,9624.0,,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.1580681Z,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/WHC,,,,12,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.2,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>12</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>12</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.1580681Z""/>
+    <EventRecordID>826</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">DeleteKey</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.156</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-3f03-000000000b00}</Data>
+    <Data Name=""ProcessId"">9624</Data>
+    <Data Name=""Image"">C:\Windows\system32\wevtutil.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/WHC</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,12,825,DeleteKey,,,C:\Windows\system32\wevtutil.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-0687-6582-3f03-000000000b00},10484,9624.0,,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.1280378Z,,,HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/Operational,,,,12,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.1,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>12</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>12</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.1280378Z""/>
+    <EventRecordID>825</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">DeleteKey</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.124</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-3f03-000000000b00}</Data>
+    <Data Name=""ProcessId"">9624</Data>
+    <Data Name=""Image"">C:\Windows\system32\wevtutil.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Channels\Microsoft-Windows-Windows Defender/Operational</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"C:\Windows\system32\wevtutil.exe uninstall-manifest ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\Microsoft-Windows-Windows Defender.man""",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Windows Event Log Utility,,,,,,,1,824,,10.0.22621.1778 (WinBuild.160101.0800),"MD5=DFE4A9613993ECAFE6B38DEFE8D495F2,SHA256=3635324AA002EBB7FD99D50E63ACDAC0C34E831A7F35E7B33F37854557538588,IMPHASH=92CA71320A49850E970004A94EA5D695",C:\Windows\System32\wevtutil.exe,,System,0x8000000000000000,4,{f57bd86a-db68-6581-e703-000000000000},0x3e7,,,0,wevtutil.exe,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe""",C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,{f57bd86a-0685-6582-3a03-000000000b00},2560.0,NT AUTHORITY\SYSTEM,{f57bd86a-0687-6582-3f03-000000000b00},10484,9624.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:27.0169496Z,,,,,,,1,0.0,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:27.0,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:27.0169496Z""/>
+    <EventRecordID>824</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:27.016</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0687-6582-3f03-000000000b00}</Data>
+    <Data Name=""ProcessId"">9624</Data>
+    <Data Name=""Image"">C:\Windows\System32\wevtutil.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1778 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Windows Event Log Utility</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">wevtutil.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\system32\wevtutil.exe uninstall-manifest ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\Microsoft-Windows-Windows Defender.man""</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-db68-6581-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=DFE4A9613993ECAFE6B38DEFE8D495F2,SHA256=3635324AA002EBB7FD99D50E63ACDAC0C34E831A7F35E7B33F37854557538588,IMPHASH=92CA71320A49850E970004A94EA5D695</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-0685-6582-3a03-000000000b00}</Data>
+    <Data Name=""ParentProcessId"">2560</Data>
+    <Data Name=""ParentImage"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe""</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"C:\Windows\system32\wevtutil.exe install-manifest ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\Microsoft-Antimalware-AMFilter.man"" ""/resourceFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\Drivers\WdFilter.sys"" ""/messageFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\Drivers\WdFilter.sys"" ""/parameterFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\Drivers\WdFilter.sys""",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Windows Event Log Utility,,,,,,,1,823,,10.0.22621.1778 (WinBuild.160101.0800),"MD5=DFE4A9613993ECAFE6B38DEFE8D495F2,SHA256=3635324AA002EBB7FD99D50E63ACDAC0C34E831A7F35E7B33F37854557538588,IMPHASH=92CA71320A49850E970004A94EA5D695",C:\Windows\System32\wevtutil.exe,,System,0x8000000000000000,4,{f57bd86a-db68-6581-e703-000000000000},0x3e7,,,0,wevtutil.exe,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe""",C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,{f57bd86a-0685-6582-3a03-000000000b00},2560.0,NT AUTHORITY\SYSTEM,{f57bd86a-0686-6582-3d03-000000000b00},10484,9728.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:26.9116675Z,,,,,,,1,0.0,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:26.9,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:26.9116675Z""/>
+    <EventRecordID>823</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:26.910</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0686-6582-3d03-000000000b00}</Data>
+    <Data Name=""ProcessId"">9728</Data>
+    <Data Name=""Image"">C:\Windows\System32\wevtutil.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1778 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Windows Event Log Utility</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">wevtutil.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\system32\wevtutil.exe install-manifest ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\Microsoft-Antimalware-AMFilter.man"" ""/resourceFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\Drivers\WdFilter.sys"" ""/messageFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\Drivers\WdFilter.sys"" ""/parameterFilePath:C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\Drivers\WdFilter.sys""</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-db68-6581-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=DFE4A9613993ECAFE6B38DEFE8D495F2,SHA256=3635324AA002EBB7FD99D50E63ACDAC0C34E831A7F35E7B33F37854557538588,IMPHASH=92CA71320A49850E970004A94EA5D695</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-0685-6582-3a03-000000000b00}</Data>
+    <Data Name=""ParentProcessId"">2560</Data>
+    <Data Name=""ParentImage"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe""</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"C:\Windows\system32\wevtutil.exe uninstall-manifest ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\Microsoft-Antimalware-AMFilter.man""",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Windows Event Log Utility,,,,,,,1,822,,10.0.22621.1778 (WinBuild.160101.0800),"MD5=DFE4A9613993ECAFE6B38DEFE8D495F2,SHA256=3635324AA002EBB7FD99D50E63ACDAC0C34E831A7F35E7B33F37854557538588,IMPHASH=92CA71320A49850E970004A94EA5D695",C:\Windows\System32\wevtutil.exe,,System,0x8000000000000000,4,{f57bd86a-db68-6581-e703-000000000000},0x3e7,,,0,wevtutil.exe,"""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe""",C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe,{f57bd86a-0685-6582-3a03-000000000b00},2560.0,NT AUTHORITY\SYSTEM,{f57bd86a-0686-6582-3b03-000000000b00},10484,3212.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T21:09:26.7130673Z,,,,,,,1,0.0,10592,NT AUTHORITY\SYSTEM,S-1-5-18,09:26.7,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T21:09:26.7130673Z""/>
+    <EventRecordID>822</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 21:09:26.706</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-0686-6582-3b03-000000000b00}</Data>
+    <Data Name=""ProcessId"">3212</Data>
+    <Data Name=""Image"">C:\Windows\System32\wevtutil.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1778 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Windows Event Log Utility</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">wevtutil.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\system32\wevtutil.exe uninstall-manifest ""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23110.3-0\Microsoft-Antimalware-AMFilter.man""</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-db68-6581-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=DFE4A9613993ECAFE6B38DEFE8D495F2,SHA256=3635324AA002EBB7FD99D50E63ACDAC0C34E831A7F35E7B33F37854557538588,IMPHASH=92CA71320A49850E970004A94EA5D695</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-0685-6582-3a03-000000000b00}</Data>
+    <Data Name=""ParentProcessId"">2560</Data>
+    <Data Name=""ParentImage"">C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.23080.2006-0\MsMpEng.exe""</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"

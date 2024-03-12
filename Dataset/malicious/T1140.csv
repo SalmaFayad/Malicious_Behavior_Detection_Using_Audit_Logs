@@ -1,0 +1,1483 @@
+Channel,CommandLine,Company,Computer,CreationUtcTime,CurrentDirectory,Description,EventID,EventRecordID,FileVersion,Hashes,Image,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Message,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,QueryName,QueryResults,QueryStatus,RenderingInfo,RuleName,SystemTime,TargetFilename,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,5,19581,,,C:\Users\User\AppData\Local\Temp\tcm.tmp,,0x8000000000000000,Information,,,"Process terminated:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:25.898
+
+ProcessGuid: {f57bd86a-a0d1-658c-cb01-000000000f00}
+
+ProcessId: 9572
+
+Image: C:\Users\User\AppData\Local\Temp\tcm.tmp
+
+User: WINDEV2309EVAL\User",Info,,,,,,,{f57bd86a-a0d1-658c-cb01-000000000f00},3588,9572,,,,,"
+      ",-,2023-12-27T22:10:25.9130319Z,,Process terminated (rule: ProcessTerminate),,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:10:25.898,3,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:10:25.9130319Z""/>
+      <EventRecordID>19581</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:10:25.898</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a0d1-658c-cb01-000000000f00}</Data>
+      <Data Name=""ProcessId"">9572</Data>
+      <Data Name=""Image"">C:\Users\User\AppData\Local\Temp\tcm.tmp</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process terminated:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:25.898
+
+ProcessGuid: {f57bd86a-a0d1-658c-cb01-000000000f00}
+
+ProcessId: 9572
+
+Image: C:\Users\User\AppData\Local\Temp\tcm.tmp
+
+User: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process terminated (rule: ProcessTerminate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-27 22:10:25.898,,,11,19580,,,C:\Users\User\AppData\Local\Temp\tcm.tmp,,0x8000000000000000,Information,,,"File created:
+
+RuleName: EXE
+
+UtcTime: 2023-12-27 22:10:25.898
+
+ProcessGuid: {f57bd86a-a0d1-658c-cb01-000000000f00}
+
+ProcessId: 9572
+
+Image: C:\Users\User\AppData\Local\Temp\tcm.tmp
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\T1140_calc2_decoded.exe
+
+CreationUtcTime: 2023-12-27 22:10:25.898
+
+User: WINDEV2309EVAL\User",Info,,,,,,,{f57bd86a-a0d1-658c-cb01-000000000f00},3588,9572,,,,,"
+      ",EXE,2023-12-27T22:10:25.9106765Z,C:\Users\User\AppData\Local\Temp\T1140_calc2_decoded.exe,File created (rule: FileCreate),,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:10:25.898,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:10:25.9106765Z""/>
+      <EventRecordID>19580</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">EXE</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:10:25.898</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a0d1-658c-cb01-000000000f00}</Data>
+      <Data Name=""ProcessId"">9572</Data>
+      <Data Name=""Image"">C:\Users\User\AppData\Local\Temp\tcm.tmp</Data>
+      <Data Name=""TargetFilename"">C:\Users\User\AppData\Local\Temp\T1140_calc2_decoded.exe</Data>
+      <Data Name=""CreationUtcTime"">2023-12-27 22:10:25.898</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: EXE
+
+UtcTime: 2023-12-27 22:10:25.898
+
+ProcessGuid: {f57bd86a-a0d1-658c-cb01-000000000f00}
+
+ProcessId: 9572
+
+Image: C:\Users\User\AppData\Local\Temp\tcm.tmp
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\T1140_calc2_decoded.exe
+
+CreationUtcTime: 2023-12-27 22:10:25.898
+
+User: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,C:\Users\User\AppData\Local\Temp\tcm.tmp  -decode C:\Users\User\AppData\Local\Temp\T1140_calc2.txt C:\Users\User\AppData\Local\Temp\T1140_calc2_decoded.exe,Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,CertUtil.exe,1,19579,10.0.22621.2506 (WinBuild.160101.0800),"MD5=291B8C8D419BF3F836D19E165742A342,SHA256=BECCB40598D544B665F562C6CCB725D48C4BB120FA21B376487C2F5D4761DFBB,IMPHASH=323A326D7B550351B75EC637A5575902",C:\Users\User\AppData\Local\Temp\tcm.tmp,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:25.879
+
+ProcessGuid: {f57bd86a-a0d1-658c-cb01-000000000f00}
+
+ProcessId: 9572
+
+Image: C:\Users\User\AppData\Local\Temp\tcm.tmp
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: CertUtil.exe
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: CertUtil.exe
+
+CommandLine: C:\Users\User\AppData\Local\Temp\tcm.tmp  -decode C:\Users\User\AppData\Local\Temp\T1140_calc2.txt C:\Users\User\AppData\Local\Temp\T1140_calc2_decoded.exe
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=291B8C8D419BF3F836D19E165742A342,SHA256=BECCB40598D544B665F562C6CCB725D48C4BB120FA21B376487C2F5D4761DFBB,IMPHASH=323A326D7B550351B75EC637A5575902
+
+ParentProcessGuid: {f57bd86a-a0d1-658c-c801-000000000f00}
+
+ParentProcessId: 7500
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c copy %windir%\system32\certutil.exe %temp%\tcm.tmp & %temp%\tcm.tmp -encode C:\Windows\System32\calc.exe %temp%\T1140_calc2.txt & %temp%\tcm.tmp -decode %temp%\T1140_calc2.txt %temp%\T1140_calc2_decoded.exe
+
+ParentUser: WINDEV2309EVAL\User",Info,CertUtil.exe,"""cmd.exe"" /c copy %windir%\system32\certutil.exe %temp%\tcm.tmp & %temp%\tcm.tmp -encode C:\Windows\System32\calc.exe %temp%\T1140_calc2.txt & %temp%\tcm.tmp -decode %temp%\T1140_calc2.txt %temp%\T1140_calc2_decoded.exe",C:\Windows\System32\cmd.exe,{f57bd86a-a0d1-658c-c801-000000000f00},7500,WINDEV2309EVAL\User,{f57bd86a-a0d1-658c-cb01-000000000f00},3588,9572,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T22:10:25.8807714Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:10:25.879,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:10:25.8807714Z""/>
+      <EventRecordID>19579</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:10:25.879</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a0d1-658c-cb01-000000000f00}</Data>
+      <Data Name=""ProcessId"">9572</Data>
+      <Data Name=""Image"">C:\Users\User\AppData\Local\Temp\tcm.tmp</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">CertUtil.exe</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">CertUtil.exe</Data>
+      <Data Name=""CommandLine"">C:\Users\User\AppData\Local\Temp\tcm.tmp  -decode C:\Users\User\AppData\Local\Temp\T1140_calc2.txt C:\Users\User\AppData\Local\Temp\T1140_calc2_decoded.exe</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=291B8C8D419BF3F836D19E165742A342,SHA256=BECCB40598D544B665F562C6CCB725D48C4BB120FA21B376487C2F5D4761DFBB,IMPHASH=323A326D7B550351B75EC637A5575902</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-a0d1-658c-c801-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">7500</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c copy %windir%\system32\certutil.exe %temp%\tcm.tmp &amp; %temp%\tcm.tmp -encode C:\Windows\System32\calc.exe %temp%\T1140_calc2.txt &amp; %temp%\tcm.tmp -decode %temp%\T1140_calc2.txt %temp%\T1140_calc2_decoded.exe</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:25.879
+
+ProcessGuid: {f57bd86a-a0d1-658c-cb01-000000000f00}
+
+ProcessId: 9572
+
+Image: C:\Users\User\AppData\Local\Temp\tcm.tmp
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: CertUtil.exe
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: CertUtil.exe
+
+CommandLine: C:\Users\User\AppData\Local\Temp\tcm.tmp  -decode C:\Users\User\AppData\Local\Temp\T1140_calc2.txt C:\Users\User\AppData\Local\Temp\T1140_calc2_decoded.exe
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=291B8C8D419BF3F836D19E165742A342,SHA256=BECCB40598D544B665F562C6CCB725D48C4BB120FA21B376487C2F5D4761DFBB,IMPHASH=323A326D7B550351B75EC637A5575902
+
+ParentProcessGuid: {f57bd86a-a0d1-658c-c801-000000000f00}
+
+ParentProcessId: 7500
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c copy %windir%\system32\certutil.exe %temp%\tcm.tmp &amp; %temp%\tcm.tmp -encode C:\Windows\System32\calc.exe %temp%\T1140_calc2.txt &amp; %temp%\tcm.tmp -decode %temp%\T1140_calc2.txt %temp%\T1140_calc2_decoded.exe
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,5,19578,,,C:\Users\User\AppData\Local\Temp\tcm.tmp,,0x8000000000000000,Information,,,"Process terminated:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:25.867
+
+ProcessGuid: {f57bd86a-a0d1-658c-ca01-000000000f00}
+
+ProcessId: 1824
+
+Image: C:\Users\User\AppData\Local\Temp\tcm.tmp
+
+User: WINDEV2309EVAL\User",Info,,,,,,,{f57bd86a-a0d1-658c-ca01-000000000f00},3588,1824,,,,,"
+      ",-,2023-12-27T22:10:25.8770897Z,,Process terminated (rule: ProcessTerminate),,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:10:25.867,3,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>5</EventID>
+      <Version>3</Version>
+      <Level>4</Level>
+      <Task>5</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:10:25.8770897Z""/>
+      <EventRecordID>19578</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:10:25.867</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a0d1-658c-ca01-000000000f00}</Data>
+      <Data Name=""ProcessId"">1824</Data>
+      <Data Name=""Image"">C:\Users\User\AppData\Local\Temp\tcm.tmp</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process terminated:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:25.867
+
+ProcessGuid: {f57bd86a-a0d1-658c-ca01-000000000f00}
+
+ProcessId: 1824
+
+Image: C:\Users\User\AppData\Local\Temp\tcm.tmp
+
+User: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process terminated (rule: ProcessTerminate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,C:\Users\User\AppData\Local\Temp\tcm.tmp  -encode C:\Windows\System32\calc.exe C:\Users\User\AppData\Local\Temp\T1140_calc2.txt ,Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,CertUtil.exe,1,19577,10.0.22621.2506 (WinBuild.160101.0800),"MD5=291B8C8D419BF3F836D19E165742A342,SHA256=BECCB40598D544B665F562C6CCB725D48C4BB120FA21B376487C2F5D4761DFBB,IMPHASH=323A326D7B550351B75EC637A5575902",C:\Users\User\AppData\Local\Temp\tcm.tmp,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:25.828
+
+ProcessGuid: {f57bd86a-a0d1-658c-ca01-000000000f00}
+
+ProcessId: 1824
+
+Image: C:\Users\User\AppData\Local\Temp\tcm.tmp
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: CertUtil.exe
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: CertUtil.exe
+
+CommandLine: C:\Users\User\AppData\Local\Temp\tcm.tmp  -encode C:\Windows\System32\calc.exe C:\Users\User\AppData\Local\Temp\T1140_calc2.txt 
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=291B8C8D419BF3F836D19E165742A342,SHA256=BECCB40598D544B665F562C6CCB725D48C4BB120FA21B376487C2F5D4761DFBB,IMPHASH=323A326D7B550351B75EC637A5575902
+
+ParentProcessGuid: {f57bd86a-a0d1-658c-c801-000000000f00}
+
+ParentProcessId: 7500
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c copy %windir%\system32\certutil.exe %temp%\tcm.tmp & %temp%\tcm.tmp -encode C:\Windows\System32\calc.exe %temp%\T1140_calc2.txt & %temp%\tcm.tmp -decode %temp%\T1140_calc2.txt %temp%\T1140_calc2_decoded.exe
+
+ParentUser: WINDEV2309EVAL\User",Info,CertUtil.exe,"""cmd.exe"" /c copy %windir%\system32\certutil.exe %temp%\tcm.tmp & %temp%\tcm.tmp -encode C:\Windows\System32\calc.exe %temp%\T1140_calc2.txt & %temp%\tcm.tmp -decode %temp%\T1140_calc2.txt %temp%\T1140_calc2_decoded.exe",C:\Windows\System32\cmd.exe,{f57bd86a-a0d1-658c-c801-000000000f00},7500,WINDEV2309EVAL\User,{f57bd86a-a0d1-658c-ca01-000000000f00},3588,1824,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T22:10:25.8392134Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:10:25.828,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:10:25.8392134Z""/>
+      <EventRecordID>19577</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:10:25.828</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a0d1-658c-ca01-000000000f00}</Data>
+      <Data Name=""ProcessId"">1824</Data>
+      <Data Name=""Image"">C:\Users\User\AppData\Local\Temp\tcm.tmp</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">CertUtil.exe</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">CertUtil.exe</Data>
+      <Data Name=""CommandLine"">C:\Users\User\AppData\Local\Temp\tcm.tmp  -encode C:\Windows\System32\calc.exe C:\Users\User\AppData\Local\Temp\T1140_calc2.txt </Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=291B8C8D419BF3F836D19E165742A342,SHA256=BECCB40598D544B665F562C6CCB725D48C4BB120FA21B376487C2F5D4761DFBB,IMPHASH=323A326D7B550351B75EC637A5575902</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-a0d1-658c-c801-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">7500</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c copy %windir%\system32\certutil.exe %temp%\tcm.tmp &amp; %temp%\tcm.tmp -encode C:\Windows\System32\calc.exe %temp%\T1140_calc2.txt &amp; %temp%\tcm.tmp -decode %temp%\T1140_calc2.txt %temp%\T1140_calc2_decoded.exe</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:25.828
+
+ProcessGuid: {f57bd86a-a0d1-658c-ca01-000000000f00}
+
+ProcessId: 1824
+
+Image: C:\Users\User\AppData\Local\Temp\tcm.tmp
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: CertUtil.exe
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: CertUtil.exe
+
+CommandLine: C:\Users\User\AppData\Local\Temp\tcm.tmp  -encode C:\Windows\System32\calc.exe C:\Users\User\AppData\Local\Temp\T1140_calc2.txt 
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=291B8C8D419BF3F836D19E165742A342,SHA256=BECCB40598D544B665F562C6CCB725D48C4BB120FA21B376487C2F5D4761DFBB,IMPHASH=323A326D7B550351B75EC637A5575902
+
+ParentProcessGuid: {f57bd86a-a0d1-658c-c801-000000000f00}
+
+ParentProcessId: 7500
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c copy %windir%\system32\certutil.exe %temp%\tcm.tmp &amp; %temp%\tcm.tmp -encode C:\Windows\System32\calc.exe %temp%\T1140_calc2.txt &amp; %temp%\tcm.tmp -decode %temp%\T1140_calc2.txt %temp%\T1140_calc2_decoded.exe
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""cmd.exe"" /c copy %%windir%%\system32\certutil.exe %%temp%%\tcm.tmp & %%temp%%\tcm.tmp -encode C:\Windows\System32\calc.exe %%temp%%\T1140_calc2.txt & %%temp%%\tcm.tmp -decode %%temp%%\T1140_calc2.txt %%temp%%\T1140_calc2_decoded.exe",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,1,19576,10.0.22621.2506 (WinBuild.160101.0800),"MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:25.781
+
+ProcessGuid: {f57bd86a-a0d1-658c-c801-000000000f00}
+
+ProcessId: 7500
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c copy %%windir%%\system32\certutil.exe %%temp%%\tcm.tmp & %%temp%%\tcm.tmp -encode C:\Windows\System32\calc.exe %%temp%%\T1140_calc2.txt & %%temp%%\tcm.tmp -decode %%temp%%\T1140_calc2.txt %%temp%%\T1140_calc2_decoded.exe
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,Cmd.Exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-a0d1-658c-c801-000000000f00},3588,7500,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T22:10:25.7829321Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:10:25.781,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:10:25.7829321Z""/>
+      <EventRecordID>19576</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:10:25.781</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a0d1-658c-c801-000000000f00}</Data>
+      <Data Name=""ProcessId"">7500</Data>
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows Command Processor</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      <Data Name=""CommandLine"">""cmd.exe"" /c copy %%windir%%\system32\certutil.exe %%temp%%\tcm.tmp &amp; %%temp%%\tcm.tmp -encode C:\Windows\System32\calc.exe %%temp%%\T1140_calc2.txt &amp; %%temp%%\tcm.tmp -decode %%temp%%\T1140_calc2.txt %%temp%%\T1140_calc2_decoded.exe</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:25.781
+
+ProcessGuid: {f57bd86a-a0d1-658c-c801-000000000f00}
+
+ProcessId: 7500
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c copy %%windir%%\system32\certutil.exe %%temp%%\tcm.tmp &amp; %%temp%%\tcm.tmp -encode C:\Windows\System32\calc.exe %%temp%%\T1140_calc2.txt &amp; %%temp%%\tcm.tmp -decode %%temp%%\T1140_calc2.txt %%temp%%\T1140_calc2_decoded.exe
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-27 22:10:24.729,,,11,19575,,,C:\Windows\system32\certutil.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: EXE
+
+UtcTime: 2023-12-27 22:10:24.729
+
+ProcessGuid: {f57bd86a-a0d0-658c-c701-000000000f00}
+
+ProcessId: 8468
+
+Image: C:\Windows\system32\certutil.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\T1140_calc_decoded.exe
+
+CreationUtcTime: 2023-12-27 22:10:24.729
+
+User: WINDEV2309EVAL\User",Info,,,,,,,{f57bd86a-a0d0-658c-c701-000000000f00},3588,8468,,,,,"
+      ",EXE,2023-12-27T22:10:24.7403459Z,C:\Users\User\AppData\Local\Temp\T1140_calc_decoded.exe,File created (rule: FileCreate),,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:10:24.729,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:10:24.7403459Z""/>
+      <EventRecordID>19575</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">EXE</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:10:24.729</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a0d0-658c-c701-000000000f00}</Data>
+      <Data Name=""ProcessId"">8468</Data>
+      <Data Name=""Image"">C:\Windows\system32\certutil.exe</Data>
+      <Data Name=""TargetFilename"">C:\Users\User\AppData\Local\Temp\T1140_calc_decoded.exe</Data>
+      <Data Name=""CreationUtcTime"">2023-12-27 22:10:24.729</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: EXE
+
+UtcTime: 2023-12-27 22:10:24.729
+
+ProcessGuid: {f57bd86a-a0d0-658c-c701-000000000f00}
+
+ProcessId: 8468
+
+Image: C:\Windows\system32\certutil.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\T1140_calc_decoded.exe
+
+CreationUtcTime: 2023-12-27 22:10:24.729
+
+User: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,certutil  -decode C:\Users\User\AppData\Local\Temp\T1140_calc.txt C:\Users\User\AppData\Local\Temp\T1140_calc_decoded.exe,Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,CertUtil.exe,1,19574,10.0.22621.2506 (WinBuild.160101.0800),"MD5=291B8C8D419BF3F836D19E165742A342,SHA256=BECCB40598D544B665F562C6CCB725D48C4BB120FA21B376487C2F5D4761DFBB,IMPHASH=323A326D7B550351B75EC637A5575902",C:\Windows\System32\certutil.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:24.709
+
+ProcessGuid: {f57bd86a-a0d0-658c-c701-000000000f00}
+
+ProcessId: 8468
+
+Image: C:\Windows\System32\certutil.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: CertUtil.exe
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: CertUtil.exe
+
+CommandLine: certutil  -decode C:\Users\User\AppData\Local\Temp\T1140_calc.txt C:\Users\User\AppData\Local\Temp\T1140_calc_decoded.exe
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=291B8C8D419BF3F836D19E165742A342,SHA256=BECCB40598D544B665F562C6CCB725D48C4BB120FA21B376487C2F5D4761DFBB,IMPHASH=323A326D7B550351B75EC637A5575902
+
+ParentProcessGuid: {f57bd86a-a0d0-658c-c401-000000000f00}
+
+ParentProcessId: 1092
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c certutil -encode C:\Windows\System32\calc.exe %temp%\T1140_calc.txt & certutil -decode %temp%\T1140_calc.txt %temp%\T1140_calc_decoded.exe
+
+ParentUser: WINDEV2309EVAL\User",Info,CertUtil.exe,"""cmd.exe"" /c certutil -encode C:\Windows\System32\calc.exe %temp%\T1140_calc.txt & certutil -decode %temp%\T1140_calc.txt %temp%\T1140_calc_decoded.exe",C:\Windows\System32\cmd.exe,{f57bd86a-a0d0-658c-c401-000000000f00},1092,WINDEV2309EVAL\User,{f57bd86a-a0d0-658c-c701-000000000f00},3588,8468,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T22:10:24.7107631Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:10:24.709,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:10:24.7107631Z""/>
+      <EventRecordID>19574</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:10:24.709</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a0d0-658c-c701-000000000f00}</Data>
+      <Data Name=""ProcessId"">8468</Data>
+      <Data Name=""Image"">C:\Windows\System32\certutil.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">CertUtil.exe</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">CertUtil.exe</Data>
+      <Data Name=""CommandLine"">certutil  -decode C:\Users\User\AppData\Local\Temp\T1140_calc.txt C:\Users\User\AppData\Local\Temp\T1140_calc_decoded.exe</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=291B8C8D419BF3F836D19E165742A342,SHA256=BECCB40598D544B665F562C6CCB725D48C4BB120FA21B376487C2F5D4761DFBB,IMPHASH=323A326D7B550351B75EC637A5575902</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-a0d0-658c-c401-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">1092</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c certutil -encode C:\Windows\System32\calc.exe %temp%\T1140_calc.txt &amp; certutil -decode %temp%\T1140_calc.txt %temp%\T1140_calc_decoded.exe</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:24.709
+
+ProcessGuid: {f57bd86a-a0d0-658c-c701-000000000f00}
+
+ProcessId: 8468
+
+Image: C:\Windows\System32\certutil.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: CertUtil.exe
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: CertUtil.exe
+
+CommandLine: certutil  -decode C:\Users\User\AppData\Local\Temp\T1140_calc.txt C:\Users\User\AppData\Local\Temp\T1140_calc_decoded.exe
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=291B8C8D419BF3F836D19E165742A342,SHA256=BECCB40598D544B665F562C6CCB725D48C4BB120FA21B376487C2F5D4761DFBB,IMPHASH=323A326D7B550351B75EC637A5575902
+
+ParentProcessGuid: {f57bd86a-a0d0-658c-c401-000000000f00}
+
+ParentProcessId: 1092
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c certutil -encode C:\Windows\System32\calc.exe %temp%\T1140_calc.txt &amp; certutil -decode %temp%\T1140_calc.txt %temp%\T1140_calc_decoded.exe
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,certutil  -encode C:\Windows\System32\calc.exe C:\Users\User\AppData\Local\Temp\T1140_calc.txt ,Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,CertUtil.exe,1,19573,10.0.22621.2506 (WinBuild.160101.0800),"MD5=291B8C8D419BF3F836D19E165742A342,SHA256=BECCB40598D544B665F562C6CCB725D48C4BB120FA21B376487C2F5D4761DFBB,IMPHASH=323A326D7B550351B75EC637A5575902",C:\Windows\System32\certutil.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:24.640
+
+ProcessGuid: {f57bd86a-a0d0-658c-c601-000000000f00}
+
+ProcessId: 7744
+
+Image: C:\Windows\System32\certutil.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: CertUtil.exe
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: CertUtil.exe
+
+CommandLine: certutil  -encode C:\Windows\System32\calc.exe C:\Users\User\AppData\Local\Temp\T1140_calc.txt 
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=291B8C8D419BF3F836D19E165742A342,SHA256=BECCB40598D544B665F562C6CCB725D48C4BB120FA21B376487C2F5D4761DFBB,IMPHASH=323A326D7B550351B75EC637A5575902
+
+ParentProcessGuid: {f57bd86a-a0d0-658c-c401-000000000f00}
+
+ParentProcessId: 1092
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c certutil -encode C:\Windows\System32\calc.exe %temp%\T1140_calc.txt & certutil -decode %temp%\T1140_calc.txt %temp%\T1140_calc_decoded.exe
+
+ParentUser: WINDEV2309EVAL\User",Info,CertUtil.exe,"""cmd.exe"" /c certutil -encode C:\Windows\System32\calc.exe %temp%\T1140_calc.txt & certutil -decode %temp%\T1140_calc.txt %temp%\T1140_calc_decoded.exe",C:\Windows\System32\cmd.exe,{f57bd86a-a0d0-658c-c401-000000000f00},1092,WINDEV2309EVAL\User,{f57bd86a-a0d0-658c-c601-000000000f00},3588,7744,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T22:10:24.6571930Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:10:24.640,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:10:24.6571930Z""/>
+      <EventRecordID>19573</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:10:24.640</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a0d0-658c-c601-000000000f00}</Data>
+      <Data Name=""ProcessId"">7744</Data>
+      <Data Name=""Image"">C:\Windows\System32\certutil.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">CertUtil.exe</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">CertUtil.exe</Data>
+      <Data Name=""CommandLine"">certutil  -encode C:\Windows\System32\calc.exe C:\Users\User\AppData\Local\Temp\T1140_calc.txt </Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=291B8C8D419BF3F836D19E165742A342,SHA256=BECCB40598D544B665F562C6CCB725D48C4BB120FA21B376487C2F5D4761DFBB,IMPHASH=323A326D7B550351B75EC637A5575902</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-a0d0-658c-c401-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">1092</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c certutil -encode C:\Windows\System32\calc.exe %temp%\T1140_calc.txt &amp; certutil -decode %temp%\T1140_calc.txt %temp%\T1140_calc_decoded.exe</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:24.640
+
+ProcessGuid: {f57bd86a-a0d0-658c-c601-000000000f00}
+
+ProcessId: 7744
+
+Image: C:\Windows\System32\certutil.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: CertUtil.exe
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: CertUtil.exe
+
+CommandLine: certutil  -encode C:\Windows\System32\calc.exe C:\Users\User\AppData\Local\Temp\T1140_calc.txt 
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=291B8C8D419BF3F836D19E165742A342,SHA256=BECCB40598D544B665F562C6CCB725D48C4BB120FA21B376487C2F5D4761DFBB,IMPHASH=323A326D7B550351B75EC637A5575902
+
+ParentProcessGuid: {f57bd86a-a0d0-658c-c401-000000000f00}
+
+ParentProcessId: 1092
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c certutil -encode C:\Windows\System32\calc.exe %temp%\T1140_calc.txt &amp; certutil -decode %temp%\T1140_calc.txt %temp%\T1140_calc_decoded.exe
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""cmd.exe"" /c certutil -encode C:\Windows\System32\calc.exe %%temp%%\T1140_calc.txt & certutil -decode %%temp%%\T1140_calc.txt %%temp%%\T1140_calc_decoded.exe",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,1,19572,10.0.22621.2506 (WinBuild.160101.0800),"MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:24.610
+
+ProcessGuid: {f57bd86a-a0d0-658c-c401-000000000f00}
+
+ProcessId: 1092
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c certutil -encode C:\Windows\System32\calc.exe %%temp%%\T1140_calc.txt & certutil -decode %%temp%%\T1140_calc.txt %%temp%%\T1140_calc_decoded.exe
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,Cmd.Exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-a0d0-658c-c401-000000000f00},3588,1092,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T22:10:24.6120099Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:10:24.610,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:10:24.6120099Z""/>
+      <EventRecordID>19572</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:10:24.610</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a0d0-658c-c401-000000000f00}</Data>
+      <Data Name=""ProcessId"">1092</Data>
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows Command Processor</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      <Data Name=""CommandLine"">""cmd.exe"" /c certutil -encode C:\Windows\System32\calc.exe %%temp%%\T1140_calc.txt &amp; certutil -decode %%temp%%\T1140_calc.txt %%temp%%\T1140_calc_decoded.exe</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:24.610
+
+ProcessGuid: {f57bd86a-a0d0-658c-c401-000000000f00}
+
+ProcessId: 1092
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c certutil -encode C:\Windows\System32\calc.exe %%temp%%\T1140_calc.txt &amp; certutil -decode %%temp%%\T1140_calc.txt %%temp%%\T1140_calc_decoded.exe
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\whoami.exe""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\,whoami - displays logged on user information,1,19571,10.0.22621.1 (WinBuild.160101.0800),"MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292",C:\Windows\System32\whoami.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:23.377
+
+ProcessGuid: {f57bd86a-a0cf-658c-c301-000000000f00}
+
+ProcessId: 10340
+
+Image: C:\Windows\System32\whoami.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: whoami - displays logged on user information
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: whoami.exe
+
+CommandLine: ""C:\Windows\system32\whoami.exe""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,whoami.exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-a0cf-658c-c301-000000000f00},3588,10340,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T22:10:23.3799625Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:10:23.377,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:10:23.3799625Z""/>
+      <EventRecordID>19571</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:10:23.377</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a0cf-658c-c301-000000000f00}</Data>
+      <Data Name=""ProcessId"">10340</Data>
+      <Data Name=""Image"">C:\Windows\System32\whoami.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">whoami - displays logged on user information</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">whoami.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\whoami.exe""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:23.377
+
+ProcessGuid: {f57bd86a-a0cf-658c-c301-000000000f00}
+
+ProcessId: 10340
+
+Image: C:\Windows\System32\whoami.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: whoami - displays logged on user information
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: whoami.exe
+
+CommandLine: ""C:\Windows\system32\whoami.exe""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\HOSTNAME.EXE""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\,Hostname APP,1,19570,10.0.22621.2506 (WinBuild.160101.0800),"MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8",C:\Windows\System32\HOSTNAME.EXE,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:23.348
+
+ProcessGuid: {f57bd86a-a0cf-658c-c201-000000000f00}
+
+ProcessId: 8316
+
+Image: C:\Windows\System32\HOSTNAME.EXE
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Hostname APP
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: hostname.exe
+
+CommandLine: ""C:\Windows\system32\HOSTNAME.EXE""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,hostname.exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-a0cf-658c-c201-000000000f00},3588,8316,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T22:10:23.3496514Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 22:10:23.348,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:10:23.3496514Z""/>
+      <EventRecordID>19570</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 22:10:23.348</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-a0cf-658c-c201-000000000f00}</Data>
+      <Data Name=""ProcessId"">8316</Data>
+      <Data Name=""Image"">C:\Windows\System32\HOSTNAME.EXE</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Hostname APP</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">hostname.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\HOSTNAME.EXE""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 22:10:23.348
+
+ProcessGuid: {f57bd86a-a0cf-658c-c201-000000000f00}
+
+ProcessId: 8316
+
+Image: C:\Windows\System32\HOSTNAME.EXE
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Hostname APP
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: hostname.exe
+
+CommandLine: ""C:\Windows\system32\HOSTNAME.EXE""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,22,19569,,,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe,,0x8000000000000000,Information,,,"Dns query:
+
+RuleName: -
+
+UtcTime: 2023-12-27 14:51:54.842
+
+ProcessGuid: {f57bd86a-382d-658c-4e01-000000000f00}
+
+ProcessId: 4456
+
+QueryName: img-s-msn-com.akamaized.net
+
+QueryStatus: 0
+
+QueryResults: type: 5 a1834.dscg2.akamai.net;::ffff:104.77.160.143;::ffff:104.77.160.140;
+
+Image: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+User: WINDEV2309EVAL\User",Info,,,,,,,{f57bd86a-382d-658c-4e01-000000000f00},3588,4456,,img-s-msn-com.akamaized.net,type: 5 a1834.dscg2.akamai.net;::ffff:104.77.160.143;::ffff:104.77.160.140;,0,"
+      ",-,2023-12-27T22:10:21.1673216Z,,Dns query (rule: DnsQuery),,5164,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 14:51:54.842,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>22</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>22</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T22:10:21.1673216Z""/>
+      <EventRecordID>19569</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5164""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 14:51:54.842</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-382d-658c-4e01-000000000f00}</Data>
+      <Data Name=""ProcessId"">4456</Data>
+      <Data Name=""QueryName"">img-s-msn-com.akamaized.net</Data>
+      <Data Name=""QueryStatus"">0</Data>
+      <Data Name=""QueryResults"">type: 5 a1834.dscg2.akamai.net;::ffff:104.77.160.143;::ffff:104.77.160.140;</Data>
+      <Data Name=""Image"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Dns query:
+
+RuleName: -
+
+UtcTime: 2023-12-27 14:51:54.842
+
+ProcessGuid: {f57bd86a-382d-658c-4e01-000000000f00}
+
+ProcessId: 4456
+
+QueryName: img-s-msn-com.akamaized.net
+
+QueryStatus: 0
+
+QueryResults: type: 5 a1834.dscg2.akamai.net;::ffff:104.77.160.143;::ffff:104.77.160.140;
+
+Image: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+User: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Dns query (rule: DnsQuery)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+
+"

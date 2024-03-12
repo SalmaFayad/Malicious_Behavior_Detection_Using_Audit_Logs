@@ -1,0 +1,527 @@
+Channel,CommandLine,Company,Computer,CurrentDirectory,Description,EventID,EventRecordID,FileVersion,Hashes,Image,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,QueryName,QueryResults,QueryStatus,RuleName,SystemTime,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,pktmon.exe  filter add -p 445,Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,Packet Monitor,1,19579,10.0.22621.2506 (WinBuild.160101.0800),"MD5=7FAEAE5DD536F5D44EDBF3BAF6F354CF,SHA256=7F2546B073CA6C9412F52BD322CECF59B75CB4A169D80B1E92057C85376D0424,IMPHASH=4B36A74A32D9B6C294CCB7A0C40D71F1",C:\Windows\System32\PktMon.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,PktMon.exe,"""cmd.exe"" /c pktmon.exe filter add -p 445",C:\Windows\System32\cmd.exe,{f57bd86a-6855-658c-c601-000000000f00},8484,WINDEV2309EVAL\User,{f57bd86a-6855-658c-c801-000000000f00},3588,10868,Microsoft® Windows® Operating System,,,,-,2023-12-27T18:09:25.3950345Z,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 18:09:25.394,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:09:25.3950345Z""/>
+      <EventRecordID>19579</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:09:25.394</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-6855-658c-c801-000000000f00}</Data>
+      <Data Name=""ProcessId"">10868</Data>
+      <Data Name=""Image"">C:\Windows\System32\PktMon.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Packet Monitor</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">PktMon.exe</Data>
+      <Data Name=""CommandLine"">pktmon.exe  filter add -p 445</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=7FAEAE5DD536F5D44EDBF3BAF6F354CF,SHA256=7F2546B073CA6C9412F52BD322CECF59B75CB4A169D80B1E92057C85376D0424,IMPHASH=4B36A74A32D9B6C294CCB7A0C40D71F1</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-6855-658c-c601-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">8484</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c pktmon.exe filter add -p 445</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""cmd.exe"" /c pktmon.exe filter add -p 445",Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,1,19578,10.0.22621.2506 (WinBuild.160101.0800),"MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,Cmd.Exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-6855-658c-c601-000000000f00},3588,8484,Microsoft® Windows® Operating System,,,,-,2023-12-27T18:09:25.3677849Z,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 18:09:25.366,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:09:25.3677849Z""/>
+      <EventRecordID>19578</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:09:25.366</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-6855-658c-c601-000000000f00}</Data>
+      <Data Name=""ProcessId"">8484</Data>
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows Command Processor</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      <Data Name=""CommandLine"">""cmd.exe"" /c pktmon.exe filter add -p 445</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,pktmon.exe  stop,Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,Packet Monitor,1,19577,10.0.22621.2506 (WinBuild.160101.0800),"MD5=7FAEAE5DD536F5D44EDBF3BAF6F354CF,SHA256=7F2546B073CA6C9412F52BD322CECF59B75CB4A169D80B1E92057C85376D0424,IMPHASH=4B36A74A32D9B6C294CCB7A0C40D71F1",C:\Windows\System32\PktMon.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,PktMon.exe,"""cmd.exe"" /c pktmon.exe start --etw  -f %TEMP%\t1040.etl & TIMEOUT /T 5 >nul 2>&1 & pktmon.exe stop",C:\Windows\System32\cmd.exe,{f57bd86a-684f-658c-c101-000000000f00},6412,WINDEV2309EVAL\User,{f57bd86a-6855-658c-c501-000000000f00},3588,1156,Microsoft® Windows® Operating System,,,,-,2023-12-27T18:09:25.1444133Z,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 18:09:25.143,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:09:25.1444133Z""/>
+      <EventRecordID>19577</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:09:25.143</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-6855-658c-c501-000000000f00}</Data>
+      <Data Name=""ProcessId"">1156</Data>
+      <Data Name=""Image"">C:\Windows\System32\PktMon.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Packet Monitor</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">PktMon.exe</Data>
+      <Data Name=""CommandLine"">pktmon.exe  stop</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=7FAEAE5DD536F5D44EDBF3BAF6F354CF,SHA256=7F2546B073CA6C9412F52BD322CECF59B75CB4A169D80B1E92057C85376D0424,IMPHASH=4B36A74A32D9B6C294CCB7A0C40D71F1</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-684f-658c-c101-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">6412</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c pktmon.exe start --etw  -f %TEMP%\t1040.etl &amp; TIMEOUT /T 5 &gt;nul 2&gt;&amp;1 &amp; pktmon.exe stop</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,TIMEOUT  /T 5  ,Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,timeout - pauses command processing,1,19576,10.0.22621.1 (WinBuild.160101.0800),"MD5=3F9678DB974CB7C0B59B158557F0C071,SHA256=4310BFC44B00C09F13C0E82FD9E9F9503643BDAC089111AE983326BB250EDFC5,IMPHASH=52D0839685A9987DD8CF02994B143429",C:\Windows\System32\timeout.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,timeout.exe,"""cmd.exe"" /c pktmon.exe start --etw  -f %TEMP%\t1040.etl & TIMEOUT /T 5 >nul 2>&1 & pktmon.exe stop",C:\Windows\System32\cmd.exe,{f57bd86a-684f-658c-c101-000000000f00},6412,WINDEV2309EVAL\User,{f57bd86a-6850-658c-c401-000000000f00},3588,6964,Microsoft® Windows® Operating System,,,,-,2023-12-27T18:09:20.0376239Z,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 18:09:20.035,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:09:20.0376239Z""/>
+      <EventRecordID>19576</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:09:20.035</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-6850-658c-c401-000000000f00}</Data>
+      <Data Name=""ProcessId"">6964</Data>
+      <Data Name=""Image"">C:\Windows\System32\timeout.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">timeout - pauses command processing</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">timeout.exe</Data>
+      <Data Name=""CommandLine"">TIMEOUT  /T 5  </Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=3F9678DB974CB7C0B59B158557F0C071,SHA256=4310BFC44B00C09F13C0E82FD9E9F9503643BDAC089111AE983326BB250EDFC5,IMPHASH=52D0839685A9987DD8CF02994B143429</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-684f-658c-c101-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">6412</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c pktmon.exe start --etw  -f %TEMP%\t1040.etl &amp; TIMEOUT /T 5 &gt;nul 2&gt;&amp;1 &amp; pktmon.exe stop</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,pktmon.exe  start --etw  -f C:\Users\User\AppData\Local\Temp\t1040.etl ,Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,Packet Monitor,1,19575,10.0.22621.2506 (WinBuild.160101.0800),"MD5=7FAEAE5DD536F5D44EDBF3BAF6F354CF,SHA256=7F2546B073CA6C9412F52BD322CECF59B75CB4A169D80B1E92057C85376D0424,IMPHASH=4B36A74A32D9B6C294CCB7A0C40D71F1",C:\Windows\System32\PktMon.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,PktMon.exe,"""cmd.exe"" /c pktmon.exe start --etw  -f %TEMP%\t1040.etl & TIMEOUT /T 5 >nul 2>&1 & pktmon.exe stop",C:\Windows\System32\cmd.exe,{f57bd86a-684f-658c-c101-000000000f00},6412,WINDEV2309EVAL\User,{f57bd86a-6850-658c-c301-000000000f00},3588,11068,Microsoft® Windows® Operating System,,,,-,2023-12-27T18:09:20.0165557Z,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 18:09:20.006,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:09:20.0165557Z""/>
+      <EventRecordID>19575</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:09:20.006</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-6850-658c-c301-000000000f00}</Data>
+      <Data Name=""ProcessId"">11068</Data>
+      <Data Name=""Image"">C:\Windows\System32\PktMon.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Packet Monitor</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">PktMon.exe</Data>
+      <Data Name=""CommandLine"">pktmon.exe  start --etw  -f C:\Users\User\AppData\Local\Temp\t1040.etl </Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=7FAEAE5DD536F5D44EDBF3BAF6F354CF,SHA256=7F2546B073CA6C9412F52BD322CECF59B75CB4A169D80B1E92057C85376D0424,IMPHASH=4B36A74A32D9B6C294CCB7A0C40D71F1</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-684f-658c-c101-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">6412</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c pktmon.exe start --etw  -f %TEMP%\t1040.etl &amp; TIMEOUT /T 5 &gt;nul 2&gt;&amp;1 &amp; pktmon.exe stop</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""cmd.exe"" /c pktmon.exe start --etw  -f %%TEMP%%\t1040.etl & TIMEOUT /T 5 >nul 2>&1 & pktmon.exe stop",Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,1,19574,10.0.22621.2506 (WinBuild.160101.0800),"MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,Cmd.Exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-684f-658c-c101-000000000f00},3588,6412,Microsoft® Windows® Operating System,,,,-,2023-12-27T18:09:19.9727636Z,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 18:09:19.971,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:09:19.9727636Z""/>
+      <EventRecordID>19574</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:09:19.971</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-684f-658c-c101-000000000f00}</Data>
+      <Data Name=""ProcessId"">6412</Data>
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows Command Processor</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      <Data Name=""CommandLine"">""cmd.exe"" /c pktmon.exe start --etw  -f %%TEMP%%\t1040.etl &amp; TIMEOUT /T 5 &gt;nul 2&gt;&amp;1 &amp; pktmon.exe stop</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,netsh  trace start capture=yes tracefile=C:\Users\User\AppData\Local\Temp\trace.etl maxsize=10,Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,Network Command Shell,1,19573,10.0.22621.1 (WinBuild.160101.0800),"MD5=52B4651083081201E243E97ED965B60A,SHA256=3E91414A1A005937925E449627D4634E73B1DA9DC12D1008B1BAA54C77637C44,IMPHASH=06F091DBEC9C3F0DD14808FFE59B95DE",C:\Windows\System32\netsh.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,netsh.exe,"""cmd.exe"" /c netsh trace start capture=yes tracefile=%temp%\trace.etl maxsize=10",C:\Windows\System32\cmd.exe,{f57bd86a-684f-658c-be01-000000000f00},6608,WINDEV2309EVAL\User,{f57bd86a-684f-658c-c001-000000000f00},3588,5652,Microsoft® Windows® Operating System,,,,-,2023-12-27T18:09:19.5027645Z,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 18:09:19.500,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:09:19.5027645Z""/>
+      <EventRecordID>19573</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:09:19.500</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-684f-658c-c001-000000000f00}</Data>
+      <Data Name=""ProcessId"">5652</Data>
+      <Data Name=""Image"">C:\Windows\System32\netsh.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Network Command Shell</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">netsh.exe</Data>
+      <Data Name=""CommandLine"">netsh  trace start capture=yes tracefile=C:\Users\User\AppData\Local\Temp\trace.etl maxsize=10</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=52B4651083081201E243E97ED965B60A,SHA256=3E91414A1A005937925E449627D4634E73B1DA9DC12D1008B1BAA54C77637C44,IMPHASH=06F091DBEC9C3F0DD14808FFE59B95DE</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-684f-658c-be01-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">6608</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c netsh trace start capture=yes tracefile=%temp%\trace.etl maxsize=10</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""cmd.exe"" /c netsh trace start capture=yes tracefile=%%temp%%\trace.etl maxsize=10",Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,1,19572,10.0.22621.2506 (WinBuild.160101.0800),"MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,Cmd.Exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-684f-658c-be01-000000000f00},3588,6608,Microsoft® Windows® Operating System,,,,-,2023-12-27T18:09:19.4608628Z,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 18:09:19.459,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:09:19.4608628Z""/>
+      <EventRecordID>19572</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:09:19.459</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-684f-658c-be01-000000000f00}</Data>
+      <Data Name=""ProcessId"">6608</Data>
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows Command Processor</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      <Data Name=""CommandLine"">""cmd.exe"" /c netsh trace start capture=yes tracefile=%%temp%%\trace.etl maxsize=10</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""cmd.exe"" /c ""c:\Program Files\Wireshark\tshark.exe"" -i Ethernet -c 5",Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,1,19571,10.0.22621.2506 (WinBuild.160101.0800),"MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,Cmd.Exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-684e-658c-bc01-000000000f00},3588,1824,Microsoft® Windows® Operating System,,,,-,2023-12-27T18:09:18.1538651Z,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 18:09:18.152,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:09:18.1538651Z""/>
+      <EventRecordID>19571</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:09:18.152</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-684e-658c-bc01-000000000f00}</Data>
+      <Data Name=""ProcessId"">1824</Data>
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows Command Processor</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      <Data Name=""CommandLine"">""cmd.exe"" /c ""c:\Program Files\Wireshark\tshark.exe"" -i Ethernet -c 5</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\whoami.exe""",Microsoft Corporation,WinDev2309Eval,C:\Users\User\,whoami - displays logged on user information,1,19570,10.0.22621.1 (WinBuild.160101.0800),"MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292",C:\Windows\System32\whoami.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,whoami.exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-684c-658c-bb01-000000000f00},3588,652,Microsoft® Windows® Operating System,,,,-,2023-12-27T18:09:16.9579786Z,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 18:09:16.955,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:09:16.9579786Z""/>
+      <EventRecordID>19570</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:09:16.955</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-684c-658c-bb01-000000000f00}</Data>
+      <Data Name=""ProcessId"">652</Data>
+      <Data Name=""Image"">C:\Windows\System32\whoami.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">whoami - displays logged on user information</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">whoami.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\whoami.exe""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\HOSTNAME.EXE""",Microsoft Corporation,WinDev2309Eval,C:\Users\User\,Hostname APP,1,19569,10.0.22621.2506 (WinBuild.160101.0800),"MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8",C:\Windows\System32\HOSTNAME.EXE,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,hostname.exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-684c-658c-ba01-000000000f00},3588,940,Microsoft® Windows® Operating System,,,,-,2023-12-27T18:09:16.9308626Z,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 18:09:16.929,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:09:16.9308626Z""/>
+      <EventRecordID>19569</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 18:09:16.929</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-684c-658c-ba01-000000000f00}</Data>
+      <Data Name=""ProcessId"">940</Data>
+      <Data Name=""Image"">C:\Windows\System32\HOSTNAME.EXE</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Hostname APP</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">hostname.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\HOSTNAME.EXE""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,22,19568,,,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-382d-658c-4e01-000000000f00},3588,4456,,img-s-msn-com.akamaized.net,type: 5 a1834.dscg2.akamai.net;::ffff:88.221.134.120;::ffff:88.221.134.90;::ffff:88.221.134.122;::ffff:88.221.134.80;,0,-,2023-12-27T18:09:06.4443887Z,22,,5164,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 14:51:53.054,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>22</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>22</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T18:09:06.4443887Z""/>
+      <EventRecordID>19568</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5164""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 14:51:53.054</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-382d-658c-4e01-000000000f00}</Data>
+      <Data Name=""ProcessId"">4456</Data>
+      <Data Name=""QueryName"">img-s-msn-com.akamaized.net</Data>
+      <Data Name=""QueryStatus"">0</Data>
+      <Data Name=""QueryResults"">type: 5 a1834.dscg2.akamai.net;::ffff:88.221.134.120;::ffff:88.221.134.90;::ffff:88.221.134.122;::ffff:88.221.134.80;</Data>
+      <Data Name=""Image"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+  </Event>
+
+"

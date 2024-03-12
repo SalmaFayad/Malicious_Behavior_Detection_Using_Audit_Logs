@@ -1,0 +1,731 @@
+Channel,CommandLine,Company,Computer,CreationUtcTime,CurrentDirectory,Description,DestinationHostname,DestinationIp,DestinationIsIpv6,DestinationPort,DestinationPortName,Details,EventID,EventRecordID,EventType,FileVersion,Hashes,Image,Initiated,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Message,NewThreadId,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,Protocol,QueryName,QueryResults,QueryStatus,RuleName,SourceHostname,SourceImage,SourceIp,SourceIsIpv6,SourcePort,SourcePortName,SourceProcessGuid,SourceProcessId,SourceUser,StartAddress,StartFunction,StartModule,SystemTime,TargetFilename,TargetImage,TargetObject,TargetProcessGuid,TargetProcessId,TargetUser,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Windows PowerShell,,,,,,,1,579,,10.0.22621.2215 (WinBuild.160101.0800),"MD5=824B9F337E68DD8C117595071AC11E23,SHA256=17083405E7DECB3DDEF837C2FA599293A4E8133736969DFD5CE92EF15608A587,IMPHASH=51B0FFFA02CA6C1B85189E2E6C139F36",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,System,0x8000000000000000,4,{f57bd86a-db68-6581-e703-000000000000},0x3e7,,,0,PowerShell.EXE,C:\Windows\system32\compattelrunner.exe -m:appraiser.dll -f:DoScheduledTelemetryRun -cv:beiLsiouoESU3CuG.0.1.3,C:\Windows\System32\CompatTelRunner.exe,{f57bd86a-01b7-6582-b202-000000000b00},11824.0,NT AUTHORITY\SYSTEM,{f57bd86a-01e1-6582-bd02-000000000b00},10484,7428.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T20:49:37.9565325Z,,,,,,,1,0.0,10592,NT AUTHORITY\SYSTEM,S-1-5-18,49:37.9,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:49:37.9565325Z""/>
+    <EventRecordID>579</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:49:37.937</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01e1-6582-bd02-000000000b00}</Data>
+    <Data Name=""ProcessId"">7428</Data>
+    <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.2215 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Windows PowerShell</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">PowerShell.EXE</Data>
+    <Data Name=""CommandLine"">powershell.exe -ExecutionPolicy Restricted -Command Write-Host 'Final result: 1';</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-db68-6581-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=824B9F337E68DD8C117595071AC11E23,SHA256=17083405E7DECB3DDEF837C2FA599293A4E8133736969DFD5CE92EF15608A587,IMPHASH=51B0FFFA02CA6C1B85189E2E6C139F36</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-01b7-6582-b202-000000000b00}</Data>
+    <Data Name=""ParentProcessId"">11824</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\CompatTelRunner.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\compattelrunner.exe -m:appraiser.dll -f:DoScheduledTelemetryRun -cv:beiLsiouoESU3CuG.0.1.3</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,C:\Windows\system32\svchost.exe -k WbioSvcGroup -s WbioSrvc,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Host Process for Windows Services,,,,,,,1,578,,10.0.22621.1 (WinBuild.160101.0800),"MD5=8EC922C7A58A8701AB481B7BE9644536,SHA256=949BFB5B4C7D58D92F3F9C5F8EC7CA4CEAFFD10EC5F0020F0A987C472D61C54B,IMPHASH=76B4BAE80D2C3B08BB062D97BF9CA791",C:\Windows\System32\svchost.exe,,System,0x8000000000000000,4,{f57bd86a-db68-6581-e703-000000000000},0x3e7,,,0,svchost.exe,C:\Windows\system32\services.exe,C:\Windows\System32\services.exe,{f57bd86a-db68-6581-0b00-000000000b00},796.0,NT AUTHORITY\SYSTEM,{f57bd86a-01c7-6582-ba02-000000000b00},10484,11788.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T20:49:11.3199681Z,,,,,,,1,0.0,10592,NT AUTHORITY\SYSTEM,S-1-5-18,49:11.3,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:49:11.3199681Z""/>
+    <EventRecordID>578</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:49:11.318</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01c7-6582-ba02-000000000b00}</Data>
+    <Data Name=""ProcessId"">11788</Data>
+    <Data Name=""Image"">C:\Windows\System32\svchost.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Host Process for Windows Services</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">svchost.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\system32\svchost.exe -k WbioSvcGroup -s WbioSrvc</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-db68-6581-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=8EC922C7A58A8701AB481B7BE9644536,SHA256=949BFB5B4C7D58D92F3F9C5F8EC7CA4CEAFFD10EC5F0020F0A987C472D61C54B,IMPHASH=76B4BAE80D2C3B08BB062D97BF9CA791</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-db68-6581-0b00-000000000b00}</Data>
+    <Data Name=""ParentProcessId"">796</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\services.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,577,,,,C:\Windows\system32\wbem\wmiprvse.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-db71-6581-6400-000000000b00},10484,4568.0,,,WINDEV2309EVAL,fe80::3c85:6ac4:1ab8:5e25;fe80::c03b:b06a:788e:58d4;::ffff:192.168.36.130;::ffff:192.168.126.163;,0.0,-,,,,,,,,,,,,,2023-12-19T20:49:03.9008750Z,,,,,,,22,,12816,NT AUTHORITY\NETWORK SERVICE,S-1-5-18,49:03.1,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:49:03.9008750Z""/>
+    <EventRecordID>577</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""12816""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:49:03.120</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-db71-6581-6400-000000000b00}</Data>
+    <Data Name=""ProcessId"">4568</Data>
+    <Data Name=""QueryName"">WINDEV2309EVAL</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">fe80::3c85:6ac4:1ab8:5e25;fe80::c03b:b06a:788e:58d4;::ffff:192.168.36.130;::ffff:192.168.126.163;</Data>
+    <Data Name=""Image"">C:\Windows\system32\wbem\wmiprvse.exe</Data>
+    <Data Name=""User"">NT AUTHORITY\NETWORK SERVICE</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,C:\Windows\System32\svchost.exe -k smphost,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Host Process for Windows Services,,,,,,,1,576,,10.0.22621.1 (WinBuild.160101.0800),"MD5=8EC922C7A58A8701AB481B7BE9644536,SHA256=949BFB5B4C7D58D92F3F9C5F8EC7CA4CEAFFD10EC5F0020F0A987C472D61C54B,IMPHASH=76B4BAE80D2C3B08BB062D97BF9CA791",C:\Windows\System32\svchost.exe,,System,0x8000000000000000,4,{f57bd86a-db69-6581-e403-000000000000},0x3e4,,,0,svchost.exe,C:\Windows\system32\services.exe,C:\Windows\System32\services.exe,{f57bd86a-db68-6581-0b00-000000000b00},796.0,NT AUTHORITY\SYSTEM,{f57bd86a-01be-6582-b802-000000000b00},10484,12988.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T20:49:02.3848054Z,,,,,,,1,0.0,10592,NT AUTHORITY\NETWORK SERVICE,S-1-5-18,49:02.4,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:49:02.3848054Z""/>
+    <EventRecordID>576</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:49:02.382</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01be-6582-b802-000000000b00}</Data>
+    <Data Name=""ProcessId"">12988</Data>
+    <Data Name=""Image"">C:\Windows\System32\svchost.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Host Process for Windows Services</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">svchost.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\System32\svchost.exe -k smphost</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\NETWORK SERVICE</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-db69-6581-e403-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e4</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=8EC922C7A58A8701AB481B7BE9644536,SHA256=949BFB5B4C7D58D92F3F9C5F8EC7CA4CEAFFD10EC5F0020F0A987C472D61C54B,IMPHASH=76B4BAE80D2C3B08BB062D97BF9CA791</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-db68-6581-0b00-000000000b00}</Data>
+    <Data Name=""ParentProcessId"">796</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\services.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe -Embedding,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Windows Modules Installer Worker,,,,,,,1,575,,10.0.22621.2567 (WinBuild.160101.0800),"MD5=634797EF0CAB160A1ACFB6C14F96EB64,SHA256=1AF43EF17CC0C6C21D2A1FEC5E692BEC94E51D1EE0EF3CCC7F8DB253E6C1C885,IMPHASH=AB094FE9205855C660B3CC04E5BA912E",C:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,System,0x8000000000000000,4,{f57bd86a-db68-6581-e703-000000000000},0x3e7,,,0,TiWorker.exe,C:\Windows\system32\svchost.exe -k DcomLaunch -p,C:\Windows\System32\svchost.exe,{f57bd86a-db69-6581-0d00-000000000b00},936.0,NT AUTHORITY\SYSTEM,{f57bd86a-01be-6582-b702-000000000b00},10484,9160.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T20:49:02.0750960Z,,,,,,,1,0.0,10592,NT AUTHORITY\SYSTEM,S-1-5-18,49:02.1,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:49:02.0750960Z""/>
+    <EventRecordID>575</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:49:02.063</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01be-6582-b702-000000000b00}</Data>
+    <Data Name=""ProcessId"">9160</Data>
+    <Data Name=""Image"">C:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.2567 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Windows Modules Installer Worker</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">TiWorker.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe -Embedding</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-db68-6581-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=634797EF0CAB160A1ACFB6C14F96EB64,SHA256=1AF43EF17CC0C6C21D2A1FEC5E692BEC94E51D1EE0EF3CCC7F8DB253E6C1C885,IMPHASH=AB094FE9205855C660B3CC04E5BA912E</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-db69-6581-0d00-000000000b00}</Data>
+    <Data Name=""ParentProcessId"">936</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\svchost.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\svchost.exe -k DcomLaunch -p</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,CreateSession,13,574,SetValue,,,C:\Windows\servicing\TrustedInstaller.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-01be-6582-b602-000000000b00},10484,6500.0,,,,,,Tamper-Winlogon,,,,,,,,,,,,,2023-12-19T20:49:02.0546177Z,,,HKLM\System\CurrentControlSet\Control\Winlogon\Notifications\Components\TrustedInstaller\Events,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,49:02.0,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:49:02.0546177Z""/>
+    <EventRecordID>574</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">Tamper-Winlogon</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:49:02.048</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01be-6582-b602-000000000b00}</Data>
+    <Data Name=""ProcessId"">6500</Data>
+    <Data Name=""Image"">C:\Windows\servicing\TrustedInstaller.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Control\Winlogon\Notifications\Components\TrustedInstaller\Events</Data>
+    <Data Name=""Details"">CreateSession</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,C:\Windows\servicing\TrustedInstaller.exe,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Windows Modules Installer,,,,,,,1,573,,10.0.22621.1778 (WinBuild.160101.0800),"MD5=787D7596715ABC11477817DB8908CA1F,SHA256=4F2083B1D5DF1F11D70FD4B11D0002C02203AB69EA8B876A471F5021096CA32B,IMPHASH=34D0AC011537DB517EC24EC6B7510B93",C:\Windows\servicing\TrustedInstaller.exe,,System,0x8000000000000000,4,{f57bd86a-db68-6581-e703-000000000000},0x3e7,,,0,TrustedInstaller.exe,C:\Windows\system32\services.exe,C:\Windows\System32\services.exe,{f57bd86a-db68-6581-0b00-000000000b00},796.0,NT AUTHORITY\SYSTEM,{f57bd86a-01be-6582-b602-000000000b00},10484,6500.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T20:49:02.0279688Z,,,,,,,1,0.0,10592,NT AUTHORITY\SYSTEM,S-1-5-18,49:02.0,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:49:02.0279688Z""/>
+    <EventRecordID>573</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:49:02.015</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01be-6582-b602-000000000b00}</Data>
+    <Data Name=""ProcessId"">6500</Data>
+    <Data Name=""Image"">C:\Windows\servicing\TrustedInstaller.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1778 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Windows Modules Installer</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">TrustedInstaller.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\servicing\TrustedInstaller.exe</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-db68-6581-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=787D7596715ABC11477817DB8908CA1F,SHA256=4F2083B1D5DF1F11D70FD4B11D0002C02203AB69EA8B876A471F5021096CA32B,IMPHASH=34D0AC011537DB517EC24EC6B7510B93</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-db68-6581-0b00-000000000b00}</Data>
+    <Data Name=""ParentProcessId"">796</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\services.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,572,,,,C:\Windows\System32\CompatTelRunner.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-01b7-6582-b202-000000000b00},10484,11824.0,,,WinDev2309Eval,fe80::3c85:6ac4:1ab8:5e25;fe80::c03b:b06a:788e:58d4;::ffff:192.168.36.130;::ffff:192.168.126.163;,0.0,-,,,,,,,,,,,,,2023-12-19T20:49:01.8737406Z,,,,,,,22,,12816,NT AUTHORITY\SYSTEM,S-1-5-18,49:00.0,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:49:01.8737406Z""/>
+    <EventRecordID>572</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""12816""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:48:59.989</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01b7-6582-b202-000000000b00}</Data>
+    <Data Name=""ProcessId"">11824</Data>
+    <Data Name=""QueryName"">WinDev2309Eval</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">fe80::3c85:6ac4:1ab8:5e25;fe80::c03b:b06a:788e:58d4;::ffff:192.168.36.130;::ffff:192.168.126.163;</Data>
+    <Data Name=""Image"">C:\Windows\System32\CompatTelRunner.exe</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.2215,13,571,SetValue,,,C:\Windows\system32\compattelrunner.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-01ad-6582-b102-000000000b00},10484,9832.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T20:48:55.5474495Z,,,\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/usbxhcicompanion.dll\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,48:55.5,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:48:55.5474495Z""/>
+    <EventRecordID>571</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:48:55.539</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01ad-6582-b102-000000000b00}</Data>
+    <Data Name=""ProcessId"">9832</Data>
+    <Data Name=""Image"">C:\Windows\system32\compattelrunner.exe</Data>
+    <Data Name=""TargetObject"">\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/usbxhcicompanion.dll\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.2215</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.608,13,570,SetValue,,,C:\Windows\system32\compattelrunner.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-01ad-6582-b102-000000000b00},10484,9832.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T20:48:55.5414525Z,,,\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/ucmcx.dll\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,48:55.5,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:48:55.5414525Z""/>
+    <EventRecordID>570</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:48:55.539</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01ad-6582-b102-000000000b00}</Data>
+    <Data Name=""ProcessId"">9832</Data>
+    <Data Name=""Image"">C:\Windows\system32\compattelrunner.exe</Data>
+    <Data Name=""TargetObject"">\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/ucmcx.dll\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.608</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,1.0.0.0,13,569,SetValue,,,C:\Windows\system32\compattelrunner.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-01ad-6582-b102-000000000b00},10484,9832.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T20:48:55.5353272Z,,,\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/driverstore/filerepository/storfwupdate.inf_amd64_c74d19bcd4e2cfca/storfwupdate.dll\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,48:55.5,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:48:55.5353272Z""/>
+    <EventRecordID>569</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:48:55.523</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01ad-6582-b102-000000000b00}</Data>
+    <Data Name=""ProcessId"">9832</Data>
+    <Data Name=""Image"">C:\Windows\system32\compattelrunner.exe</Data>
+    <Data Name=""TargetObject"">\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/driverstore/filerepository/storfwupdate.inf_amd64_c74d19bcd4e2cfca/storfwupdate.dll\DriverVersion</Data>
+    <Data Name=""Details"">1.0.0.0</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.1,13,568,SetValue,,,C:\Windows\system32\compattelrunner.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-01ad-6582-b102-000000000b00},10484,9832.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T20:48:55.5253759Z,,,\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/smccx.dll\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,48:55.5,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:48:55.5253759Z""/>
+    <EventRecordID>568</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:48:55.523</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01ad-6582-b102-000000000b00}</Data>
+    <Data Name=""ProcessId"">9832</Data>
+    <Data Name=""Image"">C:\Windows\system32\compattelrunner.exe</Data>
+    <Data Name=""TargetObject"">\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/smccx.dll\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.1</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.2070,13,567,SetValue,,,C:\Windows\system32\compattelrunner.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-01ad-6582-b102-000000000b00},10484,9832.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T20:48:55.5188384Z,,,\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/sensorscx.dll\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,48:55.5,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:48:55.5188384Z""/>
+    <EventRecordID>567</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:48:55.507</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01ad-6582-b102-000000000b00}</Data>
+    <Data Name=""ProcessId"">9832</Data>
+    <Data Name=""Image"">C:\Windows\system32\compattelrunner.exe</Data>
+    <Data Name=""TargetObject"">\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/sensorscx.dll\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.2070</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.1,13,566,SetValue,,,C:\Windows\system32\compattelrunner.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-01ad-6582-b102-000000000b00},10484,9832.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T20:48:55.5087471Z,,,\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/sdflauncher.dll\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,48:55.5,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:48:55.5087471Z""/>
+    <EventRecordID>566</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:48:55.507</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01ad-6582-b102-000000000b00}</Data>
+    <Data Name=""ProcessId"">9832</Data>
+    <Data Name=""Image"">C:\Windows\system32\compattelrunner.exe</Data>
+    <Data Name=""TargetObject"">\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/sdflauncher.dll\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.1</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.2070,13,565,SetValue,,,C:\Windows\system32\compattelrunner.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-01ad-6582-b102-000000000b00},10484,9832.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T20:48:55.5032542Z,,,\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/rdpidd.dll\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,48:55.5,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:48:55.5032542Z""/>
+    <EventRecordID>565</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:48:55.492</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01ad-6582-b102-000000000b00}</Data>
+    <Data Name=""ProcessId"">9832</Data>
+    <Data Name=""Image"">C:\Windows\system32\compattelrunner.exe</Data>
+    <Data Name=""TargetObject"">\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/rdpidd.dll\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.2070</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.1,13,564,SetValue,,,C:\Windows\system32\compattelrunner.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-01ad-6582-b102-000000000b00},10484,9832.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T20:48:55.4930006Z,,,\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/poscx.dll\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,48:55.5,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:48:55.4930006Z""/>
+    <EventRecordID>564</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:48:55.492</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01ad-6582-b102-000000000b00}</Data>
+    <Data Name=""ProcessId"">9832</Data>
+    <Data Name=""Image"">C:\Windows\system32\compattelrunner.exe</Data>
+    <Data Name=""TargetObject"">\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/poscx.dll\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.1</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.1,13,563,SetValue,,,C:\Windows\system32\compattelrunner.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-01ad-6582-b102-000000000b00},10484,9832.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T20:48:55.4874765Z,,,\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/nfccx.dll\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,48:55.5,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:48:55.4874765Z""/>
+    <EventRecordID>563</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:48:55.476</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01ad-6582-b102-000000000b00}</Data>
+    <Data Name=""ProcessId"">9832</Data>
+    <Data Name=""Image"">C:\Windows\system32\compattelrunner.exe</Data>
+    <Data Name=""TargetObject"">\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/nfccx.dll\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.1</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.2070,13,562,SetValue,,,C:\Windows\system32\compattelrunner.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-01ad-6582-b102-000000000b00},10484,9832.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T20:48:55.4655932Z,,,\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/iddcx.dll\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,48:55.5,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:48:55.4655932Z""/>
+    <EventRecordID>562</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:48:55.460</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01ad-6582-b102-000000000b00}</Data>
+    <Data Name=""ProcessId"">9832</Data>
+    <Data Name=""Image"">C:\Windows\system32\compattelrunner.exe</Data>
+    <Data Name=""TargetObject"">\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/iddcx.dll\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.2070</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.1778,13,561,SetValue,,,C:\Windows\system32\compattelrunner.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-01ad-6582-b102-000000000b00},10484,9832.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T20:48:55.4548690Z,,,\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/hidtelephony.dll\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,48:55.4,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:48:55.4548690Z""/>
+    <EventRecordID>561</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:48:55.445</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01ad-6582-b102-000000000b00}</Data>
+    <Data Name=""ProcessId"">9832</Data>
+    <Data Name=""Image"">C:\Windows\system32\compattelrunner.exe</Data>
+    <Data Name=""TargetObject"">\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/hidtelephony.dll\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.1778</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.2070,13,560,SetValue,,,C:\Windows\system32\compattelrunner.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-01ad-6582-b102-000000000b00},10484,9832.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T20:48:55.4468259Z,,,\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/microsoft.bluetooth.profiles.hidovergatt.dll\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,48:55.4,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:48:55.4468259Z""/>
+    <EventRecordID>560</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:48:55.445</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01ad-6582-b102-000000000b00}</Data>
+    <Data Name=""ProcessId"">9832</Data>
+    <Data Name=""Image"">C:\Windows\system32\compattelrunner.exe</Data>
+    <Data Name=""TargetObject"">\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/microsoft.bluetooth.profiles.hidovergatt.dll\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.2070</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.1,13,559,SetValue,,,C:\Windows\system32\compattelrunner.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-01ad-6582-b102-000000000b00},10484,9832.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T20:48:55.4357853Z,,,\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/hidlamparray.dll\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,48:55.4,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:48:55.4357853Z""/>
+    <EventRecordID>559</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:48:55.429</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01ad-6582-b102-000000000b00}</Data>
+    <Data Name=""ProcessId"">9832</Data>
+    <Data Name=""Image"">C:\Windows\system32\compattelrunner.exe</Data>
+    <Data Name=""TargetObject"">\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/drivers/umdf/hidlamparray.dll\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.1</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,1.0.0.0,13,558,SetValue,,,C:\Windows\system32\compattelrunner.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-01ad-6582-b102-000000000b00},10484,9832.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T20:48:55.4249999Z,,,\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/driverstore/filerepository/hidcfu.inf_amd64_dc904d6be41a0880/hidcfu.dll\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,48:55.4,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T20:48:55.4249999Z""/>
+    <EventRecordID>558</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 20:48:55.414</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-01ad-6582-b102-000000000b00}</Data>
+    <Data Name=""ProcessId"">9832</Data>
+    <Data Name=""Image"">C:\Windows\system32\compattelrunner.exe</Data>
+    <Data Name=""TargetObject"">\REGISTRY\A\{bd75d637-a777-f887-435f-6fd9b1f1f54b}\Root\InventoryDriverBinary\c:/windows/system32/driverstore/filerepository/hidcfu.inf_amd64_dc904d6be41a0880/hidcfu.dll\DriverVersion</Data>
+    <Data Name=""Details"">1.0.0.0</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"

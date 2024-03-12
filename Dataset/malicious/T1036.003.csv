@@ -1,0 +1,5874 @@
+Channel,CommandLine,Company,Computer,Contents,CreationUtcTime,CurrentDirectory,Description,EventID,EventRecordID,FileVersion,Hash,Hashes,Image,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,QueryName,QueryResults,QueryStatus,RuleName,SystemTime,TargetFilename,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,2023-12-27 17:47:37.471,,,11,19636,,,,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6339-658c-e701-000000000f00},3588,4160,,,,,-,2023-12-27T17:47:37.4786273Z,"
+                C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_mrivi0vw.gx5.ps1",11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:37.471,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>11</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>11</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:37.4786273Z""/>
+      
+            
+      <EventRecordID>19636</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:37.471</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6339-658c-e701-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">4160</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_mrivi0vw.gx5.ps1</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:37.471</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.rtf.ps1",Microsoft Corporation,WinDev2309Eval,,,C:\Users\User\AppData\Local\Temp\,Windows PowerShell,1,19635,10.0.22621.2506 (WinBuild.160101.0800),,"
+                MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,PowerShell.EXE,"""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.docx.exe /Y & copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.pdf.exe /Y & copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.ps1.exe /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xls.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xlsx.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.png.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.doc.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.pdf.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.rtf.ps1 /Y &
+                %temp%\T1036.003_masquerading.docx.exe & %temp%\T1036.003_masquerading.pdf.exe
+                & %temp%\T1036.003_masquerading.ps1.exe &
+                %temp%\T1036.003_masquerading.xls.vbs & %temp%\T1036.003_masquerading.xlsx.vbs
+                & %temp%\T1036.003_masquerading.png.vbs &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.doc.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.pdf.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.rtf.ps1",C:\Windows\System32\cmd.exe,{f57bd86a-6332-658c-da01-000000000f00},7492,WINDEV2309EVAL\User,{f57bd86a-6339-658c-e701-000000000f00},3588,4160,Microsoft® Windows® Operating System,,,,-,2023-12-27T17:47:37.3948448Z,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:37.393,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:37.3948448Z""/>
+      
+            
+      <EventRecordID>19635</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:37.393</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6339-658c-e701-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">4160</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      
+            
+      <Data Name=""Description"">Windows PowerShell</Data>
+      
+            
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">PowerShell.EXE</Data>
+      
+            
+      <Data Name=""CommandLine"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.rtf.ps1</Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">7492</Data>
+      
+            
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.docx.exe /Y &amp; copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.pdf.exe /Y &amp; copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.ps1.exe /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xls.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xlsx.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.png.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.doc.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.pdf.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.rtf.ps1 /Y &amp;
+                %temp%\T1036.003_masquerading.docx.exe &amp; %temp%\T1036.003_masquerading.pdf.exe
+                &amp; %temp%\T1036.003_masquerading.ps1.exe &amp;
+                %temp%\T1036.003_masquerading.xls.vbs &amp; %temp%\T1036.003_masquerading.xlsx.vbs
+                &amp; %temp%\T1036.003_masquerading.png.vbs &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.doc.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.pdf.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.rtf.ps1</Data>
+      
+            
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,2023-12-27 17:47:36.798,,,11,19634,,,,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6338-658c-e601-000000000f00},3588,9944,,,,,-,2023-12-27T17:47:36.8020647Z,"
+                C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_n5daia41.y2o.ps1",11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:36.798,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>11</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>11</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:36.8020647Z""/>
+      
+            
+      <EventRecordID>19634</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:36.798</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6338-658c-e601-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">9944</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_n5daia41.y2o.ps1</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:36.798</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.pdf.ps1 ",Microsoft Corporation,WinDev2309Eval,,,C:\Users\User\AppData\Local\Temp\,Windows PowerShell,1,19633,10.0.22621.2506 (WinBuild.160101.0800),,"
+                MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,PowerShell.EXE,"""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.docx.exe /Y & copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.pdf.exe /Y & copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.ps1.exe /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xls.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xlsx.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.png.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.doc.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.pdf.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.rtf.ps1 /Y &
+                %temp%\T1036.003_masquerading.docx.exe & %temp%\T1036.003_masquerading.pdf.exe
+                & %temp%\T1036.003_masquerading.ps1.exe &
+                %temp%\T1036.003_masquerading.xls.vbs & %temp%\T1036.003_masquerading.xlsx.vbs
+                & %temp%\T1036.003_masquerading.png.vbs &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.doc.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.pdf.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.rtf.ps1",C:\Windows\System32\cmd.exe,{f57bd86a-6332-658c-da01-000000000f00},7492,WINDEV2309EVAL\User,{f57bd86a-6338-658c-e601-000000000f00},3588,9944,Microsoft® Windows® Operating System,,,,-,2023-12-27T17:47:36.7171601Z,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:36.716,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:36.7171601Z""/>
+      
+            
+      <EventRecordID>19633</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:36.716</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6338-658c-e601-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">9944</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      
+            
+      <Data Name=""Description"">Windows PowerShell</Data>
+      
+            
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">PowerShell.EXE</Data>
+      
+            
+      <Data Name=""CommandLine"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.pdf.ps1 </Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">7492</Data>
+      
+            
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.docx.exe /Y &amp; copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.pdf.exe /Y &amp; copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.ps1.exe /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xls.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xlsx.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.png.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.doc.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.pdf.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.rtf.ps1 /Y &amp;
+                %temp%\T1036.003_masquerading.docx.exe &amp; %temp%\T1036.003_masquerading.pdf.exe
+                &amp; %temp%\T1036.003_masquerading.ps1.exe &amp;
+                %temp%\T1036.003_masquerading.xls.vbs &amp; %temp%\T1036.003_masquerading.xlsx.vbs
+                &amp; %temp%\T1036.003_masquerading.png.vbs &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.doc.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.pdf.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.rtf.ps1</Data>
+      
+            
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,2023-12-27 17:47:36.032,,,11,19632,,,,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6337-658c-e501-000000000f00},3588,7060,,,,,-,2023-12-27T17:47:36.0364251Z,"
+                C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_hpxam0gn.5n5.ps1",11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:36.032,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>11</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>11</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:36.0364251Z""/>
+      
+            
+      <EventRecordID>19632</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:36.032</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6337-658c-e501-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7060</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_hpxam0gn.5n5.ps1</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:36.032</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,"C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.doc.ps1 ",Microsoft Corporation,WinDev2309Eval,,,C:\Users\User\AppData\Local\Temp\,Windows PowerShell,1,19631,10.0.22621.2506 (WinBuild.160101.0800),,"
+                MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,PowerShell.EXE,"""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.docx.exe /Y & copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.pdf.exe /Y & copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.ps1.exe /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xls.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xlsx.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.png.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.doc.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.pdf.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.rtf.ps1 /Y &
+                %temp%\T1036.003_masquerading.docx.exe & %temp%\T1036.003_masquerading.pdf.exe
+                & %temp%\T1036.003_masquerading.ps1.exe &
+                %temp%\T1036.003_masquerading.xls.vbs & %temp%\T1036.003_masquerading.xlsx.vbs
+                & %temp%\T1036.003_masquerading.png.vbs &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.doc.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.pdf.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.rtf.ps1",C:\Windows\System32\cmd.exe,{f57bd86a-6332-658c-da01-000000000f00},7492,WINDEV2309EVAL\User,{f57bd86a-6337-658c-e501-000000000f00},3588,7060,Microsoft® Windows® Operating System,,,,-,2023-12-27T17:47:35.9464226Z,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:35.944,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:35.9464226Z""/>
+      
+            
+      <EventRecordID>19631</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:35.944</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6337-658c-e501-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7060</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      
+            
+      <Data Name=""Description"">Windows PowerShell</Data>
+      
+            
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">PowerShell.EXE</Data>
+      
+            
+      <Data Name=""CommandLine"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.doc.ps1 </Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">7492</Data>
+      
+            
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.docx.exe /Y &amp; copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.pdf.exe /Y &amp; copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.ps1.exe /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xls.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xlsx.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.png.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.doc.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.pdf.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.rtf.ps1 /Y &amp;
+                %temp%\T1036.003_masquerading.docx.exe &amp; %temp%\T1036.003_masquerading.pdf.exe
+                &amp; %temp%\T1036.003_masquerading.ps1.exe &amp;
+                %temp%\T1036.003_masquerading.xls.vbs &amp; %temp%\T1036.003_masquerading.xlsx.vbs
+                &amp; %temp%\T1036.003_masquerading.png.vbs &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.doc.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.pdf.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.rtf.ps1</Data>
+      
+            
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\System32\WScript.exe""
+                ""C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.png.vbs"" ",Microsoft Corporation,WinDev2309Eval,,,C:\Users\User\AppData\Local\Temp\,Microsoft ® Windows Based Script Host,1,19630,5.812.10240.16384,,"
+                MD5=CD3C1773CEF2611325FA884926090538,SHA256=7478B567C9EC9A1E1061F9C6DB2993FCDC2EC4E8FB5CA6DA80FA307B54116E69,IMPHASH=ACD7356FA52D4E2866A873BF9AB94256",C:\Windows\System32\wscript.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,wscript.exe,"""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.docx.exe /Y & copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.pdf.exe /Y & copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.ps1.exe /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xls.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xlsx.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.png.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.doc.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.pdf.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.rtf.ps1 /Y &
+                %temp%\T1036.003_masquerading.docx.exe & %temp%\T1036.003_masquerading.pdf.exe
+                & %temp%\T1036.003_masquerading.ps1.exe &
+                %temp%\T1036.003_masquerading.xls.vbs & %temp%\T1036.003_masquerading.xlsx.vbs
+                & %temp%\T1036.003_masquerading.png.vbs &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.doc.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.pdf.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.rtf.ps1",C:\Windows\System32\cmd.exe,{f57bd86a-6332-658c-da01-000000000f00},7492,WINDEV2309EVAL\User,{f57bd86a-6337-658c-e401-000000000f00},3588,7776,Microsoft ® Windows Script Host,,,,-,2023-12-27T17:47:35.9023595Z,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:35.901,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:35.9023595Z""/>
+      
+            
+      <EventRecordID>19630</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:35.901</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6337-658c-e401-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7776</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\wscript.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">5.812.10240.16384</Data>
+      
+            
+      <Data Name=""Description"">Microsoft &#174; Windows Based Script Host</Data>
+      
+            
+      <Data Name=""Product"">Microsoft &#174; Windows Script Host</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">wscript.exe</Data>
+      
+            
+      <Data Name=""CommandLine"">""C:\Windows\System32\WScript.exe""
+                ""C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.png.vbs"" </Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=CD3C1773CEF2611325FA884926090538,SHA256=7478B567C9EC9A1E1061F9C6DB2993FCDC2EC4E8FB5CA6DA80FA307B54116E69,IMPHASH=ACD7356FA52D4E2866A873BF9AB94256</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">7492</Data>
+      
+            
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.docx.exe /Y &amp; copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.pdf.exe /Y &amp; copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.ps1.exe /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xls.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xlsx.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.png.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.doc.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.pdf.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.rtf.ps1 /Y &amp;
+                %temp%\T1036.003_masquerading.docx.exe &amp; %temp%\T1036.003_masquerading.pdf.exe
+                &amp; %temp%\T1036.003_masquerading.ps1.exe &amp;
+                %temp%\T1036.003_masquerading.xls.vbs &amp; %temp%\T1036.003_masquerading.xlsx.vbs
+                &amp; %temp%\T1036.003_masquerading.png.vbs &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.doc.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.pdf.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.rtf.ps1</Data>
+      
+            
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\System32\WScript.exe""
+                ""C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.xlsx.vbs"" ",Microsoft Corporation,WinDev2309Eval,,,C:\Users\User\AppData\Local\Temp\,Microsoft ® Windows Based Script Host,1,19629,5.812.10240.16384,,"
+                MD5=CD3C1773CEF2611325FA884926090538,SHA256=7478B567C9EC9A1E1061F9C6DB2993FCDC2EC4E8FB5CA6DA80FA307B54116E69,IMPHASH=ACD7356FA52D4E2866A873BF9AB94256",C:\Windows\System32\wscript.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,wscript.exe,"""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.docx.exe /Y & copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.pdf.exe /Y & copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.ps1.exe /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xls.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xlsx.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.png.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.doc.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.pdf.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.rtf.ps1 /Y &
+                %temp%\T1036.003_masquerading.docx.exe & %temp%\T1036.003_masquerading.pdf.exe
+                & %temp%\T1036.003_masquerading.ps1.exe &
+                %temp%\T1036.003_masquerading.xls.vbs & %temp%\T1036.003_masquerading.xlsx.vbs
+                & %temp%\T1036.003_masquerading.png.vbs &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.doc.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.pdf.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.rtf.ps1",C:\Windows\System32\cmd.exe,{f57bd86a-6332-658c-da01-000000000f00},7492,WINDEV2309EVAL\User,{f57bd86a-6336-658c-e301-000000000f00},3588,5008,Microsoft ® Windows Script Host,,,,-,2023-12-27T17:47:34.7179061Z,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:34.716,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:34.7179061Z""/>
+      
+            
+      <EventRecordID>19629</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:34.716</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6336-658c-e301-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">5008</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\wscript.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">5.812.10240.16384</Data>
+      
+            
+      <Data Name=""Description"">Microsoft &#174; Windows Based Script Host</Data>
+      
+            
+      <Data Name=""Product"">Microsoft &#174; Windows Script Host</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">wscript.exe</Data>
+      
+            
+      <Data Name=""CommandLine"">""C:\Windows\System32\WScript.exe""
+                ""C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.xlsx.vbs"" </Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=CD3C1773CEF2611325FA884926090538,SHA256=7478B567C9EC9A1E1061F9C6DB2993FCDC2EC4E8FB5CA6DA80FA307B54116E69,IMPHASH=ACD7356FA52D4E2866A873BF9AB94256</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">7492</Data>
+      
+            
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.docx.exe /Y &amp; copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.pdf.exe /Y &amp; copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.ps1.exe /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xls.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xlsx.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.png.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.doc.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.pdf.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.rtf.ps1 /Y &amp;
+                %temp%\T1036.003_masquerading.docx.exe &amp; %temp%\T1036.003_masquerading.pdf.exe
+                &amp; %temp%\T1036.003_masquerading.ps1.exe &amp;
+                %temp%\T1036.003_masquerading.xls.vbs &amp; %temp%\T1036.003_masquerading.xlsx.vbs
+                &amp; %temp%\T1036.003_masquerading.png.vbs &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.doc.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.pdf.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.rtf.ps1</Data>
+      
+            
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\System32\WScript.exe""
+                ""C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.xls.vbs"" ",Microsoft Corporation,WinDev2309Eval,,,C:\Users\User\AppData\Local\Temp\,Microsoft ® Windows Based Script Host,1,19628,5.812.10240.16384,,"
+                MD5=CD3C1773CEF2611325FA884926090538,SHA256=7478B567C9EC9A1E1061F9C6DB2993FCDC2EC4E8FB5CA6DA80FA307B54116E69,IMPHASH=ACD7356FA52D4E2866A873BF9AB94256",C:\Windows\System32\wscript.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,wscript.exe,"""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.docx.exe /Y & copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.pdf.exe /Y & copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.ps1.exe /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xls.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xlsx.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.png.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.doc.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.pdf.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.rtf.ps1 /Y &
+                %temp%\T1036.003_masquerading.docx.exe & %temp%\T1036.003_masquerading.pdf.exe
+                & %temp%\T1036.003_masquerading.ps1.exe &
+                %temp%\T1036.003_masquerading.xls.vbs & %temp%\T1036.003_masquerading.xlsx.vbs
+                & %temp%\T1036.003_masquerading.png.vbs &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.doc.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.pdf.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.rtf.ps1",C:\Windows\System32\cmd.exe,{f57bd86a-6332-658c-da01-000000000f00},7492,WINDEV2309EVAL\User,{f57bd86a-6335-658c-e201-000000000f00},3588,7652,Microsoft ® Windows Script Host,,,,-,2023-12-27T17:47:33.5355503Z,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:33.533,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:33.5355503Z""/>
+      
+            
+      <EventRecordID>19628</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:33.533</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6335-658c-e201-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7652</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\wscript.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">5.812.10240.16384</Data>
+      
+            
+      <Data Name=""Description"">Microsoft &#174; Windows Based Script Host</Data>
+      
+            
+      <Data Name=""Product"">Microsoft &#174; Windows Script Host</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">wscript.exe</Data>
+      
+            
+      <Data Name=""CommandLine"">""C:\Windows\System32\WScript.exe""
+                ""C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.xls.vbs"" </Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=CD3C1773CEF2611325FA884926090538,SHA256=7478B567C9EC9A1E1061F9C6DB2993FCDC2EC4E8FB5CA6DA80FA307B54116E69,IMPHASH=ACD7356FA52D4E2866A873BF9AB94256</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">7492</Data>
+      
+            
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.docx.exe /Y &amp; copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.pdf.exe /Y &amp; copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.ps1.exe /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xls.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xlsx.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.png.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.doc.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.pdf.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.rtf.ps1 /Y &amp;
+                %temp%\T1036.003_masquerading.docx.exe &amp; %temp%\T1036.003_masquerading.pdf.exe
+                &amp; %temp%\T1036.003_masquerading.ps1.exe &amp;
+                %temp%\T1036.003_masquerading.xls.vbs &amp; %temp%\T1036.003_masquerading.xlsx.vbs
+                &amp; %temp%\T1036.003_masquerading.png.vbs &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.doc.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.pdf.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.rtf.ps1</Data>
+      
+            
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,5,19627,,,,C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.ps1.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6333-658c-e001-000000000f00},3588,10432,,,,,-,2023-12-27T17:47:32.0383425Z,,5,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:32.026,3,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>5</EventID>
+      
+            
+      <Version>3</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>5</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:32.0383425Z""/>
+      
+            
+      <EventRecordID>19627</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:32.026</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6333-658c-e001-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">10432</Data>
+      
+            
+      <Data Name=""Image"">C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.ps1.exe</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.ps1.exe ,Microsoft Corporation,WinDev2309Eval,,,C:\Users\User\AppData\Local\Temp\,Windows Calculator,1,19626,10.0.22621.1 (WinBuild.160101.0800),,"
+                MD5=2F82623F9523C0D167862CAD0EFF6806,SHA256=9C2C8A8588FE6DB09C09337E78437CB056CD557DB1BCF5240112CBFB7B600EFB,IMPHASH=8EEAA9499666119D13B3F44ECD77A729",C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.ps1.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,CALC.EXE,"""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.docx.exe /Y & copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.pdf.exe /Y & copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.ps1.exe /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xls.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xlsx.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.png.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.doc.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.pdf.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.rtf.ps1 /Y &
+                %temp%\T1036.003_masquerading.docx.exe & %temp%\T1036.003_masquerading.pdf.exe
+                & %temp%\T1036.003_masquerading.ps1.exe &
+                %temp%\T1036.003_masquerading.xls.vbs & %temp%\T1036.003_masquerading.xlsx.vbs
+                & %temp%\T1036.003_masquerading.png.vbs &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.doc.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.pdf.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.rtf.ps1",C:\Windows\System32\cmd.exe,{f57bd86a-6332-658c-da01-000000000f00},7492,WINDEV2309EVAL\User,{f57bd86a-6333-658c-e001-000000000f00},3588,10432,Microsoft® Windows® Operating System,,,,-,2023-12-27T17:47:31.6877487Z,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:31.686,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:31.6877487Z""/>
+      
+            
+      <EventRecordID>19626</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:31.686</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6333-658c-e001-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">10432</Data>
+      
+            
+      <Data Name=""Image"">C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.ps1.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      
+            
+      <Data Name=""Description"">Windows Calculator</Data>
+      
+            
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">CALC.EXE</Data>
+      
+            
+      <Data Name=""CommandLine"">C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.ps1.exe </Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=2F82623F9523C0D167862CAD0EFF6806,SHA256=9C2C8A8588FE6DB09C09337E78437CB056CD557DB1BCF5240112CBFB7B600EFB,IMPHASH=8EEAA9499666119D13B3F44ECD77A729</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">7492</Data>
+      
+            
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.docx.exe /Y &amp; copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.pdf.exe /Y &amp; copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.ps1.exe /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xls.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xlsx.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.png.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.doc.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.pdf.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.rtf.ps1 /Y &amp;
+                %temp%\T1036.003_masquerading.docx.exe &amp; %temp%\T1036.003_masquerading.pdf.exe
+                &amp; %temp%\T1036.003_masquerading.ps1.exe &amp;
+                %temp%\T1036.003_masquerading.xls.vbs &amp; %temp%\T1036.003_masquerading.xlsx.vbs
+                &amp; %temp%\T1036.003_masquerading.png.vbs &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.doc.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.pdf.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.rtf.ps1</Data>
+      
+            
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,5,19625,,,,C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.pdf.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6333-658c-df01-000000000f00},3588,10600,,,,,-,2023-12-27T17:47:31.6728316Z,,5,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:31.667,3,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>5</EventID>
+      
+            
+      <Version>3</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>5</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:31.6728316Z""/>
+      
+            
+      <EventRecordID>19625</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:31.667</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6333-658c-df01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">10600</Data>
+      
+            
+      <Data Name=""Image"">C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.pdf.exe</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.pdf.exe ,Microsoft Corporation,WinDev2309Eval,,,C:\Users\User\AppData\Local\Temp\,Windows Calculator,1,19624,10.0.22621.1 (WinBuild.160101.0800),,"
+                MD5=2F82623F9523C0D167862CAD0EFF6806,SHA256=9C2C8A8588FE6DB09C09337E78437CB056CD557DB1BCF5240112CBFB7B600EFB,IMPHASH=8EEAA9499666119D13B3F44ECD77A729",C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.pdf.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,CALC.EXE,"""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.docx.exe /Y & copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.pdf.exe /Y & copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.ps1.exe /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xls.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xlsx.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.png.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.doc.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.pdf.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.rtf.ps1 /Y &
+                %temp%\T1036.003_masquerading.docx.exe & %temp%\T1036.003_masquerading.pdf.exe
+                & %temp%\T1036.003_masquerading.ps1.exe &
+                %temp%\T1036.003_masquerading.xls.vbs & %temp%\T1036.003_masquerading.xlsx.vbs
+                & %temp%\T1036.003_masquerading.png.vbs &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.doc.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.pdf.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.rtf.ps1",C:\Windows\System32\cmd.exe,{f57bd86a-6332-658c-da01-000000000f00},7492,WINDEV2309EVAL\User,{f57bd86a-6333-658c-df01-000000000f00},3588,10600,Microsoft® Windows® Operating System,,,,-,2023-12-27T17:47:31.3542602Z,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:31.353,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:31.3542602Z""/>
+      
+            
+      <EventRecordID>19624</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:31.353</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6333-658c-df01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">10600</Data>
+      
+            
+      <Data Name=""Image"">C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.pdf.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      
+            
+      <Data Name=""Description"">Windows Calculator</Data>
+      
+            
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">CALC.EXE</Data>
+      
+            
+      <Data Name=""CommandLine"">C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.pdf.exe </Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=2F82623F9523C0D167862CAD0EFF6806,SHA256=9C2C8A8588FE6DB09C09337E78437CB056CD557DB1BCF5240112CBFB7B600EFB,IMPHASH=8EEAA9499666119D13B3F44ECD77A729</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">7492</Data>
+      
+            
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.docx.exe /Y &amp; copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.pdf.exe /Y &amp; copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.ps1.exe /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xls.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xlsx.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.png.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.doc.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.pdf.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.rtf.ps1 /Y &amp;
+                %temp%\T1036.003_masquerading.docx.exe &amp; %temp%\T1036.003_masquerading.pdf.exe
+                &amp; %temp%\T1036.003_masquerading.ps1.exe &amp;
+                %temp%\T1036.003_masquerading.xls.vbs &amp; %temp%\T1036.003_masquerading.xlsx.vbs
+                &amp; %temp%\T1036.003_masquerading.png.vbs &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.doc.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.pdf.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.rtf.ps1</Data>
+      
+            
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,5,19623,,,,C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.docx.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6332-658c-dc01-000000000f00},3588,1456,,,,,-,2023-12-27T17:47:31.3479935Z,,5,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:31.338,3,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>5</EventID>
+      
+            
+      <Version>3</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>5</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:31.3479935Z""/>
+      
+            
+      <EventRecordID>19623</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:31.338</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6332-658c-dc01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">1456</Data>
+      
+            
+      <Data Name=""Image"">C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.docx.exe</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,22,19622,,,,C:\Windows\System32\wbem\WmiPrvSE.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-36fa-658c-6a00-000000000f00},3588,4444,,WINDEV2309EVAL,"
+                fe80::3c85:6ac4:1ab8:5e25;fe80::c03b:b06a:788e:58d4;::ffff:192.168.36.130;::ffff:192.168.126.163;",0,-,2023-12-27T17:47:31.2923780Z,,22,,5164,NT AUTHORITY\NETWORK SERVICE,S-1-5-18,2023-12-27 14:56:58.114,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>22</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>22</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:31.2923780Z""/>
+      
+            
+      <EventRecordID>19622</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5164""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 14:56:58.114</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-36fa-658c-6a00-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">4444</Data>
+      
+            
+      <Data Name=""QueryName"">WINDEV2309EVAL</Data>
+      
+            
+      <Data Name=""QueryStatus"">0</Data>
+      
+            
+      <Data Name=""QueryResults"">
+                fe80::3c85:6ac4:1ab8:5e25;fe80::c03b:b06a:788e:58d4;::ffff:192.168.36.130;::ffff:192.168.126.163;</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\wbem\WmiPrvSE.exe</Data>
+      
+            
+      <Data Name=""User"">NT AUTHORITY\NETWORK SERVICE</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,"
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.docx.exe  ",Microsoft Corporation,WinDev2309Eval,,,C:\Users\User\AppData\Local\Temp\,Windows Calculator,1,19621,10.0.22621.1 (WinBuild.160101.0800),,"
+                MD5=2F82623F9523C0D167862CAD0EFF6806,SHA256=9C2C8A8588FE6DB09C09337E78437CB056CD557DB1BCF5240112CBFB7B600EFB,IMPHASH=8EEAA9499666119D13B3F44ECD77A729",C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.docx.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,CALC.EXE,"""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.docx.exe /Y & copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.pdf.exe /Y & copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.ps1.exe /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xls.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xlsx.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.png.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.doc.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.pdf.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.rtf.ps1 /Y &
+                %temp%\T1036.003_masquerading.docx.exe & %temp%\T1036.003_masquerading.pdf.exe
+                & %temp%\T1036.003_masquerading.ps1.exe &
+                %temp%\T1036.003_masquerading.xls.vbs & %temp%\T1036.003_masquerading.xlsx.vbs
+                & %temp%\T1036.003_masquerading.png.vbs &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.doc.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.pdf.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.rtf.ps1",C:\Windows\System32\cmd.exe,{f57bd86a-6332-658c-da01-000000000f00},7492,WINDEV2309EVAL\User,{f57bd86a-6332-658c-dc01-000000000f00},3588,1456,Microsoft® Windows® Operating System,,,,-,2023-12-27T17:47:30.8342321Z,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:30.832,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:30.8342321Z""/>
+      
+            
+      <EventRecordID>19621</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:30.832</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6332-658c-dc01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">1456</Data>
+      
+            
+      <Data Name=""Image"">C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.docx.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      
+            
+      <Data Name=""Description"">Windows Calculator</Data>
+      
+            
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">CALC.EXE</Data>
+      
+            
+      <Data Name=""CommandLine"">
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.docx.exe  </Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=2F82623F9523C0D167862CAD0EFF6806,SHA256=9C2C8A8588FE6DB09C09337E78437CB056CD557DB1BCF5240112CBFB7B600EFB,IMPHASH=8EEAA9499666119D13B3F44ECD77A729</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">7492</Data>
+      
+            
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.docx.exe /Y &amp; copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.pdf.exe /Y &amp; copy ""C:\Windows\System32\calc.exe""
+                %temp%\T1036.003_masquerading.ps1.exe /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xls.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.xlsx.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %temp%\T1036.003_masquerading.png.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.doc.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.pdf.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %temp%\T1036.003_masquerading.rtf.ps1 /Y &amp;
+                %temp%\T1036.003_masquerading.docx.exe &amp; %temp%\T1036.003_masquerading.pdf.exe
+                &amp; %temp%\T1036.003_masquerading.ps1.exe &amp;
+                %temp%\T1036.003_masquerading.xls.vbs &amp; %temp%\T1036.003_masquerading.xlsx.vbs
+                &amp; %temp%\T1036.003_masquerading.png.vbs &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.doc.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.pdf.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %temp%\T1036.003_masquerading.rtf.ps1</Data>
+      
+            
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,硅瑩倭卓獥楳湯,2023-12-27 17:47:30.822,,,15,19620,,"
+                MD5=107417694FE308B4C31E2F1A45B6A737,SHA256=DE37F1F2D3E156694E58DC81143983C1084302F5CA837A6EA4F29A98F839FBDF,IMPHASH=00000000000000000000000000000000",,C:\Windows\SYSTEM32\cmd.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6332-658c-da01-000000000f00},3588,7492,,,,,-,2023-12-27T17:47:30.8247823Z,"
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.rtf.ps1",15,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:30.822,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>15</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>15</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:30.8247823Z""/>
+      
+            
+      <EventRecordID>19620</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:30.822</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7492</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\SYSTEM32\cmd.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.rtf.ps1</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:30.822</Data>
+      
+            
+      <Data Name=""Hash"">
+                MD5=107417694FE308B4C31E2F1A45B6A737,SHA256=DE37F1F2D3E156694E58DC81143983C1084302F5CA837A6EA4F29A98F839FBDF,IMPHASH=00000000000000000000000000000000</Data>
+      
+            
+      <Data Name=""Contents"">&#30789;&#29801;&#20525;&#21331;&#29541;&#26995;&#28271;</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,2023-12-27 17:47:30.822,,,11,19619,,,,C:\Windows\SYSTEM32\cmd.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6332-658c-da01-000000000f00},3588,7492,,,,,-,2023-12-27T17:47:30.8234478Z,"
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.rtf.ps1",11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:30.822,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>11</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>11</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:30.8234478Z""/>
+      
+            
+      <EventRecordID>19619</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:30.822</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7492</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\SYSTEM32\cmd.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.rtf.ps1</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:30.822</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,硅瑩倭卓獥楳湯,2023-12-27 17:47:30.807,,,15,19618,,"
+                MD5=107417694FE308B4C31E2F1A45B6A737,SHA256=DE37F1F2D3E156694E58DC81143983C1084302F5CA837A6EA4F29A98F839FBDF,IMPHASH=00000000000000000000000000000000",,C:\Windows\SYSTEM32\cmd.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6332-658c-da01-000000000f00},3588,7492,,,,,-,2023-12-27T17:47:30.8205563Z,"
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.pdf.ps1",15,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:30.807,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>15</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>15</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:30.8205563Z""/>
+      
+            
+      <EventRecordID>19618</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:30.807</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7492</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\SYSTEM32\cmd.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.pdf.ps1</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:30.807</Data>
+      
+            
+      <Data Name=""Hash"">
+                MD5=107417694FE308B4C31E2F1A45B6A737,SHA256=DE37F1F2D3E156694E58DC81143983C1084302F5CA837A6EA4F29A98F839FBDF,IMPHASH=00000000000000000000000000000000</Data>
+      
+            
+      <Data Name=""Contents"">&#30789;&#29801;&#20525;&#21331;&#29541;&#26995;&#28271;</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,2023-12-27 17:47:30.807,,,11,19617,,,,C:\Windows\SYSTEM32\cmd.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6332-658c-da01-000000000f00},3588,7492,,,,,-,2023-12-27T17:47:30.8194176Z,"
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.pdf.ps1",11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:30.807,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>11</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>11</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:30.8194176Z""/>
+      
+            
+      <EventRecordID>19617</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:30.807</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7492</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\SYSTEM32\cmd.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.pdf.ps1</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:30.807</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,硅瑩倭卓獥楳湯,2023-12-27 17:47:30.807,,,15,19616,,"
+                MD5=107417694FE308B4C31E2F1A45B6A737,SHA256=DE37F1F2D3E156694E58DC81143983C1084302F5CA837A6EA4F29A98F839FBDF,IMPHASH=00000000000000000000000000000000",,C:\Windows\SYSTEM32\cmd.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6332-658c-da01-000000000f00},3588,7492,,,,,-,2023-12-27T17:47:30.8166663Z,"
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.doc.ps1",15,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:30.807,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>15</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>15</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:30.8166663Z""/>
+      
+            
+      <EventRecordID>19616</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:30.807</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7492</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\SYSTEM32\cmd.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.doc.ps1</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:30.807</Data>
+      
+            
+      <Data Name=""Hash"">
+                MD5=107417694FE308B4C31E2F1A45B6A737,SHA256=DE37F1F2D3E156694E58DC81143983C1084302F5CA837A6EA4F29A98F839FBDF,IMPHASH=00000000000000000000000000000000</Data>
+      
+            
+      <Data Name=""Contents"">&#30789;&#29801;&#20525;&#21331;&#29541;&#26995;&#28271;</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,2023-12-27 17:47:30.807,,,11,19615,,,,C:\Windows\SYSTEM32\cmd.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6332-658c-da01-000000000f00},3588,7492,,,,,-,2023-12-27T17:47:30.8152348Z,"
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.doc.ps1",11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:30.807,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>11</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>11</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:30.8152348Z""/>
+      
+            
+      <EventRecordID>19615</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:30.807</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7492</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\SYSTEM32\cmd.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.doc.ps1</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:30.807</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,Wscript.Quit,2023-12-27 17:47:30.791,,,15,19614,,"
+                MD5=4BD14527FB63E9354C43EBE497EBFE85,SHA256=D6B5317D1E536F43C3FEE98CD4CDC7D5C3A842C97CB4B9F2514CE817C2C42B17,IMPHASH=00000000000000000000000000000000",,C:\Windows\SYSTEM32\cmd.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6332-658c-da01-000000000f00},3588,7492,,,,,-,2023-12-27T17:47:30.8103239Z,"
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.png.vbs",15,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:30.807,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>15</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>15</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:30.8103239Z""/>
+      
+            
+      <EventRecordID>19614</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:30.807</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7492</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\SYSTEM32\cmd.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.png.vbs</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:30.791</Data>
+      
+            
+      <Data Name=""Hash"">
+                MD5=4BD14527FB63E9354C43EBE497EBFE85,SHA256=D6B5317D1E536F43C3FEE98CD4CDC7D5C3A842C97CB4B9F2514CE817C2C42B17,IMPHASH=00000000000000000000000000000000</Data>
+      
+            
+      <Data Name=""Contents"">Wscript.Quit</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,2023-12-27 17:47:30.791,,,11,19613,,,,C:\Windows\SYSTEM32\cmd.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6332-658c-da01-000000000f00},3588,7492,,,,,-,2023-12-27T17:47:30.8100923Z,"
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.png.vbs",11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:30.807,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>11</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>11</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:30.8100923Z""/>
+      
+            
+      <EventRecordID>19613</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:30.807</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7492</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\SYSTEM32\cmd.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.png.vbs</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:30.791</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,Wscript.Quit,2023-12-27 17:47:30.791,,,15,19612,,"
+                MD5=4BD14527FB63E9354C43EBE497EBFE85,SHA256=D6B5317D1E536F43C3FEE98CD4CDC7D5C3A842C97CB4B9F2514CE817C2C42B17,IMPHASH=00000000000000000000000000000000",,C:\Windows\SYSTEM32\cmd.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6332-658c-da01-000000000f00},3588,7492,,,,,-,2023-12-27T17:47:30.8050794Z,"
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.xlsx.vbs",15,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:30.791,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>15</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>15</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:30.8050794Z""/>
+      
+            
+      <EventRecordID>19612</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:30.791</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7492</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\SYSTEM32\cmd.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.xlsx.vbs</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:30.791</Data>
+      
+            
+      <Data Name=""Hash"">
+                MD5=4BD14527FB63E9354C43EBE497EBFE85,SHA256=D6B5317D1E536F43C3FEE98CD4CDC7D5C3A842C97CB4B9F2514CE817C2C42B17,IMPHASH=00000000000000000000000000000000</Data>
+      
+            
+      <Data Name=""Contents"">Wscript.Quit</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,2023-12-27 17:47:30.791,,,11,19611,,,,C:\Windows\SYSTEM32\cmd.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6332-658c-da01-000000000f00},3588,7492,,,,,-,2023-12-27T17:47:30.8034677Z,"
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.xlsx.vbs",11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:30.791,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>11</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>11</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:30.8034677Z""/>
+      
+            
+      <EventRecordID>19611</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:30.791</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7492</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\SYSTEM32\cmd.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.xlsx.vbs</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:30.791</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,Wscript.Quit,2023-12-27 17:47:30.791,,,15,19610,,"
+                MD5=4BD14527FB63E9354C43EBE497EBFE85,SHA256=D6B5317D1E536F43C3FEE98CD4CDC7D5C3A842C97CB4B9F2514CE817C2C42B17,IMPHASH=00000000000000000000000000000000",,C:\Windows\SYSTEM32\cmd.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6332-658c-da01-000000000f00},3588,7492,,,,,-,2023-12-27T17:47:30.8007083Z,"
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.xls.vbs",15,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:30.791,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>15</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>15</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:30.8007083Z""/>
+      
+            
+      <EventRecordID>19610</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:30.791</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7492</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\SYSTEM32\cmd.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.xls.vbs</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:30.791</Data>
+      
+            
+      <Data Name=""Hash"">
+                MD5=4BD14527FB63E9354C43EBE497EBFE85,SHA256=D6B5317D1E536F43C3FEE98CD4CDC7D5C3A842C97CB4B9F2514CE817C2C42B17,IMPHASH=00000000000000000000000000000000</Data>
+      
+            
+      <Data Name=""Contents"">Wscript.Quit</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,2023-12-27 17:47:30.791,,,11,19609,,,,C:\Windows\SYSTEM32\cmd.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6332-658c-da01-000000000f00},3588,7492,,,,,-,2023-12-27T17:47:30.7992144Z,"
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.xls.vbs",11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:30.791,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>11</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>11</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:30.7992144Z""/>
+      
+            
+      <EventRecordID>19609</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:30.791</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7492</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\SYSTEM32\cmd.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.xls.vbs</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:30.791</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,2023-12-27 17:47:30.791,,,11,19608,,,,C:\Windows\SYSTEM32\cmd.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6332-658c-da01-000000000f00},3588,7492,,,,,EXE,2023-12-27T17:47:30.7958045Z,"
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.ps1.exe",11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:30.791,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>11</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>11</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:30.7958045Z""/>
+      
+            
+      <EventRecordID>19608</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">EXE</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:30.791</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7492</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\SYSTEM32\cmd.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.ps1.exe</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:30.791</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,2023-12-27 17:47:30.791,,,11,19607,,,,C:\Windows\SYSTEM32\cmd.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6332-658c-da01-000000000f00},3588,7492,,,,,EXE,2023-12-27T17:47:30.7930543Z,"
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.pdf.exe",11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:30.791,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>11</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>11</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:30.7930543Z""/>
+      
+            
+      <EventRecordID>19607</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">EXE</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:30.791</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7492</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\SYSTEM32\cmd.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.pdf.exe</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:30.791</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,2023-12-27 17:47:30.776,,,11,19606,,,,C:\Windows\SYSTEM32\cmd.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6332-658c-da01-000000000f00},3588,7492,,,,,EXE,2023-12-27T17:47:30.7858991Z,"
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.docx.exe",11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:30.776,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>11</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>11</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:30.7858991Z""/>
+      
+            
+      <EventRecordID>19606</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">EXE</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:30.776</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7492</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\SYSTEM32\cmd.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\T1036.003_masquerading.docx.exe</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:30.776</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %%temp%%\T1036.003_masquerading.docx.exe /Y & copy
+                ""C:\Windows\System32\calc.exe"" %%temp%%\T1036.003_masquerading.pdf.exe /Y & copy
+                ""C:\Windows\System32\calc.exe"" %%temp%%\T1036.003_masquerading.ps1.exe /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %%temp%%\T1036.003_masquerading.xls.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %%temp%%\T1036.003_masquerading.xlsx.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %%temp%%\T1036.003_masquerading.png.vbs /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %%temp%%\T1036.003_masquerading.doc.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %%temp%%\T1036.003_masquerading.pdf.ps1 /Y & copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %%temp%%\T1036.003_masquerading.rtf.ps1 /Y &
+                %%temp%%\T1036.003_masquerading.docx.exe &
+                %%temp%%\T1036.003_masquerading.pdf.exe &
+                %%temp%%\T1036.003_masquerading.ps1.exe &
+                %%temp%%\T1036.003_masquerading.xls.vbs &
+                %%temp%%\T1036.003_masquerading.xlsx.vbs &
+                %%temp%%\T1036.003_masquerading.png.vbs &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %%temp%%\T1036.003_masquerading.doc.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %%temp%%\T1036.003_masquerading.pdf.ps1 &
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %%temp%%\T1036.003_masquerading.rtf.ps1",Microsoft Corporation,WinDev2309Eval,,,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,1,19605,10.0.22621.2506 (WinBuild.160101.0800),,"
+                MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,Cmd.Exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-6332-658c-da01-000000000f00},3588,7492,Microsoft® Windows® Operating System,,,,-,2023-12-27T17:47:30.7572447Z,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:30.756,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:30.7572447Z""/>
+      
+            
+      <EventRecordID>19605</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:30.756</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6332-658c-da01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7492</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      
+            
+      <Data Name=""Description"">Windows Command Processor</Data>
+      
+            
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      
+            
+      <Data Name=""CommandLine"">""cmd.exe"" /c copy ""C:\Windows\System32\calc.exe""
+                %%temp%%\T1036.003_masquerading.docx.exe /Y &amp; copy
+                ""C:\Windows\System32\calc.exe"" %%temp%%\T1036.003_masquerading.pdf.exe /Y &amp; copy
+                ""C:\Windows\System32\calc.exe"" %%temp%%\T1036.003_masquerading.ps1.exe /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %%temp%%\T1036.003_masquerading.xls.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %%temp%%\T1036.003_masquerading.xlsx.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.vbs""
+                %%temp%%\T1036.003_masquerading.png.vbs /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %%temp%%\T1036.003_masquerading.doc.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %%temp%%\T1036.003_masquerading.pdf.ps1 /Y &amp; copy
+                ""C:\AtomicRedTeam\atomics\T1036.003\src\T1036.003_masquerading.ps1""
+                %%temp%%\T1036.003_masquerading.rtf.ps1 /Y &amp;
+                %%temp%%\T1036.003_masquerading.docx.exe &amp;
+                %%temp%%\T1036.003_masquerading.pdf.exe &amp;
+                %%temp%%\T1036.003_masquerading.ps1.exe &amp;
+                %%temp%%\T1036.003_masquerading.xls.vbs &amp;
+                %%temp%%\T1036.003_masquerading.xlsx.vbs &amp;
+                %%temp%%\T1036.003_masquerading.png.vbs &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %%temp%%\T1036.003_masquerading.doc.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %%temp%%\T1036.003_masquerading.pdf.ps1 &amp;
+                C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -File
+                %%temp%%\T1036.003_masquerading.rtf.ps1</Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">1688</Data>
+      
+            
+      <Data Name=""ParentImage"">-</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">-</Data>
+      
+            
+      <Data Name=""ParentUser"">-</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""cmd.exe"" /c copy C:\Windows\System32\cmd.exe C:\lsm.exe &
+                C:\lsm.exe /c echo T1036.003 > C:\T1036.003.txt",Microsoft Corporation,WinDev2309Eval,,,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,1,19604,10.0.22621.2506 (WinBuild.160101.0800),,"
+                MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,Cmd.Exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-6332-658c-d801-000000000f00},3588,1872,Microsoft® Windows® Operating System,,,,-,2023-12-27T17:47:30.5389745Z,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:30.537,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:30.5389745Z""/>
+      
+            
+      <EventRecordID>19604</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:30.537</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6332-658c-d801-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">1872</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      
+            
+      <Data Name=""Description"">Windows Command Processor</Data>
+      
+            
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      
+            
+      <Data Name=""CommandLine"">""cmd.exe"" /c copy C:\Windows\System32\cmd.exe C:\lsm.exe &amp;
+                C:\lsm.exe /c echo T1036.003 &gt; C:\T1036.003.txt</Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">1688</Data>
+      
+            
+      <Data Name=""ParentImage"">-</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">-</Data>
+      
+            
+      <Data Name=""ParentUser"">-</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,5,19603,,,,C:\Users\User\AppData\Local\Temp\svchost.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6331-658c-d401-000000000f00},3588,7388,,,,,-,2023-12-27T17:47:30.2840539Z,,5,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:30.276,3,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>5</EventID>
+      
+            
+      <Version>3</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>5</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:30.2840539Z""/>
+      
+            
+      <EventRecordID>19603</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:30.276</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6331-658c-d401-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7388</Data>
+      
+            
+      <Data Name=""Image"">C:\Users\User\AppData\Local\Temp\svchost.exe</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program
+                Files\WindowsApps\Microsoft.WindowsTerminal_1.18.3181.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe""
+                -Embedding",-,WinDev2309Eval,,,C:\Windows\system32\,-,1,19602,-,,"
+                MD5=69D536A57E2CA570BD305FC17A72FBA4,SHA256=DF554DF7C1611574C9B7D1B783FE851D19A6868FBE035D460EF8D0E0E27151DA,IMPHASH=89539BECC118C763F2798F0B697FEEC1","
+                C:\Program
+                Files\WindowsApps\Microsoft.WindowsTerminal_1.18.3181.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe",Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,-,C:\Windows\system32\svchost.exe -k DcomLaunch -p,C:\Windows\System32\svchost.exe,{f57bd86a-36f5-658c-0d00-000000000f00},932,NT AUTHORITY\SYSTEM,{f57bd86a-6331-658c-d701-000000000f00},3588,5412,-,,,,-,2023-12-27T17:47:29.5058076Z,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:29.504,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:29.5058076Z""/>
+      
+            
+      <EventRecordID>19602</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:29.504</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6331-658c-d701-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">5412</Data>
+      
+            
+      <Data Name=""Image"">
+                C:\Program
+                Files\WindowsApps\Microsoft.WindowsTerminal_1.18.3181.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">-</Data>
+      
+            
+      <Data Name=""Description"">-</Data>
+      
+            
+      <Data Name=""Product"">-</Data>
+      
+            
+      <Data Name=""Company"">-</Data>
+      
+            
+      <Data Name=""OriginalFileName"">-</Data>
+      
+            
+      <Data Name=""CommandLine"">""C:\Program
+                Files\WindowsApps\Microsoft.WindowsTerminal_1.18.3181.0_x64__8wekyb3d8bbwe\WindowsTerminal.exe""
+                -Embedding</Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=69D536A57E2CA570BD305FC17A72FBA4,SHA256=DF554DF7C1611574C9B7D1B783FE851D19A6868FBE035D460EF8D0E0E27151DA,IMPHASH=89539BECC118C763F2798F0B697FEEC1</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{f57bd86a-36f5-658c-0d00-000000000f00}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">932</Data>
+      
+            
+      <Data Name=""ParentImage"">C:\Windows\System32\svchost.exe</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">C:\Windows\system32\svchost.exe -k DcomLaunch -p</Data>
+      
+            
+      <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program
+                Files\WindowsApps\Microsoft.WindowsTerminal_1.18.3181.0_x64__8wekyb3d8bbwe\OpenConsole.exe""
+                -Embedding",-,WinDev2309Eval,,,C:\Windows\system32\,-,1,19601,-,,"
+                MD5=3E8BF6C2578C0E26CBD699A9E1A48A32,SHA256=34E13A88400216D70CC4BF03DC91AB7911F8A9354A735E4DCB090E73AEB0CE56,IMPHASH=8AEDC24AD9CD564AA66BAB6D1F8D2FDB","
+                C:\Program
+                Files\WindowsApps\Microsoft.WindowsTerminal_1.18.3181.0_x64__8wekyb3d8bbwe\OpenConsole.exe",Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,-,C:\Windows\system32\svchost.exe -k DcomLaunch -p,C:\Windows\System32\svchost.exe,{f57bd86a-36f5-658c-0d00-000000000f00},932,NT AUTHORITY\SYSTEM,{f57bd86a-6331-658c-d601-000000000f00},3588,4116,-,,,,-,2023-12-27T17:47:29.4407840Z,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:29.439,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:29.4407840Z""/>
+      
+            
+      <EventRecordID>19601</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:29.439</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6331-658c-d601-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">4116</Data>
+      
+            
+      <Data Name=""Image"">
+                C:\Program
+                Files\WindowsApps\Microsoft.WindowsTerminal_1.18.3181.0_x64__8wekyb3d8bbwe\OpenConsole.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">-</Data>
+      
+            
+      <Data Name=""Description"">-</Data>
+      
+            
+      <Data Name=""Product"">-</Data>
+      
+            
+      <Data Name=""Company"">-</Data>
+      
+            
+      <Data Name=""OriginalFileName"">-</Data>
+      
+            
+      <Data Name=""CommandLine"">""C:\Program
+                Files\WindowsApps\Microsoft.WindowsTerminal_1.18.3181.0_x64__8wekyb3d8bbwe\OpenConsole.exe""
+                -Embedding</Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=3E8BF6C2578C0E26CBD699A9E1A48A32,SHA256=34E13A88400216D70CC4BF03DC91AB7911F8A9354A735E4DCB090E73AEB0CE56,IMPHASH=8AEDC24AD9CD564AA66BAB6D1F8D2FDB</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{f57bd86a-36f5-658c-0d00-000000000f00}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">932</Data>
+      
+            
+      <Data Name=""ParentImage"">C:\Windows\System32\svchost.exe</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">C:\Windows\system32\svchost.exe -k DcomLaunch -p</Data>
+      
+            
+      <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Users\User\AppData\Local\Temp\svchost.exe"" ",Microsoft Corporation,WinDev2309Eval,,,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,1,19600,10.0.22621.2506 (WinBuild.160101.0800),,"
+                MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Users\User\AppData\Local\Temp\svchost.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,Cmd.Exe,"""powershell.exe"" & {copy \""""$env:ComSpec\""""
+                ($env:TEMP + \""""\svchost.exe\"""")
+                $myT1036_003 = (Start-Process -PassThru -FilePath ($env:TEMP +
+                \""""\svchost.exe\"""")).Id
+                Stop-Process -ID $myT1036_003}",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,{f57bd86a-6330-658c-d201-000000000f00},8092,WINDEV2309EVAL\User,{f57bd86a-6331-658c-d401-000000000f00},3588,7388,Microsoft® Windows® Operating System,,,,-,2023-12-27T17:47:29.4035980Z,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:29.394,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:29.4035980Z""/>
+      
+            
+      <EventRecordID>19600</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:29.394</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6331-658c-d401-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">7388</Data>
+      
+            
+      <Data Name=""Image"">C:\Users\User\AppData\Local\Temp\svchost.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      
+            
+      <Data Name=""Description"">Windows Command Processor</Data>
+      
+            
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      
+            
+      <Data Name=""CommandLine"">""C:\Users\User\AppData\Local\Temp\svchost.exe"" </Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{f57bd86a-6330-658c-d201-000000000f00}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">8092</Data>
+      
+            
+      <Data Name=""ParentImage"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">""powershell.exe"" &amp; {copy \""""$env:ComSpec\""""
+                ($env:TEMP + \""""\svchost.exe\"""")
+                $myT1036_003 = (Start-Process -PassThru -FilePath ($env:TEMP +
+                \""""\svchost.exe\"""")).Id
+                Stop-Process -ID $myT1036_003}</Data>
+      
+            
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,2023-12-27 17:47:26.060,,,11,19599,,,,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6330-658c-d201-000000000f00},3588,8092,,,,,EXE,2023-12-27T17:47:29.2780998Z,C:\Users\User\AppData\Local\Temp\svchost.exe,11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:29.275,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>11</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>11</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:29.2780998Z""/>
+      
+            
+      <EventRecordID>19599</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">EXE</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:29.275</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6330-658c-d201-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">8092</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">C:\Users\User\AppData\Local\Temp\svchost.exe</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:26.060</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,2023-12-27 17:47:28.428,,,11,19598,,,,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-6330-658c-d201-000000000f00},3588,8092,,,,,-,2023-12-27T17:47:28.4297916Z,"
+                C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_dd3do3yu.c4e.ps1",11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:28.428,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>11</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>11</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:28.4297916Z""/>
+      
+            
+      <EventRecordID>19598</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:28.428</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6330-658c-d201-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">8092</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_dd3do3yu.c4e.ps1</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:28.428</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""powershell.exe"" & {copy \""""$env:ComSpec\"""" ($env:TEMP +
+                \""""\svchost.exe\"""")
+                $myT1036_003 = (Start-Process -PassThru -FilePath ($env:TEMP +
+                \""""\svchost.exe\"""")).Id
+                Stop-Process -ID $myT1036_003}",Microsoft Corporation,WinDev2309Eval,,,C:\Users\User\AppData\Local\Temp\,Windows PowerShell,1,19597,10.0.22621.2506 (WinBuild.160101.0800),,"
+                MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,PowerShell.EXE,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-6330-658c-d201-000000000f00},3588,8092,Microsoft® Windows® Operating System,,,,-,2023-12-27T17:47:28.3194757Z,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:28.318,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:28.3194757Z""/>
+      
+            
+      <EventRecordID>19597</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:28.318</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-6330-658c-d201-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">8092</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      
+            
+      <Data Name=""Description"">Windows PowerShell</Data>
+      
+            
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">PowerShell.EXE</Data>
+      
+            
+      <Data Name=""CommandLine"">""powershell.exe"" &amp; {copy \""""$env:ComSpec\"""" ($env:TEMP +
+                \""""\svchost.exe\"""")
+                $myT1036_003 = (Start-Process -PassThru -FilePath ($env:TEMP +
+                \""""\svchost.exe\"""")).Id
+                Stop-Process -ID $myT1036_003}</Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">1688</Data>
+      
+            
+      <Data Name=""ParentImage"">-</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">-</Data>
+      
+            
+      <Data Name=""ParentUser"">-</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\sc.exe"" start InventorySvc",Microsoft Corporation,WinDev2309Eval,,,C:\Windows\system32\,Service Control Manager Configuration Tool,1,19596,10.0.22621.1 (WinBuild.160101.0800),,"
+                MD5=FF2A4319FA5531F0D7B98DBBA9ABBD4A,SHA256=67CBE3A7B9C9B7A2E9FB10A33C1A9A3FD297B6F1598AEA374BD9B5D2DEE352EC,IMPHASH=42DADBD60BBC453DD1773FDC089E19B7",C:\Windows\System32\sc.exe,System,0x8000000000000000,4,{f57bd86a-36f5-658c-e703-000000000000},0x3e7,0,sc.exe,C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule,C:\Windows\System32\svchost.exe,{f57bd86a-36f6-658c-1d00-000000000f00},1496,NT AUTHORITY\SYSTEM,{f57bd86a-632e-658c-d001-000000000f00},3588,10448,Microsoft® Windows® Operating System,,,,-,2023-12-27T17:47:26.7951760Z,,1,0,5124,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-27 17:47:26.790,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:26.7951760Z""/>
+      
+            
+      <EventRecordID>19596</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:26.790</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-632e-658c-d001-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">10448</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\sc.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      
+            
+      <Data Name=""Description"">Service Control Manager Configuration Tool</Data>
+      
+            
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">sc.exe</Data>
+      
+            
+      <Data Name=""CommandLine"">""C:\Windows\system32\sc.exe"" start InventorySvc</Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+      
+            
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f5-658c-e703-000000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x3e7</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">0</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">System</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=FF2A4319FA5531F0D7B98DBBA9ABBD4A,SHA256=67CBE3A7B9C9B7A2E9FB10A33C1A9A3FD297B6F1598AEA374BD9B5D2DEE352EC,IMPHASH=42DADBD60BBC453DD1773FDC089E19B7</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{f57bd86a-36f6-658c-1d00-000000000f00}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">1496</Data>
+      
+            
+      <Data Name=""ParentImage"">C:\Windows\System32\svchost.exe</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule</Data>
+      
+            
+      <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,C:\Windows\System32\smartscreen.exe -Embedding,Microsoft Corporation,WinDev2309Eval,,,C:\Windows\system32\,Windows Defender SmartScreen,1,19595,10.0.22621.2506 (WinBuild.160101.0800),,"
+                MD5=428B629A92397F8AE122C96F1AA64307,SHA256=A239C6A0C9754025160F4E52FD1D8C155F82F2E8DC159C643FDA75AAEAE7468E,IMPHASH=2CD979428F6A7D556A8BFFD60C64AD9B",C:\Windows\System32\smartscreen.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,smartscreen.exe,C:\Windows\system32\svchost.exe -k DcomLaunch -p,C:\Windows\System32\svchost.exe,{f57bd86a-36f5-658c-0d00-000000000f00},932,NT AUTHORITY\SYSTEM,{f57bd86a-632e-658c-cf01-000000000f00},3588,1192,Microsoft® Windows® Operating System,,,,-,2023-12-27T17:47:26.1562725Z,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:26.155,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:26.1562725Z""/>
+      
+            
+      <EventRecordID>19595</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:26.155</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-632e-658c-cf01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">1192</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\smartscreen.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      
+            
+      <Data Name=""Description"">Windows Defender SmartScreen</Data>
+      
+            
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">smartscreen.exe</Data>
+      
+            
+      <Data Name=""CommandLine"">C:\Windows\System32\smartscreen.exe -Embedding</Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=428B629A92397F8AE122C96F1AA64307,SHA256=A239C6A0C9754025160F4E52FD1D8C155F82F2E8DC159C643FDA75AAEAE7468E,IMPHASH=2CD979428F6A7D556A8BFFD60C64AD9B</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{f57bd86a-36f5-658c-0d00-000000000f00}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">932</Data>
+      
+            
+      <Data Name=""ParentImage"">C:\Windows\System32\svchost.exe</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">C:\Windows\system32\svchost.exe -k DcomLaunch -p</Data>
+      
+            
+      <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,2023-12-27 17:47:26.060,,,11,19594,,,,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-632c-658c-cd01-000000000f00},3588,2848,,,,,EXE,2023-12-27T17:47:26.0623258Z,C:\Users\User\AppData\Local\Temp\svchost.exe,11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:26.060,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>11</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>11</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:26.0623258Z""/>
+      
+            
+      <EventRecordID>19594</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">EXE</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:26.060</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-632c-658c-cd01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">2848</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">C:\Users\User\AppData\Local\Temp\svchost.exe</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:26.060</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,2023-12-27 17:47:24.840,,,11,19593,,,,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-632c-658c-cd01-000000000f00},3588,2848,,,,,-,2023-12-27T17:47:24.8443092Z,"
+                C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_fxsjjcpa.44d.ps1",11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:24.840,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>11</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>11</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:24.8443092Z""/>
+      
+            
+      <EventRecordID>19593</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:24.840</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-632c-658c-cd01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">2848</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_fxsjjcpa.44d.ps1</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:47:24.840</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""powershell.exe"" & {copy
+                \""""C:\AtomicRedTeam\atomics\T1036.003\bin\T1036.003.exe\"""" ($env:TEMP +
+                \""""\svchost.exe\"""")
+                try { $myT1036_003 = (Start-Process -PassThru -FilePath ($env:TEMP +
+                \""""\svchost.exe\"""")).Id }
+                catch { $_; exit $_.Exception.HResult}
+                Stop-Process -ID $myT1036_003}",Microsoft Corporation,WinDev2309Eval,,,C:\Users\User\AppData\Local\Temp\,Windows PowerShell,1,19592,10.0.22621.2506 (WinBuild.160101.0800),,"
+                MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,PowerShell.EXE,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-632c-658c-cd01-000000000f00},3588,2848,Microsoft® Windows® Operating System,,,,-,2023-12-27T17:47:24.7369393Z,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:24.735,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:24.7369393Z""/>
+      
+            
+      <EventRecordID>19592</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:24.735</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-632c-658c-cd01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">2848</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      
+            
+      <Data Name=""Description"">Windows PowerShell</Data>
+      
+            
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">PowerShell.EXE</Data>
+      
+            
+      <Data Name=""CommandLine"">""powershell.exe"" &amp; {copy
+                \""""C:\AtomicRedTeam\atomics\T1036.003\bin\T1036.003.exe\"""" ($env:TEMP +
+                \""""\svchost.exe\"""")
+                try { $myT1036_003 = (Start-Process -PassThru -FilePath ($env:TEMP +
+                \""""\svchost.exe\"""")).Id }
+                catch { $_; exit $_.Exception.HResult}
+                Stop-Process -ID $myT1036_003}</Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">1688</Data>
+      
+            
+      <Data Name=""ParentImage"">-</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">-</Data>
+      
+            
+      <Data Name=""ParentUser"">-</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,5,19591,,,,C:\Users\User\AppData\Roaming\taskhostw.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-62b4-658c-cb01-000000000f00},3588,10384,,,,,-,2023-12-27T17:47:24.4378953Z,,5,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:47:24.434,3,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>5</EventID>
+      
+            
+      <Version>3</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>5</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:47:24.4378953Z""/>
+      
+            
+      <EventRecordID>19591</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:47:24.434</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-62b4-658c-cb01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">10384</Data>
+      
+            
+      <Data Name=""Image"">C:\Users\User\AppData\Roaming\taskhostw.exe</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,2023-12-27 17:45:24.408,,,11,19590,,,,C:\Users\User\AppData\Roaming\taskhostw.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-62b4-658c-cb01-000000000f00},3588,10384,,,,,-,2023-12-27T17:45:24.4166990Z,"
+                C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_0fn1wpyg.p31.ps1",11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:45:24.408,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>11</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>11</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:45:24.4166990Z""/>
+      
+            
+      <EventRecordID>19590</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:45:24.408</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-62b4-658c-cb01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">10384</Data>
+      
+            
+      <Data Name=""Image"">C:\Users\User\AppData\Roaming\taskhostw.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">
+                C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_0fn1wpyg.p31.ps1</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:45:24.408</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,C:\Users\User\AppData\Roaming\taskhostw.exe,Microsoft Corporation,WinDev2309Eval,,,C:\Users\User\AppData\Local\Temp\,Windows PowerShell,1,19589,10.0.22621.2506 (WinBuild.160101.0800),,"
+                MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20",C:\Users\User\AppData\Roaming\taskhostw.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,PowerShell.EXE,cmd.exe /K C:\Users\User\AppData\Roaming\taskhostw.exe,C:\Windows\System32\cmd.exe,{f57bd86a-62b4-658c-ca01-000000000f00},6604,WINDEV2309EVAL\User,{f57bd86a-62b4-658c-cb01-000000000f00},3588,10384,Microsoft® Windows® Operating System,,,,-,2023-12-27T17:45:24.2958652Z,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:45:24.291,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:45:24.2958652Z""/>
+      
+            
+      <EventRecordID>19589</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:45:24.291</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-62b4-658c-cb01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">10384</Data>
+      
+            
+      <Data Name=""Image"">C:\Users\User\AppData\Roaming\taskhostw.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      
+            
+      <Data Name=""Description"">Windows PowerShell</Data>
+      
+            
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">PowerShell.EXE</Data>
+      
+            
+      <Data Name=""CommandLine"">C:\Users\User\AppData\Roaming\taskhostw.exe</Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{f57bd86a-62b4-658c-ca01-000000000f00}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">6604</Data>
+      
+            
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">cmd.exe /K C:\Users\User\AppData\Roaming\taskhostw.exe</Data>
+      
+            
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,cmd.exe /K C:\Users\User\AppData\Roaming\taskhostw.exe,Microsoft Corporation,WinDev2309Eval,,,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,1,19588,10.0.22621.2506 (WinBuild.160101.0800),,"
+                MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,4,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,0,Cmd.Exe,"""cmd.exe"" /c copy
+                %windir%\System32\windowspowershell\v1.0\powershell.exe %APPDATA%\taskhostw.exe /Y
+                & cmd.exe /K %APPDATA%\taskhostw.exe",C:\Windows\System32\cmd.exe,{f57bd86a-62b4-658c-c801-000000000f00},9516,WINDEV2309EVAL\User,{f57bd86a-62b4-658c-ca01-000000000f00},3588,6604,Microsoft® Windows® Operating System,,,,-,2023-12-27T17:45:24.2751128Z,,1,1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:45:24.274,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>1</EventID>
+      
+            
+      <Version>5</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>1</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:45:24.2751128Z""/>
+      
+            
+      <EventRecordID>19588</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">-</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:45:24.274</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-62b4-658c-ca01-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">6604</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      
+            
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      
+            
+      <Data Name=""Description"">Windows Command Processor</Data>
+      
+            
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      
+            
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      
+            
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      
+            
+      <Data Name=""CommandLine"">cmd.exe /K C:\Users\User\AppData\Roaming\taskhostw.exe</Data>
+      
+            
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+            
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      
+            
+      <Data Name=""LogonId"">0x2f87b</Data>
+      
+            
+      <Data Name=""TerminalSessionId"">1</Data>
+      
+            
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      
+            
+      <Data Name=""Hashes"">
+                MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      
+            
+      <Data Name=""ParentProcessGuid"">{f57bd86a-62b4-658c-c801-000000000f00}</Data>
+      
+            
+      <Data Name=""ParentProcessId"">9516</Data>
+      
+            
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      
+            
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c copy
+                %windir%\System32\windowspowershell\v1.0\powershell.exe %APPDATA%\taskhostw.exe /Y
+                &amp; cmd.exe /K %APPDATA%\taskhostw.exe</Data>
+      
+            
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+    
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,2023-12-27 17:45:24.267,,,11,19587,,,,C:\Windows\SYSTEM32\cmd.exe,,0x8000000000000000,4,,,0,,,,,,,{f57bd86a-62b4-658c-c801-000000000f00},3588,9516,,,,,EXE,2023-12-27T17:45:24.2685620Z,C:\Users\User\AppData\Roaming\taskhostw.exe,11,,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 17:45:24.267,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    
+        
+    <System>
+      
+            
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      
+            
+      <EventID>11</EventID>
+      
+            
+      <Version>2</Version>
+      
+            
+      <Level>4</Level>
+      
+            
+      <Task>11</Task>
+      
+            
+      <Opcode>0</Opcode>
+      
+            
+      <Keywords>0x8000000000000000</Keywords>
+      
+            
+      <TimeCreated SystemTime=""2023-12-27T17:45:24.2685620Z""/>
+      
+            
+      <EventRecordID>19587</EventRecordID>
+      
+            
+      <Correlation/>
+      
+            
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      
+            
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      
+            
+      <Computer>WinDev2309Eval</Computer>
+      
+            
+      <Security UserID=""S-1-5-18""/>
+      
+        
+    </System>
+    
+        
+    <EventData>
+      
+            
+      <Data Name=""RuleName"">EXE</Data>
+      
+            
+      <Data Name=""UtcTime"">2023-12-27 17:45:24.267</Data>
+      
+            
+      <Data Name=""ProcessGuid"">{f57bd86a-62b4-658c-c801-000000000f00}</Data>
+      
+            
+      <Data Name=""ProcessId"">9516</Data>
+      
+            
+      <Data Name=""Image"">C:\Windows\SYSTEM32\cmd.exe</Data>
+      
+            
+      <Data Name=""TargetFilename"">C:\Users\User\AppData\Roaming\taskhostw.exe</Data>
+      
+            
+      <Data Name=""CreationUtcTime"">2023-12-27 17:45:24.267</Data>
+      
+            
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      
+        
+    </EventData>
+    
+    
+  </Event>
+  
+
+
+"

@@ -1,0 +1,2936 @@
+Channel,CommandLine,Company,Computer,CreationUtcTime,CurrentDirectory,Description,EventID,EventRecordID,FileVersion,Hashes,Image,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Message,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,QueryName,QueryResults,QueryStatus,RenderingInfo,RuleName,SystemTime,TargetFilename,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-27 20:57:47.898,,,11,19591,,,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:47.898
+
+ProcessGuid: {f57bd86a-8fcb-658c-d401-000000000f00}
+
+ProcessId: 1768
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_0r5xzcw3.ab0.ps1
+
+CreationUtcTime: 2023-12-27 20:57:47.898
+
+User: WINDEV2309EVAL\User",Info,,,,,,,{f57bd86a-8fcb-658c-d401-000000000f00},3588,1768,,,,,"
+      ",-,2023-12-27T20:57:47.9023555Z,C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_0r5xzcw3.ab0.ps1,File created (rule: FileCreate),,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:47.898,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:47.9023555Z""/>
+      <EventRecordID>19591</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:47.898</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fcb-658c-d401-000000000f00}</Data>
+      <Data Name=""ProcessId"">1768</Data>
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""TargetFilename"">C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_0r5xzcw3.ab0.ps1</Data>
+      <Data Name=""CreationUtcTime"">2023-12-27 20:57:47.898</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:47.898
+
+ProcessGuid: {f57bd86a-8fcb-658c-d401-000000000f00}
+
+ProcessId: 1768
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_0r5xzcw3.ab0.ps1
+
+CreationUtcTime: 2023-12-27 20:57:47.898
+
+User: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""powershell.exe"" & {Add-Type -AssemblyName System.Windows.Forms
+$screen = [Windows.Forms.SystemInformation]::VirtualScreen
+$bitmap = New-Object Drawing.Bitmap $screen.Width, $screen.Height
+$graphic = [Drawing.Graphics]::FromImage($bitmap)
+$graphic.CopyFromScreen($screen.Left, $screen.Top, 0, 0, $bitmap.Size)
+$bitmap.Save(\""""$env:TEMP\T1113.png\"""")}",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Windows PowerShell,1,19590,10.0.22621.2506 (WinBuild.160101.0800),"MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:47.782
+
+ProcessGuid: {f57bd86a-8fcb-658c-d401-000000000f00}
+
+ProcessId: 1768
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows PowerShell
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: PowerShell.EXE
+
+CommandLine: ""powershell.exe"" & {Add-Type -AssemblyName System.Windows.Forms
+$screen = [Windows.Forms.SystemInformation]::VirtualScreen
+$bitmap = New-Object Drawing.Bitmap $screen.Width, $screen.Height
+$graphic = [Drawing.Graphics]::FromImage($bitmap)
+$graphic.CopyFromScreen($screen.Left, $screen.Top, 0, 0, $bitmap.Size)
+$bitmap.Save(\""""$env:TEMP\T1113.png\"""")}
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,PowerShell.EXE,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-8fcb-658c-d401-000000000f00},3588,1768,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T20:57:47.7832841Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:47.782,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:47.7832841Z""/>
+      <EventRecordID>19590</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:47.782</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fcb-658c-d401-000000000f00}</Data>
+      <Data Name=""ProcessId"">1768</Data>
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows PowerShell</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">PowerShell.EXE</Data>
+      <Data Name=""CommandLine"">""powershell.exe"" &amp; {Add-Type -AssemblyName System.Windows.Forms
+$screen = [Windows.Forms.SystemInformation]::VirtualScreen
+$bitmap = New-Object Drawing.Bitmap $screen.Width, $screen.Height
+$graphic = [Drawing.Graphics]::FromImage($bitmap)
+$graphic.CopyFromScreen($screen.Left, $screen.Top, 0, 0, $bitmap.Size)
+$bitmap.Save(\""""$env:TEMP\T1113.png\"""")}</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:47.782
+
+ProcessGuid: {f57bd86a-8fcb-658c-d401-000000000f00}
+
+ProcessId: 1768
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows PowerShell
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: PowerShell.EXE
+
+CommandLine: ""powershell.exe"" &amp; {Add-Type -AssemblyName System.Windows.Forms
+$screen = [Windows.Forms.SystemInformation]::VirtualScreen
+$bitmap = New-Object Drawing.Bitmap $screen.Width, $screen.Height
+$graphic = [Drawing.Graphics]::FromImage($bitmap)
+$graphic.CopyFromScreen($screen.Left, $screen.Top, 0, 0, $bitmap.Size)
+$bitmap.Save(\""""$env:TEMP\T1113.png\"""")}
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\psr.exe""  /stop",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Steps Recorder,1,19589,10.0.22621.2792 (WinBuild.160101.0800),"MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C",C:\Windows\System32\psr.exe,High,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:46.353
+
+ProcessGuid: {f57bd86a-8fca-658c-d301-000000000f00}
+
+ProcessId: 412
+
+Image: C:\Windows\System32\psr.exe
+
+FileVersion: 10.0.22621.2792 (WinBuild.160101.0800)
+
+Description: Steps Recorder
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: psr.exe
+
+CommandLine: ""C:\Windows\system32\psr.exe""  /stop
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: High
+
+Hashes: MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C
+
+ParentProcessGuid: {f57bd86a-8fc5-658c-cd01-000000000f00}
+
+ParentProcessId: 10740
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""C:\Windows\system32\cmd.exe"" /c ""timeout 5 > NULL && psr.exe /stop""
+
+ParentUser: WINDEV2309EVAL\User",Info,psr.exe,"""C:\Windows\system32\cmd.exe"" /c ""timeout 5 > NULL && psr.exe /stop""",C:\Windows\System32\cmd.exe,{f57bd86a-8fc5-658c-cd01-000000000f00},10740,WINDEV2309EVAL\User,{f57bd86a-8fca-658c-d301-000000000f00},3588,412,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T20:57:46.3544289Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:46.353,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:46.3544289Z""/>
+      <EventRecordID>19589</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:46.353</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fca-658c-d301-000000000f00}</Data>
+      <Data Name=""ProcessId"">412</Data>
+      <Data Name=""Image"">C:\Windows\System32\psr.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2792 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Steps Recorder</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">psr.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\psr.exe""  /stop</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">High</Data>
+      <Data Name=""Hashes"">MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-8fc5-658c-cd01-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">10740</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""C:\Windows\system32\cmd.exe"" /c ""timeout 5 &gt; NULL &amp;&amp; psr.exe /stop""</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:46.353
+
+ProcessGuid: {f57bd86a-8fca-658c-d301-000000000f00}
+
+ProcessId: 412
+
+Image: C:\Windows\System32\psr.exe
+
+FileVersion: 10.0.22621.2792 (WinBuild.160101.0800)
+
+Description: Steps Recorder
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: psr.exe
+
+CommandLine: ""C:\Windows\system32\psr.exe""  /stop
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: High
+
+Hashes: MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C
+
+ParentProcessGuid: {f57bd86a-8fc5-658c-cd01-000000000f00}
+
+ParentProcessId: 10740
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""C:\Windows\system32\cmd.exe"" /c ""timeout 5 &gt; NULL &amp;&amp; psr.exe /stop""
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,consent.exe 6032 300 000001B71E6C7F70,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Consent UI for administrative applications,1,19588,10.0.22621.2506 (WinBuild.160101.0800),"MD5=8F81A5DDAA613AE681DA25B86F727E6B,SHA256=8191FB83695F7B60B9D2D137B571EA6FFE34ED6DFAE48866BFBDC934806D5229,IMPHASH=5D0C875DBD930A73D5A983016E384930",C:\Windows\System32\consent.exe,System,0x8000000000000000,Information,{f57bd86a-36f5-658c-e703-000000000000},0x3e7,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:46.277
+
+ProcessGuid: {f57bd86a-8fca-658c-d201-000000000f00}
+
+ProcessId: 10680
+
+Image: C:\Windows\System32\consent.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Consent UI for administrative applications
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: consent.exe
+
+CommandLine: consent.exe 6032 300 000001B71E6C7F70
+
+CurrentDirectory: C:\Windows\system32\
+
+User: NT AUTHORITY\SYSTEM
+
+LogonGuid: {f57bd86a-36f5-658c-e703-000000000000}
+
+LogonId: 0x3E7
+
+TerminalSessionId: 1
+
+IntegrityLevel: System
+
+Hashes: MD5=8F81A5DDAA613AE681DA25B86F727E6B,SHA256=8191FB83695F7B60B9D2D137B571EA6FFE34ED6DFAE48866BFBDC934806D5229,IMPHASH=5D0C875DBD930A73D5A983016E384930
+
+ParentProcessGuid: {f57bd86a-36fc-658c-7f00-000000000f00}
+
+ParentProcessId: 6032
+
+ParentImage: C:\Windows\System32\svchost.exe
+
+ParentCommandLine: C:\Windows\system32\svchost.exe -k netsvcs -p -s Appinfo
+
+ParentUser: NT AUTHORITY\SYSTEM",Info,consent.exe,C:\Windows\system32\svchost.exe -k netsvcs -p -s Appinfo,C:\Windows\System32\svchost.exe,{f57bd86a-36fc-658c-7f00-000000000f00},6032,NT AUTHORITY\SYSTEM,{f57bd86a-8fca-658c-d201-000000000f00},3588,10680,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T20:57:46.2784863Z,,Process Create (rule: ProcessCreate),1,5124,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-27 20:57:46.277,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:46.2784863Z""/>
+      <EventRecordID>19588</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:46.277</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fca-658c-d201-000000000f00}</Data>
+      <Data Name=""ProcessId"">10680</Data>
+      <Data Name=""Image"">C:\Windows\System32\consent.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Consent UI for administrative applications</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">consent.exe</Data>
+      <Data Name=""CommandLine"">consent.exe 6032 300 000001B71E6C7F70</Data>
+      <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f5-658c-e703-000000000000}</Data>
+      <Data Name=""LogonId"">0x3e7</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">System</Data>
+      <Data Name=""Hashes"">MD5=8F81A5DDAA613AE681DA25B86F727E6B,SHA256=8191FB83695F7B60B9D2D137B571EA6FFE34ED6DFAE48866BFBDC934806D5229,IMPHASH=5D0C875DBD930A73D5A983016E384930</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-36fc-658c-7f00-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">6032</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\svchost.exe</Data>
+      <Data Name=""ParentCommandLine"">C:\Windows\system32\svchost.exe -k netsvcs -p -s Appinfo</Data>
+      <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:46.277
+
+ProcessGuid: {f57bd86a-8fca-658c-d201-000000000f00}
+
+ProcessId: 10680
+
+Image: C:\Windows\System32\consent.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Consent UI for administrative applications
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: consent.exe
+
+CommandLine: consent.exe 6032 300 000001B71E6C7F70
+
+CurrentDirectory: C:\Windows\system32\
+
+User: NT AUTHORITY\SYSTEM
+
+LogonGuid: {f57bd86a-36f5-658c-e703-000000000000}
+
+LogonId: 0x3E7
+
+TerminalSessionId: 1
+
+IntegrityLevel: System
+
+Hashes: MD5=8F81A5DDAA613AE681DA25B86F727E6B,SHA256=8191FB83695F7B60B9D2D137B571EA6FFE34ED6DFAE48866BFBDC934806D5229,IMPHASH=5D0C875DBD930A73D5A983016E384930
+
+ParentProcessGuid: {f57bd86a-36fc-658c-7f00-000000000f00}
+
+ParentProcessId: 6032
+
+ParentImage: C:\Windows\System32\svchost.exe
+
+ParentCommandLine: C:\Windows\system32\svchost.exe -k netsvcs -p -s Appinfo
+
+ParentUser: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\psr.exe""  /stop",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Steps Recorder,1,19587,10.0.22621.2792 (WinBuild.160101.0800),"MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C",C:\Windows\System32\psr.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:46.267
+
+ProcessGuid: {f57bd86a-8fca-658c-d101-000000000f00}
+
+ProcessId: 4500
+
+Image: C:\Windows\System32\psr.exe
+
+FileVersion: 10.0.22621.2792 (WinBuild.160101.0800)
+
+Description: Steps Recorder
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: psr.exe
+
+CommandLine: ""C:\Windows\system32\psr.exe""  /stop
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C
+
+ParentProcessGuid: {f57bd86a-8fc5-658c-cd01-000000000f00}
+
+ParentProcessId: 10740
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""C:\Windows\system32\cmd.exe"" /c ""timeout 5 > NULL && psr.exe /stop""
+
+ParentUser: WINDEV2309EVAL\User",Info,psr.exe,"""C:\Windows\system32\cmd.exe"" /c ""timeout 5 > NULL && psr.exe /stop""",C:\Windows\System32\cmd.exe,{f57bd86a-8fc5-658c-cd01-000000000f00},10740,WINDEV2309EVAL\User,{f57bd86a-8fca-658c-d101-000000000f00},3588,4500,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T20:57:46.2681035Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:46.267,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:46.2681035Z""/>
+      <EventRecordID>19587</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:46.267</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fca-658c-d101-000000000f00}</Data>
+      <Data Name=""ProcessId"">4500</Data>
+      <Data Name=""Image"">C:\Windows\System32\psr.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2792 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Steps Recorder</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">psr.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\psr.exe""  /stop</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-8fc5-658c-cd01-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">10740</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""C:\Windows\system32\cmd.exe"" /c ""timeout 5 &gt; NULL &amp;&amp; psr.exe /stop""</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:46.267
+
+ProcessGuid: {f57bd86a-8fca-658c-d101-000000000f00}
+
+ProcessId: 4500
+
+Image: C:\Windows\System32\psr.exe
+
+FileVersion: 10.0.22621.2792 (WinBuild.160101.0800)
+
+Description: Steps Recorder
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: psr.exe
+
+CommandLine: ""C:\Windows\system32\psr.exe""  /stop
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C
+
+ParentProcessGuid: {f57bd86a-8fc5-658c-cd01-000000000f00}
+
+ParentProcessId: 10740
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""C:\Windows\system32\cmd.exe"" /c ""timeout 5 &gt; NULL &amp;&amp; psr.exe /stop""
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,psr.exe  /stop,Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Steps Recorder,1,19586,10.0.22621.2792 (WinBuild.160101.0800),"MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C",C:\Windows\System32\psr.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:46.171
+
+ProcessGuid: {f57bd86a-8fca-658c-d001-000000000f00}
+
+ProcessId: 5216
+
+Image: C:\Windows\System32\psr.exe
+
+FileVersion: 10.0.22621.2792 (WinBuild.160101.0800)
+
+Description: Steps Recorder
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: psr.exe
+
+CommandLine: psr.exe  /stop
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C
+
+ParentProcessGuid: {f57bd86a-8fc5-658c-cd01-000000000f00}
+
+ParentProcessId: 10740
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""C:\Windows\system32\cmd.exe"" /c ""timeout 5 > NULL && psr.exe /stop""
+
+ParentUser: WINDEV2309EVAL\User",Info,psr.exe,"""C:\Windows\system32\cmd.exe"" /c ""timeout 5 > NULL && psr.exe /stop""",C:\Windows\System32\cmd.exe,{f57bd86a-8fc5-658c-cd01-000000000f00},10740,WINDEV2309EVAL\User,{f57bd86a-8fca-658c-d001-000000000f00},3588,5216,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T20:57:46.1761838Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:46.171,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:46.1761838Z""/>
+      <EventRecordID>19586</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:46.171</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fca-658c-d001-000000000f00}</Data>
+      <Data Name=""ProcessId"">5216</Data>
+      <Data Name=""Image"">C:\Windows\System32\psr.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2792 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Steps Recorder</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">psr.exe</Data>
+      <Data Name=""CommandLine"">psr.exe  /stop</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-8fc5-658c-cd01-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">10740</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""C:\Windows\system32\cmd.exe"" /c ""timeout 5 &gt; NULL &amp;&amp; psr.exe /stop""</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:46.171
+
+ProcessGuid: {f57bd86a-8fca-658c-d001-000000000f00}
+
+ProcessId: 5216
+
+Image: C:\Windows\System32\psr.exe
+
+FileVersion: 10.0.22621.2792 (WinBuild.160101.0800)
+
+Description: Steps Recorder
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: psr.exe
+
+CommandLine: psr.exe  /stop
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C
+
+ParentProcessGuid: {f57bd86a-8fc5-658c-cd01-000000000f00}
+
+ParentProcessId: 10740
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""C:\Windows\system32\cmd.exe"" /c ""timeout 5 &gt; NULL &amp;&amp; psr.exe /stop""
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,timeout  5  ,Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,timeout - pauses command processing,1,19585,10.0.22621.1 (WinBuild.160101.0800),"MD5=3F9678DB974CB7C0B59B158557F0C071,SHA256=4310BFC44B00C09F13C0E82FD9E9F9503643BDAC089111AE983326BB250EDFC5,IMPHASH=52D0839685A9987DD8CF02994B143429",C:\Windows\System32\timeout.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:41.145
+
+ProcessGuid: {f57bd86a-8fc5-658c-ce01-000000000f00}
+
+ProcessId: 5472
+
+Image: C:\Windows\System32\timeout.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: timeout - pauses command processing
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: timeout.exe
+
+CommandLine: timeout  5  
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=3F9678DB974CB7C0B59B158557F0C071,SHA256=4310BFC44B00C09F13C0E82FD9E9F9503643BDAC089111AE983326BB250EDFC5,IMPHASH=52D0839685A9987DD8CF02994B143429
+
+ParentProcessGuid: {f57bd86a-8fc5-658c-cd01-000000000f00}
+
+ParentProcessId: 10740
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""C:\Windows\system32\cmd.exe"" /c ""timeout 5 > NULL && psr.exe /stop""
+
+ParentUser: WINDEV2309EVAL\User",Info,timeout.exe,"""C:\Windows\system32\cmd.exe"" /c ""timeout 5 > NULL && psr.exe /stop""",C:\Windows\System32\cmd.exe,{f57bd86a-8fc5-658c-cd01-000000000f00},10740,WINDEV2309EVAL\User,{f57bd86a-8fc5-658c-ce01-000000000f00},3588,5472,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T20:57:41.1487975Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:41.145,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:41.1487975Z""/>
+      <EventRecordID>19585</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:41.145</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fc5-658c-ce01-000000000f00}</Data>
+      <Data Name=""ProcessId"">5472</Data>
+      <Data Name=""Image"">C:\Windows\System32\timeout.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">timeout - pauses command processing</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">timeout.exe</Data>
+      <Data Name=""CommandLine"">timeout  5  </Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=3F9678DB974CB7C0B59B158557F0C071,SHA256=4310BFC44B00C09F13C0E82FD9E9F9503643BDAC089111AE983326BB250EDFC5,IMPHASH=52D0839685A9987DD8CF02994B143429</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-8fc5-658c-cd01-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">10740</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""C:\Windows\system32\cmd.exe"" /c ""timeout 5 &gt; NULL &amp;&amp; psr.exe /stop""</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:41.145
+
+ProcessGuid: {f57bd86a-8fc5-658c-ce01-000000000f00}
+
+ProcessId: 5472
+
+Image: C:\Windows\System32\timeout.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: timeout - pauses command processing
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: timeout.exe
+
+CommandLine: timeout  5  
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=3F9678DB974CB7C0B59B158557F0C071,SHA256=4310BFC44B00C09F13C0E82FD9E9F9503643BDAC089111AE983326BB250EDFC5,IMPHASH=52D0839685A9987DD8CF02994B143429
+
+ParentProcessGuid: {f57bd86a-8fc5-658c-cd01-000000000f00}
+
+ParentProcessId: 10740
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""C:\Windows\system32\cmd.exe"" /c ""timeout 5 &gt; NULL &amp;&amp; psr.exe /stop""
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\cmd.exe"" /c ""timeout 5 > NULL && psr.exe /stop""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,1,19584,10.0.22621.2506 (WinBuild.160101.0800),"MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:41.125
+
+ProcessGuid: {f57bd86a-8fc5-658c-cd01-000000000f00}
+
+ProcessId: 10740
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""C:\Windows\system32\cmd.exe"" /c ""timeout 5 > NULL && psr.exe /stop""
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {f57bd86a-8fc2-658c-c401-000000000f00}
+
+ParentProcessId: 4368
+
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+ParentCommandLine: ""powershell.exe"" & {cmd /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+Add-Type -MemberDefinition '[DllImport(\""""user32.dll\"""")] public static extern void mouse_event(int flags, int dx, int dy, int cButtons, int info);' -Name U32 -Namespace W;
+[W.U32]::mouse_event(0x02 -bor 0x04 -bor 0x01, 0, 0, 0, 0);
+cmd /c \""""timeout 5 > NULL && psr.exe /stop\""""}
+
+ParentUser: WINDEV2309EVAL\User",Info,Cmd.Exe,"""powershell.exe"" & {cmd /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+Add-Type -MemberDefinition '[DllImport(\""""user32.dll\"""")] public static extern void mouse_event(int flags, int dx, int dy, int cButtons, int info);' -Name U32 -Namespace W;
+[W.U32]::mouse_event(0x02 -bor 0x04 -bor 0x01, 0, 0, 0, 0);
+cmd /c \""""timeout 5 > NULL && psr.exe /stop\""""}",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,{f57bd86a-8fc2-658c-c401-000000000f00},4368,WINDEV2309EVAL\User,{f57bd86a-8fc5-658c-cd01-000000000f00},3588,10740,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T20:57:41.1289893Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:41.125,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:41.1289893Z""/>
+      <EventRecordID>19584</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:41.125</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fc5-658c-cd01-000000000f00}</Data>
+      <Data Name=""ProcessId"">10740</Data>
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows Command Processor</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\cmd.exe"" /c ""timeout 5 &gt; NULL &amp;&amp; psr.exe /stop""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-8fc2-658c-c401-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">4368</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""ParentCommandLine"">""powershell.exe"" &amp; {cmd /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+Add-Type -MemberDefinition '[DllImport(\""""user32.dll\"""")] public static extern void mouse_event(int flags, int dx, int dy, int cButtons, int info);' -Name U32 -Namespace W;
+[W.U32]::mouse_event(0x02 -bor 0x04 -bor 0x01, 0, 0, 0, 0);
+cmd /c \""""timeout 5 &gt; NULL &amp;&amp; psr.exe /stop\""""}</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:41.125
+
+ProcessGuid: {f57bd86a-8fc5-658c-cd01-000000000f00}
+
+ProcessId: 10740
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""C:\Windows\system32\cmd.exe"" /c ""timeout 5 &gt; NULL &amp;&amp; psr.exe /stop""
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {f57bd86a-8fc2-658c-c401-000000000f00}
+
+ParentProcessId: 4368
+
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+ParentCommandLine: ""powershell.exe"" &amp; {cmd /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+Add-Type -MemberDefinition '[DllImport(\""""user32.dll\"""")] public static extern void mouse_event(int flags, int dx, int dy, int cButtons, int info);' -Name U32 -Namespace W;
+[W.U32]::mouse_event(0x02 -bor 0x04 -bor 0x01, 0, 0, 0, 0);
+cmd /c \""""timeout 5 &gt; NULL &amp;&amp; psr.exe /stop\""""}
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-27 20:57:40.918,,,11,19583,,,C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-27 20:57:41.028
+
+ProcessGuid: {f57bd86a-8fc4-658c-cb01-000000000f00}
+
+ProcessId: 6908
+
+Image: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\kbfc2czv.dll
+
+CreationUtcTime: 2023-12-27 20:57:40.918
+
+User: WINDEV2309EVAL\User",Info,,,,,,,{f57bd86a-8fc4-658c-cb01-000000000f00},3588,6908,,,,,"
+      ",DLL,2023-12-27T20:57:41.0426709Z,C:\Users\User\AppData\Local\Temp\kbfc2czv.dll,File created (rule: FileCreate),,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:41.028,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:41.0426709Z""/>
+      <EventRecordID>19583</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:41.028</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fc4-658c-cb01-000000000f00}</Data>
+      <Data Name=""ProcessId"">6908</Data>
+      <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe</Data>
+      <Data Name=""TargetFilename"">C:\Users\User\AppData\Local\Temp\kbfc2czv.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-27 20:57:40.918</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-27 20:57:41.028
+
+ProcessGuid: {f57bd86a-8fc4-658c-cb01-000000000f00}
+
+ProcessId: 6908
+
+Image: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\kbfc2czv.dll
+
+CreationUtcTime: 2023-12-27 20:57:40.918
+
+User: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\cvtres.exe /NOLOGO /READONLY /MACHINE:IX86 ""/OUT:C:\Users\User\AppData\Local\Temp\RES4897.tmp"" ""c:\Users\User\AppData\Local\Temp\CSC85872E697CE04D259EFAEBDA192F1CB1.TMP""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Microsoft® Resource File To COFF Object Conversion Utility,1,19582,14.32.31326.0,"MD5=8166CCB6A04B855AA918B36079C63B7D,SHA256=FD3EF1B4C91B2E85CCD05724A7CD527A3A27D7D549B0DCDB70D3D78BE120C560,IMPHASH=45A00F7304B8F089973962FBEF618959",C:\Windows\Microsoft.NET\Framework64\v4.0.30319\cvtres.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:41.013
+
+ProcessGuid: {f57bd86a-8fc5-658c-cc01-000000000f00}
+
+ProcessId: 980
+
+Image: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\cvtres.exe
+
+FileVersion: 14.32.31326.0
+
+Description: Microsoft® Resource File To COFF Object Conversion Utility
+
+Product: Microsoft® .NET Framework
+
+Company: Microsoft Corporation
+
+OriginalFileName: CVTRES.EXE
+
+CommandLine: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\cvtres.exe /NOLOGO /READONLY /MACHINE:IX86 ""/OUT:C:\Users\User\AppData\Local\Temp\RES4897.tmp"" ""c:\Users\User\AppData\Local\Temp\CSC85872E697CE04D259EFAEBDA192F1CB1.TMP""
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=8166CCB6A04B855AA918B36079C63B7D,SHA256=FD3EF1B4C91B2E85CCD05724A7CD527A3A27D7D549B0DCDB70D3D78BE120C560,IMPHASH=45A00F7304B8F089973962FBEF618959
+
+ParentProcessGuid: {f57bd86a-8fc4-658c-cb01-000000000f00}
+
+ParentProcessId: 6908
+
+ParentImage: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe
+
+ParentCommandLine: ""C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe"" /noconfig /fullpaths @""C:\Users\User\AppData\Local\Temp\kbfc2czv.cmdline""
+
+ParentUser: WINDEV2309EVAL\User",Info,CVTRES.EXE,"""C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe"" /noconfig /fullpaths @""C:\Users\User\AppData\Local\Temp\kbfc2czv.cmdline""",C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe,{f57bd86a-8fc4-658c-cb01-000000000f00},6908,WINDEV2309EVAL\User,{f57bd86a-8fc5-658c-cc01-000000000f00},3588,980,Microsoft® .NET Framework,,,,"
+      ",-,2023-12-27T20:57:41.0148267Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:41.013,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:41.0148267Z""/>
+      <EventRecordID>19582</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:41.013</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fc5-658c-cc01-000000000f00}</Data>
+      <Data Name=""ProcessId"">980</Data>
+      <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\cvtres.exe</Data>
+      <Data Name=""FileVersion"">14.32.31326.0</Data>
+      <Data Name=""Description"">Microsoft&#174; Resource File To COFF Object Conversion Utility</Data>
+      <Data Name=""Product"">Microsoft&#174; .NET Framework</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">CVTRES.EXE</Data>
+      <Data Name=""CommandLine"">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\cvtres.exe /NOLOGO /READONLY /MACHINE:IX86 ""/OUT:C:\Users\User\AppData\Local\Temp\RES4897.tmp"" ""c:\Users\User\AppData\Local\Temp\CSC85872E697CE04D259EFAEBDA192F1CB1.TMP""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=8166CCB6A04B855AA918B36079C63B7D,SHA256=FD3EF1B4C91B2E85CCD05724A7CD527A3A27D7D549B0DCDB70D3D78BE120C560,IMPHASH=45A00F7304B8F089973962FBEF618959</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-8fc4-658c-cb01-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">6908</Data>
+      <Data Name=""ParentImage"">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe</Data>
+      <Data Name=""ParentCommandLine"">""C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe"" /noconfig /fullpaths @""C:\Users\User\AppData\Local\Temp\kbfc2czv.cmdline""</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:41.013
+
+ProcessGuid: {f57bd86a-8fc5-658c-cc01-000000000f00}
+
+ProcessId: 980
+
+Image: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\cvtres.exe
+
+FileVersion: 14.32.31326.0
+
+Description: Microsoft&#174; Resource File To COFF Object Conversion Utility
+
+Product: Microsoft&#174; .NET Framework
+
+Company: Microsoft Corporation
+
+OriginalFileName: CVTRES.EXE
+
+CommandLine: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\cvtres.exe /NOLOGO /READONLY /MACHINE:IX86 ""/OUT:C:\Users\User\AppData\Local\Temp\RES4897.tmp"" ""c:\Users\User\AppData\Local\Temp\CSC85872E697CE04D259EFAEBDA192F1CB1.TMP""
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=8166CCB6A04B855AA918B36079C63B7D,SHA256=FD3EF1B4C91B2E85CCD05724A7CD527A3A27D7D549B0DCDB70D3D78BE120C560,IMPHASH=45A00F7304B8F089973962FBEF618959
+
+ParentProcessGuid: {f57bd86a-8fc4-658c-cb01-000000000f00}
+
+ParentProcessId: 6908
+
+ParentImage: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe
+
+ParentCommandLine: ""C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe"" /noconfig /fullpaths @""C:\Users\User\AppData\Local\Temp\kbfc2czv.cmdline""
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe"" /noconfig /fullpaths @""C:\Users\User\AppData\Local\Temp\kbfc2czv.cmdline""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Visual C# Command Line Compiler,1,19581,4.8.9032.0 built by: NET481REL1,"MD5=0700180046633A40D24729AE8CACC158,SHA256=A725546BDE53F1AD533E74ABB01DD5ED5F07B171F5C284738DA88F6CE478CF5F,IMPHASH=2E6A9097FBA347A254DAC72662FE1259",C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:40.923
+
+ProcessGuid: {f57bd86a-8fc4-658c-cb01-000000000f00}
+
+ProcessId: 6908
+
+Image: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe
+
+FileVersion: 4.8.9032.0 built by: NET481REL1
+
+Description: Visual C# Command Line Compiler
+
+Product: Microsoft® .NET Framework
+
+Company: Microsoft Corporation
+
+OriginalFileName: csc.exe
+
+CommandLine: ""C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe"" /noconfig /fullpaths @""C:\Users\User\AppData\Local\Temp\kbfc2czv.cmdline""
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=0700180046633A40D24729AE8CACC158,SHA256=A725546BDE53F1AD533E74ABB01DD5ED5F07B171F5C284738DA88F6CE478CF5F,IMPHASH=2E6A9097FBA347A254DAC72662FE1259
+
+ParentProcessGuid: {f57bd86a-8fc2-658c-c401-000000000f00}
+
+ParentProcessId: 4368
+
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+ParentCommandLine: ""powershell.exe"" & {cmd /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+Add-Type -MemberDefinition '[DllImport(\""""user32.dll\"""")] public static extern void mouse_event(int flags, int dx, int dy, int cButtons, int info);' -Name U32 -Namespace W;
+[W.U32]::mouse_event(0x02 -bor 0x04 -bor 0x01, 0, 0, 0, 0);
+cmd /c \""""timeout 5 > NULL && psr.exe /stop\""""}
+
+ParentUser: WINDEV2309EVAL\User",Info,csc.exe,"""powershell.exe"" & {cmd /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+Add-Type -MemberDefinition '[DllImport(\""""user32.dll\"""")] public static extern void mouse_event(int flags, int dx, int dy, int cButtons, int info);' -Name U32 -Namespace W;
+[W.U32]::mouse_event(0x02 -bor 0x04 -bor 0x01, 0, 0, 0, 0);
+cmd /c \""""timeout 5 > NULL && psr.exe /stop\""""}",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,{f57bd86a-8fc2-658c-c401-000000000f00},4368,WINDEV2309EVAL\User,{f57bd86a-8fc4-658c-cb01-000000000f00},3588,6908,Microsoft® .NET Framework,,,,"
+      ",-,2023-12-27T20:57:40.9244368Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:40.923,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:40.9244368Z""/>
+      <EventRecordID>19581</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:40.923</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fc4-658c-cb01-000000000f00}</Data>
+      <Data Name=""ProcessId"">6908</Data>
+      <Data Name=""Image"">C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe</Data>
+      <Data Name=""FileVersion"">4.8.9032.0 built by: NET481REL1</Data>
+      <Data Name=""Description"">Visual C# Command Line Compiler</Data>
+      <Data Name=""Product"">Microsoft&#174; .NET Framework</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">csc.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe"" /noconfig /fullpaths @""C:\Users\User\AppData\Local\Temp\kbfc2czv.cmdline""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=0700180046633A40D24729AE8CACC158,SHA256=A725546BDE53F1AD533E74ABB01DD5ED5F07B171F5C284738DA88F6CE478CF5F,IMPHASH=2E6A9097FBA347A254DAC72662FE1259</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-8fc2-658c-c401-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">4368</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""ParentCommandLine"">""powershell.exe"" &amp; {cmd /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+Add-Type -MemberDefinition '[DllImport(\""""user32.dll\"""")] public static extern void mouse_event(int flags, int dx, int dy, int cButtons, int info);' -Name U32 -Namespace W;
+[W.U32]::mouse_event(0x02 -bor 0x04 -bor 0x01, 0, 0, 0, 0);
+cmd /c \""""timeout 5 &gt; NULL &amp;&amp; psr.exe /stop\""""}</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:40.923
+
+ProcessGuid: {f57bd86a-8fc4-658c-cb01-000000000f00}
+
+ProcessId: 6908
+
+Image: C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe
+
+FileVersion: 4.8.9032.0 built by: NET481REL1
+
+Description: Visual C# Command Line Compiler
+
+Product: Microsoft&#174; .NET Framework
+
+Company: Microsoft Corporation
+
+OriginalFileName: csc.exe
+
+CommandLine: ""C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe"" /noconfig /fullpaths @""C:\Users\User\AppData\Local\Temp\kbfc2czv.cmdline""
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=0700180046633A40D24729AE8CACC158,SHA256=A725546BDE53F1AD533E74ABB01DD5ED5F07B171F5C284738DA88F6CE478CF5F,IMPHASH=2E6A9097FBA347A254DAC72662FE1259
+
+ParentProcessGuid: {f57bd86a-8fc2-658c-c401-000000000f00}
+
+ParentProcessId: 4368
+
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+ParentCommandLine: ""powershell.exe"" &amp; {cmd /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+Add-Type -MemberDefinition '[DllImport(\""""user32.dll\"""")] public static extern void mouse_event(int flags, int dx, int dy, int cButtons, int info);' -Name U32 -Namespace W;
+[W.U32]::mouse_event(0x02 -bor 0x04 -bor 0x01, 0, 0, 0, 0);
+cmd /c \""""timeout 5 &gt; NULL &amp;&amp; psr.exe /stop\""""}
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-27 20:57:40.918,,,11,19580,,,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:40.918
+
+ProcessGuid: {f57bd86a-8fc2-658c-c401-000000000f00}
+
+ProcessId: 4368
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\kbfc2czv.cmdline
+
+CreationUtcTime: 2023-12-27 20:57:40.918
+
+User: WINDEV2309EVAL\User",Info,,,,,,,{f57bd86a-8fc2-658c-c401-000000000f00},3588,4368,,,,,"
+      ",-,2023-12-27T20:57:40.9212310Z,C:\Users\User\AppData\Local\Temp\kbfc2czv.cmdline,File created (rule: FileCreate),,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:40.918,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:40.9212310Z""/>
+      <EventRecordID>19580</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:40.918</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fc2-658c-c401-000000000f00}</Data>
+      <Data Name=""ProcessId"">4368</Data>
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""TargetFilename"">C:\Users\User\AppData\Local\Temp\kbfc2czv.cmdline</Data>
+      <Data Name=""CreationUtcTime"">2023-12-27 20:57:40.918</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:40.918
+
+ProcessGuid: {f57bd86a-8fc2-658c-c401-000000000f00}
+
+ProcessId: 4368
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\kbfc2czv.cmdline
+
+CreationUtcTime: 2023-12-27 20:57:40.918
+
+User: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-27 20:57:40.918,,,11,19579,,,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-27 20:57:40.918
+
+ProcessGuid: {f57bd86a-8fc2-658c-c401-000000000f00}
+
+ProcessId: 4368
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\kbfc2czv.dll
+
+CreationUtcTime: 2023-12-27 20:57:40.918
+
+User: WINDEV2309EVAL\User",Info,,,,,,,{f57bd86a-8fc2-658c-c401-000000000f00},3588,4368,,,,,"
+      ",DLL,2023-12-27T20:57:40.9207928Z,C:\Users\User\AppData\Local\Temp\kbfc2czv.dll,File created (rule: FileCreate),,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:40.918,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:40.9207928Z""/>
+      <EventRecordID>19579</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">DLL</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:40.918</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fc2-658c-c401-000000000f00}</Data>
+      <Data Name=""ProcessId"">4368</Data>
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""TargetFilename"">C:\Users\User\AppData\Local\Temp\kbfc2czv.dll</Data>
+      <Data Name=""CreationUtcTime"">2023-12-27 20:57:40.918</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: DLL
+
+UtcTime: 2023-12-27 20:57:40.918
+
+ProcessGuid: {f57bd86a-8fc2-658c-c401-000000000f00}
+
+ProcessId: 4368
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\kbfc2czv.dll
+
+CreationUtcTime: 2023-12-27 20:57:40.918
+
+User: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\psr.exe""  /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Steps Recorder,1,19578,10.0.22621.2792 (WinBuild.160101.0800),"MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C",C:\Windows\System32\psr.exe,High,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:40.328
+
+ProcessGuid: {f57bd86a-8fc4-658c-ca01-000000000f00}
+
+ProcessId: 1204
+
+Image: C:\Windows\System32\psr.exe
+
+FileVersion: 10.0.22621.2792 (WinBuild.160101.0800)
+
+Description: Steps Recorder
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: psr.exe
+
+CommandLine: ""C:\Windows\system32\psr.exe""  /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: High
+
+Hashes: MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C
+
+ParentProcessGuid: {f57bd86a-8fc4-658c-c601-000000000f00}
+
+ParentProcessId: 7768
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""C:\Windows\system32\cmd.exe"" /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+
+ParentUser: WINDEV2309EVAL\User",Info,psr.exe,"""C:\Windows\system32\cmd.exe"" /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12",C:\Windows\System32\cmd.exe,{f57bd86a-8fc4-658c-c601-000000000f00},7768,WINDEV2309EVAL\User,{f57bd86a-8fc4-658c-ca01-000000000f00},3588,1204,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T20:57:40.3301574Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:40.328,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:40.3301574Z""/>
+      <EventRecordID>19578</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:40.328</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fc4-658c-ca01-000000000f00}</Data>
+      <Data Name=""ProcessId"">1204</Data>
+      <Data Name=""Image"">C:\Windows\System32\psr.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2792 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Steps Recorder</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">psr.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\psr.exe""  /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">High</Data>
+      <Data Name=""Hashes"">MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-8fc4-658c-c601-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">7768</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""C:\Windows\system32\cmd.exe"" /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:40.328
+
+ProcessGuid: {f57bd86a-8fc4-658c-ca01-000000000f00}
+
+ProcessId: 1204
+
+Image: C:\Windows\System32\psr.exe
+
+FileVersion: 10.0.22621.2792 (WinBuild.160101.0800)
+
+Description: Steps Recorder
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: psr.exe
+
+CommandLine: ""C:\Windows\system32\psr.exe""  /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: High
+
+Hashes: MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C
+
+ParentProcessGuid: {f57bd86a-8fc4-658c-c601-000000000f00}
+
+ParentProcessId: 7768
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""C:\Windows\system32\cmd.exe"" /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,consent.exe 6032 424 000001B71E653C70,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Consent UI for administrative applications,1,19577,10.0.22621.2506 (WinBuild.160101.0800),"MD5=8F81A5DDAA613AE681DA25B86F727E6B,SHA256=8191FB83695F7B60B9D2D137B571EA6FFE34ED6DFAE48866BFBDC934806D5229,IMPHASH=5D0C875DBD930A73D5A983016E384930",C:\Windows\System32\consent.exe,System,0x8000000000000000,Information,{f57bd86a-36f5-658c-e703-000000000000},0x3e7,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:40.243
+
+ProcessGuid: {f57bd86a-8fc4-658c-c901-000000000f00}
+
+ProcessId: 5740
+
+Image: C:\Windows\System32\consent.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Consent UI for administrative applications
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: consent.exe
+
+CommandLine: consent.exe 6032 424 000001B71E653C70
+
+CurrentDirectory: C:\Windows\system32\
+
+User: NT AUTHORITY\SYSTEM
+
+LogonGuid: {f57bd86a-36f5-658c-e703-000000000000}
+
+LogonId: 0x3E7
+
+TerminalSessionId: 1
+
+IntegrityLevel: System
+
+Hashes: MD5=8F81A5DDAA613AE681DA25B86F727E6B,SHA256=8191FB83695F7B60B9D2D137B571EA6FFE34ED6DFAE48866BFBDC934806D5229,IMPHASH=5D0C875DBD930A73D5A983016E384930
+
+ParentProcessGuid: {f57bd86a-36fc-658c-7f00-000000000f00}
+
+ParentProcessId: 6032
+
+ParentImage: C:\Windows\System32\svchost.exe
+
+ParentCommandLine: C:\Windows\system32\svchost.exe -k netsvcs -p -s Appinfo
+
+ParentUser: NT AUTHORITY\SYSTEM",Info,consent.exe,C:\Windows\system32\svchost.exe -k netsvcs -p -s Appinfo,C:\Windows\System32\svchost.exe,{f57bd86a-36fc-658c-7f00-000000000f00},6032,NT AUTHORITY\SYSTEM,{f57bd86a-8fc4-658c-c901-000000000f00},3588,5740,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T20:57:40.2443107Z,,Process Create (rule: ProcessCreate),1,5124,NT AUTHORITY\SYSTEM,S-1-5-18,2023-12-27 20:57:40.243,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:40.2443107Z""/>
+      <EventRecordID>19577</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:40.243</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fc4-658c-c901-000000000f00}</Data>
+      <Data Name=""ProcessId"">5740</Data>
+      <Data Name=""Image"">C:\Windows\System32\consent.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Consent UI for administrative applications</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">consent.exe</Data>
+      <Data Name=""CommandLine"">consent.exe 6032 424 000001B71E653C70</Data>
+      <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+      <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f5-658c-e703-000000000000}</Data>
+      <Data Name=""LogonId"">0x3e7</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">System</Data>
+      <Data Name=""Hashes"">MD5=8F81A5DDAA613AE681DA25B86F727E6B,SHA256=8191FB83695F7B60B9D2D137B571EA6FFE34ED6DFAE48866BFBDC934806D5229,IMPHASH=5D0C875DBD930A73D5A983016E384930</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-36fc-658c-7f00-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">6032</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\svchost.exe</Data>
+      <Data Name=""ParentCommandLine"">C:\Windows\system32\svchost.exe -k netsvcs -p -s Appinfo</Data>
+      <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:40.243
+
+ProcessGuid: {f57bd86a-8fc4-658c-c901-000000000f00}
+
+ProcessId: 5740
+
+Image: C:\Windows\System32\consent.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Consent UI for administrative applications
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: consent.exe
+
+CommandLine: consent.exe 6032 424 000001B71E653C70
+
+CurrentDirectory: C:\Windows\system32\
+
+User: NT AUTHORITY\SYSTEM
+
+LogonGuid: {f57bd86a-36f5-658c-e703-000000000000}
+
+LogonId: 0x3E7
+
+TerminalSessionId: 1
+
+IntegrityLevel: System
+
+Hashes: MD5=8F81A5DDAA613AE681DA25B86F727E6B,SHA256=8191FB83695F7B60B9D2D137B571EA6FFE34ED6DFAE48866BFBDC934806D5229,IMPHASH=5D0C875DBD930A73D5A983016E384930
+
+ParentProcessGuid: {f57bd86a-36fc-658c-7f00-000000000f00}
+
+ParentProcessId: 6032
+
+ParentImage: C:\Windows\System32\svchost.exe
+
+ParentCommandLine: C:\Windows\system32\svchost.exe -k netsvcs -p -s Appinfo
+
+ParentUser: NT AUTHORITY\SYSTEM</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\psr.exe""  /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Steps Recorder,1,19576,10.0.22621.2792 (WinBuild.160101.0800),"MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C",C:\Windows\System32\psr.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:40.229
+
+ProcessGuid: {f57bd86a-8fc4-658c-c801-000000000f00}
+
+ProcessId: 4716
+
+Image: C:\Windows\System32\psr.exe
+
+FileVersion: 10.0.22621.2792 (WinBuild.160101.0800)
+
+Description: Steps Recorder
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: psr.exe
+
+CommandLine: ""C:\Windows\system32\psr.exe""  /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C
+
+ParentProcessGuid: {f57bd86a-8fc4-658c-c601-000000000f00}
+
+ParentProcessId: 7768
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""C:\Windows\system32\cmd.exe"" /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+
+ParentUser: WINDEV2309EVAL\User",Info,psr.exe,"""C:\Windows\system32\cmd.exe"" /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12",C:\Windows\System32\cmd.exe,{f57bd86a-8fc4-658c-c601-000000000f00},7768,WINDEV2309EVAL\User,{f57bd86a-8fc4-658c-c801-000000000f00},3588,4716,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T20:57:40.2309122Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:40.229,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:40.2309122Z""/>
+      <EventRecordID>19576</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:40.229</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fc4-658c-c801-000000000f00}</Data>
+      <Data Name=""ProcessId"">4716</Data>
+      <Data Name=""Image"">C:\Windows\System32\psr.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2792 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Steps Recorder</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">psr.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\psr.exe""  /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-8fc4-658c-c601-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">7768</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""C:\Windows\system32\cmd.exe"" /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:40.229
+
+ProcessGuid: {f57bd86a-8fc4-658c-c801-000000000f00}
+
+ProcessId: 4716
+
+Image: C:\Windows\System32\psr.exe
+
+FileVersion: 10.0.22621.2792 (WinBuild.160101.0800)
+
+Description: Steps Recorder
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: psr.exe
+
+CommandLine: ""C:\Windows\system32\psr.exe""  /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C
+
+ParentProcessGuid: {f57bd86a-8fc4-658c-c601-000000000f00}
+
+ParentProcessId: 7768
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""C:\Windows\system32\cmd.exe"" /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,psr.exe  /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12,Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Steps Recorder,1,19575,10.0.22621.2792 (WinBuild.160101.0800),"MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C",C:\Windows\System32\psr.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:40.130
+
+ProcessGuid: {f57bd86a-8fc4-658c-c701-000000000f00}
+
+ProcessId: 6292
+
+Image: C:\Windows\System32\psr.exe
+
+FileVersion: 10.0.22621.2792 (WinBuild.160101.0800)
+
+Description: Steps Recorder
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: psr.exe
+
+CommandLine: psr.exe  /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C
+
+ParentProcessGuid: {f57bd86a-8fc4-658c-c601-000000000f00}
+
+ParentProcessId: 7768
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""C:\Windows\system32\cmd.exe"" /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+
+ParentUser: WINDEV2309EVAL\User",Info,psr.exe,"""C:\Windows\system32\cmd.exe"" /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12",C:\Windows\System32\cmd.exe,{f57bd86a-8fc4-658c-c601-000000000f00},7768,WINDEV2309EVAL\User,{f57bd86a-8fc4-658c-c701-000000000f00},3588,6292,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T20:57:40.1459713Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:40.130,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:40.1459713Z""/>
+      <EventRecordID>19575</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:40.130</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fc4-658c-c701-000000000f00}</Data>
+      <Data Name=""ProcessId"">6292</Data>
+      <Data Name=""Image"">C:\Windows\System32\psr.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2792 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Steps Recorder</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">psr.exe</Data>
+      <Data Name=""CommandLine"">psr.exe  /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-8fc4-658c-c601-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">7768</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""C:\Windows\system32\cmd.exe"" /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:40.130
+
+ProcessGuid: {f57bd86a-8fc4-658c-c701-000000000f00}
+
+ProcessId: 6292
+
+Image: C:\Windows\System32\psr.exe
+
+FileVersion: 10.0.22621.2792 (WinBuild.160101.0800)
+
+Description: Steps Recorder
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: psr.exe
+
+CommandLine: psr.exe  /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=CDEE6978DE8050E0992F225B8DF1A043,SHA256=C0DBD6D861C9D94DE4AC406DF40E1791E5E546642B22912AECBDFF05DF233A01,IMPHASH=A0EDDB2CCE84BB38B4E283F8E4696A3C
+
+ParentProcessGuid: {f57bd86a-8fc4-658c-c601-000000000f00}
+
+ParentProcessId: 7768
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""C:\Windows\system32\cmd.exe"" /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\cmd.exe"" /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,1,19574,10.0.22621.2506 (WinBuild.160101.0800),"MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:40.120
+
+ProcessGuid: {f57bd86a-8fc4-658c-c601-000000000f00}
+
+ProcessId: 7768
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""C:\Windows\system32\cmd.exe"" /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {f57bd86a-8fc2-658c-c401-000000000f00}
+
+ParentProcessId: 4368
+
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+ParentCommandLine: ""powershell.exe"" & {cmd /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+Add-Type -MemberDefinition '[DllImport(\""""user32.dll\"""")] public static extern void mouse_event(int flags, int dx, int dy, int cButtons, int info);' -Name U32 -Namespace W;
+[W.U32]::mouse_event(0x02 -bor 0x04 -bor 0x01, 0, 0, 0, 0);
+cmd /c \""""timeout 5 > NULL && psr.exe /stop\""""}
+
+ParentUser: WINDEV2309EVAL\User",Info,Cmd.Exe,"""powershell.exe"" & {cmd /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+Add-Type -MemberDefinition '[DllImport(\""""user32.dll\"""")] public static extern void mouse_event(int flags, int dx, int dy, int cButtons, int info);' -Name U32 -Namespace W;
+[W.U32]::mouse_event(0x02 -bor 0x04 -bor 0x01, 0, 0, 0, 0);
+cmd /c \""""timeout 5 > NULL && psr.exe /stop\""""}",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,{f57bd86a-8fc2-658c-c401-000000000f00},4368,WINDEV2309EVAL\User,{f57bd86a-8fc4-658c-c601-000000000f00},3588,7768,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T20:57:40.1220427Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:40.120,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:40.1220427Z""/>
+      <EventRecordID>19574</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:40.120</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fc4-658c-c601-000000000f00}</Data>
+      <Data Name=""ProcessId"">7768</Data>
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows Command Processor</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\cmd.exe"" /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-8fc2-658c-c401-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">4368</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""ParentCommandLine"">""powershell.exe"" &amp; {cmd /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+Add-Type -MemberDefinition '[DllImport(\""""user32.dll\"""")] public static extern void mouse_event(int flags, int dx, int dy, int cButtons, int info);' -Name U32 -Namespace W;
+[W.U32]::mouse_event(0x02 -bor 0x04 -bor 0x01, 0, 0, 0, 0);
+cmd /c \""""timeout 5 &gt; NULL &amp;&amp; psr.exe /stop\""""}</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:40.120
+
+ProcessGuid: {f57bd86a-8fc4-658c-c601-000000000f00}
+
+ProcessId: 7768
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""C:\Windows\system32\cmd.exe"" /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {f57bd86a-8fc2-658c-c401-000000000f00}
+
+ParentProcessId: 4368
+
+ParentImage: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+ParentCommandLine: ""powershell.exe"" &amp; {cmd /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+Add-Type -MemberDefinition '[DllImport(\""""user32.dll\"""")] public static extern void mouse_event(int flags, int dx, int dy, int cButtons, int info);' -Name U32 -Namespace W;
+[W.U32]::mouse_event(0x02 -bor 0x04 -bor 0x01, 0, 0, 0, 0);
+cmd /c \""""timeout 5 &gt; NULL &amp;&amp; psr.exe /stop\""""}
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,2023-12-27 20:57:39.125,,,11,19573,,,C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,,0x8000000000000000,Information,,,"File created:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:39.125
+
+ProcessGuid: {f57bd86a-8fc2-658c-c401-000000000f00}
+
+ProcessId: 4368
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_hpyurluq.0qw.ps1
+
+CreationUtcTime: 2023-12-27 20:57:39.125
+
+User: WINDEV2309EVAL\User",Info,,,,,,,{f57bd86a-8fc2-658c-c401-000000000f00},3588,4368,,,,,"
+      ",-,2023-12-27T20:57:39.1417550Z,C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_hpyurluq.0qw.ps1,File created (rule: FileCreate),,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:39.125,2,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>11</EventID>
+      <Version>2</Version>
+      <Level>4</Level>
+      <Task>11</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:39.1417550Z""/>
+      <EventRecordID>19573</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:39.125</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fc2-658c-c401-000000000f00}</Data>
+      <Data Name=""ProcessId"">4368</Data>
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""TargetFilename"">C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_hpyurluq.0qw.ps1</Data>
+      <Data Name=""CreationUtcTime"">2023-12-27 20:57:39.125</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>File created:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:39.125
+
+ProcessGuid: {f57bd86a-8fc2-658c-c401-000000000f00}
+
+ProcessId: 4368
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+TargetFilename: C:\Users\User\AppData\Local\Temp\__PSScriptPolicyTest_hpyurluq.0qw.ps1
+
+CreationUtcTime: 2023-12-27 20:57:39.125
+
+User: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>File created (rule: FileCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""powershell.exe"" & {cmd /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+Add-Type -MemberDefinition '[DllImport(\""""user32.dll\"""")] public static extern void mouse_event(int flags, int dx, int dy, int cButtons, int info);' -Name U32 -Namespace W;
+[W.U32]::mouse_event(0x02 -bor 0x04 -bor 0x01, 0, 0, 0, 0);
+cmd /c \""""timeout 5 > NULL && psr.exe /stop\""""}",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\AppData\Local\Temp\,Windows PowerShell,1,19572,10.0.22621.2506 (WinBuild.160101.0800),"MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20",C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:38.993
+
+ProcessGuid: {f57bd86a-8fc2-658c-c401-000000000f00}
+
+ProcessId: 4368
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows PowerShell
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: PowerShell.EXE
+
+CommandLine: ""powershell.exe"" & {cmd /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+Add-Type -MemberDefinition '[DllImport(\""""user32.dll\"""")] public static extern void mouse_event(int flags, int dx, int dy, int cButtons, int info);' -Name U32 -Namespace W;
+[W.U32]::mouse_event(0x02 -bor 0x04 -bor 0x01, 0, 0, 0, 0);
+cmd /c \""""timeout 5 > NULL && psr.exe /stop\""""}
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,PowerShell.EXE,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-8fc2-658c-c401-000000000f00},3588,4368,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T20:57:38.9945194Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:38.993,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:38.9945194Z""/>
+      <EventRecordID>19572</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:38.993</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fc2-658c-c401-000000000f00}</Data>
+      <Data Name=""ProcessId"">4368</Data>
+      <Data Name=""Image"">C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows PowerShell</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">PowerShell.EXE</Data>
+      <Data Name=""CommandLine"">""powershell.exe"" &amp; {cmd /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+Add-Type -MemberDefinition '[DllImport(\""""user32.dll\"""")] public static extern void mouse_event(int flags, int dx, int dy, int cButtons, int info);' -Name U32 -Namespace W;
+[W.U32]::mouse_event(0x02 -bor 0x04 -bor 0x01, 0, 0, 0, 0);
+cmd /c \""""timeout 5 &gt; NULL &amp;&amp; psr.exe /stop\""""}</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:38.993
+
+ProcessGuid: {f57bd86a-8fc2-658c-c401-000000000f00}
+
+ProcessId: 4368
+
+Image: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows PowerShell
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: PowerShell.EXE
+
+CommandLine: ""powershell.exe"" &amp; {cmd /c start /b psr.exe /start /output c:\temp\T1113_desktop.zip /sc 1 /gui 0 /stopevent 12
+Add-Type -MemberDefinition '[DllImport(\""""user32.dll\"""")] public static extern void mouse_event(int flags, int dx, int dy, int cButtons, int info);' -Name U32 -Namespace W;
+[W.U32]::mouse_event(0x02 -bor 0x04 -bor 0x01, 0, 0, 0, 0);
+cmd /c \""""timeout 5 &gt; NULL &amp;&amp; psr.exe /stop\""""}
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=2D1D70C92A419D9079B047954C611886,SHA256=C50057756CDB25D481CF2502ABCEF124F864C27618C5057468BFC6B82B2C4EDD,IMPHASH=E09C4F82A1DA13A09F4FF2E625FEBA20
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\whoami.exe""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\,whoami - displays logged on user information,1,19571,10.0.22621.1 (WinBuild.160101.0800),"MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292",C:\Windows\System32\whoami.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:37.736
+
+ProcessGuid: {f57bd86a-8fc1-658c-c301-000000000f00}
+
+ProcessId: 5216
+
+Image: C:\Windows\System32\whoami.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: whoami - displays logged on user information
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: whoami.exe
+
+CommandLine: ""C:\Windows\system32\whoami.exe""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,whoami.exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-8fc1-658c-c301-000000000f00},3588,5216,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T20:57:37.7392493Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:37.736,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:37.7392493Z""/>
+      <EventRecordID>19571</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:37.736</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fc1-658c-c301-000000000f00}</Data>
+      <Data Name=""ProcessId"">5216</Data>
+      <Data Name=""Image"">C:\Windows\System32\whoami.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">whoami - displays logged on user information</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">whoami.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\whoami.exe""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:37.736
+
+ProcessGuid: {f57bd86a-8fc1-658c-c301-000000000f00}
+
+ProcessId: 5216
+
+Image: C:\Windows\System32\whoami.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: whoami - displays logged on user information
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: whoami.exe
+
+CommandLine: ""C:\Windows\system32\whoami.exe""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\HOSTNAME.EXE""",Microsoft Corporation,WinDev2309Eval,,C:\Users\User\,Hostname APP,1,19570,10.0.22621.2506 (WinBuild.160101.0800),"MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8",C:\Windows\System32\HOSTNAME.EXE,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:37.708
+
+ProcessGuid: {f57bd86a-8fc1-658c-c201-000000000f00}
+
+ProcessId: 1640
+
+Image: C:\Windows\System32\HOSTNAME.EXE
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Hostname APP
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: hostname.exe
+
+CommandLine: ""C:\Windows\system32\HOSTNAME.EXE""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,hostname.exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-8fc1-658c-c201-000000000f00},3588,1640,Microsoft® Windows® Operating System,,,,"
+      ",-,2023-12-27T20:57:37.7099147Z,,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 20:57:37.708,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:37.7099147Z""/>
+      <EventRecordID>19570</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 20:57:37.708</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-8fc1-658c-c201-000000000f00}</Data>
+      <Data Name=""ProcessId"">1640</Data>
+      <Data Name=""Image"">C:\Windows\System32\HOSTNAME.EXE</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Hostname APP</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">hostname.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\HOSTNAME.EXE""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 20:57:37.708
+
+ProcessGuid: {f57bd86a-8fc1-658c-c201-000000000f00}
+
+ProcessId: 1640
+
+Image: C:\Windows\System32\HOSTNAME.EXE
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Hostname APP
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: hostname.exe
+
+CommandLine: ""C:\Windows\system32\HOSTNAME.EXE""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,22,19569,,,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe,,0x8000000000000000,Information,,,"Dns query:
+
+RuleName: -
+
+UtcTime: 2023-12-27 14:51:54.856
+
+ProcessGuid: {f57bd86a-382d-658c-4e01-000000000f00}
+
+ProcessId: 4456
+
+QueryName: img-s-msn-com.akamaized.net
+
+QueryStatus: 0
+
+QueryResults: type: 5 a1834.dscg2.akamai.net;::ffff:104.77.160.140;::ffff:104.77.160.143;
+
+Image: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+User: WINDEV2309EVAL\User",Info,,,,,,,{f57bd86a-382d-658c-4e01-000000000f00},3588,4456,,img-s-msn-com.akamaized.net,type: 5 a1834.dscg2.akamai.net;::ffff:104.77.160.140;::ffff:104.77.160.143;,0,"
+      ",-,2023-12-27T20:57:35.9734973Z,,Dns query (rule: DnsQuery),,5164,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 14:51:54.856,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>22</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>22</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T20:57:35.9734973Z""/>
+      <EventRecordID>19569</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5164""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 14:51:54.856</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-382d-658c-4e01-000000000f00}</Data>
+      <Data Name=""ProcessId"">4456</Data>
+      <Data Name=""QueryName"">img-s-msn-com.akamaized.net</Data>
+      <Data Name=""QueryStatus"">0</Data>
+      <Data Name=""QueryResults"">type: 5 a1834.dscg2.akamai.net;::ffff:104.77.160.140;::ffff:104.77.160.143;</Data>
+      <Data Name=""Image"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Dns query:
+
+RuleName: -
+
+UtcTime: 2023-12-27 14:51:54.856
+
+ProcessGuid: {f57bd86a-382d-658c-4e01-000000000f00}
+
+ProcessId: 4456
+
+QueryName: img-s-msn-com.akamaized.net
+
+QueryStatus: 0
+
+QueryResults: type: 5 a1834.dscg2.akamai.net;::ffff:104.77.160.140;::ffff:104.77.160.143;
+
+Image: C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.91\msedgewebview2.exe
+
+User: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Dns query (rule: DnsQuery)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+
+"

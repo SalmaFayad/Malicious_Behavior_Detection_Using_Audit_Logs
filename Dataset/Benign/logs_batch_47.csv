@@ -1,0 +1,737 @@
+Channel,CommandLine,Company,Computer,CreationUtcTime,CurrentDirectory,Description,DestinationHostname,DestinationIp,DestinationIsIpv6,DestinationPort,DestinationPortName,Details,EventID,EventRecordID,EventType,FileVersion,Hashes,Image,Initiated,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Message,NewThreadId,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,Protocol,QueryName,QueryResults,QueryStatus,RuleName,SourceHostname,SourceImage,SourceIp,SourceIsIpv6,SourcePort,SourcePortName,SourceProcessGuid,SourceProcessId,SourceUser,StartAddress,StartFunction,StartModule,SystemTime,TargetFilename,TargetImage,TargetObject,TargetProcessGuid,TargetProcessId,TargetUser,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,C:\Windows\system32\svchost.exe -k BcastDVRUserService -s BcastDVRUserService,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Host Process for Windows Services,,,,,,,1,5705,,10.0.22621.1 (WinBuild.160101.0800),"MD5=8EC922C7A58A8701AB481B7BE9644536,SHA256=949BFB5B4C7D58D92F3F9C5F8EC7CA4CEAFFD10EC5F0020F0A987C472D61C54B,IMPHASH=76B4BAE80D2C3B08BB062D97BF9CA791",C:\Windows\System32\svchost.exe,,Medium,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,svchost.exe,C:\Windows\system32\services.exe,C:\Windows\System32\services.exe,{f57bd86a-1cf1-6582-0b00-000000000d00},760.0,NT AUTHORITY\SYSTEM,{f57bd86a-c05b-6582-8003-000000000d00},3400,3596.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-20T10:22:19.7158780Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,22:19.7,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:22:19.7158780Z""/>
+    <EventRecordID>5705</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:22:19.713</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-c05b-6582-8003-000000000d00}</Data>
+    <Data Name=""ProcessId"">3596</Data>
+    <Data Name=""Image"">C:\Windows\System32\svchost.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Host Process for Windows Services</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">svchost.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\system32\svchost.exe -k BcastDVRUserService -s BcastDVRUserService</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Medium</Data>
+    <Data Name=""Hashes"">MD5=8EC922C7A58A8701AB481B7BE9644536,SHA256=949BFB5B4C7D58D92F3F9C5F8EC7CA4CEAFFD10EC5F0020F0A987C472D61C54B,IMPHASH=76B4BAE80D2C3B08BB062D97BF9CA791</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">760</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\services.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,5704,,,,C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\Bubble Pop Bubble Shooter.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-be2f-6582-7603-000000000d00},3400,6904.0,,,dynamodb.us-west-2.amazonaws.com,::ffff:52.94.29.190;,0.0,-,,,,,,,,,,,,,2023-12-20T10:21:40.7544740Z,,,,,,,22,,4220,WINDEV2309EVAL\User,S-1-5-18,21:39.7,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:21:40.7544740Z""/>
+    <EventRecordID>5704</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4220""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:21:39.660</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-be2f-6582-7603-000000000d00}</Data>
+    <Data Name=""ProcessId"">6904</Data>
+    <Data Name=""QueryName"">dynamodb.us-west-2.amazonaws.com</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">::ffff:52.94.29.190;</Data>
+    <Data Name=""Image"">C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\Bubble Pop Bubble Shooter.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,C:\Windows\system32\svchost.exe -k netsvcs -p -s gpsvc,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Host Process for Windows Services,,,,,,,1,5703,,10.0.22621.1 (WinBuild.160101.0800),"MD5=8EC922C7A58A8701AB481B7BE9644536,SHA256=949BFB5B4C7D58D92F3F9C5F8EC7CA4CEAFFD10EC5F0020F0A987C472D61C54B,IMPHASH=76B4BAE80D2C3B08BB062D97BF9CA791",C:\Windows\System32\svchost.exe,,System,0x8000000000000000,4,{f57bd86a-1cf1-6582-e703-000000000000},0x3e7,,,0,svchost.exe,C:\Windows\system32\services.exe,C:\Windows\System32\services.exe,{f57bd86a-1cf1-6582-0b00-000000000d00},760.0,NT AUTHORITY\SYSTEM,{f57bd86a-bfa4-6582-7e03-000000000d00},3400,10472.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-20T10:19:16.7783329Z,,,,,,,1,0.0,4208,NT AUTHORITY\SYSTEM,S-1-5-18,19:16.8,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:19:16.7783329Z""/>
+    <EventRecordID>5703</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:19:16.775</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-bfa4-6582-7e03-000000000d00}</Data>
+    <Data Name=""ProcessId"">10472</Data>
+    <Data Name=""Image"">C:\Windows\System32\svchost.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Host Process for Windows Services</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">svchost.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\system32\svchost.exe -k netsvcs -p -s gpsvc</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1cf1-6582-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=8EC922C7A58A8701AB481B7BE9644536,SHA256=949BFB5B4C7D58D92F3F9C5F8EC7CA4CEAFFD10EC5F0020F0A987C472D61C54B,IMPHASH=76B4BAE80D2C3B08BB062D97BF9CA791</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">760</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\services.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,C:\Windows\System32\svchost.exe -k GraphicsPerfSvcGroup -s GraphicsPerfSvc,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Host Process for Windows Services,,,,,,,1,5702,,10.0.22621.1 (WinBuild.160101.0800),"MD5=8EC922C7A58A8701AB481B7BE9644536,SHA256=949BFB5B4C7D58D92F3F9C5F8EC7CA4CEAFFD10EC5F0020F0A987C472D61C54B,IMPHASH=76B4BAE80D2C3B08BB062D97BF9CA791",C:\Windows\System32\svchost.exe,,System,0x8000000000000000,4,{f57bd86a-1cf1-6582-e703-000000000000},0x3e7,,,0,svchost.exe,C:\Windows\system32\services.exe,C:\Windows\System32\services.exe,{f57bd86a-1cf1-6582-0b00-000000000d00},760.0,NT AUTHORITY\SYSTEM,{f57bd86a-bf89-6582-7d03-000000000d00},3400,9796.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-20T10:18:49.4975005Z,,,,,,,1,0.0,4208,NT AUTHORITY\SYSTEM,S-1-5-18,18:49.5,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:18:49.4975005Z""/>
+    <EventRecordID>5702</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:18:49.490</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-bf89-6582-7d03-000000000d00}</Data>
+    <Data Name=""ProcessId"">9796</Data>
+    <Data Name=""Image"">C:\Windows\System32\svchost.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Host Process for Windows Services</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">svchost.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\System32\svchost.exe -k GraphicsPerfSvcGroup -s GraphicsPerfSvc</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1cf1-6582-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=8EC922C7A58A8701AB481B7BE9644536,SHA256=949BFB5B4C7D58D92F3F9C5F8EC7CA4CEAFFD10EC5F0020F0A987C472D61C54B,IMPHASH=76B4BAE80D2C3B08BB062D97BF9CA791</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">760</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\services.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,taskhostw.exe,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Host Process for Windows Tasks,,,,,,,1,5701,,10.0.22621.2792 (WinBuild.160101.0800),"MD5=AAA6BA42398B2D70F12F00A110701041,SHA256=58CC5757BB129557652797EA92AEE701DE5C574B22FDCD5DCDDF141CAEEA3C02,IMPHASH=1C4E2D9936E4D9F2490B08AAB4D24260",C:\Windows\System32\taskhostw.exe,,High,0x8000000000000000,4,{f57bd86a-1d4d-6582-391c-160000000000},0x161c39,,,0,taskhostw.exe,C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule,C:\Windows\System32\svchost.exe,{f57bd86a-1cf3-6582-2a00-000000000d00},1940.0,NT AUTHORITY\SYSTEM,{f57bd86a-bf2a-6582-7b03-000000000d00},3400,8536.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-20T10:17:14.9066488Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,17:14.9,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:17:14.9066488Z""/>
+    <EventRecordID>5701</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:17:14.901</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-bf2a-6582-7b03-000000000d00}</Data>
+    <Data Name=""ProcessId"">8536</Data>
+    <Data Name=""Image"">C:\Windows\System32\taskhostw.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.2792 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Host Process for Windows Tasks</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">taskhostw.exe</Data>
+    <Data Name=""CommandLine"">taskhostw.exe</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-391c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c39</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">High</Data>
+    <Data Name=""Hashes"">MD5=AAA6BA42398B2D70F12F00A110701041,SHA256=58CC5757BB129557652797EA92AEE701DE5C574B22FDCD5DCDDF141CAEEA3C02,IMPHASH=1C4E2D9936E4D9F2490B08AAB4D24260</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf3-6582-2a00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">1940</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\svchost.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\svchost.exe -k netsvcs -p -s Schedule</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,C:\Windows\System32\svchost.exe -k GraphicsPerfSvcGroup -s GraphicsPerfSvc,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Host Process for Windows Services,,,,,,,1,5700,,10.0.22621.1 (WinBuild.160101.0800),"MD5=8EC922C7A58A8701AB481B7BE9644536,SHA256=949BFB5B4C7D58D92F3F9C5F8EC7CA4CEAFFD10EC5F0020F0A987C472D61C54B,IMPHASH=76B4BAE80D2C3B08BB062D97BF9CA791",C:\Windows\System32\svchost.exe,,System,0x8000000000000000,4,{f57bd86a-1cf1-6582-e703-000000000000},0x3e7,,,0,svchost.exe,C:\Windows\system32\services.exe,C:\Windows\System32\services.exe,{f57bd86a-1cf1-6582-0b00-000000000d00},760.0,NT AUTHORITY\SYSTEM,{f57bd86a-bedc-6582-7a03-000000000d00},3400,10676.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-20T10:15:56.9324565Z,,,,,,,1,0.0,4208,NT AUTHORITY\SYSTEM,S-1-5-18,15:56.9,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:15:56.9324565Z""/>
+    <EventRecordID>5700</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:15:56.925</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-bedc-6582-7a03-000000000d00}</Data>
+    <Data Name=""ProcessId"">10676</Data>
+    <Data Name=""Image"">C:\Windows\System32\svchost.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Host Process for Windows Services</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">svchost.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\System32\svchost.exe -k GraphicsPerfSvcGroup -s GraphicsPerfSvc</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1cf1-6582-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=8EC922C7A58A8701AB481B7BE9644536,SHA256=949BFB5B4C7D58D92F3F9C5F8EC7CA4CEAFFD10EC5F0020F0A987C472D61C54B,IMPHASH=76B4BAE80D2C3B08BB062D97BF9CA791</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">760</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\services.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,5699,,,,C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\Bubble Pop Bubble Shooter.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-be2f-6582-7603-000000000d00},3400,6904.0,,,bubblepopnew.s3-us-west-2.amazonaws.com,type: 5 s3-r-w.us-west-2.amazonaws.com;::ffff:3.5.86.146;::ffff:3.5.77.165;::ffff:52.92.242.162;::ffff:52.92.232.26;::ffff:52.92.144.98;::ffff:52.92.195.106;::ffff:52.92.165.90;::ffff:3.5.78.181;,0.0,-,,,,,,,,,,,,,2023-12-20T10:13:17.6016358Z,,,,,,,22,,4220,WINDEV2309EVAL\User,S-1-5-18,13:17.1,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:13:17.6016358Z""/>
+    <EventRecordID>5699</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4220""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:13:17.140</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-be2f-6582-7603-000000000d00}</Data>
+    <Data Name=""ProcessId"">6904</Data>
+    <Data Name=""QueryName"">bubblepopnew.s3-us-west-2.amazonaws.com</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">type: 5 s3-r-w.us-west-2.amazonaws.com;::ffff:3.5.86.146;::ffff:3.5.77.165;::ffff:52.92.242.162;::ffff:52.92.232.26;::ffff:52.92.144.98;::ffff:52.92.195.106;::ffff:52.92.165.90;::ffff:3.5.78.181;</Data>
+    <Data Name=""Image"">C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\Bubble Pop Bubble Shooter.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,5698,,,,C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\Bubble Pop Bubble Shooter.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-be2f-6582-7603-000000000d00},3400,6904.0,,,windowsvideoads.s3-us-west-2.amazonaws.com,type: 5 s3-r-w.us-west-2.amazonaws.com;::ffff:52.92.152.162;::ffff:52.92.194.250;::ffff:52.92.181.154;::ffff:3.5.84.13;::ffff:3.5.83.126;::ffff:52.218.229.113;::ffff:3.5.79.20;::ffff:3.5.77.140;,0.0,-,,,,,,,,,,,,,2023-12-20T10:13:16.5981984Z,,,,,,,22,,4220,WINDEV2309EVAL\User,S-1-5-18,13:16.4,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:13:16.5981984Z""/>
+    <EventRecordID>5698</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4220""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:13:16.400</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-be2f-6582-7603-000000000d00}</Data>
+    <Data Name=""ProcessId"">6904</Data>
+    <Data Name=""QueryName"">windowsvideoads.s3-us-west-2.amazonaws.com</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">type: 5 s3-r-w.us-west-2.amazonaws.com;::ffff:52.92.152.162;::ffff:52.92.194.250;::ffff:52.92.181.154;::ffff:3.5.84.13;::ffff:3.5.83.126;::ffff:52.218.229.113;::ffff:3.5.79.20;::ffff:3.5.77.140;</Data>
+    <Data Name=""Image"">C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\Bubble Pop Bubble Shooter.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,5697,,,,C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\Bubble Pop Bubble Shooter.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-be2f-6582-7603-000000000d00},3400,6904.0,,,cognito-identity.us-west-2.amazonaws.com,::ffff:35.155.28.145;::ffff:52.34.156.96;::ffff:34.217.153.70;::ffff:35.163.49.202;::ffff:52.27.137.229;::ffff:52.11.113.118;,0.0,-,,,,,,,,,,,,,2023-12-20T10:13:15.5918828Z,,,,,,,22,,4220,WINDEV2309EVAL\User,S-1-5-18,13:14.4,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:13:15.5918828Z""/>
+    <EventRecordID>5697</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4220""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:13:14.410</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-be2f-6582-7603-000000000d00}</Data>
+    <Data Name=""ProcessId"">6904</Data>
+    <Data Name=""QueryName"">cognito-identity.us-west-2.amazonaws.com</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">::ffff:35.155.28.145;::ffff:52.34.156.96;::ffff:34.217.153.70;::ffff:35.163.49.202;::ffff:52.27.137.229;::ffff:52.11.113.118;</Data>
+    <Data Name=""Image"">C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\Bubble Pop Bubble Shooter.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,5696,,,,C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\Bubble Pop Bubble Shooter.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-be2f-6582-7603-000000000d00},3400,6904.0,,,dynamodb.us-west-2.amazonaws.com,::ffff:35.71.64.10;,0.0,-,,,,,,,,,,,,,2023-12-20T10:13:12.5790500Z,,,,,,,22,,4220,WINDEV2309EVAL\User,S-1-5-18,13:12.6,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:13:12.5790500Z""/>
+    <EventRecordID>5696</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4220""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:13:12.645</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-be2f-6582-7603-000000000d00}</Data>
+    <Data Name=""ProcessId"">6904</Data>
+    <Data Name=""QueryName"">dynamodb.us-west-2.amazonaws.com</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">::ffff:35.71.64.10;</Data>
+    <Data Name=""Image"">C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\Bubble Pop Bubble Shooter.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,5695,,,,C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\Bubble Pop Bubble Shooter.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-be2f-6582-7603-000000000d00},3400,6904.0,,,icp.rvappstudios.net,type: 5 icp-rvappstudios-net-1651179391.us-west-2.elb.amazonaws.com;::ffff:35.166.237.130;::ffff:35.86.47.147;,0.0,-,,,,,,,,,,,,,2023-12-20T10:13:10.5499972Z,,,,,,,22,,4220,WINDEV2309EVAL\User,S-1-5-18,13:10.3,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:13:10.5499972Z""/>
+    <EventRecordID>5695</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4220""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:13:10.284</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-be2f-6582-7603-000000000d00}</Data>
+    <Data Name=""ProcessId"">6904</Data>
+    <Data Name=""QueryName"">icp.rvappstudios.net</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">type: 5 icp-rvappstudios-net-1651179391.us-west-2.elb.amazonaws.com;::ffff:35.166.237.130;::ffff:35.86.47.147;</Data>
+    <Data Name=""Image"">C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\Bubble Pop Bubble Shooter.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,5694,,,,C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\Bubble Pop Bubble Shooter.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-be2f-6582-7603-000000000d00},3400,6904.0,,,cdp.cloud.unity3d.com,type: 5 prd-lender.cdp.internal.unity3d.com;type: 5 unity-data-gke-prd-gateway.cdp.internal.unity3d.com;::ffff:34.107.172.168;,0.0,-,,,,,,,,,,,,,2023-12-20T10:13:08.5319991Z,,,,,,,22,,4220,WINDEV2309EVAL\User,S-1-5-18,13:07.5,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:13:08.5319991Z""/>
+    <EventRecordID>5694</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4220""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:13:07.457</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-be2f-6582-7603-000000000d00}</Data>
+    <Data Name=""ProcessId"">6904</Data>
+    <Data Name=""QueryName"">cdp.cloud.unity3d.com</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">type: 5 prd-lender.cdp.internal.unity3d.com;type: 5 unity-data-gke-prd-gateway.cdp.internal.unity3d.com;::ffff:34.107.172.168;</Data>
+    <Data Name=""Image"">C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\Bubble Pop Bubble Shooter.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,22,5693,,,,C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\Bubble Pop Bubble Shooter.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-be2f-6582-7603-000000000d00},3400,6904.0,,,config.uca.cloud.unity3d.com,type: 5 remote-config-prd.uca.cloud.unity3d.com;::ffff:34.111.113.40;,0.0,-,,,,,,,,,,,,,2023-12-20T10:13:07.5291781Z,,,,,,,22,,4220,WINDEV2309EVAL\User,S-1-5-18,13:06.6,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>22</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>22</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:13:07.5291781Z""/>
+    <EventRecordID>5693</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4220""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:13:06.605</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-be2f-6582-7603-000000000d00}</Data>
+    <Data Name=""ProcessId"">6904</Data>
+    <Data Name=""QueryName"">config.uca.cloud.unity3d.com</Data>
+    <Data Name=""QueryStatus"">0</Data>
+    <Data Name=""QueryResults"">type: 5 remote-config-prd.uca.cloud.unity3d.com;::ffff:34.111.113.40;</Data>
+    <Data Name=""Image"">C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\Bubble Pop Bubble Shooter.exe</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\System32\GameBarPresenceWriter.exe"" -ServerName:Windows.Gaming.GameBar.Internal.PresenceWriterServer",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Gamebar Presence Writer,,,,,,,1,5692,,10.0.22621.2506 (WinBuild.160101.0800),"MD5=82E14147557E4989B29992D110CD26B9,SHA256=FA66C60DC765B78549ECD6575FB5149889AAF7E970886C7DD2B80D961CC5FAA7,IMPHASH=BD3673E7040D3EB05D225980B0F745C3",C:\Windows\System32\GameBarPresenceWriter.exe,,Medium,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,GamebarPresenceWriter.exe,C:\Windows\system32\svchost.exe -k DcomLaunch -p,C:\Windows\System32\svchost.exe,{f57bd86a-1cf1-6582-0d00-000000000d00},928.0,NT AUTHORITY\SYSTEM,{f57bd86a-be2f-6582-7703-000000000d00},3400,7620.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-20T10:13:03.8010716Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,13:03.8,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:13:03.8010716Z""/>
+    <EventRecordID>5692</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:13:03.797</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-be2f-6582-7703-000000000d00}</Data>
+    <Data Name=""ProcessId"">7620</Data>
+    <Data Name=""Image"">C:\Windows\System32\GameBarPresenceWriter.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Gamebar Presence Writer</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">GamebarPresenceWriter.exe</Data>
+    <Data Name=""CommandLine"">""C:\Windows\System32\GameBarPresenceWriter.exe"" -ServerName:Windows.Gaming.GameBar.Internal.PresenceWriterServer</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Medium</Data>
+    <Data Name=""Hashes"">MD5=82E14147557E4989B29992D110CD26B9,SHA256=FA66C60DC765B78549ECD6575FB5149889AAF7E970886C7DD2B80D961CC5FAA7,IMPHASH=BD3673E7040D3EB05D225980B0F745C3</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf1-6582-0d00-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">928</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\svchost.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\system32\svchost.exe -k DcomLaunch -p</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,12:51.8,,,,,,,,,11,5691,,,,C:\Windows\system32\svchost.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-bb60-6582-5203-000000000d00},3400,8268.0,,,,,,DLL,,,,,,,,,,,,,2023-12-20T10:12:51.8080553Z,C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\UnityPlayer.dll,,,,,,11,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,12:51.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:12:51.8080553Z""/>
+    <EventRecordID>5691</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:12:51.799</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-bb60-6582-5203-000000000d00}</Data>
+    <Data Name=""ProcessId"">8268</Data>
+    <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+    <Data Name=""TargetFilename"">C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\UnityPlayer.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-20 10:12:51.799</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,12:51.8,,,,,,,,,11,5690,,,,C:\Windows\system32\svchost.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-bb60-6582-5203-000000000d00},3400,8268.0,,,,,,DLL,,,,,,,,,,,,,2023-12-20T10:12:51.8077404Z,C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\System.Xml.XmlSerializer.dll,,,,,,11,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,12:51.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:12:51.8077404Z""/>
+    <EventRecordID>5690</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:12:51.799</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-bb60-6582-5203-000000000d00}</Data>
+    <Data Name=""ProcessId"">8268</Data>
+    <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+    <Data Name=""TargetFilename"">C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\System.Xml.XmlSerializer.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-20 10:12:51.799</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,12:51.8,,,,,,,,,11,5689,,,,C:\Windows\system32\svchost.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-bb60-6582-5203-000000000d00},3400,8268.0,,,,,,DLL,,,,,,,,,,,,,2023-12-20T10:12:51.8073777Z,C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\System.Xml.XmlDocument.dll,,,,,,11,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,12:51.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:12:51.8073777Z""/>
+    <EventRecordID>5689</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:12:51.799</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-bb60-6582-5203-000000000d00}</Data>
+    <Data Name=""ProcessId"">8268</Data>
+    <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+    <Data Name=""TargetFilename"">C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\System.Xml.XmlDocument.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-20 10:12:51.799</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,12:51.8,,,,,,,,,11,5688,,,,C:\Windows\system32\svchost.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-bb60-6582-5203-000000000d00},3400,8268.0,,,,,,DLL,,,,,,,,,,,,,2023-12-20T10:12:51.8070410Z,C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\System.Xml.XDocument.dll,,,,,,11,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,12:51.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:12:51.8070410Z""/>
+    <EventRecordID>5688</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:12:51.799</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-bb60-6582-5203-000000000d00}</Data>
+    <Data Name=""ProcessId"">8268</Data>
+    <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+    <Data Name=""TargetFilename"">C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\System.Xml.XDocument.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-20 10:12:51.799</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,12:51.8,,,,,,,,,11,5687,,,,C:\Windows\system32\svchost.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-bb60-6582-5203-000000000d00},3400,8268.0,,,,,,DLL,,,,,,,,,,,,,2023-12-20T10:12:51.8067209Z,C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\System.Xml.Serialization.dll,,,,,,11,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,12:51.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:12:51.8067209Z""/>
+    <EventRecordID>5687</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:12:51.799</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-bb60-6582-5203-000000000d00}</Data>
+    <Data Name=""ProcessId"">8268</Data>
+    <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+    <Data Name=""TargetFilename"">C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\System.Xml.Serialization.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-20 10:12:51.799</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,12:51.8,,,,,,,,,11,5686,,,,C:\Windows\system32\svchost.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-bb60-6582-5203-000000000d00},3400,8268.0,,,,,,DLL,,,,,,,,,,,,,2023-12-20T10:12:51.8064101Z,C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\System.Xml.ReaderWriter.dll,,,,,,11,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,12:51.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:12:51.8064101Z""/>
+    <EventRecordID>5686</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:12:51.799</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-bb60-6582-5203-000000000d00}</Data>
+    <Data Name=""ProcessId"">8268</Data>
+    <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+    <Data Name=""TargetFilename"">C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\System.Xml.ReaderWriter.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-20 10:12:51.799</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,12:51.8,,,,,,,,,11,5685,,,,C:\Windows\system32\svchost.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-bb60-6582-5203-000000000d00},3400,8268.0,,,,,,DLL,,,,,,,,,,,,,2023-12-20T10:12:51.8060829Z,C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\System.Xml.Linq.dll,,,,,,11,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,12:51.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:12:51.8060829Z""/>
+    <EventRecordID>5685</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:12:51.799</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-bb60-6582-5203-000000000d00}</Data>
+    <Data Name=""ProcessId"">8268</Data>
+    <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+    <Data Name=""TargetFilename"">C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\System.Xml.Linq.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-20 10:12:51.799</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,12:51.8,,,,,,,,,11,5684,,,,C:\Windows\system32\svchost.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-bb60-6582-5203-000000000d00},3400,8268.0,,,,,,DLL,,,,,,,,,,,,,2023-12-20T10:12:51.8056946Z,C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\System.Xml.dll,,,,,,11,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,12:51.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-20T10:12:51.8056946Z""/>
+    <EventRecordID>5684</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-20 10:12:51.799</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-bb60-6582-5203-000000000d00}</Data>
+    <Data Name=""ProcessId"">8268</Data>
+    <Data Name=""Image"">C:\Windows\system32\svchost.exe</Data>
+    <Data Name=""TargetFilename"">C:\Program Files\WindowsApps\RVAppStudios.BubblePop_1.4.0.0_x86__f5kf90dqd2yjg\System.Xml.dll</Data>
+    <Data Name=""CreationUtcTime"">2023-12-20 10:12:51.799</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"

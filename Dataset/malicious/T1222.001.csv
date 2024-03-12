@@ -1,0 +1,1873 @@
+Channel,CommandLine,Company,Computer,CurrentDirectory,Description,EventID,EventRecordID,FileVersion,Hashes,Image,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Message,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,RenderingInfo,RuleName,SystemTime,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,"icacls  ""C:\Users\Public\*"" /grant Everyone:F /T /C /Q",Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,-,1,19582,10.0.22621.1 (WinBuild.160101.0800),"MD5=49753AFE55ADE6D20E416F0DC3DE6B91,SHA256=FF5F1B30F739E7A6F0DEBCC3D8069EFEF1BEEDAB53F722274D5ABF7F104977EB,IMPHASH=446163A548337B5BCF2727BCD1CFB399",C:\Windows\System32\icacls.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:44.416
+
+ProcessGuid: {f57bd86a-aeb8-658c-d301-000000000f00}
+
+ProcessId: 9860
+
+Image: C:\Windows\System32\icacls.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: -
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: iCACLS.EXE
+
+CommandLine: icacls  ""C:\Users\Public\*"" /grant Everyone:F /T /C /Q
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=49753AFE55ADE6D20E416F0DC3DE6B91,SHA256=FF5F1B30F739E7A6F0DEBCC3D8069EFEF1BEEDAB53F722274D5ABF7F104977EB,IMPHASH=446163A548337B5BCF2727BCD1CFB399
+
+ParentProcessGuid: {f57bd86a-aeb8-658c-d101-000000000f00}
+
+ParentProcessId: 4004
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c icacls ""C:\Users\Public\*"" /grant Everyone:F /T /C /Q
+
+ParentUser: WINDEV2309EVAL\User",Info,iCACLS.EXE,"""cmd.exe"" /c icacls ""C:\Users\Public\*"" /grant Everyone:F /T /C /Q",C:\Windows\System32\cmd.exe,{f57bd86a-aeb8-658c-d101-000000000f00},4004,WINDEV2309EVAL\User,{f57bd86a-aeb8-658c-d301-000000000f00},3588,9860,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:09:44.4175735Z,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:09:44.416,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:09:44.4175735Z""/>
+      <EventRecordID>19582</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:09:44.416</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-aeb8-658c-d301-000000000f00}</Data>
+      <Data Name=""ProcessId"">9860</Data>
+      <Data Name=""Image"">C:\Windows\System32\icacls.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">-</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">iCACLS.EXE</Data>
+      <Data Name=""CommandLine"">icacls  ""C:\Users\Public\*"" /grant Everyone:F /T /C /Q</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=49753AFE55ADE6D20E416F0DC3DE6B91,SHA256=FF5F1B30F739E7A6F0DEBCC3D8069EFEF1BEEDAB53F722274D5ABF7F104977EB,IMPHASH=446163A548337B5BCF2727BCD1CFB399</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-aeb8-658c-d101-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">4004</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c icacls ""C:\Users\Public\*"" /grant Everyone:F /T /C /Q</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:44.416
+
+ProcessGuid: {f57bd86a-aeb8-658c-d301-000000000f00}
+
+ProcessId: 9860
+
+Image: C:\Windows\System32\icacls.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: -
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: iCACLS.EXE
+
+CommandLine: icacls  ""C:\Users\Public\*"" /grant Everyone:F /T /C /Q
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=49753AFE55ADE6D20E416F0DC3DE6B91,SHA256=FF5F1B30F739E7A6F0DEBCC3D8069EFEF1BEEDAB53F722274D5ABF7F104977EB,IMPHASH=446163A548337B5BCF2727BCD1CFB399
+
+ParentProcessGuid: {f57bd86a-aeb8-658c-d101-000000000f00}
+
+ParentProcessId: 4004
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c icacls ""C:\Users\Public\*"" /grant Everyone:F /T /C /Q
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""cmd.exe"" /c icacls ""C:\Users\Public\*"" /grant Everyone:F /T /C /Q",Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,1,19581,10.0.22621.2506 (WinBuild.160101.0800),"MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:44.389
+
+ProcessGuid: {f57bd86a-aeb8-658c-d101-000000000f00}
+
+ProcessId: 4004
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c icacls ""C:\Users\Public\*"" /grant Everyone:F /T /C /Q
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,Cmd.Exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-aeb8-658c-d101-000000000f00},3588,4004,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:09:44.3903270Z,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:09:44.389,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:09:44.3903270Z""/>
+      <EventRecordID>19581</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:09:44.389</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-aeb8-658c-d101-000000000f00}</Data>
+      <Data Name=""ProcessId"">4004</Data>
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows Command Processor</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      <Data Name=""CommandLine"">""cmd.exe"" /c icacls ""C:\Users\Public\*"" /grant Everyone:F /T /C /Q</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:44.389
+
+ProcessGuid: {f57bd86a-aeb8-658c-d101-000000000f00}
+
+ProcessId: 4004
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c icacls ""C:\Users\Public\*"" /grant Everyone:F /T /C /Q
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,attrib.exe  +h C:\Users\User\AppData\Local\Temp\T1222.001_attrib_2\T1222.001_attrib2.txt,Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,Attribute Utility,1,19580,10.0.22621.1 (WinBuild.160101.0800),"MD5=A243BC9DB0BFB5F22E146B88BB10C58F,SHA256=0758152947F1A550E52CE8E3F9BCD988A23D36A458AD953795769B11C38FF2EA,IMPHASH=2CB38FE7D8F223D9DA50B7CBA9B95A6D",C:\Windows\System32\attrib.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:44.187
+
+ProcessGuid: {f57bd86a-aeb8-658c-d001-000000000f00}
+
+ProcessId: 5020
+
+Image: C:\Windows\System32\attrib.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Attribute Utility
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: ATTRIB.EXE
+
+CommandLine: attrib.exe  +h C:\Users\User\AppData\Local\Temp\T1222.001_attrib_2\T1222.001_attrib2.txt
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=A243BC9DB0BFB5F22E146B88BB10C58F,SHA256=0758152947F1A550E52CE8E3F9BCD988A23D36A458AD953795769B11C38FF2EA,IMPHASH=2CB38FE7D8F223D9DA50B7CBA9B95A6D
+
+ParentProcessGuid: {f57bd86a-aeb8-658c-cd01-000000000f00}
+
+ParentProcessId: 10788
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c mkdir %temp%\T1222.001_attrib_2 >nul 2>&1 & echo T1222.001_attrib1 >> %temp%\T1222.001_attrib_2\T1222.001_attrib1.txt & echo T1222.001_attrib2 >> %temp%\T1222.001_attrib_2\T1222.001_attrib2.txt & attrib.exe +h %temp%\T1222.001_attrib_2\T1222.001_attrib1.txt & attrib.exe +h %temp%\T1222.001_attrib_2\T1222.001_attrib2.txt
+
+ParentUser: WINDEV2309EVAL\User",Info,ATTRIB.EXE,"""cmd.exe"" /c mkdir %temp%\T1222.001_attrib_2 >nul 2>&1 & echo T1222.001_attrib1 >> %temp%\T1222.001_attrib_2\T1222.001_attrib1.txt & echo T1222.001_attrib2 >> %temp%\T1222.001_attrib_2\T1222.001_attrib2.txt & attrib.exe +h %temp%\T1222.001_attrib_2\T1222.001_attrib1.txt & attrib.exe +h %temp%\T1222.001_attrib_2\T1222.001_attrib2.txt",C:\Windows\System32\cmd.exe,{f57bd86a-aeb8-658c-cd01-000000000f00},10788,WINDEV2309EVAL\User,{f57bd86a-aeb8-658c-d001-000000000f00},3588,5020,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:09:44.1886653Z,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:09:44.187,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:09:44.1886653Z""/>
+      <EventRecordID>19580</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:09:44.187</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-aeb8-658c-d001-000000000f00}</Data>
+      <Data Name=""ProcessId"">5020</Data>
+      <Data Name=""Image"">C:\Windows\System32\attrib.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Attribute Utility</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">ATTRIB.EXE</Data>
+      <Data Name=""CommandLine"">attrib.exe  +h C:\Users\User\AppData\Local\Temp\T1222.001_attrib_2\T1222.001_attrib2.txt</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=A243BC9DB0BFB5F22E146B88BB10C58F,SHA256=0758152947F1A550E52CE8E3F9BCD988A23D36A458AD953795769B11C38FF2EA,IMPHASH=2CB38FE7D8F223D9DA50B7CBA9B95A6D</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-aeb8-658c-cd01-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">10788</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c mkdir %temp%\T1222.001_attrib_2 &gt;nul 2&gt;&amp;1 &amp; echo T1222.001_attrib1 &gt;&gt; %temp%\T1222.001_attrib_2\T1222.001_attrib1.txt &amp; echo T1222.001_attrib2 &gt;&gt; %temp%\T1222.001_attrib_2\T1222.001_attrib2.txt &amp; attrib.exe +h %temp%\T1222.001_attrib_2\T1222.001_attrib1.txt &amp; attrib.exe +h %temp%\T1222.001_attrib_2\T1222.001_attrib2.txt</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:44.187
+
+ProcessGuid: {f57bd86a-aeb8-658c-d001-000000000f00}
+
+ProcessId: 5020
+
+Image: C:\Windows\System32\attrib.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Attribute Utility
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: ATTRIB.EXE
+
+CommandLine: attrib.exe  +h C:\Users\User\AppData\Local\Temp\T1222.001_attrib_2\T1222.001_attrib2.txt
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=A243BC9DB0BFB5F22E146B88BB10C58F,SHA256=0758152947F1A550E52CE8E3F9BCD988A23D36A458AD953795769B11C38FF2EA,IMPHASH=2CB38FE7D8F223D9DA50B7CBA9B95A6D
+
+ParentProcessGuid: {f57bd86a-aeb8-658c-cd01-000000000f00}
+
+ParentProcessId: 10788
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c mkdir %temp%\T1222.001_attrib_2 &gt;nul 2&gt;&amp;1 &amp; echo T1222.001_attrib1 &gt;&gt; %temp%\T1222.001_attrib_2\T1222.001_attrib1.txt &amp; echo T1222.001_attrib2 &gt;&gt; %temp%\T1222.001_attrib_2\T1222.001_attrib2.txt &amp; attrib.exe +h %temp%\T1222.001_attrib_2\T1222.001_attrib1.txt &amp; attrib.exe +h %temp%\T1222.001_attrib_2\T1222.001_attrib2.txt
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,attrib.exe  +h C:\Users\User\AppData\Local\Temp\T1222.001_attrib_2\T1222.001_attrib1.txt ,Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,Attribute Utility,1,19579,10.0.22621.1 (WinBuild.160101.0800),"MD5=A243BC9DB0BFB5F22E146B88BB10C58F,SHA256=0758152947F1A550E52CE8E3F9BCD988A23D36A458AD953795769B11C38FF2EA,IMPHASH=2CB38FE7D8F223D9DA50B7CBA9B95A6D",C:\Windows\System32\attrib.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:44.177
+
+ProcessGuid: {f57bd86a-aeb8-658c-cf01-000000000f00}
+
+ProcessId: 6152
+
+Image: C:\Windows\System32\attrib.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Attribute Utility
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: ATTRIB.EXE
+
+CommandLine: attrib.exe  +h C:\Users\User\AppData\Local\Temp\T1222.001_attrib_2\T1222.001_attrib1.txt 
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=A243BC9DB0BFB5F22E146B88BB10C58F,SHA256=0758152947F1A550E52CE8E3F9BCD988A23D36A458AD953795769B11C38FF2EA,IMPHASH=2CB38FE7D8F223D9DA50B7CBA9B95A6D
+
+ParentProcessGuid: {f57bd86a-aeb8-658c-cd01-000000000f00}
+
+ParentProcessId: 10788
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c mkdir %temp%\T1222.001_attrib_2 >nul 2>&1 & echo T1222.001_attrib1 >> %temp%\T1222.001_attrib_2\T1222.001_attrib1.txt & echo T1222.001_attrib2 >> %temp%\T1222.001_attrib_2\T1222.001_attrib2.txt & attrib.exe +h %temp%\T1222.001_attrib_2\T1222.001_attrib1.txt & attrib.exe +h %temp%\T1222.001_attrib_2\T1222.001_attrib2.txt
+
+ParentUser: WINDEV2309EVAL\User",Info,ATTRIB.EXE,"""cmd.exe"" /c mkdir %temp%\T1222.001_attrib_2 >nul 2>&1 & echo T1222.001_attrib1 >> %temp%\T1222.001_attrib_2\T1222.001_attrib1.txt & echo T1222.001_attrib2 >> %temp%\T1222.001_attrib_2\T1222.001_attrib2.txt & attrib.exe +h %temp%\T1222.001_attrib_2\T1222.001_attrib1.txt & attrib.exe +h %temp%\T1222.001_attrib_2\T1222.001_attrib2.txt",C:\Windows\System32\cmd.exe,{f57bd86a-aeb8-658c-cd01-000000000f00},10788,WINDEV2309EVAL\User,{f57bd86a-aeb8-658c-cf01-000000000f00},3588,6152,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:09:44.1788006Z,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:09:44.177,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:09:44.1788006Z""/>
+      <EventRecordID>19579</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:09:44.177</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-aeb8-658c-cf01-000000000f00}</Data>
+      <Data Name=""ProcessId"">6152</Data>
+      <Data Name=""Image"">C:\Windows\System32\attrib.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Attribute Utility</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">ATTRIB.EXE</Data>
+      <Data Name=""CommandLine"">attrib.exe  +h C:\Users\User\AppData\Local\Temp\T1222.001_attrib_2\T1222.001_attrib1.txt </Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=A243BC9DB0BFB5F22E146B88BB10C58F,SHA256=0758152947F1A550E52CE8E3F9BCD988A23D36A458AD953795769B11C38FF2EA,IMPHASH=2CB38FE7D8F223D9DA50B7CBA9B95A6D</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-aeb8-658c-cd01-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">10788</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c mkdir %temp%\T1222.001_attrib_2 &gt;nul 2&gt;&amp;1 &amp; echo T1222.001_attrib1 &gt;&gt; %temp%\T1222.001_attrib_2\T1222.001_attrib1.txt &amp; echo T1222.001_attrib2 &gt;&gt; %temp%\T1222.001_attrib_2\T1222.001_attrib2.txt &amp; attrib.exe +h %temp%\T1222.001_attrib_2\T1222.001_attrib1.txt &amp; attrib.exe +h %temp%\T1222.001_attrib_2\T1222.001_attrib2.txt</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:44.177
+
+ProcessGuid: {f57bd86a-aeb8-658c-cf01-000000000f00}
+
+ProcessId: 6152
+
+Image: C:\Windows\System32\attrib.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Attribute Utility
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: ATTRIB.EXE
+
+CommandLine: attrib.exe  +h C:\Users\User\AppData\Local\Temp\T1222.001_attrib_2\T1222.001_attrib1.txt 
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=A243BC9DB0BFB5F22E146B88BB10C58F,SHA256=0758152947F1A550E52CE8E3F9BCD988A23D36A458AD953795769B11C38FF2EA,IMPHASH=2CB38FE7D8F223D9DA50B7CBA9B95A6D
+
+ParentProcessGuid: {f57bd86a-aeb8-658c-cd01-000000000f00}
+
+ParentProcessId: 10788
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c mkdir %temp%\T1222.001_attrib_2 &gt;nul 2&gt;&amp;1 &amp; echo T1222.001_attrib1 &gt;&gt; %temp%\T1222.001_attrib_2\T1222.001_attrib1.txt &amp; echo T1222.001_attrib2 &gt;&gt; %temp%\T1222.001_attrib_2\T1222.001_attrib2.txt &amp; attrib.exe +h %temp%\T1222.001_attrib_2\T1222.001_attrib1.txt &amp; attrib.exe +h %temp%\T1222.001_attrib_2\T1222.001_attrib2.txt
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""cmd.exe"" /c mkdir %%temp%%\T1222.001_attrib_2 >nul 2>&1 & echo T1222.001_attrib1 >> %%temp%%\T1222.001_attrib_2\T1222.001_attrib1.txt & echo T1222.001_attrib2 >> %%temp%%\T1222.001_attrib_2\T1222.001_attrib2.txt & attrib.exe +h %%temp%%\T1222.001_attrib_2\T1222.001_attrib1.txt & attrib.exe +h %%temp%%\T1222.001_attrib_2\T1222.001_attrib2.txt",Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,1,19578,10.0.22621.2506 (WinBuild.160101.0800),"MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:44.150
+
+ProcessGuid: {f57bd86a-aeb8-658c-cd01-000000000f00}
+
+ProcessId: 10788
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c mkdir %%temp%%\T1222.001_attrib_2 >nul 2>&1 & echo T1222.001_attrib1 >> %%temp%%\T1222.001_attrib_2\T1222.001_attrib1.txt & echo T1222.001_attrib2 >> %%temp%%\T1222.001_attrib_2\T1222.001_attrib2.txt & attrib.exe +h %%temp%%\T1222.001_attrib_2\T1222.001_attrib1.txt & attrib.exe +h %%temp%%\T1222.001_attrib_2\T1222.001_attrib2.txt
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,Cmd.Exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-aeb8-658c-cd01-000000000f00},3588,10788,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:09:44.1511729Z,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:09:44.150,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:09:44.1511729Z""/>
+      <EventRecordID>19578</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:09:44.150</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-aeb8-658c-cd01-000000000f00}</Data>
+      <Data Name=""ProcessId"">10788</Data>
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows Command Processor</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      <Data Name=""CommandLine"">""cmd.exe"" /c mkdir %%temp%%\T1222.001_attrib_2 &gt;nul 2&gt;&amp;1 &amp; echo T1222.001_attrib1 &gt;&gt; %%temp%%\T1222.001_attrib_2\T1222.001_attrib1.txt &amp; echo T1222.001_attrib2 &gt;&gt; %%temp%%\T1222.001_attrib_2\T1222.001_attrib2.txt &amp; attrib.exe +h %%temp%%\T1222.001_attrib_2\T1222.001_attrib1.txt &amp; attrib.exe +h %%temp%%\T1222.001_attrib_2\T1222.001_attrib2.txt</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:44.150
+
+ProcessGuid: {f57bd86a-aeb8-658c-cd01-000000000f00}
+
+ProcessId: 10788
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c mkdir %%temp%%\T1222.001_attrib_2 &gt;nul 2&gt;&amp;1 &amp; echo T1222.001_attrib1 &gt;&gt; %%temp%%\T1222.001_attrib_2\T1222.001_attrib1.txt &amp; echo T1222.001_attrib2 &gt;&gt; %%temp%%\T1222.001_attrib_2\T1222.001_attrib2.txt &amp; attrib.exe +h %%temp%%\T1222.001_attrib_2\T1222.001_attrib1.txt &amp; attrib.exe +h %%temp%%\T1222.001_attrib_2\T1222.001_attrib2.txt
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,attrib.exe  -r C:\Users\User\AppData\Local\Temp\T1222.001_attrib\*.* /s,Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,Attribute Utility,1,19577,10.0.22621.1 (WinBuild.160101.0800),"MD5=A243BC9DB0BFB5F22E146B88BB10C58F,SHA256=0758152947F1A550E52CE8E3F9BCD988A23D36A458AD953795769B11C38FF2EA,IMPHASH=2CB38FE7D8F223D9DA50B7CBA9B95A6D",C:\Windows\System32\attrib.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:43.588
+
+ProcessGuid: {f57bd86a-aeb7-658c-cc01-000000000f00}
+
+ProcessId: 668
+
+Image: C:\Windows\System32\attrib.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Attribute Utility
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: ATTRIB.EXE
+
+CommandLine: attrib.exe  -r C:\Users\User\AppData\Local\Temp\T1222.001_attrib\*.* /s
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=A243BC9DB0BFB5F22E146B88BB10C58F,SHA256=0758152947F1A550E52CE8E3F9BCD988A23D36A458AD953795769B11C38FF2EA,IMPHASH=2CB38FE7D8F223D9DA50B7CBA9B95A6D
+
+ParentProcessGuid: {f57bd86a-aeb7-658c-ca01-000000000f00}
+
+ParentProcessId: 10724
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c attrib.exe -r %temp%\T1222.001_attrib\*.* /s
+
+ParentUser: WINDEV2309EVAL\User",Info,ATTRIB.EXE,"""cmd.exe"" /c attrib.exe -r %temp%\T1222.001_attrib\*.* /s",C:\Windows\System32\cmd.exe,{f57bd86a-aeb7-658c-ca01-000000000f00},10724,WINDEV2309EVAL\User,{f57bd86a-aeb7-658c-cc01-000000000f00},3588,668,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:09:43.5911256Z,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:09:43.588,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:09:43.5911256Z""/>
+      <EventRecordID>19577</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:09:43.588</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-aeb7-658c-cc01-000000000f00}</Data>
+      <Data Name=""ProcessId"">668</Data>
+      <Data Name=""Image"">C:\Windows\System32\attrib.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Attribute Utility</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">ATTRIB.EXE</Data>
+      <Data Name=""CommandLine"">attrib.exe  -r C:\Users\User\AppData\Local\Temp\T1222.001_attrib\*.* /s</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=A243BC9DB0BFB5F22E146B88BB10C58F,SHA256=0758152947F1A550E52CE8E3F9BCD988A23D36A458AD953795769B11C38FF2EA,IMPHASH=2CB38FE7D8F223D9DA50B7CBA9B95A6D</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-aeb7-658c-ca01-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">10724</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c attrib.exe -r %temp%\T1222.001_attrib\*.* /s</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:43.588
+
+ProcessGuid: {f57bd86a-aeb7-658c-cc01-000000000f00}
+
+ProcessId: 668
+
+Image: C:\Windows\System32\attrib.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Attribute Utility
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: ATTRIB.EXE
+
+CommandLine: attrib.exe  -r C:\Users\User\AppData\Local\Temp\T1222.001_attrib\*.* /s
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=A243BC9DB0BFB5F22E146B88BB10C58F,SHA256=0758152947F1A550E52CE8E3F9BCD988A23D36A458AD953795769B11C38FF2EA,IMPHASH=2CB38FE7D8F223D9DA50B7CBA9B95A6D
+
+ParentProcessGuid: {f57bd86a-aeb7-658c-ca01-000000000f00}
+
+ParentProcessId: 10724
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c attrib.exe -r %temp%\T1222.001_attrib\*.* /s
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""cmd.exe"" /c attrib.exe -r %%temp%%\T1222.001_attrib\*.* /s",Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,1,19576,10.0.22621.2506 (WinBuild.160101.0800),"MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:43.557
+
+ProcessGuid: {f57bd86a-aeb7-658c-ca01-000000000f00}
+
+ProcessId: 10724
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c attrib.exe -r %%temp%%\T1222.001_attrib\*.* /s
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,Cmd.Exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-aeb7-658c-ca01-000000000f00},3588,10724,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:09:43.5588218Z,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:09:43.557,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:09:43.5588218Z""/>
+      <EventRecordID>19576</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:09:43.557</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-aeb7-658c-ca01-000000000f00}</Data>
+      <Data Name=""ProcessId"">10724</Data>
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows Command Processor</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      <Data Name=""CommandLine"">""cmd.exe"" /c attrib.exe -r %%temp%%\T1222.001_attrib\*.* /s</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:43.557
+
+ProcessGuid: {f57bd86a-aeb7-658c-ca01-000000000f00}
+
+ProcessId: 10724
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c attrib.exe -r %%temp%%\T1222.001_attrib\*.* /s
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,icacls.exe  C:\Users\User\AppData\Local\Temp\T1222.001_cacls /grant Everyone:F,Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,-,1,19575,10.0.22621.1 (WinBuild.160101.0800),"MD5=49753AFE55ADE6D20E416F0DC3DE6B91,SHA256=FF5F1B30F739E7A6F0DEBCC3D8069EFEF1BEEDAB53F722274D5ABF7F104977EB,IMPHASH=446163A548337B5BCF2727BCD1CFB399",C:\Windows\System32\icacls.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:43.318
+
+ProcessGuid: {f57bd86a-aeb7-658c-c901-000000000f00}
+
+ProcessId: 8560
+
+Image: C:\Windows\System32\icacls.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: -
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: iCACLS.EXE
+
+CommandLine: icacls.exe  C:\Users\User\AppData\Local\Temp\T1222.001_cacls /grant Everyone:F
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=49753AFE55ADE6D20E416F0DC3DE6B91,SHA256=FF5F1B30F739E7A6F0DEBCC3D8069EFEF1BEEDAB53F722274D5ABF7F104977EB,IMPHASH=446163A548337B5BCF2727BCD1CFB399
+
+ParentProcessGuid: {f57bd86a-aeb7-658c-c701-000000000f00}
+
+ParentProcessId: 2128
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c icacls.exe %temp%\T1222.001_cacls /grant Everyone:F
+
+ParentUser: WINDEV2309EVAL\User",Info,iCACLS.EXE,"""cmd.exe"" /c icacls.exe %temp%\T1222.001_cacls /grant Everyone:F",C:\Windows\System32\cmd.exe,{f57bd86a-aeb7-658c-c701-000000000f00},2128,WINDEV2309EVAL\User,{f57bd86a-aeb7-658c-c901-000000000f00},3588,8560,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:09:43.3216305Z,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:09:43.318,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:09:43.3216305Z""/>
+      <EventRecordID>19575</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:09:43.318</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-aeb7-658c-c901-000000000f00}</Data>
+      <Data Name=""ProcessId"">8560</Data>
+      <Data Name=""Image"">C:\Windows\System32\icacls.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">-</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">iCACLS.EXE</Data>
+      <Data Name=""CommandLine"">icacls.exe  C:\Users\User\AppData\Local\Temp\T1222.001_cacls /grant Everyone:F</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=49753AFE55ADE6D20E416F0DC3DE6B91,SHA256=FF5F1B30F739E7A6F0DEBCC3D8069EFEF1BEEDAB53F722274D5ABF7F104977EB,IMPHASH=446163A548337B5BCF2727BCD1CFB399</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-aeb7-658c-c701-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">2128</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c icacls.exe %temp%\T1222.001_cacls /grant Everyone:F</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:43.318
+
+ProcessGuid: {f57bd86a-aeb7-658c-c901-000000000f00}
+
+ProcessId: 8560
+
+Image: C:\Windows\System32\icacls.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: -
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: iCACLS.EXE
+
+CommandLine: icacls.exe  C:\Users\User\AppData\Local\Temp\T1222.001_cacls /grant Everyone:F
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=49753AFE55ADE6D20E416F0DC3DE6B91,SHA256=FF5F1B30F739E7A6F0DEBCC3D8069EFEF1BEEDAB53F722274D5ABF7F104977EB,IMPHASH=446163A548337B5BCF2727BCD1CFB399
+
+ParentProcessGuid: {f57bd86a-aeb7-658c-c701-000000000f00}
+
+ParentProcessId: 2128
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c icacls.exe %temp%\T1222.001_cacls /grant Everyone:F
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""cmd.exe"" /c icacls.exe %%temp%%\T1222.001_cacls /grant Everyone:F",Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,1,19574,10.0.22621.2506 (WinBuild.160101.0800),"MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:43.291
+
+ProcessGuid: {f57bd86a-aeb7-658c-c701-000000000f00}
+
+ProcessId: 2128
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c icacls.exe %%temp%%\T1222.001_cacls /grant Everyone:F
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,Cmd.Exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-aeb7-658c-c701-000000000f00},3588,2128,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:09:43.2928766Z,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:09:43.291,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:09:43.2928766Z""/>
+      <EventRecordID>19574</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:09:43.291</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-aeb7-658c-c701-000000000f00}</Data>
+      <Data Name=""ProcessId"">2128</Data>
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows Command Processor</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      <Data Name=""CommandLine"">""cmd.exe"" /c icacls.exe %%temp%%\T1222.001_cacls /grant Everyone:F</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:43.291
+
+ProcessGuid: {f57bd86a-aeb7-658c-c701-000000000f00}
+
+ProcessId: 2128
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c icacls.exe %%temp%%\T1222.001_cacls /grant Everyone:F
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,takeown.exe  /f C:\Users\User\AppData\Local\Temp\T1222.001_takeown_folder /r,Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,Takes ownership of a file,1,19573,10.0.22621.1 (WinBuild.160101.0800),"MD5=2474648C58DA0EDDB5BCF625EE1DF42D,SHA256=F5832C2C13921C60B787FFC725780C9136AD2EFE74AE92908D91533229C81078,IMPHASH=5E31D6F290F2F034D88EC70C1026C6AB",C:\Windows\System32\takeown.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:42.224
+
+ProcessGuid: {f57bd86a-aeb6-658c-c601-000000000f00}
+
+ProcessId: 7748
+
+Image: C:\Windows\System32\takeown.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Takes ownership of a file
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: takeown.exe
+
+CommandLine: takeown.exe  /f C:\Users\User\AppData\Local\Temp\T1222.001_takeown_folder /r
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=2474648C58DA0EDDB5BCF625EE1DF42D,SHA256=F5832C2C13921C60B787FFC725780C9136AD2EFE74AE92908D91533229C81078,IMPHASH=5E31D6F290F2F034D88EC70C1026C6AB
+
+ParentProcessGuid: {f57bd86a-aeb6-658c-c401-000000000f00}
+
+ParentProcessId: 5024
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c takeown.exe /f %temp%\T1222.001_takeown_folder /r
+
+ParentUser: WINDEV2309EVAL\User",Info,takeown.exe,"""cmd.exe"" /c takeown.exe /f %temp%\T1222.001_takeown_folder /r",C:\Windows\System32\cmd.exe,{f57bd86a-aeb6-658c-c401-000000000f00},5024,WINDEV2309EVAL\User,{f57bd86a-aeb6-658c-c601-000000000f00},3588,7748,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:09:42.2274969Z,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:09:42.224,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:09:42.2274969Z""/>
+      <EventRecordID>19573</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:09:42.224</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-aeb6-658c-c601-000000000f00}</Data>
+      <Data Name=""ProcessId"">7748</Data>
+      <Data Name=""Image"">C:\Windows\System32\takeown.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Takes ownership of a file</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">takeown.exe</Data>
+      <Data Name=""CommandLine"">takeown.exe  /f C:\Users\User\AppData\Local\Temp\T1222.001_takeown_folder /r</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=2474648C58DA0EDDB5BCF625EE1DF42D,SHA256=F5832C2C13921C60B787FFC725780C9136AD2EFE74AE92908D91533229C81078,IMPHASH=5E31D6F290F2F034D88EC70C1026C6AB</Data>
+      <Data Name=""ParentProcessGuid"">{f57bd86a-aeb6-658c-c401-000000000f00}</Data>
+      <Data Name=""ParentProcessId"">5024</Data>
+      <Data Name=""ParentImage"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""ParentCommandLine"">""cmd.exe"" /c takeown.exe /f %temp%\T1222.001_takeown_folder /r</Data>
+      <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:42.224
+
+ProcessGuid: {f57bd86a-aeb6-658c-c601-000000000f00}
+
+ProcessId: 7748
+
+Image: C:\Windows\System32\takeown.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: Takes ownership of a file
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: takeown.exe
+
+CommandLine: takeown.exe  /f C:\Users\User\AppData\Local\Temp\T1222.001_takeown_folder /r
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=2474648C58DA0EDDB5BCF625EE1DF42D,SHA256=F5832C2C13921C60B787FFC725780C9136AD2EFE74AE92908D91533229C81078,IMPHASH=5E31D6F290F2F034D88EC70C1026C6AB
+
+ParentProcessGuid: {f57bd86a-aeb6-658c-c401-000000000f00}
+
+ParentProcessId: 5024
+
+ParentImage: C:\Windows\System32\cmd.exe
+
+ParentCommandLine: ""cmd.exe"" /c takeown.exe /f %temp%\T1222.001_takeown_folder /r
+
+ParentUser: WINDEV2309EVAL\User</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""cmd.exe"" /c takeown.exe /f %%temp%%\T1222.001_takeown_folder /r",Microsoft Corporation,WinDev2309Eval,C:\Users\User\AppData\Local\Temp\,Windows Command Processor,1,19572,10.0.22621.2506 (WinBuild.160101.0800),"MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964",C:\Windows\System32\cmd.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:42.194
+
+ProcessGuid: {f57bd86a-aeb6-658c-c401-000000000f00}
+
+ProcessId: 5024
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c takeown.exe /f %%temp%%\T1222.001_takeown_folder /r
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,Cmd.Exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-aeb6-658c-c401-000000000f00},3588,5024,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:09:42.1952753Z,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:09:42.194,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:09:42.1952753Z""/>
+      <EventRecordID>19572</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:09:42.194</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-aeb6-658c-c401-000000000f00}</Data>
+      <Data Name=""ProcessId"">5024</Data>
+      <Data Name=""Image"">C:\Windows\System32\cmd.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Windows Command Processor</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">Cmd.Exe</Data>
+      <Data Name=""CommandLine"">""cmd.exe"" /c takeown.exe /f %%temp%%\T1222.001_takeown_folder /r</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\AppData\Local\Temp\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:42.194
+
+ProcessGuid: {f57bd86a-aeb6-658c-c401-000000000f00}
+
+ProcessId: 5024
+
+Image: C:\Windows\System32\cmd.exe
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Windows Command Processor
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: Cmd.Exe
+
+CommandLine: ""cmd.exe"" /c takeown.exe /f %%temp%%\T1222.001_takeown_folder /r
+
+CurrentDirectory: C:\Users\User\AppData\Local\Temp\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=133D568ECCB557E37BEA1459521CBAC2,SHA256=05A30592D2C3421C41121145C6EEFA7C81FEA6B42D6233A522240A8468326B9C,IMPHASH=D73E39DAB3C8B57AA408073D01254964
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\whoami.exe""",Microsoft Corporation,WinDev2309Eval,C:\Users\User\,whoami - displays logged on user information,1,19571,10.0.22621.1 (WinBuild.160101.0800),"MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292",C:\Windows\System32\whoami.exe,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:41.069
+
+ProcessGuid: {f57bd86a-aeb5-658c-c301-000000000f00}
+
+ProcessId: 1320
+
+Image: C:\Windows\System32\whoami.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: whoami - displays logged on user information
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: whoami.exe
+
+CommandLine: ""C:\Windows\system32\whoami.exe""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,whoami.exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-aeb5-658c-c301-000000000f00},3588,1320,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:09:41.0720253Z,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:09:41.069,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:09:41.0720253Z""/>
+      <EventRecordID>19571</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:09:41.069</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-aeb5-658c-c301-000000000f00}</Data>
+      <Data Name=""ProcessId"">1320</Data>
+      <Data Name=""Image"">C:\Windows\System32\whoami.exe</Data>
+      <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">whoami - displays logged on user information</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">whoami.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\whoami.exe""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:41.069
+
+ProcessGuid: {f57bd86a-aeb5-658c-c301-000000000f00}
+
+ProcessId: 1320
+
+Image: C:\Windows\System32\whoami.exe
+
+FileVersion: 10.0.22621.1 (WinBuild.160101.0800)
+
+Description: whoami - displays logged on user information
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: whoami.exe
+
+CommandLine: ""C:\Windows\system32\whoami.exe""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E0F37DB23E4F3163159A815610DF8CF2,SHA256=574BC2A2995FE2B1F732CCD39F2D99460ACE980AF29EFDF1EB0D3E888BE7D6F0,IMPHASH=62935820E434AF643547B7F5F5BD0292
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+  
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Windows\system32\HOSTNAME.EXE""",Microsoft Corporation,WinDev2309Eval,C:\Users\User\,Hostname APP,1,19570,10.0.22621.2506 (WinBuild.160101.0800),"MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8",C:\Windows\System32\HOSTNAME.EXE,Medium,0x8000000000000000,Information,{f57bd86a-36f9-658c-7bf8-020000000000},0x2f87b,"Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:41.041
+
+ProcessGuid: {f57bd86a-aeb5-658c-c201-000000000f00}
+
+ProcessId: 2028
+
+Image: C:\Windows\System32\HOSTNAME.EXE
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Hostname APP
+
+Product: Microsoft® Windows® Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: hostname.exe
+
+CommandLine: ""C:\Windows\system32\HOSTNAME.EXE""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -",Info,hostname.exe,-,-,{00000000-0000-0000-0000-000000000000},1688,-,{f57bd86a-aeb5-658c-c201-000000000f00},3588,2028,Microsoft® Windows® Operating System,"
+      ",-,2023-12-27T23:09:41.0424989Z,Process Create (rule: ProcessCreate),1,5124,WINDEV2309EVAL\User,S-1-5-18,2023-12-27 23:09:41.041,5,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+    <System>
+      <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+      <EventID>1</EventID>
+      <Version>5</Version>
+      <Level>4</Level>
+      <Task>1</Task>
+      <Opcode>0</Opcode>
+      <Keywords>0x8000000000000000</Keywords>
+      <TimeCreated SystemTime=""2023-12-27T23:09:41.0424989Z""/>
+      <EventRecordID>19570</EventRecordID>
+      <Correlation/>
+      <Execution ProcessID=""3588"" ThreadID=""5124""/>
+      <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+      <Computer>WinDev2309Eval</Computer>
+      <Security UserID=""S-1-5-18""/>
+    </System>
+    <EventData>
+      <Data Name=""RuleName"">-</Data>
+      <Data Name=""UtcTime"">2023-12-27 23:09:41.041</Data>
+      <Data Name=""ProcessGuid"">{f57bd86a-aeb5-658c-c201-000000000f00}</Data>
+      <Data Name=""ProcessId"">2028</Data>
+      <Data Name=""Image"">C:\Windows\System32\HOSTNAME.EXE</Data>
+      <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+      <Data Name=""Description"">Hostname APP</Data>
+      <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+      <Data Name=""Company"">Microsoft Corporation</Data>
+      <Data Name=""OriginalFileName"">hostname.exe</Data>
+      <Data Name=""CommandLine"">""C:\Windows\system32\HOSTNAME.EXE""</Data>
+      <Data Name=""CurrentDirectory"">C:\Users\User\</Data>
+      <Data Name=""User"">WINDEV2309EVAL\User</Data>
+      <Data Name=""LogonGuid"">{f57bd86a-36f9-658c-7bf8-020000000000}</Data>
+      <Data Name=""LogonId"">0x2f87b</Data>
+      <Data Name=""TerminalSessionId"">1</Data>
+      <Data Name=""IntegrityLevel"">Medium</Data>
+      <Data Name=""Hashes"">MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8</Data>
+      <Data Name=""ParentProcessGuid"">{00000000-0000-0000-0000-000000000000}</Data>
+      <Data Name=""ParentProcessId"">1688</Data>
+      <Data Name=""ParentImage"">-</Data>
+      <Data Name=""ParentCommandLine"">-</Data>
+      <Data Name=""ParentUser"">-</Data>
+    </EventData>
+    <RenderingInfo Culture=""en-US"">
+      <Message>Process Create:
+
+RuleName: -
+
+UtcTime: 2023-12-27 23:09:41.041
+
+ProcessGuid: {f57bd86a-aeb5-658c-c201-000000000f00}
+
+ProcessId: 2028
+
+Image: C:\Windows\System32\HOSTNAME.EXE
+
+FileVersion: 10.0.22621.2506 (WinBuild.160101.0800)
+
+Description: Hostname APP
+
+Product: Microsoft&#174; Windows&#174; Operating System
+
+Company: Microsoft Corporation
+
+OriginalFileName: hostname.exe
+
+CommandLine: ""C:\Windows\system32\HOSTNAME.EXE""
+
+CurrentDirectory: C:\Users\User\
+
+User: WINDEV2309EVAL\User
+
+LogonGuid: {f57bd86a-36f9-658c-7bf8-020000000000}
+
+LogonId: 0x2F87B
+
+TerminalSessionId: 1
+
+IntegrityLevel: Medium
+
+Hashes: MD5=E1EA6EFF1F45AA136A2A2E18EACC1F73,SHA256=4634E6685E402CC3CC8843589F4E8D8AC515F5F05D319E835A262B69B32BDB45,IMPHASH=23013EDF627646AB5226D15AC880BAD8
+
+ParentProcessGuid: {00000000-0000-0000-0000-000000000000}
+
+ParentProcessId: 1688
+
+ParentImage: -
+
+ParentCommandLine: -
+
+ParentUser: -</Message>
+      <Level>Information</Level>
+      <Task>Process Create (rule: ProcessCreate)</Task>
+      <Opcode>Info</Opcode>
+    </RenderingInfo>
+  </Event>
+
+"

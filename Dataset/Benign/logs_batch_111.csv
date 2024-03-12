@@ -1,0 +1,770 @@
+Channel,CommandLine,Company,Computer,CreationUtcTime,CurrentDirectory,Description,DestinationHostname,DestinationIp,DestinationIsIpv6,DestinationPort,DestinationPortName,Details,EventID,EventRecordID,EventType,FileVersion,Hashes,Image,Initiated,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Message,NewThreadId,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,Protocol,QueryName,QueryResults,QueryStatus,RuleName,SourceHostname,SourceImage,SourceIp,SourceIsIpv6,SourcePort,SourcePortName,SourceProcessGuid,SourceProcessId,SourceUser,StartAddress,StartFunction,StartModule,SystemTime,TargetFilename,TargetImage,TargetObject,TargetProcessGuid,TargetProcessId,TargetUser,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,DWORD (0x00000008),13,4297,SetValue,,,C:\Windows\system32\wininit.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1cf1-6582-0800-000000000d00},3400,636.0,,,,,,"T1183,IFEO",,,,,,,,,,,,,2023-12-19T22:45:10.8274852Z,,,HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\LSASS.exe\AuditLevel,,,,13,,4208,NT AUTHORITY\SYSTEM,S-1-5-18,45:05.6,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:45:10.8274852Z""/>
+    <EventRecordID>4297</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1183,IFEO</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:45:05.593</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0800-000000000d00}</Data>
+    <Data Name=""ProcessId"">636</Data>
+    <Data Name=""Image"">C:\Windows\system32\wininit.exe</Data>
+    <Data Name=""TargetObject"">HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\LSASS.exe\AuditLevel</Data>
+    <Data Name=""Details"">DWORD (0x00000008)</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,C:\Windows\system32\services.exe,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Services and Controller app,,,,,,,1,4296,,10.0.22621.2506 (WinBuild.160101.0800),"MD5=C497C3C5EB0FE16A43D56B9B1EAE8D3B,SHA256=3D6B524ADBBF1C50116D266E854C90278AE30035F602A5A08D6D2ADCD69CBFED,IMPHASH=3CDD0C41EDD2D18FD6B02A17478ED684",C:\Windows\System32\services.exe,,System,0x8000000000000000,4,{f57bd86a-1cf1-6582-e703-000000000000},0x3e7,,,0,services.exe,wininit.exe,C:\Windows\System32\wininit.exe,{f57bd86a-1cf1-6582-0800-000000000d00},636.0,NT AUTHORITY\SYSTEM,{f57bd86a-1cf1-6582-0b00-000000000d00},3400,760.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T22:45:10.8272324Z,,,,,,,1,0.0,4208,NT AUTHORITY\SYSTEM,S-1-5-18,45:05.6,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:45:10.8272324Z""/>
+    <EventRecordID>4296</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:45:05.554</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0b00-000000000d00}</Data>
+    <Data Name=""ProcessId"">760</Data>
+    <Data Name=""Image"">C:\Windows\System32\services.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.2506 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Services and Controller app</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">services.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\system32\services.exe</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1cf1-6582-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=C497C3C5EB0FE16A43D56B9B1EAE8D3B,SHA256=3D6B524ADBBF1C50116D266E854C90278AE30035F602A5A08D6D2ADCD69CBFED,IMPHASH=3CDD0C41EDD2D18FD6B02A17478ED684</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf1-6582-0800-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">636</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\wininit.exe</Data>
+    <Data Name=""ParentCommandLine"">wininit.exe</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,winlogon.exe,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Windows Logon Application,,,,,,,1,4295,,10.0.22621.2792 (WinBuild.160101.0800),"MD5=CCEAB8B5A7DED689747C9E5B124CAE7E,SHA256=3C82C03A869AB9072D80802ECBD4E139C3B7769AEE8B7D2FF9A960D59EADEBF2,IMPHASH=78356CC73F260BABFC61A7495FA7EB8F",C:\Windows\System32\winlogon.exe,,System,0x8000000000000000,4,{f57bd86a-1cf1-6582-e703-000000000000},0x3e7,,,0,WINLOGON.EXE,\SystemRoot\System32\smss.exe 000000c8 000000a4 ,C:\Windows\System32\smss.exe,{f57bd86a-1cf1-6582-0700-000000000d00},628.0,NT AUTHORITY\SYSTEM,{f57bd86a-1cf1-6582-0a00-000000000d00},3400,736.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T22:45:10.8268575Z,,,,,,,1,1.0,4208,NT AUTHORITY\SYSTEM,S-1-5-18,45:05.5,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:45:10.8268575Z""/>
+    <EventRecordID>4295</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:45:05.519</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0a00-000000000d00}</Data>
+    <Data Name=""ProcessId"">736</Data>
+    <Data Name=""Image"">C:\Windows\System32\winlogon.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.2792 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Windows Logon Application</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">WINLOGON.EXE</Data>
+    <Data Name=""CommandLine"">winlogon.exe</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1cf1-6582-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=CCEAB8B5A7DED689747C9E5B124CAE7E,SHA256=3C82C03A869AB9072D80802ECBD4E139C3B7769AEE8B7D2FF9A960D59EADEBF2,IMPHASH=78356CC73F260BABFC61A7495FA7EB8F</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf1-6582-0700-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">628</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\smss.exe</Data>
+    <Data Name=""ParentCommandLine"">\SystemRoot\System32\smss.exe 000000c8 000000a4 </Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"%%SystemRoot%%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Client Server Runtime Process,,,,,,,1,4294,,10.0.22621.1 (WinBuild.160101.0800),"MD5=696FB9D7E43F428634F31CF56361D7C3,SHA256=EAC814CEE400A078E2D549BA6E3D7BD09D1BC9805A1C6C9EC0610A0E558472A1,IMPHASH=A96FA9912E09E361274AD77F1A4B252C",C:\Windows\System32\csrss.exe,,System,0x8000000000000000,4,{f57bd86a-1cf1-6582-e703-000000000000},0x3e7,,,0,CSRSS.Exe,\SystemRoot\System32\smss.exe 000000c8 000000a4 ,C:\Windows\System32\smss.exe,{f57bd86a-1cf1-6582-0700-000000000d00},628.0,NT AUTHORITY\SYSTEM,{f57bd86a-1cf1-6582-0900-000000000d00},3400,644.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T22:45:10.8221264Z,,,,,,,1,1.0,4208,NT AUTHORITY\SYSTEM,S-1-5-18,45:05.5,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:45:10.8221264Z""/>
+    <EventRecordID>4294</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:45:05.463</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0900-000000000d00}</Data>
+    <Data Name=""ProcessId"">644</Data>
+    <Data Name=""Image"">C:\Windows\System32\csrss.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Client Server Runtime Process</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">CSRSS.Exe</Data>
+    <Data Name=""CommandLine"">%%SystemRoot%%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1cf1-6582-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=696FB9D7E43F428634F31CF56361D7C3,SHA256=EAC814CEE400A078E2D549BA6E3D7BD09D1BC9805A1C6C9EC0610A0E558472A1,IMPHASH=A96FA9912E09E361274AD77F1A4B252C</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf1-6582-0700-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">628</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\smss.exe</Data>
+    <Data Name=""ParentCommandLine"">\SystemRoot\System32\smss.exe 000000c8 000000a4 </Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,wininit.exe,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Windows Start-Up Application,,,,,,,1,4293,,10.0.22621.2792 (WinBuild.160101.0800),"MD5=E72284A1301EC8A119AE863ADD26D0AA,SHA256=DE6CD13F1F35C33A9F689FCF8894D3738F855A1817C4381999DD774D7F0AB535,IMPHASH=F2A24D44B58C4A23D796BF6063F86937",C:\Windows\System32\wininit.exe,,System,0x8000000000000000,4,{f57bd86a-1cf1-6582-e703-000000000000},0x3e7,,,0,WinInit.exe,\SystemRoot\System32\smss.exe 000000ec 000000a4 ,C:\Windows\System32\smss.exe,{f57bd86a-1cf1-6582-0500-000000000d00},528.0,NT AUTHORITY\SYSTEM,{f57bd86a-1cf1-6582-0800-000000000d00},3400,636.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T22:45:10.8216447Z,,,,,,,1,0.0,4208,NT AUTHORITY\SYSTEM,S-1-5-18,45:05.5,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:45:10.8216447Z""/>
+    <EventRecordID>4293</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:45:05.455</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0800-000000000d00}</Data>
+    <Data Name=""ProcessId"">636</Data>
+    <Data Name=""Image"">C:\Windows\System32\wininit.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.2792 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Windows Start-Up Application</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">WinInit.exe</Data>
+    <Data Name=""CommandLine"">wininit.exe</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1cf1-6582-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=E72284A1301EC8A119AE863ADD26D0AA,SHA256=DE6CD13F1F35C33A9F689FCF8894D3738F855A1817C4381999DD774D7F0AB535,IMPHASH=F2A24D44B58C4A23D796BF6063F86937</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf1-6582-0500-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">528</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\smss.exe</Data>
+    <Data Name=""ParentCommandLine"">\SystemRoot\System32\smss.exe 000000ec 000000a4 </Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,\SystemRoot\System32\smss.exe 000000c8 000000a4 ,Microsoft Corporation,WinDev2309Eval,,C:\Windows\,Windows Session Manager,,,,,,,1,4292,,10.0.22621.1 (WinBuild.160101.0800),"MD5=49CE4A7FED5D271A01426F2BC262D23C,SHA256=B6800C2CA4BFEC26C8B8553BEEE774F4EBAB741B1A48ADCCCCE79F07062977BE,IMPHASH=4F94DC57F2BE941DAE6A11A2254F4613",C:\Windows\System32\smss.exe,,System,0x8000000000000000,4,{f57bd86a-1cf1-6582-e703-000000000000},0x3e7,,,0,smss.exe,\SystemRoot\System32\smss.exe,C:\Windows\System32\smss.exe,{f57bd86a-1cef-6582-0300-000000000d00},404.0,NT AUTHORITY\SYSTEM,{f57bd86a-1cf1-6582-0700-000000000d00},3400,628.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T22:45:10.8212353Z,,,,,,,1,1.0,4208,NT AUTHORITY\SYSTEM,S-1-5-18,45:05.5,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:45:10.8212353Z""/>
+    <EventRecordID>4292</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:45:05.452</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0700-000000000d00}</Data>
+    <Data Name=""ProcessId"">628</Data>
+    <Data Name=""Image"">C:\Windows\System32\smss.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Windows Session Manager</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">smss.exe</Data>
+    <Data Name=""CommandLine"">\SystemRoot\System32\smss.exe 000000c8 000000a4 </Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1cf1-6582-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=49CE4A7FED5D271A01426F2BC262D23C,SHA256=B6800C2CA4BFEC26C8B8553BEEE774F4EBAB741B1A48ADCCCCE79F07062977BE,IMPHASH=4F94DC57F2BE941DAE6A11A2254F4613</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cef-6582-0300-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">404</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\smss.exe</Data>
+    <Data Name=""ParentCommandLine"">\SystemRoot\System32\smss.exe</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"%%SystemRoot%%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Client Server Runtime Process,,,,,,,1,4291,,10.0.22621.1 (WinBuild.160101.0800),"MD5=696FB9D7E43F428634F31CF56361D7C3,SHA256=EAC814CEE400A078E2D549BA6E3D7BD09D1BC9805A1C6C9EC0610A0E558472A1,IMPHASH=A96FA9912E09E361274AD77F1A4B252C",C:\Windows\System32\csrss.exe,,System,0x8000000000000000,4,{f57bd86a-1cf1-6582-e703-000000000000},0x3e7,,,0,CSRSS.Exe,\SystemRoot\System32\smss.exe 000000ec 000000a4 ,C:\Windows\System32\smss.exe,{f57bd86a-1cf1-6582-0500-000000000d00},528.0,NT AUTHORITY\SYSTEM,{f57bd86a-1cf1-6582-0600-000000000d00},3400,536.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T22:45:10.8072005Z,,,,,,,1,0.0,4208,NT AUTHORITY\SYSTEM,S-1-5-18,45:05.2,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:45:10.8072005Z""/>
+    <EventRecordID>4291</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:45:05.249</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0600-000000000d00}</Data>
+    <Data Name=""ProcessId"">536</Data>
+    <Data Name=""Image"">C:\Windows\System32\csrss.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Client Server Runtime Process</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">CSRSS.Exe</Data>
+    <Data Name=""CommandLine"">%%SystemRoot%%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1cf1-6582-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=696FB9D7E43F428634F31CF56361D7C3,SHA256=EAC814CEE400A078E2D549BA6E3D7BD09D1BC9805A1C6C9EC0610A0E558472A1,IMPHASH=A96FA9912E09E361274AD77F1A4B252C</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cf1-6582-0500-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">528</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\smss.exe</Data>
+    <Data Name=""ParentCommandLine"">\SystemRoot\System32\smss.exe 000000ec 000000a4 </Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,\SystemRoot\System32\smss.exe 000000ec 000000a4 ,Microsoft Corporation,WinDev2309Eval,,C:\Windows\,Windows Session Manager,,,,,,,1,4290,,10.0.22621.1 (WinBuild.160101.0800),"MD5=49CE4A7FED5D271A01426F2BC262D23C,SHA256=B6800C2CA4BFEC26C8B8553BEEE774F4EBAB741B1A48ADCCCCE79F07062977BE,IMPHASH=4F94DC57F2BE941DAE6A11A2254F4613",C:\Windows\System32\smss.exe,,System,0x8000000000000000,4,{f57bd86a-1cf1-6582-e703-000000000000},0x3e7,,,0,smss.exe,\SystemRoot\System32\smss.exe,C:\Windows\System32\smss.exe,{f57bd86a-1cef-6582-0300-000000000d00},404.0,NT AUTHORITY\SYSTEM,{f57bd86a-1cf1-6582-0500-000000000d00},3400,528.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T22:45:10.8045998Z,,,,,,,1,0.0,4208,NT AUTHORITY\SYSTEM,S-1-5-18,45:05.1,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:45:10.8045998Z""/>
+    <EventRecordID>4290</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:45:05.066</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1cf1-6582-0500-000000000d00}</Data>
+    <Data Name=""ProcessId"">528</Data>
+    <Data Name=""Image"">C:\Windows\System32\smss.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.1 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Windows Session Manager</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">smss.exe</Data>
+    <Data Name=""CommandLine"">\SystemRoot\System32\smss.exe 000000ec 000000a4 </Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1cf1-6582-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=49CE4A7FED5D271A01426F2BC262D23C,SHA256=B6800C2CA4BFEC26C8B8553BEEE774F4EBAB741B1A48ADCCCCE79F07062977BE,IMPHASH=4F94DC57F2BE941DAE6A11A2254F4613</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1cef-6582-0300-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">404</Data>
+    <Data Name=""ParentImage"">C:\Windows\System32\smss.exe</Data>
+    <Data Name=""ParentCommandLine"">\SystemRoot\System32\smss.exe</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,4,4289,,,,,,,0x8000000000000000,4,,,,,0,,,,,,,,3400,,,,,,,,,,,,,,,,,,,,2023-12-19T22:45:10.6901829Z,,,,,,,4,,4208,,S-1-5-18,45:10.7,15.11,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>4</EventID>
+    <Version>3</Version>
+    <Level>4</Level>
+    <Task>4</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:45:10.6901829Z""/>
+    <EventRecordID>4289</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""UtcTime"">2023-12-19 22:45:10.677</Data>
+    <Data Name=""State"">Started</Data>
+    <Data Name=""Version"">15.11</Data>
+    <Data Name=""SchemaVersion"">4.90</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,,8,4288,,,,,,,0x8000000000000000,4,,,,2836.0,0,,,,,,,,10484,,,,,,,-,,<unknown process>,,,,,{f57bd86a-db68-6581-0600-000000000b00},552.0,NT AUTHORITY\SYSTEM,0x00007FFEA8466B40,CtrlRoutine,C:\Windows\System32\KERNELBASE.dll,2023-12-19T22:43:00.6722249Z,,C:\Windows\system32\svchost.exe,,{f57bd86a-db70-6581-5100-000000000b00},3688.0,NT AUTHORITY\SYSTEM,8,,10592,,S-1-5-18,43:00.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>8</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>8</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:43:00.6722249Z""/>
+    <EventRecordID>4288</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:43:00.667</Data>
+    <Data Name=""SourceProcessGuid"">{f57bd86a-db68-6581-0600-000000000b00}</Data>
+    <Data Name=""SourceProcessId"">552</Data>
+    <Data Name=""SourceImage"">&lt;unknown process&gt;</Data>
+    <Data Name=""TargetProcessGuid"">{f57bd86a-db70-6581-5100-000000000b00}</Data>
+    <Data Name=""TargetProcessId"">3688</Data>
+    <Data Name=""TargetImage"">C:\Windows\system32\svchost.exe</Data>
+    <Data Name=""NewThreadId"">2836</Data>
+    <Data Name=""StartAddress"">0x00007FFEA8466B40</Data>
+    <Data Name=""StartModule"">C:\Windows\System32\KERNELBASE.dll</Data>
+    <Data Name=""StartFunction"">CtrlRoutine</Data>
+    <Data Name=""SourceUser"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""TargetUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,24:57.3,,,,,,,,,11,4287,,,,C:\Windows\System32\poqexec.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c59-6582-0906-000000000b00},10484,4376.0,,,,,,DLL,,,,,,,,,,,,,2023-12-19T22:42:43.1417743Z,C:\Windows\System32\opencl.dll,,,,,,11,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:43.1,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:43.1417743Z""/>
+    <EventRecordID>4287</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:43.138</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c59-6582-0906-000000000b00}</Data>
+    <Data Name=""ProcessId"">4376</Data>
+    <Data Name=""Image"">C:\Windows\System32\poqexec.exe</Data>
+    <Data Name=""TargetFilename"">C:\Windows\System32\opencl.dll</Data>
+    <Data Name=""CreationUtcTime"">2022-05-07 05:24:57.326</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,39:21.0,,,,,,,,,11,4286,,,,C:\Windows\System32\poqexec.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c59-6582-0906-000000000b00},10484,4376.0,,,,,,DLL,,,,,,,,,,,,,2023-12-19T22:42:43.0991525Z,C:\Windows\System32\OEMDefaultAssociations.dll,,,,,,11,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:43.1,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:43.0991525Z""/>
+    <EventRecordID>4286</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:43.091</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c59-6582-0906-000000000b00}</Data>
+    <Data Name=""ProcessId"">4376</Data>
+    <Data Name=""Image"">C:\Windows\System32\poqexec.exe</Data>
+    <Data Name=""TargetFilename"">C:\Windows\System32\OEMDefaultAssociations.dll</Data>
+    <Data Name=""CreationUtcTime"">2022-05-07 07:39:21.026</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,24:57.2,,,,,,,,,11,4285,,,,C:\Windows\System32\poqexec.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c59-6582-0906-000000000b00},10484,4376.0,,,,,,DLL,,,,,,,,,,,,,2023-12-19T22:42:42.6637554Z,C:\Windows\System32\msclmd.dll,,,,,,11,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:42.7,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>11</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>11</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:42.6637554Z""/>
+    <EventRecordID>4285</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">DLL</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:42.653</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c59-6582-0906-000000000b00}</Data>
+    <Data Name=""ProcessId"">4376</Data>
+    <Data Name=""Image"">C:\Windows\System32\poqexec.exe</Data>
+    <Data Name=""TargetFilename"">C:\Windows\System32\msclmd.dll</Data>
+    <Data Name=""CreationUtcTime"">2022-05-07 05:24:57.155</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,C:\Windows\System32\poqexec.exe /noreboot /transaction 1704 /display_progress \SystemRoot\WinSxS\pending.xml,Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Primitive Operations Queue Executor,,,,,,,1,4284,,10.0.22621.2567 (WinBuild.160101.0800),"MD5=B9ABE15258DC739655A03A78D94E0991,SHA256=B60401F7E2E4BACFA83FCEDF66B3A2218AFBF74BB62A5C8BF2A9D5F8EDFCDAEA,IMPHASH=E2F919B2D48793840C2EB63490B6F095",C:\Windows\System32\poqexec.exe,,System,0x8000000000000000,4,{f57bd86a-db68-6581-e703-000000000000},0x3e7,,,0,poqexec.exe,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe -Embedding,C:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,{f57bd86a-1c28-6582-0806-000000000b00},10300.0,NT AUTHORITY\SYSTEM,{f57bd86a-1c59-6582-0906-000000000b00},10484,4376.0,Microsoft® Windows® Operating System,,,,,-,,,,,,,,,,,,,2023-12-19T22:42:33.8709367Z,,,,,,,1,0.0,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:33.8,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:33.8709367Z""/>
+    <EventRecordID>4284</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:33.845</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c59-6582-0906-000000000b00}</Data>
+    <Data Name=""ProcessId"">4376</Data>
+    <Data Name=""Image"">C:\Windows\System32\poqexec.exe</Data>
+    <Data Name=""FileVersion"">10.0.22621.2567 (WinBuild.160101.0800)</Data>
+    <Data Name=""Description"">Primitive Operations Queue Executor</Data>
+    <Data Name=""Product"">Microsoft&#174; Windows&#174; Operating System</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">poqexec.exe</Data>
+    <Data Name=""CommandLine"">C:\Windows\System32\poqexec.exe /noreboot /transaction 1704 /display_progress \SystemRoot\WinSxS\pending.xml</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-db68-6581-e703-000000000000}</Data>
+    <Data Name=""LogonId"">0x3e7</Data>
+    <Data Name=""TerminalSessionId"">0</Data>
+    <Data Name=""IntegrityLevel"">System</Data>
+    <Data Name=""Hashes"">MD5=B9ABE15258DC739655A03A78D94E0991,SHA256=B60401F7E2E4BACFA83FCEDF66B3A2218AFBF74BB62A5C8BF2A9D5F8EDFCDAEA,IMPHASH=E2F919B2D48793840C2EB63490B6F095</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ParentProcessId"">10300</Data>
+    <Data Name=""ParentImage"">C:\Windows\WinSxS\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""ParentCommandLine"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe -Embedding</Data>
+    <Data Name=""ParentUser"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.2506,13,4283,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T22:42:32.4829546Z,,,HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0063\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:32.5,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:32.4829546Z""/>
+    <EventRecordID>4283</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:32.474</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0063\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.2506</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.2506,13,4282,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T22:42:32.4778643Z,,,HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0061\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:32.5,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:32.4778643Z""/>
+    <EventRecordID>4282</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:32.474</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0061\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.2506</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.2506,13,4281,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T22:42:32.4615779Z,,,HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0005\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:32.5,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:32.4615779Z""/>
+    <EventRecordID>4281</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:32.459</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0005\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.2506</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.2715,13,4280,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T22:42:32.4401888Z,,,HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0000\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:32.4,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:32.4401888Z""/>
+    <EventRecordID>4280</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:32.427</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0000\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.2715</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.2715,13,4279,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T22:42:32.3555051Z,,,HKLM\System\CurrentControlSet\Control\Class\{4d36e97b-e325-11ce-bfc1-08002be10318}\0002\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:32.3,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:32.3555051Z""/>
+    <EventRecordID>4279</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:32.349</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Control\Class\{4d36e97b-e325-11ce-bfc1-08002be10318}\0002\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.2715</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.2861,13,4278,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T22:42:32.3386631Z,,,HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0010\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:32.3,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:32.3386631Z""/>
+    <EventRecordID>4278</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:32.334</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0010\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.2861</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.2861,13,4277,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T22:42:32.3356310Z,,,HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0044\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:32.3,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:32.3356310Z""/>
+    <EventRecordID>4277</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:32.334</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0044\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.2861</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,10.0.22621.2861,13,4276,SetValue,,,C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1c28-6582-0806-000000000b00},10484,10300.0,,,,,,InvDB-DriverVer,,,,,,,,,,,,,2023-12-19T22:42:32.3328338Z,,,HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0043\DriverVersion,,,,13,,10592,NT AUTHORITY\SYSTEM,S-1-5-18,42:32.3,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:42:32.3328338Z""/>
+    <EventRecordID>4276</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""10484"" ThreadID=""10592""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">InvDB-DriverVer</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:42:32.318</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1c28-6582-0806-000000000b00}</Data>
+    <Data Name=""ProcessId"">10300</Data>
+    <Data Name=""Image"">C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_10.0.22621.2567_none_e93fb1d442e4b410\TiWorker.exe</Data>
+    <Data Name=""TargetObject"">HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0043\DriverVersion</Data>
+    <Data Name=""Details"">10.0.22621.2861</Data>
+    <Data Name=""User"">NT AUTHORITY\SYSTEM</Data>
+  </EventData>
+</Event>
+"

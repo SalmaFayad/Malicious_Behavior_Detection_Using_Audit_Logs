@@ -1,0 +1,689 @@
+Channel,CommandLine,Company,Computer,CreationUtcTime,CurrentDirectory,Description,DestinationHostname,DestinationIp,DestinationIsIpv6,DestinationPort,DestinationPortName,Details,EventID,EventRecordID,EventType,FileVersion,Hashes,Image,Initiated,IntegrityLevel,Keywords,Level,LogonGuid,LogonId,Message,NewThreadId,Opcode,OriginalFileName,ParentCommandLine,ParentImage,ParentProcessGuid,ParentProcessId,ParentUser,ProcessGuid,ProcessID,ProcessId,Product,Protocol,QueryName,QueryResults,QueryStatus,RuleName,SourceHostname,SourceImage,SourceIp,SourceIsIpv6,SourcePort,SourcePortName,SourceProcessGuid,SourceProcessId,SourceUser,StartAddress,StartFunction,StartModule,SystemTime,TargetFilename,TargetImage,TargetObject,TargetProcessGuid,TargetProcessId,TargetUser,Task,TerminalSessionId,ThreadID,User,UserID,UtcTime,Version,raw
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --type=crashpad-handler --user-data-dir=C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView /prefetch:4 /pfhostedapp:b30934a6309ea7f8311c9c5ea2d20fb0cc786975 --monitor-self-annotation=ptype=crashpad-handler --database=C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView\Crashpad --annotation=IsOfficialBuild=1 --annotation=channel= --annotation=chromium-version=120.0.6099.110 ""--annotation=exe=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --annotation=plat=Win64 ""--annotation=prod=Edge WebView2"" --annotation=ver=120.0.2210.77 --initial-client-data=0x184,0x188,0x18c,0x180,0x190,0x7ff8dfc82b38,0x7ff8dfc82b44,0x7ff8dfc82b50",Microsoft Corporation,WinDev2309Eval,,C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\,Microsoft Edge WebView2,,,,,,,1,4671,,120.0.2210.77,"MD5=9F17A2699DE710CFBD7E6E42ACAF4848,SHA256=106CA5CDAD11D592906BCA9F9A9976206EF4D4537AA98A66C3EC9669CA630C1D,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe,,Medium,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,msedgewebview2.exe,"""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=OneDrive.exe --webview-exe-version=23.246.1127.0002 --user-data-dir=""C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView"" --noerrdialogs --embedded-browser-webview-dpi-awareness=1 --disable-features=msEnhancedTrackingPreventionEnabled --enable-features=MojoIpcz --mojo-named-platform-channel-pipe=7048.1100.2407032881806143147 /pfhostedapp:b30934a6309ea7f8311c9c5ea2d20fb0cc786975",C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe,{f57bd86a-1d64-6582-d600-000000000d00},1668.0,WINDEV2309EVAL\User,{f57bd86a-1d64-6582-d700-000000000d00},3400,6612.0,Microsoft Edge WebView2,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:00.4738231Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:00.5,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:00.4738231Z""/>
+    <EventRecordID>4671</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:00.470</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d64-6582-d700-000000000d00}</Data>
+    <Data Name=""ProcessId"">6612</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">Microsoft Edge WebView2</Data>
+    <Data Name=""Product"">Microsoft Edge WebView2</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">msedgewebview2.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --type=crashpad-handler --user-data-dir=C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView /prefetch:4 /pfhostedapp:b30934a6309ea7f8311c9c5ea2d20fb0cc786975 --monitor-self-annotation=ptype=crashpad-handler --database=C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView\Crashpad --annotation=IsOfficialBuild=1 --annotation=channel= --annotation=chromium-version=120.0.6099.110 ""--annotation=exe=C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --annotation=plat=Win64 ""--annotation=prod=Edge WebView2"" --annotation=ver=120.0.2210.77 --initial-client-data=0x184,0x188,0x18c,0x180,0x190,0x7ff8dfc82b38,0x7ff8dfc82b44,0x7ff8dfc82b50</Data>
+    <Data Name=""CurrentDirectory"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Medium</Data>
+    <Data Name=""Hashes"">MD5=9F17A2699DE710CFBD7E6E42ACAF4848,SHA256=106CA5CDAD11D592906BCA9F9A9976206EF4D4537AA98A66C3EC9669CA630C1D,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d64-6582-d600-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">1668</Data>
+    <Data Name=""ParentImage"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=OneDrive.exe --webview-exe-version=23.246.1127.0002 --user-data-dir=""C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView"" --noerrdialogs --embedded-browser-webview-dpi-awareness=1 --disable-features=msEnhancedTrackingPreventionEnabled --enable-features=MojoIpcz --mojo-named-platform-channel-pipe=7048.1100.2407032881806143147 /pfhostedapp:b30934a6309ea7f8311c9c5ea2d20fb0cc786975</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,"""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=OneDrive.exe --webview-exe-version=23.246.1127.0002 --user-data-dir=""C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView"" --noerrdialogs --embedded-browser-webview-dpi-awareness=1 --disable-features=msEnhancedTrackingPreventionEnabled --enable-features=MojoIpcz --mojo-named-platform-channel-pipe=7048.1100.2407032881806143147 /pfhostedapp:b30934a6309ea7f8311c9c5ea2d20fb0cc786975",Microsoft Corporation,WinDev2309Eval,,C:\Windows\system32\,Microsoft Edge WebView2,,,,,,,1,4670,,120.0.2210.77,"MD5=9F17A2699DE710CFBD7E6E42ACAF4848,SHA256=106CA5CDAD11D592906BCA9F9A9976206EF4D4537AA98A66C3EC9669CA630C1D,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63",C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe,,Medium,0x8000000000000000,4,{f57bd86a-1d4d-6582-671c-160000000000},0x161c67,,,0,msedgewebview2.exe,"""C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe"" /background",C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,{f57bd86a-1d61-6582-d500-000000000d00},7048.0,WINDEV2309EVAL\User,{f57bd86a-1d64-6582-d600-000000000d00},3400,1668.0,Microsoft Edge WebView2,,,,,-,,,,,,,,,,,,,2023-12-19T22:47:00.4127719Z,,,,,,,1,1.0,4208,WINDEV2309EVAL\User,S-1-5-18,47:00.4,5.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>1</EventID>
+    <Version>5</Version>
+    <Level>4</Level>
+    <Task>1</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:47:00.4127719Z""/>
+    <EventRecordID>4670</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:47:00.369</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d64-6582-d600-000000000d00}</Data>
+    <Data Name=""ProcessId"">1668</Data>
+    <Data Name=""Image"">C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe</Data>
+    <Data Name=""FileVersion"">120.0.2210.77</Data>
+    <Data Name=""Description"">Microsoft Edge WebView2</Data>
+    <Data Name=""Product"">Microsoft Edge WebView2</Data>
+    <Data Name=""Company"">Microsoft Corporation</Data>
+    <Data Name=""OriginalFileName"">msedgewebview2.exe</Data>
+    <Data Name=""CommandLine"">""C:\Program Files (x86)\Microsoft\EdgeWebView\Application\120.0.2210.77\msedgewebview2.exe"" --embedded-browser-webview=1 --webview-exe-name=OneDrive.exe --webview-exe-version=23.246.1127.0002 --user-data-dir=""C:\Users\User\AppData\Local\Microsoft\OneDrive\EBWebView"" --noerrdialogs --embedded-browser-webview-dpi-awareness=1 --disable-features=msEnhancedTrackingPreventionEnabled --enable-features=MojoIpcz --mojo-named-platform-channel-pipe=7048.1100.2407032881806143147 /pfhostedapp:b30934a6309ea7f8311c9c5ea2d20fb0cc786975</Data>
+    <Data Name=""CurrentDirectory"">C:\Windows\system32\</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+    <Data Name=""LogonGuid"">{f57bd86a-1d4d-6582-671c-160000000000}</Data>
+    <Data Name=""LogonId"">0x161c67</Data>
+    <Data Name=""TerminalSessionId"">1</Data>
+    <Data Name=""IntegrityLevel"">Medium</Data>
+    <Data Name=""Hashes"">MD5=9F17A2699DE710CFBD7E6E42ACAF4848,SHA256=106CA5CDAD11D592906BCA9F9A9976206EF4D4537AA98A66C3EC9669CA630C1D,IMPHASH=EA4CA1F8E3B3D9373D39C13FD1348A63</Data>
+    <Data Name=""ParentProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ParentProcessId"">7048</Data>
+    <Data Name=""ParentImage"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""ParentCommandLine"">""C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe"" /background</Data>
+    <Data Name=""ParentUser"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,"""C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe"" /url:""%%1""",13,4669,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,T1042,,,,,,,,,,,,,2023-12-19T22:46:59.8407239Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\grvopen\shell\open\command\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:59.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:59.8407239Z""/>
+    <EventRecordID>4669</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1042</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:59.828</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\grvopen\shell\open\command\(Default)</Data>
+    <Data Name=""Details"">""C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe"" /url:""%%1""</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,"""C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe"" /url:""%%1""",13,4668,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,T1042,,,,,,,,,,,,,2023-12-19T22:46:59.8404146Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\grvopen\shell\open\command\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:59.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:59.8404146Z""/>
+    <EventRecordID>4668</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1042</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:59.828</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\grvopen\shell\open\command\(Default)</Data>
+    <Data Name=""Details"">""C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe"" /url:""%%1""</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,"""C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe"" /url:""%%1""",13,4667,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,T1042,,,,,,,,,,,,,2023-12-19T22:46:58.8285673Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\grvopen\shell\open\command\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:58.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:58.8285673Z""/>
+    <EventRecordID>4667</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1042</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:58.827</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\grvopen\shell\open\command\(Default)</Data>
+    <Data Name=""Details"">""C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe"" /url:""%%1""</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,"""C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe"" /url:""%%1""",13,4666,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,T1042,,,,,,,,,,,,,2023-12-19T22:46:58.8285189Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\grvopen\shell\open\command\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:58.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:58.8285189Z""/>
+    <EventRecordID>4666</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1042</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:58.827</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\grvopen\shell\open\command\(Default)</Data>
+    <Data Name=""Details"">""C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe"" /url:""%%1""</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,"""C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe"" /url:""%%1""",13,4665,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,T1042,,,,,,,,,,,,,2023-12-19T22:46:58.8282397Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\odopen\shell\open\command\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:58.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:58.8282397Z""/>
+    <EventRecordID>4665</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1042</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:58.827</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\odopen\shell\open\command\(Default)</Data>
+    <Data Name=""Details"">""C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe"" /url:""%%1""</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,"""C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe"" /url:""%%1""",13,4664,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,T1042,,,,,,,,,,,,,2023-12-19T22:46:58.8280465Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\odopen\shell\open\command\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:58.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:58.8280465Z""/>
+    <EventRecordID>4664</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1042</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:58.827</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\odopen\shell\open\command\(Default)</Data>
+    <Data Name=""Details"">""C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe"" /url:""%%1""</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\23.246.1127.0002\FileCoAuthLib64.dll,13,4663,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,T1122,,,,,,,,,,,,,2023-12-19T22:46:58.8256784Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\CLSID\{4410DC33-BC7C-496B-AA84-4AEA3EEE75F7}\InProcServer32\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:58.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:58.8256784Z""/>
+    <EventRecordID>4663</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1122</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:58.811</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\CLSID\{4410DC33-BC7C-496B-AA84-4AEA3EEE75F7}\InProcServer32\(Default)</Data>
+    <Data Name=""Details"">C:\Users\User\AppData\Local\Microsoft\OneDrive\23.246.1127.0002\FileCoAuthLib64.dll</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\23.246.1127.0002\i386\FileCoAuthLib.dll,13,4662,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,T1122,,,,,,,,,,,,,2023-12-19T22:46:58.8177183Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\WOW6432Node\CLSID\{4410DC33-BC7C-496B-AA84-4AEA3EEE75F7}\InProcServer32\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:58.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:58.8177183Z""/>
+    <EventRecordID>4662</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1122</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:58.811</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\WOW6432Node\CLSID\{4410DC33-BC7C-496B-AA84-4AEA3EEE75F7}\InProcServer32\(Default)</Data>
+    <Data Name=""Details"">C:\Users\User\AppData\Local\Microsoft\OneDrive\23.246.1127.0002\i386\FileCoAuthLib.dll</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B},13,4661,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,-,,,,,,,,,,,,,2023-12-19T22:46:58.7987589Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\lnkfile\shellex\ContextMenuHandlers\ FileSyncEx\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:58.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:58.7987589Z""/>
+    <EventRecordID>4661</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:58.796</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\lnkfile\shellex\ContextMenuHandlers\ FileSyncEx\(Default)</Data>
+    <Data Name=""Details"">{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B}</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B},13,4660,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,-,,,,,,,,,,,,,2023-12-19T22:46:58.7986512Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\lnkfile\shellex\ContextMenuHandlers\ FileSyncEx\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:58.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:58.7986512Z""/>
+    <EventRecordID>4660</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:58.796</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\lnkfile\shellex\ContextMenuHandlers\ FileSyncEx\(Default)</Data>
+    <Data Name=""Details"">{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B}</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B},13,4659,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,-,,,,,,,,,,,,,2023-12-19T22:46:58.7985521Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\IE.AssocFile.URL\shellex\ContextMenuHandlers\ FileSyncEx\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:58.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:58.7985521Z""/>
+    <EventRecordID>4659</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:58.796</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\IE.AssocFile.URL\shellex\ContextMenuHandlers\ FileSyncEx\(Default)</Data>
+    <Data Name=""Details"">{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B}</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B},13,4658,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,-,,,,,,,,,,,,,2023-12-19T22:46:58.7984436Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\IE.AssocFile.URL\shellex\ContextMenuHandlers\ FileSyncEx\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:58.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:58.7984436Z""/>
+    <EventRecordID>4658</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:58.796</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\IE.AssocFile.URL\shellex\ContextMenuHandlers\ FileSyncEx\(Default)</Data>
+    <Data Name=""Details"">{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B}</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B},13,4657,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,-,,,,,,,,,,,,,2023-12-19T22:46:58.7982841Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\Directory\shellex\ContextMenuHandlers\ FileSyncEx\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:58.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:58.7982841Z""/>
+    <EventRecordID>4657</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:58.796</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\Directory\shellex\ContextMenuHandlers\ FileSyncEx\(Default)</Data>
+    <Data Name=""Details"">{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B}</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B},13,4656,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,-,,,,,,,,,,,,,2023-12-19T22:46:58.7981792Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\Directory\shellex\ContextMenuHandlers\ FileSyncEx\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:58.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:58.7981792Z""/>
+    <EventRecordID>4656</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:58.796</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\Directory\shellex\ContextMenuHandlers\ FileSyncEx\(Default)</Data>
+    <Data Name=""Details"">{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B}</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B},13,4655,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,-,,,,,,,,,,,,,2023-12-19T22:46:58.7980223Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\Directory\Background\shellex\ContextMenuHandlers\ FileSyncEx\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:58.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:58.7980223Z""/>
+    <EventRecordID>4655</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:58.796</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\Directory\Background\shellex\ContextMenuHandlers\ FileSyncEx\(Default)</Data>
+    <Data Name=""Details"">{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B}</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B},13,4654,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,-,,,,,,,,,,,,,2023-12-19T22:46:58.7979130Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\Directory\Background\shellex\ContextMenuHandlers\ FileSyncEx\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:58.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:58.7979130Z""/>
+    <EventRecordID>4654</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:58.796</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\Directory\Background\shellex\ContextMenuHandlers\ FileSyncEx\(Default)</Data>
+    <Data Name=""Details"">{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B}</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B},13,4653,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,-,,,,,,,,,,,,,2023-12-19T22:46:58.7977498Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\*\shellex\ContextMenuHandlers\ FileSyncEx\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:58.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:58.7977498Z""/>
+    <EventRecordID>4653</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:58.796</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\*\shellex\ContextMenuHandlers\ FileSyncEx\(Default)</Data>
+    <Data Name=""Details"">{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B}</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B},13,4652,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,-,,,,,,,,,,,,,2023-12-19T22:46:58.7976221Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\*\shellex\ContextMenuHandlers\ FileSyncEx\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:58.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:58.7976221Z""/>
+    <EventRecordID>4652</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">-</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:58.796</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\*\shellex\ContextMenuHandlers\ FileSyncEx\(Default)</Data>
+    <Data Name=""Details"">{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B}</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\23.246.1127.0002\i386\FileSyncShell.dll,13,4651,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,T1122,,,,,,,,,,,,,2023-12-19T22:46:58.7975214Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\WOW6432Node\CLSID\{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B}\InprocServer32\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:58.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:58.7975214Z""/>
+    <EventRecordID>4651</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1122</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:58.796</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\WOW6432Node\CLSID\{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B}\InprocServer32\(Default)</Data>
+    <Data Name=""Details"">C:\Users\User\AppData\Local\Microsoft\OneDrive\23.246.1127.0002\i386\FileSyncShell.dll</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
+Microsoft-Windows-Sysmon/Operational,,,WinDev2309Eval,,,,,,,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\23.246.1127.0002\FileSyncShell64.dll,13,4650,SetValue,,,C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe,,,0x8000000000000000,4,,,,,0,,,,,,,{f57bd86a-1d61-6582-d500-000000000d00},3400,7048.0,,,,,,T1122,,,,,,,,,,,,,2023-12-19T22:46:58.7973853Z,,,HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\CLSID\{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B}\InprocServer32\(Default),,,,13,,4208,WINDEV2309EVAL\User,S-1-5-18,46:58.8,2.0,"<Event xmlns=""http://schemas.microsoft.com/win/2004/08/events/event"">
+  <System>
+    <Provider Name=""Microsoft-Windows-Sysmon"" Guid=""{5770385f-c22a-43e0-bf4c-06f5698ffbd9}""/>
+    <EventID>13</EventID>
+    <Version>2</Version>
+    <Level>4</Level>
+    <Task>13</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8000000000000000</Keywords>
+    <TimeCreated SystemTime=""2023-12-19T22:46:58.7973853Z""/>
+    <EventRecordID>4650</EventRecordID>
+    <Correlation/>
+    <Execution ProcessID=""3400"" ThreadID=""4208""/>
+    <Channel>Microsoft-Windows-Sysmon/Operational</Channel>
+    <Computer>WinDev2309Eval</Computer>
+    <Security UserID=""S-1-5-18""/>
+  </System>
+  <EventData>
+    <Data Name=""RuleName"">T1122</Data>
+    <Data Name=""EventType"">SetValue</Data>
+    <Data Name=""UtcTime"">2023-12-19 22:46:58.796</Data>
+    <Data Name=""ProcessGuid"">{f57bd86a-1d61-6582-d500-000000000d00}</Data>
+    <Data Name=""ProcessId"">7048</Data>
+    <Data Name=""Image"">C:\Users\User\AppData\Local\Microsoft\OneDrive\OneDrive.exe</Data>
+    <Data Name=""TargetObject"">HKU\S-1-5-21-2835251196-2691927458-378326815-1000_Classes\CLSID\{CB3D0F55-BC2C-4C1A-85ED-23ED75B5106B}\InprocServer32\(Default)</Data>
+    <Data Name=""Details"">C:\Users\User\AppData\Local\Microsoft\OneDrive\23.246.1127.0002\FileSyncShell64.dll</Data>
+    <Data Name=""User"">WINDEV2309EVAL\User</Data>
+  </EventData>
+</Event>
+"
