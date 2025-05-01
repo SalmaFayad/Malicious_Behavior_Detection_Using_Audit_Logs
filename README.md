@@ -1,4 +1,4 @@
-# 🛡️ Detection of Malicious Behavior Using Linux Audit Logs
+# 🛡️ Detection of Malicious Behavior Using Audit Logs
 
 ## 📌 Project Overview
 
